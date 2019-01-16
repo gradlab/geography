@@ -11,8 +11,8 @@ produces figures in the folder `fig/`. The script reproduces:
 
 - Figures 1bc and 2 from this manuscript
 - Supplemental Figures 1 and 2 from this manuscript
-- Figure 2g with $k=1$ from Davies *et al*.
-- Figure 3 from Lehtinen *et al*.
+- Figure 2g with *k = 1* from [Davies *et al*](https://dx.doi.org/10.1101/217232).
+- Figure 3 from [Lehtinen *et al*.](https://dx.doi.org/10.1073/pnas.1617849114)
 
 ## Empirical analyses
 
