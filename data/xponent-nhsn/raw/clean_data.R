@@ -7,15 +7,17 @@ library(tidyr)
 # Antibiotic use data ---------------------------------------------------------
 
 use_data = read_csv('xponent/Data_OAU.csv') %>%
-  filter(Antibiotic_Class == 'Fluoroquinolones', Location != 'National', between(Year, 2011, 2014)) %>%
+  filter(
+    Antibiotic_Class == 'Fluoroquinolones',
+    Location %in% state.abb, # excludes Puerto Rico and DC
+    between(Year, 2011, 2014)
+  ) %>%
   # average over years
   group_by(Location) %>%
   summarize(Rate = mean(as.numeric(Rate))) %>%
-  select(
-    state = Location,
-    rx_1k_year = Rate # prescriptions per 1,000 people per year
-  ) %>%
-  filter(state %in% state.abb) # excludes Puerto Rico and DC
+  # "Rate" is prescriptions per 1,000 people per year, we want prescriptions per person per year
+  mutate(rx_person_year = Rate / 1000) %>%
+  select(unit = Location, rx_person_year)
 
 # Antibiotic resistance data --------------------------------------------------
 
@@ -27,9 +29,8 @@ resistance_data = read_csv('nhsn/PSA_States.csv') %>%
     EventYear == 'All Years',
     AgeCategory == 'All Ages'
   ) %>%
-  mutate_at(vars(starts_with('Number')), as.integer) %>%
-  mutate_at(vars(PercentResistant, matches('95CI')), as.numeric) %>%
-  select(state = State, n_isolates = NumberTested, n_resistant = NumberResistant)
+  select(unit = State, n_isolates = NumberTested, n_resistant = NumberResistant) %>%
+  mutate_at(c('n_isolates', 'n_resistant'), as.integer)
 
 # Combined data ---------------------------------------------------------------
 
@@ -37,7 +38,7 @@ resistance_data = read_csv('nhsn/PSA_States.csv') %>%
 stopifnot(nrow(use_data) == nrow(resistance_data))
 
 # Combine the two data sets
-combined_data = inner_join(use_data, resistance_data, by = 'state')
+combined_data = inner_join(use_data, resistance_data, by = 'unit')
 
 # Check that the result has the same number of rows
 stopifnot(nrow(use_data) == nrow(combined_data))
