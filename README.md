@@ -16,22 +16,16 @@ produces figures in the folder `fig/`. The script reproduces:
 
 ## Empirical analyses
 
-The `data/` folder contains a readme and an R script `clean_data.R` that will
-download and clean the CDC (IMS Quintiles and NHSN) antibiotic use and
-resistance data.
+The `data/` folder contains readme's that explain the sources of two of the
+datasets, Xponent/NHSN and ECDC, as well as the metadata for US states and
+European countries.
 
-The manuscript also includes an analysis of two other datasets. The
-MarketScan/ResistanceOpen dataset is not publicly available and we do not have
-license to post that data. The ECDC dataset is publicly available but we do not
-have license to post the cleaned version used in this analysis. The scraping
-and cleaning process is slow and would not make for a good demonstration of the
-methods used for analysis.
+The manuscript also includes an analysis of the MarketScan/ResistanceOpen
+dataset, which is not publicly available. We do not have license to post that
+data.
 
-The analyses of the CDC data are in `analyze_cdc.R`, which reproduces one panel
-each of Supplemental Figures 3, 4, and 5 in the folder `fig/`. (Figures 3 and
-4, and the other panels of Supplemental Figures 3, 4, and 5 are the same
-analyses applied to the MarketScan/ResistanceOpen and ECDC datasets.) The
-script also reproduces one of the lines in Supplemental Table 2.
+The R script `analyze_observational.R` reproduces Supplemental Figures 3, 4,
+and 5 as well as most lines of Supplemental Table 2 in the folder `fig/`.
 
 The confidence intervals reported in the empirical results may differ slightly
 from those shown in the manuscript because the bootstrapping process is

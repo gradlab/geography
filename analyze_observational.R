@@ -12,7 +12,7 @@ library(magrittr) # for "%$%"
 
 # Global parameters ------------------------------------------------------------
 
-n_trials = 100 # number of bootstraps
+n_trials = 1e3 # number of bootstraps
 alpha = 0.05 # width of confidence intervals for plots
 pred_n = 1e4 # number of points to use in visualizations of confidence regions
 
@@ -43,6 +43,11 @@ us_adjacency = read_tsv('data/unit_characteristics/state_adjacency.tsv') %>%
 eu_adjacency = read_tsv('data/unit_characteristics/europe_adjacency.tsv') %>%
   mutate(adjacent = 1)
 
+adjacency_data = data_frame(
+  dataset = c('Xponent/NHSN', 'ECDC'),
+  adjacency_data = list(us_adjacency, eu_adjacency)
+)
+
 # Load Xponent/NHSN use/resistance data
 xponent_nhsn_data = read_tsv('data/xponent_nhsn/xponent_nhsn_data.tsv') %>%
   rename(use = rx_person_year) %>%
@@ -70,7 +75,17 @@ eu_data = left_join(ecdc_data, eu_characteristics, by = 'unit') %>%
   mutate(dataset = 'ECDC')
 
 data = bind_rows(us_data, eu_data) %>%
-  nest(-dataset, -pathogen, -antibiotic, .key = 'unit_data')
+  nest(-dataset, -pathogen, -antibiotic, .key = 'unit_data') %>%
+  left_join(adjacency_data, by = 'dataset') %>%
+  # Make dataset/pathogen/antibiotic labels like "ECDC Ec/q"
+  mutate(
+    bug_drug = case_when(
+      .$pathogen == 'E. coli' & .$antibiotic == 'quinolone' ~ 'Ec/q',
+      .$pathogen == 'S. pneumoniae' & .$antibiotic == 'macrolide' ~ 'Sp/m',
+      .$pathogen == 'S. pneumoniae' & .$antibiotic == 'beta_lactam' ~ 'Sp/bl'
+    ),
+    label = str_c(dataset, ' ', bug_drug)
+  )
 
 
 # Regional analysis ------------------------------------------------------------
@@ -158,13 +173,6 @@ data_region_combinations = data_frame(
 
 regional_results = left_join(data_region_combinations, data, by = 'dataset') %>%
   mutate(
-    # Make dataset/pathogen/antibiotic labels like "ECDC Ec/q"
-    bug_drug = case_when(
-      .$pathogen == 'E. coli' & .$antibiotic == 'quinolone' ~ 'Ec/q',
-      .$pathogen == 'S. pneumoniae' & .$antibiotic == 'macrolide' ~ 'Sp/m',
-      .$pathogen == 'S. pneumoniae' & .$antibiotic == 'beta_lactam' ~ 'Sp/bl'
-    ),
-    label = str_c(dataset, ' ', bug_drug),
     # Make a nice display for level across US and Europe
     display_level = factor(
       recode(level, unit = 'Unit', us_division = 'Division', us_region = 'Region', eu_region = 'Region'),
@@ -239,11 +247,11 @@ log_odds_ratio = function(p, q) log(odds(p)) - log(odds(q))
 
 # Function to get information about pairs of states, to be used multiple times
 # when bootstrapping lists of states.
-cross_states = function(df) {
-  df %$%
-    crossing(state1 = state, state2 = state) %>%
-    left_join(rename_all(df, ~ str_c(., '1')), by = 'state1') %>%
-    left_join(rename_all(df, ~ str_c(., '2')), by = 'state2') %>%
+cross_units = function(unit_data, adjacency_data) {
+  unit_data %$%
+    crossing(unit1 = unit, unit2 = unit) %>%
+    left_join(rename_all(unit_data, ~ str_c(., '1')), by = 'unit1') %>%
+    left_join(rename_all(unit_data, ~ str_c(., '2')), by = 'unit2') %>%
     filter(use1 > use2) %>%
     mutate(
       d_resistant = f_resistant1 - f_resistant2,
@@ -252,8 +260,8 @@ cross_states = function(df) {
       d_density = density1 - density2,
       d_temperature = temperature1 - temperature2
     ) %>%
-    select(state1, state2, starts_with('d_')) %>%
-    left_join(state_adjacency, by = c('state1', 'state2')) %>%
+    select(unit1, unit2, starts_with('d_')) %>%
+    left_join(adjacency_data, by = c('unit1', 'unit2')) %>%
     # pairs of states not in the adjacency list are not adjacent
     replace_na(list(adjacent = 0))
 }
@@ -266,72 +274,94 @@ bisquare = partial(MASS::rlm, psi = MASS::psi.bisquare)
 # adjacency"
 distance_model_f = function(df) bisquare(d_resistant ~ d_use + d_use:adjacent + d_income + d_density + d_temperature, data = df)
 
-# Get the pairs of states and run the model, finding the "base" (not
-# bootstrapped) interaction term
-state_pairs = cross_states(state_data)
-base_distance_model = distance_model_f(state_pairs)
-base_inter = coef(base_distance_model)['d_use:adjacent']
+distance_boot_f = function(unit_data, adjacency_data) {
+  pair_data = cross_units(unit_data, adjacency_data)
+  base_distance_model = distance_model_f(pair_data)
 
-# Bootstrap lists of states and run the distance model on those bootstrapped data sets
-base_d_use = state_data %>% cross_states %$% d_use
-pred_d_use = seq(min(base_d_use), max(base_d_use), length.out = 1e4) # 1e4 prediction points for 95% CI region
-newdata = crossing(
-  d_use = pred_d_use,
-  adjacent = c(0, 1),
-  d_income = mean(state_pairs$d_income),
-  d_density = mean(state_pairs$d_density),
-  d_temperature = mean(state_pairs$d_temperature)
-)
+  # Bootstrap lists of states and run the distance model on those bootstrapped data sets
+  base_d_use = pair_data$d_use
+  pred_d_use = seq(min(base_d_use), max(base_d_use), length.out = pred_n)
+  newdata = crossing(
+    d_use = pred_d_use,
+    adjacent = c(0, 1),
+    d_income = mean(pair_data$d_income),
+    d_density = mean(pair_data$d_density),
+    d_temperature = mean(pair_data$d_temperature)
+  )
+
+  results = data_frame(i = 1:n_trials) %>%
+    mutate(
+      # Get bootstrapped data sets
+      boot_unit_data = map(i, ~ sample_n(unit_data, size = nrow(unit_data), replace = TRUE)),
+      boot_pair_data = map(boot_unit_data, ~ cross_units(., adjacency_data)),
+      # Run the model and predict the outcomes
+      model = map(boot_pair_data, distance_model_f),
+      inter = map_dbl(model, ~ coef(.)['d_use:adjacent']), # interaction term
+      pred_y = map(model, ~ predict(., newdata = newdata, type = 'response')),
+      pred_df = map(pred_y, ~ mutate(newdata, d_resistant = .)) # data frame of predictions
+    )
+
+  # Get the base (non-bootstrapped) model predictions
+  base_pred_df = newdata %>%
+    mutate(d_resistant = predict(base_distance_model, newdata = newdata, type = 'response')) %>%
+    select(d_use, adjacent, d_resistant)
+
+  # At each point pred_use, get the CIs for the predictions
+  pred_data = results %>%
+    select(i, pred_df) %>% unnest() %>%
+    group_by(d_use, adjacent) %>%
+    summarize(
+      ymin = quantile(d_resistant, alpha / 2),
+      ymax = quantile(d_resistant, 1 - alpha / 2)
+    ) %>%
+    ungroup() %>%
+    # Merge in the base model predictions to use as the solid line
+    left_join(base_pred_df, by = c('d_use', 'adjacent'))
+
+  list(
+    inter_cil = quantile(results$inter, alpha / 2),
+    inter_ciu = quantile(results$inter, 1 - alpha / 2),
+    pred_data = pred_data
+  )
+}
 
 cat('Note: Some robust regressions may fail during the bootstrapped runs. This is not abnormal.\n')
 
-distance_boot_results = data_frame(i = 1:n_trials) %>%
+distance_results = data %>%
   mutate(
-    # Get bootstrapped data sets
-    state_data = map(i, ~ sample_n(state_data, size = nrow(state_data), replace = TRUE)),
-    pair_data = map(state_data, cross_states),
-    # Run the model and predict the outcomes
+    pair_data = map2(unit_data, adjacency_data, cross_units),
     model = map(pair_data, distance_model_f),
-    inter = map_dbl(model, ~ coef(.)['d_use:adjacent']), # interaction term
-    pred_y = map(model, ~ predict(., newdata = newdata, type = 'response')),
-    pred_df = map(pred_y, ~ mutate(newdata, d_resistant = .)) # data frame of predictions
+    # interaction term
+    inter = map_dbl(model, ~ coef(.)['d_use:adjacent']),
+    # bootstrap
+    boot_results = map2(unit_data, adjacency_data, distance_boot_f),
+    inter_cil = map_dbl(boot_results, ~ .$inter_cil),
+    inter_ciu = map_dbl(boot_results, ~ .$inter_ciu),
+    pred_data = map(boot_results, ~.$pred_data)
   )
 
-# Get the base (non-bootstrapped) model predictions
-base_pred_df = newdata %>%
-  mutate(d_resistant = predict(base_distance_model, newdata = newdata, type = 'response')) %>%
-  select(d_use, adjacent, d_resistant)
-
-# At each point pred_use, get the CIs for the predictions
-distance_pred_data = distance_boot_results %>%
-  select(i, pred_df) %>% unnest() %>%
-  group_by(d_use, adjacent) %>%
-  summarize(
-    ymin = quantile(d_resistant, alpha / 2),
-    ymax = quantile(d_resistant, 1 - alpha / 2)
-  ) %>%
-  ungroup() %>%
-  # Merge in the base model predictions to use as the solid line
-  left_join(base_pred_df, by = c('d_use', 'adjacent'))
-
-# Get the confidence intervals on the interaction term
-inter_cil = quantile(distance_boot_results$inter, alpha / 2)
-inter_ciu = quantile(distance_boot_results$inter, 1 - alpha / 2)
-
-cat('\n')
-cat('Interaction term for E. coli and quinolones in IMS/NHSN dataset:\n')
-cat(sprintf('%.2f (%.2f to %.2f)\n', base_inter, inter_cil, inter_ciu))
-cat('\n')
 
 ## Plot distance results -------------------------------------------------------
 
-supp_figure_5 = ggplot(data = NULL, aes(d_use, d_resistant, color = as.logical(adjacent), fill = as.logical(adjacent))) +
+distance_plot_data = distance_results %>%
+  select(label, pair_data) %>%
+  unnest()
+
+distance_pred_data = distance_results %>%
+  select(label, pred_data) %>%
+  unnest()
+
+supp_figure_5 = ggplot(
+    data = NULL,
+    aes(d_use, d_resistant, color = as.logical(adjacent), fill = as.logical(adjacent))
+  ) +
+  facet_wrap(~ label, scales = 'free') +
   geom_ribbon(
     data = distance_pred_data,
     aes(ymin = ymin, ymax = ymax, color = NULL),
     alpha = 0.25
   ) +
-  geom_point(data = state_pairs, shape = 1) +
+  geom_point(data = distance_plot_data, shape = 1) +
   geom_line(data = distance_pred_data) +
   scale_color_manual(values = c('black', 'red')) +
   scale_fill_manual(values = c('black', 'red')) +
@@ -340,3 +370,8 @@ supp_figure_5 = ggplot(data = NULL, aes(d_use, d_resistant, color = as.logical(a
 
 ggsave('fig/supp_figure_5.pdf', plot = supp_figure_5)
 
+
+distance_results %>%
+  select(dataset, pathogen, antibiotic, inter, inter_ciu, inter_cil) %>%
+  mutate_if(is.numeric, ~ round(., 2)) %>%
+  write_tsv('fig/supp_table_2.tsv')
