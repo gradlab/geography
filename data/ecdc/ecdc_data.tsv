@@ -1,4 +1,4 @@
-country	antibiotic	did	pathogen	n_resistant	n_isolates
+unit	antibiotic	did	pathogen	n_resistant	n_isolates
 Austria	beta_lactam	8.283999999999999	S. pneumoniae	79	1886
 Austria	macrolide	5.0632	S. pneumoniae	223	1952
 Austria	quinolone	2.6698	E. coli	4426	20501

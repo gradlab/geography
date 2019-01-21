@@ -76,7 +76,8 @@ resistance_data = read_csv('ECDC_surveillance_data_Antimicrobial_resistance.csv'
 # Combined data ---------------------------------------------------------------
 
 # Combine the two data sets
-combined_data = inner_join(use_data, resistance_data, by = c('country', 'antibiotic'))
+combined_data = inner_join(use_data, resistance_data, by = c('country', 'antibiotic')) %>%
+  rename(unit = country)
 
 # Save the combined data
 write_tsv(combined_data, '../ecdc_data.tsv')
