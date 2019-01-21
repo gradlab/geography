@@ -9,45 +9,81 @@ library(ggplot2) # for plots
 library(stringr) # for "str_c"
 library(magrittr) # for "%$%"
 
+
 # Global parameters ------------------------------------------------------------
 
 n_trials = 100 # number of bootstraps
 alpha = 0.05 # width of confidence intervals for plots
 pred_n = 1e4 # number of points to use in visualizations of confidence regions
 
+# Mapping from DID to TPY
+#  DID = DDD per 1,000 Inhabitants per Day
+#  DDD = Defined Daily Dose
+#  TPY = Preatment per Person per Year
+did_tpy_map = data_frame(
+  antibiotic = c('beta_lactam', 'quinolone', 'macrolide'),
+  ddd_per_tx = c(10, 10, 7),
+  tpy_per_did = 365 / (1e3 * ddd_per_tx)
+)
+
+
 # Load data --------------------------------------------------------------------
 
-# Load data about state population, area, etc.
-state_characteristics = read_tsv('data/state_characteristics.tsv') %>%
+# Load data about state/country population, area, etc.
+us_characteristics = read_tsv('data/unit_characteristics/state_characteristics.tsv') %>%
   mutate(density = population / area)
 
-# Load IMS/NHSN use/resistance data
-use_resistance_data = read_tsv('data/use_resistance_data.tsv') %>%
+eu_characteristics = read_tsv('data/unit_characteristics/europe_characteristics.tsv') %>%
+  mutate(density = population / area)
+
+# Load data about the adjacency of states/countries
+us_adjacency = read_tsv('data/unit_characteristics/state_adjacency.tsv') %>%
+  mutate(adjacent = 1)
+
+eu_adjacency = read_tsv('data/unit_characteristics/europe_adjacency.tsv') %>%
+  mutate(adjacent = 1)
+
+# Load Xponent/NHSN use/resistance data
+xponent_nhsn_data = read_tsv('data/xponent_nhsn/xponent_nhsn_data.tsv') %>%
+  rename(use = rx_person_year) %>%
   mutate(
-    use = rx_1k_year / 1e3, # prescriptions per person per year
+    pathogen = 'E. coli',
+    antibiotic = 'quinolone',
     n_susceptible = n_isolates - n_resistant,
     f_resistant = n_resistant / n_isolates # proportion resistant
   )
 
-# Combine use/resistance and other state characteristics
-state_data = left_join(use_resistance_data, state_characteristics, by = 'state')
+# Load ECDC use/resistance data
+ecdc_data = read_tsv('data/ecdc/ecdc_data.tsv') %>%
+  mutate(
+    n_susceptible = n_isolates - n_resistant,
+    f_resistant = n_resistant / n_isolates # proportion resistant
+  ) %>%
+  left_join(did_tpy_map, by = 'antibiotic') %>%
+  mutate(use = did * tpy_per_did) # treatments per person per day
 
-# Load data about the adjacency of US states
-state_adjacency = read_tsv('data/state_adjacency.tsv') %>%
-  mutate(adjacent = 1)
+
+# Combine use/resistance and other state characteristics
+us_data = left_join(xponent_nhsn_data, us_characteristics, by = 'unit') %>%
+  mutate(dataset = 'Xponent/NHSN')
+eu_data = left_join(ecdc_data, eu_characteristics, by = 'unit') %>%
+  mutate(dataset = 'ECDC')
+
+data = bind_rows(us_data, eu_data) %>%
+  nest(-dataset, -pathogen, -antibiotic, .key = 'unit_data')
 
 
 # Regional analysis ------------------------------------------------------------
 
-# Aggregate the data into regions. Aggregate use data by population-weighted
-# means. Aggregate resistance data by adding up the numbers of susceptible and
-# resistant isolates.
+# Aggregate the units (US state or European country) into regions. Aggregate use
+# data by population-weighted means. Aggregate resistance data by adding up the
+# numbers of susceptible and resistant isolates.
 
-aggregate_at = function(df, group_chr) {
+aggregate_at = function(unit_data, group_chr) {
   stopifnot(class(group_chr) == 'character')
   group = as.symbol(group_chr)
 
-  group_by_at(df, group_chr, .add = TRUE) %>%
+  group_by_at(unit_data, group_chr, .add = TRUE) %>%
     summarize(
       use = weighted.mean(use, w = population),
       n_resistant = sum(n_resistant),
@@ -61,9 +97,6 @@ aggregate_at = function(df, group_chr) {
     )
 }
 
-aggregate_data = data_frame(level = c('state', 'division', 'region')) %>%
-  mutate(data = map(level, ~ aggregate_at(state_data, .)))
-
 # Function to run logistic regressions predicting resistance from use rates
 model_f = function(df) glm(
   cbind(n_resistant, n_susceptible) ~ use,
@@ -71,20 +104,17 @@ model_f = function(df) glm(
 )
 
 # Bootstrap the data, making new aggregate data and models with each resampling
-#   - n_trials = number of bootstraps
-#   - alpha = 0.05 means to plot 95% confidence intervals
-#   - pred_n = number of data points to use in plotting the confidence intervals
-aggregate_boot_f = function(group_chr) {
+aggregate_boot_f = function(unit_data, group_chr) {
   # For each bootstrapped dataset, run the logistic regression, and use the
   # regression to make predictions over the range of data. The 2.5% and 97.5%
   # percentiles of these predictions will be the 95% confidence intervals.
-  pred_use = seq(min(state_data$use), max(state_data$use), length.out = pred_n)
+  pred_use = seq(min(unit_data$use), max(unit_data$use), length.out = pred_n)
   newdata = data_frame(use = pred_use)
 
   # Run the model on the base (unbootstrapped) data
-  model = state_data %>%
+  model = unit_data %>%
     aggregate_at(group_chr) %>%
-    model_f
+    model_f()
 
   # Get the predictions from that model, which are the solid line in the plot
   model_pred = data_frame(
@@ -95,10 +125,10 @@ aggregate_boot_f = function(group_chr) {
   results = data_frame(i = 1:n_trials) %>%
     mutate(
       # Get bootstrapped data sets
-      state_data = map(i, ~ sample_n(state_data, size = nrow(state_data), replace = TRUE)),
-      data = map(state_data, ~ aggregate_at(., group_chr)),
+      boot_unit_data = map(i, ~ sample_n(unit_data, size = nrow(unit_data), replace = TRUE)),
+      boot_aggregate_data = map(boot_unit_data, ~ aggregate_at(., group_chr)),
       # Run the model and predict the outcomes
-      model = map(data, model_f),
+      model = map(boot_aggregate_data, model_f),
       slope = map_dbl(model, ~ coef(.)['use']),
       pred_res = map(model, ~ predict(., newdata = newdata, type = 'response')), # predicted resistance
       pred_df = map(pred_res, ~ data_frame(use = pred_use, f_resistant = .)) # data frame of those predictions
@@ -121,14 +151,32 @@ aggregate_boot_f = function(group_chr) {
   )
 }
 
-aggregate_models = aggregate_data %>%
+data_region_combinations = data_frame(
+  dataset = c(rep('Xponent/NHSN', 3), rep('ECDC', 2)),
+  level = c('unit', 'us_division', 'us_region', 'unit', 'eu_region')
+)
+
+regional_results = left_join(data_region_combinations, data, by = 'dataset') %>%
   mutate(
+    # Make dataset/pathogen/antibiotic labels like "ECDC Ec/q"
+    bug_drug = case_when(
+      .$pathogen == 'E. coli' & .$antibiotic == 'quinolone' ~ 'Ec/q',
+      .$pathogen == 'S. pneumoniae' & .$antibiotic == 'macrolide' ~ 'Sp/m',
+      .$pathogen == 'S. pneumoniae' & .$antibiotic == 'beta_lactam' ~ 'Sp/bl'
+    ),
+    label = str_c(dataset, ' ', bug_drug),
+    # Make a nice display for level across US and Europe
+    display_level = factor(
+      recode(level, unit = 'Unit', us_division = 'Division', us_region = 'Region', eu_region = 'Region'),
+      levels = c('Unit', 'Division', 'Region')
+    ),
+    aggregated_data = map2(unit_data, level, aggregate_at),
     # Fit models to each aggregate type
-    model = map(data, model_f),
+    model = map(aggregated_data, model_f),
     # Extract the use/resistance regression coefficient ("slope") from the base model
     slope = map_dbl(model, ~ coef(.)['use']),
     # Bootstrap the 95% CIs for that regression coefficient
-    boot_results = map(level, aggregate_boot_f),
+    boot_results = map2(unit_data, level, aggregate_boot_f),
     slope_cil = map_dbl(boot_results, ~ .$slope_cil),
     slope_ciu = map_dbl(boot_results, ~ .$slope_ciu),
     pred_data = map(boot_results, ~ .$pred_data)
@@ -140,16 +188,20 @@ aggregate_models = aggregate_data %>%
 my_palette = c('black', '#1b9e77', '#d95f02')
 
 # Pull out the data and the predictions separately
-aggregate_plot_data = aggregate_models %>%
-  select(level, data) %>%
+aggregate_plot_data = regional_results %>%
+  select(label, display_level, aggregated_data) %>%
   unnest() %>%
   mutate(f_resistant = n_resistant / n_isolates)
 
-aggregate_pred_data = aggregate_models %>%
-  select(level, pred_data) %>%
+aggregate_pred_data = regional_results %>%
+  select(label, display_level, pred_data) %>%
   unnest()
 
-supp_figure_3 = ggplot(data = NULL, aes(use, f_resistant, color = level, fill = level)) +
+supp_figure_3 = ggplot(
+    data = NULL,
+    aes(use, f_resistant, color = display_level, fill = display_level)
+  ) +
+  facet_wrap(~ label, scales = 'free') +
   geom_ribbon(
     data = aggregate_pred_data,
     aes(ymin = ymin, ymax = ymax, color = NULL),
@@ -158,6 +210,8 @@ supp_figure_3 = ggplot(data = NULL, aes(use, f_resistant, color = level, fill = 
   geom_line(data = aggregate_pred_data, size = 1) +
   geom_point(data = aggregate_plot_data) +
   xlab('antibiotic use (annual treatments per capita)') +
+  scale_color_manual(values = my_palette) +
+  scale_fill_manual(values = my_palette) +
   scale_y_continuous(
     'antibiotic resistance (% of isolates)',
     labels = scales::percent_format(accuracy = 1, suffix = '')
@@ -165,11 +219,13 @@ supp_figure_3 = ggplot(data = NULL, aes(use, f_resistant, color = level, fill = 
 
 ggsave('fig/supp_figure_3.pdf', plot = supp_figure_3)
 
-supp_figure_4 = aggregate_models %>%
-  mutate(level = factor(level, levels = c('state', 'division', 'region'))) %>%
-  ggplot(aes(level, slope, ymin = slope_cil, ymax = slope_ciu)) +
+supp_figure_4 = regional_results %>%
+  ggplot(aes(display_level, slope, ymin = slope_cil, ymax = slope_ciu, color = display_level)) +
+  facet_wrap(~ label, scales = 'free') +
   geom_point() +
   geom_errorbar() +
+  scale_color_manual(values = my_palette) +
+  guides(color = 'none') +
   xlab('') +
   ylab('Regression coefficient')
 
