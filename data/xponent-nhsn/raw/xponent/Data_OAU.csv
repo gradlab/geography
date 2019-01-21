@@ -1,0 +1,2026 @@
+﻿Antibiotic_Class,Year,Location,Age_Group,Sex,Rate
+Trimethoprim-sulfamethoxazole,2011,National,Combined Ages,Combined Gender,66.6990327126172
+Trimethoprim-sulfamethoxazole,2011,National,Combined Ages,F,82.684293447781
+Trimethoprim-sulfamethoxazole,2011,National,Combined Ages,M,48.9903257214429
+Trimethoprim-sulfamethoxazole,2011,National,0-19,Combined Gender,58.3342021909634
+Trimethoprim-sulfamethoxazole,2011,National,0-19,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2011,National,0-19,M,Insufficient Data
+Trimethoprim-sulfamethoxazole,2011,National,20+,Combined Gender,67.7777173048282
+Trimethoprim-sulfamethoxazole,2011,National,20+,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2011,National,20+,M,Insufficient Data
+Trimethoprim-sulfamethoxazole,2012,National,Combined Ages,Combined Gender,67.832585667077
+Trimethoprim-sulfamethoxazole,2012,National,Combined Ages,F,84.5549361132216
+Trimethoprim-sulfamethoxazole,2012,National,Combined Ages,M,50.0353245350917
+Trimethoprim-sulfamethoxazole,2012,National,0-19,Combined Gender,55.6517592041448
+Trimethoprim-sulfamethoxazole,2012,National,0-19,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2012,National,0-19,M,Insufficient Data
+Trimethoprim-sulfamethoxazole,2012,National,20+,Combined Gender,70.7242046223654
+Trimethoprim-sulfamethoxazole,2012,National,20+,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2012,National,20+,M,Insufficient Data
+Trimethoprim-sulfamethoxazole,2013,National,Combined Ages,Combined Gender,68.505383411658
+Trimethoprim-sulfamethoxazole,2013,National,Combined Ages,F,85.2828570559911
+Trimethoprim-sulfamethoxazole,2013,National,Combined Ages,M,50.6455482656316
+Trimethoprim-sulfamethoxazole,2013,National,0-19,Combined Gender,53.5719358317733
+Trimethoprim-sulfamethoxazole,2013,National,0-19,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2013,National,0-19,M,Insufficient Data
+Trimethoprim-sulfamethoxazole,2013,National,20+,Combined Gender,72.3662261317273
+Trimethoprim-sulfamethoxazole,2013,National,20+,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2013,National,20+,M,Insufficient Data
+Trimethoprim-sulfamethoxazole,2014,National,Combined Ages,Combined Gender,66.0060346602384
+Trimethoprim-sulfamethoxazole,2014,National,Combined Ages,F,82.3954082695817
+Trimethoprim-sulfamethoxazole,2014,National,Combined Ages,M,48.5992716913537
+Trimethoprim-sulfamethoxazole,2014,National,0-19,Combined Gender,47.7442467640271
+Trimethoprim-sulfamethoxazole,2014,National,0-19,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2014,National,0-19,M,Insufficient Data
+Trimethoprim-sulfamethoxazole,2014,National,20+,Combined Gender,71.0654806133358
+Trimethoprim-sulfamethoxazole,2014,National,20+,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2014,National,20+,M,Insufficient Data
+Urinary anti-infectives,2011,National,Combined Ages,Combined Gender,38.9416448647325
+Urinary anti-infectives,2011,National,Combined Ages,F,67.9397188851506
+Urinary anti-infectives,2011,National,Combined Ages,M,8.3617979846472
+Urinary anti-infectives,2011,National,0-19,Combined Gender,10.1007978264183
+Urinary anti-infectives,2011,National,0-19,F,Insufficient Data
+Urinary anti-infectives,2011,National,0-19,M,Insufficient Data
+Urinary anti-infectives,2011,National,20+,Combined Gender,48.1602040930761
+Urinary anti-infectives,2011,National,20+,F,Insufficient Data
+Urinary anti-infectives,2011,National,20+,M,Insufficient Data
+Urinary anti-infectives,2012,National,Combined Ages,Combined Gender,39.9253367137259
+Urinary anti-infectives,2012,National,Combined Ages,F,70.1652380676683
+Urinary anti-infectives,2012,National,Combined Ages,M,8.38125859092873
+Urinary anti-infectives,2012,National,0-19,Combined Gender,10.1155002226526
+Urinary anti-infectives,2012,National,0-19,F,Insufficient Data
+Urinary anti-infectives,2012,National,0-19,M,Insufficient Data
+Urinary anti-infectives,2012,National,20+,Combined Gender,49.551192208469
+Urinary anti-infectives,2012,National,20+,F,Insufficient Data
+Urinary anti-infectives,2012,National,20+,M,Insufficient Data
+Urinary anti-infectives,2013,National,Combined Ages,Combined Gender,39.3298029234782
+Urinary anti-infectives,2013,National,Combined Ages,F,69.2589555026712
+Urinary anti-infectives,2013,National,Combined Ages,M,8.11455412411864
+Urinary anti-infectives,2013,National,0-19,Combined Gender,9.68669624397372
+Urinary anti-infectives,2013,National,0-19,F,Insufficient Data
+Urinary anti-infectives,2013,National,0-19,M,Insufficient Data
+Urinary anti-infectives,2013,National,20+,Combined Gender,48.7906249527672
+Urinary anti-infectives,2013,National,20+,F,Insufficient Data
+Urinary anti-infectives,2013,National,20+,M,Insufficient Data
+Urinary anti-infectives,2014,National,Combined Ages,Combined Gender,40.3623121640968
+Urinary anti-infectives,2014,National,Combined Ages,F,71.3460525203354
+Urinary anti-infectives,2014,National,Combined Ages,M,8.07593628625245
+Urinary anti-infectives,2014,National,0-19,Combined Gender,10.0768317251763
+Urinary anti-infectives,2014,National,0-19,F,Insufficient Data
+Urinary anti-infectives,2014,National,0-19,M,Insufficient Data
+Urinary anti-infectives,2014,National,20+,Combined Gender,49.9445659031683
+Urinary anti-infectives,2014,National,20+,F,Insufficient Data
+Urinary anti-infectives,2014,National,20+,M,Insufficient Data
+Other,2011,National,Combined Ages,Combined Gender,1.75456488691806
+Other,2011,National,Combined Ages,F,1.9132844511343
+Other,2011,National,Combined Ages,M,1.56335229866325
+Other,2011,National,0-19,Combined Gender,Insufficient Data
+Other,2011,National,0-19,F,Insufficient Data
+Other,2011,National,0-19,M,Insufficient Data
+Other,2011,National,20+,Combined Gender,2.17485657703359
+Other,2011,National,20+,F,Insufficient Data
+Other,2011,National,20+,M,Insufficient Data
+Other,2012,National,Combined Ages,Combined Gender,1.64174027717582
+Other,2012,National,Combined Ages,F,1.82236372111264
+Other,2012,National,Combined Ages,M,1.4405783065116
+Other,2012,National,0-19,Combined Gender,Insufficient Data
+Other,2012,National,0-19,F,Insufficient Data
+Other,2012,National,0-19,M,Insufficient Data
+Other,2012,National,20+,Combined Gender,2.05275260804149
+Other,2012,National,20+,F,Insufficient Data
+Other,2012,National,20+,M,Insufficient Data
+Other,2013,National,Combined Ages,Combined Gender,1.67917347829167
+Other,2013,National,Combined Ages,F,1.86677695212221
+Other,2013,National,Combined Ages,M,1.47112063379329
+Other,2013,National,0-19,Combined Gender,Insufficient Data
+Other,2013,National,0-19,F,Insufficient Data
+Other,2013,National,0-19,M,Insufficient Data
+Other,2013,National,20+,Combined Gender,2.08886531162065
+Other,2013,National,20+,F,Insufficient Data
+Other,2013,National,20+,M,Insufficient Data
+Other,2014,National,Combined Ages,Combined Gender,1.7170880170204
+Other,2014,National,Combined Ages,F,1.91302675078921
+Other,2014,National,Combined Ages,M,1.49957817011663
+Other,2014,National,0-19,Combined Gender,Insufficient Data
+Other,2014,National,0-19,F,Insufficient Data
+Other,2014,National,0-19,M,Insufficient Data
+Other,2014,National,20+,Combined Gender,2.11902458152358
+Other,2014,National,20+,F,Insufficient Data
+Other,2014,National,20+,M,Insufficient Data
+Penicillins,2011,AK,Combined Ages,Combined Gender,129.006451952193
+Penicillins,2011,AL,Combined Ages,Combined Gender,212.595287705697
+Penicillins,2011,AR,Combined Ages,Combined Gender,223.552448076014
+Penicillins,2011,AZ,Combined Ages,Combined Gender,172.981601506722
+Penicillins,2011,CA,Combined Ages,Combined Gender,155.630665413919
+Penicillins,2011,CO,Combined Ages,Combined Gender,163.643932674453
+Penicillins,2011,CT,Combined Ages,Combined Gender,189.782341749998
+Penicillins,2011,DC,Combined Ages,Combined Gender,234.514423131166
+Penicillins,2011,DE,Combined Ages,Combined Gender,234.435515939676
+Penicillins,2011,FL,Combined Ages,Combined Gender,151.773762161192
+Penicillins,2011,GA,Combined Ages,Combined Gender,194.094962489815
+Penicillins,2011,HI,Combined Ages,Combined Gender,154.557725697279
+Penicillins,2011,IA,Combined Ages,Combined Gender,187.732291125596
+Penicillins,2011,ID,Combined Ages,Combined Gender,171.385981638864
+Penicillins,2011,IL,Combined Ages,Combined Gender,225.112315567826
+Penicillins,2011,IN,Combined Ages,Combined Gender,246.207096995981
+Penicillins,2011,KS,Combined Ages,Combined Gender,222.349725519301
+Penicillins,2011,KY,Combined Ages,Combined Gender,283.321259449017
+Penicillins,2011,LA,Combined Ages,Combined Gender,234.057138024447
+Penicillins,2011,MA,Combined Ages,Combined Gender,212.711722298101
+Penicillins,2011,MD,Combined Ages,Combined Gender,205.382552855299
+Penicillins,2011,ME,Combined Ages,Combined Gender,173.858554291266
+Penicillins,2011,MI,Combined Ages,Combined Gender,263.192744317984
+Penicillins,2011,MN,Combined Ages,Combined Gender,186.036973199136
+Penicillins,2011,MO,Combined Ages,Combined Gender,228.238117880847
+Penicillins,2011,MS,Combined Ages,Combined Gender,221.180215708501
+Penicillins,2011,MT,Combined Ages,Combined Gender,159.22932739678
+Penicillins,2011,National,Combined Ages,Combined Gender,195.986805015809
+Penicillins,2011,National,Combined Ages,F,213.99376231311
+Penicillins,2011,National,Combined Ages,M,173.240720394396
+Penicillins,2011,National,0-19,Combined Gender,318.455875415425
+Penicillins,2011,National,0-19,F,Insufficient Data
+Penicillins,2011,National,0-19,M,Insufficient Data
+Penicillins,2011,National,20+,Combined Gender,145.636916669922
+Penicillins,2011,National,20+,F,Insufficient Data
+Penicillins,2011,National,20+,M,Insufficient Data
+Penicillins,2011,NC,Combined Ages,Combined Gender,197.318300301865
+Penicillins,2011,ND,Combined Ages,Combined Gender,206.703091754445
+Penicillins,2011,NE,Combined Ages,Combined Gender,212.628626579063
+Penicillins,2011,NH,Combined Ages,Combined Gender,174.264283151089
+Penicillins,2011,NJ,Combined Ages,Combined Gender,210.963919718772
+Penicillins,2011,NM,Combined Ages,Combined Gender,165.262559258125
+Penicillins,2011,NV,Combined Ages,Combined Gender,160.704443412864
+Penicillins,2011,NY,Combined Ages,Combined Gender,199.155782436446
+Penicillins,2011,OH,Combined Ages,Combined Gender,215.494638821743
+Penicillins,2011,OK,Combined Ages,Combined Gender,190.997795605315
+Penicillins,2011,OR,Combined Ages,Combined Gender,146.7237522378
+Penicillins,2011,PA,Combined Ages,Combined Gender,196.568876557139
+Penicillins,2011,RI,Combined Ages,Combined Gender,210.198598885952
+Penicillins,2011,SC,Combined Ages,Combined Gender,199.195543214352
+Penicillins,2011,SD,Combined Ages,Combined Gender,184.3334453651
+Penicillins,2011,TN,Combined Ages,Combined Gender,240.645370264301
+Penicillins,2011,TX,Combined Ages,Combined Gender,204.325786592337
+Penicillins,2011,UT,Combined Ages,Combined Gender,220.316496431676
+Penicillins,2011,VA,Combined Ages,Combined Gender,192.57068023579
+Penicillins,2011,VT,Combined Ages,Combined Gender,172.635421821374
+Penicillins,2011,WA,Combined Ages,Combined Gender,142.078244977511
+Penicillins,2011,WI,Combined Ages,Combined Gender,192.947518605103
+Penicillins,2011,WV,Combined Ages,Combined Gender,268.322199352881
+Penicillins,2011,WY,Combined Ages,Combined Gender,168.710288902473
+Penicillins,2012,AK,Combined Ages,Combined Gender,118.093207182241
+Penicillins,2012,AL,Combined Ages,Combined Gender,219.844510121881
+Penicillins,2012,AR,Combined Ages,Combined Gender,236.09055030007
+Penicillins,2012,AZ,Combined Ages,Combined Gender,167.428451324817
+Penicillins,2012,CA,Combined Ages,Combined Gender,144.97280072553
+Penicillins,2012,CO,Combined Ages,Combined Gender,157.670335529213
+Penicillins,2012,CT,Combined Ages,Combined Gender,191.501287293826
+Penicillins,2012,DC,Combined Ages,Combined Gender,235.866622574956
+Penicillins,2012,DE,Combined Ages,Combined Gender,225.428730664067
+Penicillins,2012,FL,Combined Ages,Combined Gender,147.244926791716
+Penicillins,2012,GA,Combined Ages,Combined Gender,195.834032664585
+Penicillins,2012,HI,Combined Ages,Combined Gender,154.086063272653
+Penicillins,2012,IA,Combined Ages,Combined Gender,206.225700478067
+Penicillins,2012,ID,Combined Ages,Combined Gender,165.732550341879
+Penicillins,2012,IL,Combined Ages,Combined Gender,214.320689296508
+Penicillins,2012,IN,Combined Ages,Combined Gender,218.736277906149
+Penicillins,2012,KS,Combined Ages,Combined Gender,212.211741233265
+Penicillins,2012,KY,Combined Ages,Combined Gender,274.881498996814
+Penicillins,2012,LA,Combined Ages,Combined Gender,236.868127739568
+Penicillins,2012,MA,Combined Ages,Combined Gender,205.53126289754
+Penicillins,2012,MD,Combined Ages,Combined Gender,197.085229536081
+Penicillins,2012,ME,Combined Ages,Combined Gender,166.22345309922
+Penicillins,2012,MI,Combined Ages,Combined Gender,205.716882346717
+Penicillins,2012,MN,Combined Ages,Combined Gender,169.36559482513
+Penicillins,2012,MO,Combined Ages,Combined Gender,220.022267841119
+Penicillins,2012,MS,Combined Ages,Combined Gender,228.81390907383
+Penicillins,2012,MT,Combined Ages,Combined Gender,155.863108769422
+Penicillins,2012,National,Combined Ages,Combined Gender,189.730166345263
+Penicillins,2012,National,Combined Ages,F,208.267965038123
+Penicillins,2012,National,Combined Ages,M,169.042592724874
+Penicillins,2012,National,0-19,Combined Gender,297.153642569
+Penicillins,2012,National,0-19,F,Insufficient Data
+Penicillins,2012,National,0-19,M,Insufficient Data
+Penicillins,2012,National,20+,Combined Gender,147.450688163609
+Penicillins,2012,National,20+,F,Insufficient Data
+Penicillins,2012,National,20+,M,Insufficient Data
+Penicillins,2012,NC,Combined Ages,Combined Gender,200.431434336319
+Penicillins,2012,ND,Combined Ages,Combined Gender,194.130781453745
+Penicillins,2012,NE,Combined Ages,Combined Gender,224.10016346113
+Penicillins,2012,NH,Combined Ages,Combined Gender,172.492588721537
+Penicillins,2012,NJ,Combined Ages,Combined Gender,206.613032897711
+Penicillins,2012,NM,Combined Ages,Combined Gender,164.140278634594
+Penicillins,2012,NV,Combined Ages,Combined Gender,161.443076749982
+Penicillins,2012,NY,Combined Ages,Combined Gender,198.653000896599
+Penicillins,2012,OH,Combined Ages,Combined Gender,195.577612516982
+Penicillins,2012,OK,Combined Ages,Combined Gender,204.562842754068
+Penicillins,2012,OR,Combined Ages,Combined Gender,134.697333766986
+Penicillins,2012,PA,Combined Ages,Combined Gender,191.187273997427
+Penicillins,2012,RI,Combined Ages,Combined Gender,212.941707350207
+Penicillins,2012,SC,Combined Ages,Combined Gender,205.537852815208
+Penicillins,2012,SD,Combined Ages,Combined Gender,192.290018981334
+Penicillins,2012,TN,Combined Ages,Combined Gender,233.430562787052
+Penicillins,2012,TX,Combined Ages,Combined Gender,209.265443779506
+Penicillins,2012,UT,Combined Ages,Combined Gender,221.731959369491
+Penicillins,2012,VA,Combined Ages,Combined Gender,189.835494864071
+Penicillins,2012,VT,Combined Ages,Combined Gender,165.897118526587
+Penicillins,2012,WA,Combined Ages,Combined Gender,131.665779962521
+Penicillins,2012,WI,Combined Ages,Combined Gender,183.368857172407
+Penicillins,2012,WV,Combined Ages,Combined Gender,259.881927239646
+Penicillins,2012,WY,Combined Ages,Combined Gender,174.42621075312
+Penicillins,2013,AK,Combined Ages,Combined Gender,104.763373522738
+Penicillins,2013,AL,Combined Ages,Combined Gender,221.540568093149
+Penicillins,2013,AR,Combined Ages,Combined Gender,256.770138892412
+Penicillins,2013,AZ,Combined Ages,Combined Gender,166.221476814537
+Penicillins,2013,CA,Combined Ages,Combined Gender,148.181855390968
+Penicillins,2013,CO,Combined Ages,Combined Gender,156.794141825464
+Penicillins,2013,CT,Combined Ages,Combined Gender,187.64629414107
+Penicillins,2013,DC,Combined Ages,Combined Gender,224.928910463696
+Penicillins,2013,DE,Combined Ages,Combined Gender,224.396913233323
+Penicillins,2013,FL,Combined Ages,Combined Gender,148.356035779222
+Penicillins,2013,GA,Combined Ages,Combined Gender,196.425971851851
+Penicillins,2013,HI,Combined Ages,Combined Gender,146.842809763326
+Penicillins,2013,IA,Combined Ages,Combined Gender,206.017053099902
+Penicillins,2013,ID,Combined Ages,Combined Gender,163.386250242584
+Penicillins,2013,IL,Combined Ages,Combined Gender,210.359147536881
+Penicillins,2013,IN,Combined Ages,Combined Gender,222.742184904459
+Penicillins,2013,KS,Combined Ages,Combined Gender,206.209912214274
+Penicillins,2013,KY,Combined Ages,Combined Gender,273.630321328196
+Penicillins,2013,LA,Combined Ages,Combined Gender,245.609467900439
+Penicillins,2013,MA,Combined Ages,Combined Gender,194.307536555325
+Penicillins,2013,MD,Combined Ages,Combined Gender,193.002266306798
+Penicillins,2013,ME,Combined Ages,Combined Gender,161.686947110789
+Penicillins,2013,MI,Combined Ages,Combined Gender,231.214782334517
+Penicillins,2013,MN,Combined Ages,Combined Gender,171.848520672961
+Penicillins,2013,MO,Combined Ages,Combined Gender,219.56135047016
+Penicillins,2013,MS,Combined Ages,Combined Gender,234.612857537219
+Penicillins,2013,MT,Combined Ages,Combined Gender,146.349234971384
+Penicillins,2013,National,Combined Ages,Combined Gender,192.102781964496
+Penicillins,2013,National,Combined Ages,F,210.83528044894
+Penicillins,2013,National,Combined Ages,M,171.209243583848
+Penicillins,2013,National,0-19,Combined Gender,295.807225314768
+Penicillins,2013,National,0-19,F,Insufficient Data
+Penicillins,2013,National,0-19,M,Insufficient Data
+Penicillins,2013,National,20+,Combined Gender,151.791118251042
+Penicillins,2013,National,20+,F,Insufficient Data
+Penicillins,2013,National,20+,M,Insufficient Data
+Penicillins,2013,NC,Combined Ages,Combined Gender,192.792278582516
+Penicillins,2013,ND,Combined Ages,Combined Gender,177.648306226229
+Penicillins,2013,NE,Combined Ages,Combined Gender,223.071024720048
+Penicillins,2013,NH,Combined Ages,Combined Gender,170.4815305425
+Penicillins,2013,NJ,Combined Ages,Combined Gender,210.44298031915
+Penicillins,2013,NM,Combined Ages,Combined Gender,161.709860821939
+Penicillins,2013,NV,Combined Ages,Combined Gender,163.684091744423
+Penicillins,2013,NY,Combined Ages,Combined Gender,207.406129161305
+Penicillins,2013,OH,Combined Ages,Combined Gender,220.372991542922
+Penicillins,2013,OK,Combined Ages,Combined Gender,204.008836479964
+Penicillins,2013,OR,Combined Ages,Combined Gender,131.742299267735
+Penicillins,2013,PA,Combined Ages,Combined Gender,215.361764565954
+Penicillins,2013,RI,Combined Ages,Combined Gender,202.363554892277
+Penicillins,2013,SC,Combined Ages,Combined Gender,203.866289712192
+Penicillins,2013,SD,Combined Ages,Combined Gender,181.500869297821
+Penicillins,2013,TN,Combined Ages,Combined Gender,228.773181470564
+Penicillins,2013,TX,Combined Ages,Combined Gender,205.328814395207
+Penicillins,2013,UT,Combined Ages,Combined Gender,217.298261980646
+Penicillins,2013,VA,Combined Ages,Combined Gender,187.052252354666
+Penicillins,2013,VT,Combined Ages,Combined Gender,159.819575499916
+Penicillins,2013,WA,Combined Ages,Combined Gender,131.114981024541
+Penicillins,2013,WI,Combined Ages,Combined Gender,175.704023696528
+Penicillins,2013,WV,Combined Ages,Combined Gender,260.346904259024
+Penicillins,2013,WY,Combined Ages,Combined Gender,173.588558750255
+Penicillins,2014,AK,Combined Ages,Combined Gender,103.957639955914
+Penicillins,2014,AL,Combined Ages,Combined Gender,215.655870846916
+Penicillins,2014,AR,Combined Ages,Combined Gender,251.800794169573
+Penicillins,2014,AZ,Combined Ages,Combined Gender,159.455323670088
+Penicillins,2014,CA,Combined Ages,Combined Gender,143.109256620047
+Penicillins,2014,CO,Combined Ages,Combined Gender,156.832846452852
+Penicillins,2014,CT,Combined Ages,Combined Gender,187.447001774141
+Penicillins,2014,DC,Combined Ages,Combined Gender,216.539514003032
+Penicillins,2014,DE,Combined Ages,Combined Gender,217.898738154837
+Penicillins,2014,FL,Combined Ages,Combined Gender,144.977565056202
+Penicillins,2014,GA,Combined Ages,Combined Gender,190.253467669668
+Penicillins,2014,HI,Combined Ages,Combined Gender,143.783162541095
+Penicillins,2014,IA,Combined Ages,Combined Gender,214.211692734703
+Penicillins,2014,ID,Combined Ages,Combined Gender,158.842482917947
+Penicillins,2014,IL,Combined Ages,Combined Gender,208.946135189556
+Penicillins,2014,IN,Combined Ages,Combined Gender,215.024462414309
+Penicillins,2014,KS,Combined Ages,Combined Gender,207.55575458993
+Penicillins,2014,KY,Combined Ages,Combined Gender,281.83456868393
+Penicillins,2014,LA,Combined Ages,Combined Gender,245.132501705498
+Penicillins,2014,MA,Combined Ages,Combined Gender,191.672313965301
+Penicillins,2014,MD,Combined Ages,Combined Gender,192.784840456826
+Penicillins,2014,ME,Combined Ages,Combined Gender,161.151434227333
+Penicillins,2014,MI,Combined Ages,Combined Gender,230.143168275451
+Penicillins,2014,MN,Combined Ages,Combined Gender,176.684200775755
+Penicillins,2014,MO,Combined Ages,Combined Gender,215.569209918417
+Penicillins,2014,MS,Combined Ages,Combined Gender,232.885959254921
+Penicillins,2014,MT,Combined Ages,Combined Gender,141.382414058905
+Penicillins,2014,National,Combined Ages,Combined Gender,190.506411844928
+Penicillins,2014,National,Combined Ages,F,208.559940151912
+Penicillins,2014,National,Combined Ages,M,170.437487873637
+Penicillins,2014,National,0-19,Combined Gender,292.835716112448
+Penicillins,2014,National,0-19,F,Insufficient Data
+Penicillins,2014,National,0-19,M,Insufficient Data
+Penicillins,2014,National,20+,Combined Gender,151.415937272843
+Penicillins,2014,National,20+,F,Insufficient Data
+Penicillins,2014,National,20+,M,Insufficient Data
+Penicillins,2014,NC,Combined Ages,Combined Gender,186.566103819367
+Penicillins,2014,ND,Combined Ages,Combined Gender,176.729602613722
+Penicillins,2014,NE,Combined Ages,Combined Gender,227.334838158644
+Penicillins,2014,NH,Combined Ages,Combined Gender,170.183077796192
+Penicillins,2014,NJ,Combined Ages,Combined Gender,211.519607749911
+Penicillins,2014,NM,Combined Ages,Combined Gender,166.859058330283
+Penicillins,2014,NV,Combined Ages,Combined Gender,164.75930920338
+Penicillins,2014,NY,Combined Ages,Combined Gender,209.228478432853
+Penicillins,2014,OH,Combined Ages,Combined Gender,223.322902222406
+Penicillins,2014,OK,Combined Ages,Combined Gender,208.125151010136
+Penicillins,2014,OR,Combined Ages,Combined Gender,130.515704470187
+Penicillins,2014,PA,Combined Ages,Combined Gender,213.801917994749
+Penicillins,2014,RI,Combined Ages,Combined Gender,203.167272096613
+Penicillins,2014,SC,Combined Ages,Combined Gender,196.583960374815
+Penicillins,2014,SD,Combined Ages,Combined Gender,191.286559029507
+Penicillins,2014,TN,Combined Ages,Combined Gender,226.631185802821
+Penicillins,2014,TX,Combined Ages,Combined Gender,208.475487849915
+Penicillins,2014,UT,Combined Ages,Combined Gender,207.695213771989
+Penicillins,2014,VA,Combined Ages,Combined Gender,181.610059415443
+Penicillins,2014,VT,Combined Ages,Combined Gender,153.382570280355
+Penicillins,2014,WA,Combined Ages,Combined Gender,130.53851927274
+Penicillins,2014,WI,Combined Ages,Combined Gender,177.409501657303
+Penicillins,2014,WV,Combined Ages,Combined Gender,261.479533876738
+Penicillins,2014,WY,Combined Ages,Combined Gender,170.891889624807
+Tetracycline,2011,National,Combined Ages,Combined Gender,67.8731811271773
+Tetracycline,2011,National,Combined Ages,F,77.2623429831035
+Tetracycline,2011,National,Combined Ages,M,56.9688134225846
+Tetracycline,2011,National,0-19,Combined Gender,51.2816096305286
+Tetracycline,2011,National,0-19,F,Insufficient Data
+Tetracycline,2011,National,0-19,M,Insufficient Data
+Tetracycline,2011,National,20+,Combined Gender,71.5715993550606
+Tetracycline,2011,National,20+,F,Insufficient Data
+Tetracycline,2011,National,20+,M,Insufficient Data
+Tetracycline,2012,National,Combined Ages,Combined Gender,69.4304619193751
+Tetracycline,2012,National,Combined Ages,F,79.3497600519348
+Tetracycline,2012,National,Combined Ages,M,58.6201835307056
+Tetracycline,2012,National,0-19,Combined Gender,49.366963176226
+Tetracycline,2012,National,0-19,F,Insufficient Data
+Tetracycline,2012,National,0-19,M,Insufficient Data
+Tetracycline,2012,National,20+,Combined Gender,74.7588116274042
+Tetracycline,2012,National,20+,F,Insufficient Data
+Tetracycline,2012,National,20+,M,Insufficient Data
+Tetracycline,2013,National,Combined Ages,Combined Gender,65.0513244287963
+Tetracycline,2013,National,Combined Ages,F,74.74763483871
+Tetracycline,2013,National,Combined Ages,M,54.5245633773928
+Tetracycline,2013,National,0-19,Combined Gender,47.3268984408462
+Tetracycline,2013,National,0-19,F,Insufficient Data
+Tetracycline,2013,National,0-19,M,Insufficient Data
+Tetracycline,2013,National,20+,Combined Gender,69.6230576249404
+Tetracycline,2013,National,20+,F,Insufficient Data
+Tetracycline,2013,National,20+,M,Insufficient Data
+Tetracycline,2014,National,Combined Ages,Combined Gender,64.0610078579917
+Tetracycline,2014,National,Combined Ages,F,73.7120930571512
+Tetracycline,2014,National,Combined Ages,M,53.6113992407466
+Tetracycline,2014,National,0-19,Combined Gender,45.9861394818825
+Tetracycline,2014,National,0-19,F,Insufficient Data
+Tetracycline,2014,National,0-19,M,Insufficient Data
+Tetracycline,2014,National,20+,Combined Gender,68.8028233384868
+Tetracycline,2014,National,20+,F,Insufficient Data
+Tetracycline,2014,National,20+,M,Insufficient Data
+All other,2011,AK,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,AL,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,AR,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,AZ,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,CA,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,CO,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,CT,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,DC,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,DE,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,FL,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,GA,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,HI,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,IA,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,ID,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,IL,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,IN,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,KS,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,KY,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,LA,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,MA,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,MD,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,ME,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,MI,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,MN,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,MO,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,MS,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,MT,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,NC,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,ND,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,NE,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,NH,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,NJ,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,NM,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,NV,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,NY,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,OH,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,OK,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,OR,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,PA,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,RI,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,SC,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,SD,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,TN,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,TX,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,UT,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,VA,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,VT,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,WA,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,WI,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,WV,Combined Ages,Combined Gender,Insufficient Data
+All other,2011,WY,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,AK,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,AL,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,AR,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,AZ,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,CA,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,CO,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,CT,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,DC,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,DE,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,FL,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,GA,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,HI,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,IA,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,ID,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,IL,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,IN,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,KS,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,KY,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,LA,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,MA,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,MD,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,ME,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,MI,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,MN,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,MO,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,MS,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,MT,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,NC,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,ND,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,NE,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,NH,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,NJ,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,NM,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,NV,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,NY,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,OH,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,OK,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,OR,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,PA,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,RI,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,SC,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,SD,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,TN,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,TX,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,UT,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,VA,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,VT,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,WA,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,WI,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,WV,Combined Ages,Combined Gender,Insufficient Data
+All other,2012,WY,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,AK,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,AL,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,AR,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,AZ,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,CA,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,CO,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,CT,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,DC,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,DE,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,FL,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,GA,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,HI,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,IA,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,ID,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,IL,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,IN,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,KS,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,KY,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,LA,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,MA,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,MD,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,ME,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,MI,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,MN,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,MO,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,MS,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,MT,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,NC,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,ND,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,NE,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,NH,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,NJ,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,NM,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,NV,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,NY,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,OH,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,OK,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,OR,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,PA,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,RI,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,SC,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,SD,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,TN,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,TX,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,UT,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,VA,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,VT,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,WA,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,WI,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,WV,Combined Ages,Combined Gender,Insufficient Data
+All other,2013,WY,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,AK,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,AL,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,AR,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,AZ,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,CA,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,CO,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,CT,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,DC,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,DE,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,FL,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,GA,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,HI,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,IA,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,ID,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,IL,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,IN,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,KS,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,KY,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,LA,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,MA,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,MD,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,ME,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,MI,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,MN,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,MO,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,MS,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,MT,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,NC,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,ND,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,NE,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,NH,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,NJ,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,NM,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,NV,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,NY,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,OH,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,OK,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,OR,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,PA,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,RI,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,SC,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,SD,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,TN,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,TX,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,UT,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,VA,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,VT,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,WA,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,WI,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,WV,Combined Ages,Combined Gender,Insufficient Data
+All other,2014,WY,Combined Ages,Combined Gender,Insufficient Data
+B-lactams increased activity,2011,National,Combined Ages,Combined Gender,70.7384472117689
+B-lactams increased activity,2011,National,Combined Ages,F,76.6984903463085
+B-lactams increased activity,2011,National,Combined Ages,M,63.0928098690428
+B-lactams increased activity,2011,National,0-19,Combined Gender,93.5199679200644
+B-lactams increased activity,2011,National,0-19,F,Insufficient Data
+B-lactams increased activity,2011,National,0-19,M,Insufficient Data
+B-lactams increased activity,2011,National,20+,Combined Gender,60.3109718700302
+B-lactams increased activity,2011,National,20+,F,Insufficient Data
+B-lactams increased activity,2011,National,20+,M,Insufficient Data
+B-lactams increased activity,2012,National,Combined Ages,Combined Gender,69.2854357545535
+B-lactams increased activity,2012,National,Combined Ages,F,75.8796549179626
+B-lactams increased activity,2012,National,Combined Ages,M,61.9122737255805
+B-lactams increased activity,2012,National,0-19,Combined Gender,86.2963698917041
+B-lactams increased activity,2012,National,0-19,F,Insufficient Data
+B-lactams increased activity,2012,National,0-19,M,Insufficient Data
+B-lactams increased activity,2012,National,20+,Combined Gender,61.7391670538469
+B-lactams increased activity,2012,National,20+,F,Insufficient Data
+B-lactams increased activity,2012,National,20+,M,Insufficient Data
+B-lactams increased activity,2013,National,Combined Ages,Combined Gender,72.8532268392266
+B-lactams increased activity,2013,National,Combined Ages,F,80.7306506811739
+B-lactams increased activity,2013,National,Combined Ages,M,64.1400555181928
+B-lactams increased activity,2013,National,0-19,Combined Gender,83.8231202452635
+B-lactams increased activity,2013,National,0-19,F,Insufficient Data
+B-lactams increased activity,2013,National,0-19,M,Insufficient Data
+B-lactams increased activity,2013,National,20+,Combined Gender,67.4606585862172
+B-lactams increased activity,2013,National,20+,F,Insufficient Data
+B-lactams increased activity,2013,National,20+,M,Insufficient Data
+B-lactams increased activity,2014,National,Combined Ages,Combined Gender,73.7980310211411
+B-lactams increased activity,2014,National,Combined Ages,F,82.6055758240242
+B-lactams increased activity,2014,National,Combined Ages,M,64.1401978750746
+B-lactams increased activity,2014,National,0-19,Combined Gender,78.8370386571179
+B-lactams increased activity,2014,National,0-19,F,Insufficient Data
+B-lactams increased activity,2014,National,0-19,M,Insufficient Data
+B-lactams increased activity,2014,National,20+,Combined Gender,70.6102423652655
+B-lactams increased activity,2014,National,20+,F,Insufficient Data
+B-lactams increased activity,2014,National,20+,M,Insufficient Data
+Cephalosporins,2011,AK,Combined Ages,Combined Gender,74.5832802821033
+Cephalosporins,2011,AL,Combined Ages,Combined Gender,181.863366998529
+Cephalosporins,2011,AR,Combined Ages,Combined Gender,158.140915386788
+Cephalosporins,2011,AZ,Combined Ages,Combined Gender,117.17412855849
+Cephalosporins,2011,CA,Combined Ages,Combined Gender,77.110805102372
+Cephalosporins,2011,CO,Combined Ages,Combined Gender,95.3773150214446
+Cephalosporins,2011,CT,Combined Ages,Combined Gender,113.427373119954
+Cephalosporins,2011,DC,Combined Ages,Combined Gender,110.19130373114
+Cephalosporins,2011,DE,Combined Ages,Combined Gender,120.229624742104
+Cephalosporins,2011,FL,Combined Ages,Combined Gender,91.6890668257669
+Cephalosporins,2011,GA,Combined Ages,Combined Gender,116.372859375855
+Cephalosporins,2011,HI,Combined Ages,Combined Gender,76.1181453886121
+Cephalosporins,2011,IA,Combined Ages,Combined Gender,151.90093392811
+Cephalosporins,2011,ID,Combined Ages,Combined Gender,107.664296808899
+Cephalosporins,2011,IL,Combined Ages,Combined Gender,104.529467734947
+Cephalosporins,2011,IN,Combined Ages,Combined Gender,177.904177971209
+Cephalosporins,2011,KS,Combined Ages,Combined Gender,159.867541938665
+Cephalosporins,2011,KY,Combined Ages,Combined Gender,213.164695593042
+Cephalosporins,2011,LA,Combined Ages,Combined Gender,152.09478335969
+Cephalosporins,2011,MA,Combined Ages,Combined Gender,91.7537592990015
+Cephalosporins,2011,MD,Combined Ages,Combined Gender,98.4314079474912
+Cephalosporins,2011,ME,Combined Ages,Combined Gender,81.3361246451239
+Cephalosporins,2011,MI,Combined Ages,Combined Gender,136.171782032247
+Cephalosporins,2011,MN,Combined Ages,Combined Gender,98.1785406829729
+Cephalosporins,2011,MO,Combined Ages,Combined Gender,136.635457622472
+Cephalosporins,2011,MS,Combined Ages,Combined Gender,175.70769027257
+Cephalosporins,2011,MT,Combined Ages,Combined Gender,84.0706813236158
+Cephalosporins,2011,National,Combined Ages,Combined Gender,117.335182500242
+Cephalosporins,2011,National,Combined Ages,F,131.100260582455
+Cephalosporins,2011,National,Combined Ages,M,100.859745743858
+Cephalosporins,2011,National,0-19,Combined Gender,162.005912899466
+Cephalosporins,2011,National,0-19,F,Insufficient Data
+Cephalosporins,2011,National,0-19,M,Insufficient Data
+Cephalosporins,2011,National,20+,Combined Gender,97.6889567478916
+Cephalosporins,2011,National,20+,F,Insufficient Data
+Cephalosporins,2011,National,20+,M,Insufficient Data
+Cephalosporins,2011,NC,Combined Ages,Combined Gender,127.136257133868
+Cephalosporins,2011,ND,Combined Ages,Combined Gender,148.650228678336
+Cephalosporins,2011,NE,Combined Ages,Combined Gender,179.702122208277
+Cephalosporins,2011,NH,Combined Ages,Combined Gender,81.862380121826
+Cephalosporins,2011,NJ,Combined Ages,Combined Gender,115.247340888117
+Cephalosporins,2011,NM,Combined Ages,Combined Gender,92.9463141723443
+Cephalosporins,2011,NV,Combined Ages,Combined Gender,94.7665404000457
+Cephalosporins,2011,NY,Combined Ages,Combined Gender,108.281160828608
+Cephalosporins,2011,OH,Combined Ages,Combined Gender,127.609590223521
+Cephalosporins,2011,OK,Combined Ages,Combined Gender,132.175357524191
+Cephalosporins,2011,OR,Combined Ages,Combined Gender,72.6250554601202
+Cephalosporins,2011,PA,Combined Ages,Combined Gender,105.689491403604
+Cephalosporins,2011,RI,Combined Ages,Combined Gender,101.400011406627
+Cephalosporins,2011,SC,Combined Ages,Combined Gender,129.408459649728
+Cephalosporins,2011,SD,Combined Ages,Combined Gender,162.820094373619
+Cephalosporins,2011,TN,Combined Ages,Combined Gender,180.517914743856
+Cephalosporins,2011,TX,Combined Ages,Combined Gender,143.026302625154
+Cephalosporins,2011,UT,Combined Ages,Combined Gender,131.403284311149
+Cephalosporins,2011,VA,Combined Ages,Combined Gender,124.331666540904
+Cephalosporins,2011,VT,Combined Ages,Combined Gender,84.7927687764385
+Cephalosporins,2011,WA,Combined Ages,Combined Gender,86.837473497944
+Cephalosporins,2011,WI,Combined Ages,Combined Gender,91.1974106574349
+Cephalosporins,2011,WV,Combined Ages,Combined Gender,217.418174408164
+Cephalosporins,2011,WY,Combined Ages,Combined Gender,107.729246640863
+Cephalosporins,2012,AK,Combined Ages,Combined Gender,69.0842328004694
+Cephalosporins,2012,AL,Combined Ages,Combined Gender,183.483654538344
+Cephalosporins,2012,AR,Combined Ages,Combined Gender,176.815390092565
+Cephalosporins,2012,AZ,Combined Ages,Combined Gender,112.543672924527
+Cephalosporins,2012,CA,Combined Ages,Combined Gender,74.1295743505837
+Cephalosporins,2012,CO,Combined Ages,Combined Gender,90.6974427881082
+Cephalosporins,2012,CT,Combined Ages,Combined Gender,113.833111411706
+Cephalosporins,2012,DC,Combined Ages,Combined Gender,108.902431342907
+Cephalosporins,2012,DE,Combined Ages,Combined Gender,117.672566014564
+Cephalosporins,2012,FL,Combined Ages,Combined Gender,87.6600383038092
+Cephalosporins,2012,GA,Combined Ages,Combined Gender,116.359847766913
+Cephalosporins,2012,HI,Combined Ages,Combined Gender,74.6938250933755
+Cephalosporins,2012,IA,Combined Ages,Combined Gender,162.49318337351
+Cephalosporins,2012,ID,Combined Ages,Combined Gender,106.393415601752
+Cephalosporins,2012,IL,Combined Ages,Combined Gender,101.8911945171
+Cephalosporins,2012,IN,Combined Ages,Combined Gender,168.551821209893
+Cephalosporins,2012,KS,Combined Ages,Combined Gender,159.519103828667
+Cephalosporins,2012,KY,Combined Ages,Combined Gender,198.439063617487
+Cephalosporins,2012,LA,Combined Ages,Combined Gender,149.931490219653
+Cephalosporins,2012,MA,Combined Ages,Combined Gender,91.5105391079021
+Cephalosporins,2012,MD,Combined Ages,Combined Gender,97.0428096993496
+Cephalosporins,2012,ME,Combined Ages,Combined Gender,82.8238164914436
+Cephalosporins,2012,MI,Combined Ages,Combined Gender,115.856975485852
+Cephalosporins,2012,MN,Combined Ages,Combined Gender,94.0287550772548
+Cephalosporins,2012,MO,Combined Ages,Combined Gender,135.20005954909
+Cephalosporins,2012,MS,Combined Ages,Combined Gender,184.084963281992
+Cephalosporins,2012,MT,Combined Ages,Combined Gender,82.0275219044073
+Cephalosporins,2012,National,Combined Ages,Combined Gender,115.359458097606
+Cephalosporins,2012,National,Combined Ages,F,130.11912973083
+Cephalosporins,2012,National,Combined Ages,M,99.1966769795869
+Cephalosporins,2012,National,0-19,Combined Gender,152.453487734878
+Cephalosporins,2012,National,0-19,F,Insufficient Data
+Cephalosporins,2012,National,0-19,M,Insufficient Data
+Cephalosporins,2012,National,20+,Combined Gender,99.6990450891154
+Cephalosporins,2012,National,20+,F,Insufficient Data
+Cephalosporins,2012,National,20+,M,Insufficient Data
+Cephalosporins,2012,NC,Combined Ages,Combined Gender,131.200045423864
+Cephalosporins,2012,ND,Combined Ages,Combined Gender,145.019060716398
+Cephalosporins,2012,NE,Combined Ages,Combined Gender,179.797379340302
+Cephalosporins,2012,NH,Combined Ages,Combined Gender,86.1435998113973
+Cephalosporins,2012,NJ,Combined Ages,Combined Gender,112.248228931955
+Cephalosporins,2012,NM,Combined Ages,Combined Gender,91.7351868037608
+Cephalosporins,2012,NV,Combined Ages,Combined Gender,92.7332487673506
+Cephalosporins,2012,NY,Combined Ages,Combined Gender,107.107074769707
+Cephalosporins,2012,OH,Combined Ages,Combined Gender,119.596051424915
+Cephalosporins,2012,OK,Combined Ages,Combined Gender,145.871937006999
+Cephalosporins,2012,OR,Combined Ages,Combined Gender,69.681174468103
+Cephalosporins,2012,PA,Combined Ages,Combined Gender,106.029520808981
+Cephalosporins,2012,RI,Combined Ages,Combined Gender,101.814386155911
+Cephalosporins,2012,SC,Combined Ages,Combined Gender,134.187744474943
+Cephalosporins,2012,SD,Combined Ages,Combined Gender,171.234038422823
+Cephalosporins,2012,TN,Combined Ages,Combined Gender,180.890897337136
+Cephalosporins,2012,TX,Combined Ages,Combined Gender,143.011970910869
+Cephalosporins,2012,UT,Combined Ages,Combined Gender,128.928727785223
+Cephalosporins,2012,VA,Combined Ages,Combined Gender,125.735647449875
+Cephalosporins,2012,VT,Combined Ages,Combined Gender,84.4918851754723
+Cephalosporins,2012,WA,Combined Ages,Combined Gender,82.319738411401
+Cephalosporins,2012,WI,Combined Ages,Combined Gender,89.8785198941893
+Cephalosporins,2012,WV,Combined Ages,Combined Gender,215.074790727643
+Cephalosporins,2012,WY,Combined Ages,Combined Gender,112.055563163359
+Cephalosporins,2013,AK,Combined Ages,Combined Gender,62.2881375473206
+Cephalosporins,2013,AL,Combined Ages,Combined Gender,178.979285460725
+Cephalosporins,2013,AR,Combined Ages,Combined Gender,181.392591165571
+Cephalosporins,2013,AZ,Combined Ages,Combined Gender,110.294016711689
+Cephalosporins,2013,CA,Combined Ages,Combined Gender,74.3898913578255
+Cephalosporins,2013,CO,Combined Ages,Combined Gender,88.261164556118
+Cephalosporins,2013,CT,Combined Ages,Combined Gender,111.12798703985
+Cephalosporins,2013,DC,Combined Ages,Combined Gender,106.358434843963
+Cephalosporins,2013,DE,Combined Ages,Combined Gender,117.973152911677
+Cephalosporins,2013,FL,Combined Ages,Combined Gender,87.6005574605459
+Cephalosporins,2013,GA,Combined Ages,Combined Gender,114.432984327089
+Cephalosporins,2013,HI,Combined Ages,Combined Gender,71.8204071435719
+Cephalosporins,2013,IA,Combined Ages,Combined Gender,159.296982447925
+Cephalosporins,2013,ID,Combined Ages,Combined Gender,105.166838929765
+Cephalosporins,2013,IL,Combined Ages,Combined Gender,101.090153470546
+Cephalosporins,2013,IN,Combined Ages,Combined Gender,171.52783875967
+Cephalosporins,2013,KS,Combined Ages,Combined Gender,156.299352061831
+Cephalosporins,2013,KY,Combined Ages,Combined Gender,192.824963184018
+Cephalosporins,2013,LA,Combined Ages,Combined Gender,143.895431777357
+Cephalosporins,2013,MA,Combined Ages,Combined Gender,88.7282053590528
+Cephalosporins,2013,MD,Combined Ages,Combined Gender,95.16079934168
+Cephalosporins,2013,ME,Combined Ages,Combined Gender,80.2693079411334
+Cephalosporins,2013,MI,Combined Ages,Combined Gender,129.334888701405
+Cephalosporins,2013,MN,Combined Ages,Combined Gender,95.8225858806438
+Cephalosporins,2013,MO,Combined Ages,Combined Gender,133.167279219882
+Cephalosporins,2013,MS,Combined Ages,Combined Gender,182.298595083363
+Cephalosporins,2013,MT,Combined Ages,Combined Gender,79.1954094341705
+Cephalosporins,2013,National,Combined Ages,Combined Gender,114.820893373703
+Cephalosporins,2013,National,Combined Ages,F,130.285594089442
+Cephalosporins,2013,National,Combined Ages,M,97.9010623561299
+Cephalosporins,2013,National,0-19,Combined Gender,143.968010130369
+Cephalosporins,2013,National,0-19,F,Insufficient Data
+Cephalosporins,2013,National,0-19,M,Insufficient Data
+Cephalosporins,2013,National,20+,Combined Gender,102.225742762595
+Cephalosporins,2013,National,20+,F,Insufficient Data
+Cephalosporins,2013,National,20+,M,Insufficient Data
+Cephalosporins,2013,NC,Combined Ages,Combined Gender,126.380273079777
+Cephalosporins,2013,ND,Combined Ages,Combined Gender,140.075954228529
+Cephalosporins,2013,NE,Combined Ages,Combined Gender,176.624122711506
+Cephalosporins,2013,NH,Combined Ages,Combined Gender,85.0153030055583
+Cephalosporins,2013,NJ,Combined Ages,Combined Gender,112.223372670513
+Cephalosporins,2013,NM,Combined Ages,Combined Gender,90.0545403578033
+Cephalosporins,2013,NV,Combined Ages,Combined Gender,92.2113606549035
+Cephalosporins,2013,NY,Combined Ages,Combined Gender,108.360798408586
+Cephalosporins,2013,OH,Combined Ages,Combined Gender,129.066620693657
+Cephalosporins,2013,OK,Combined Ages,Combined Gender,145.866864186355
+Cephalosporins,2013,OR,Combined Ages,Combined Gender,68.3681036071681
+Cephalosporins,2013,PA,Combined Ages,Combined Gender,115.133204801773
+Cephalosporins,2013,RI,Combined Ages,Combined Gender,95.6655787133289
+Cephalosporins,2013,SC,Combined Ages,Combined Gender,131.52606419752
+Cephalosporins,2013,SD,Combined Ages,Combined Gender,158.073399486699
+Cephalosporins,2013,TN,Combined Ages,Combined Gender,176.624972738554
+Cephalosporins,2013,TX,Combined Ages,Combined Gender,135.330505356273
+Cephalosporins,2013,UT,Combined Ages,Combined Gender,127.423276320309
+Cephalosporins,2013,VA,Combined Ages,Combined Gender,123.888409733821
+Cephalosporins,2013,VT,Combined Ages,Combined Gender,83.7317880530587
+Cephalosporins,2013,WA,Combined Ages,Combined Gender,81.3518696275265
+Cephalosporins,2013,WI,Combined Ages,Combined Gender,89.050152421586
+Cephalosporins,2013,WV,Combined Ages,Combined Gender,208.98561983605
+Cephalosporins,2013,WY,Combined Ages,Combined Gender,112.699722061716
+Cephalosporins,2014,AK,Combined Ages,Combined Gender,60.4130538649061
+Cephalosporins,2014,AL,Combined Ages,Combined Gender,170.239715328382
+Cephalosporins,2014,AR,Combined Ages,Combined Gender,174.022989048229
+Cephalosporins,2014,AZ,Combined Ages,Combined Gender,107.093483398313
+Cephalosporins,2014,CA,Combined Ages,Combined Gender,72.5869539333774
+Cephalosporins,2014,CO,Combined Ages,Combined Gender,85.4730271444446
+Cephalosporins,2014,CT,Combined Ages,Combined Gender,109.287756448522
+Cephalosporins,2014,DC,Combined Ages,Combined Gender,103.273202173949
+Cephalosporins,2014,DE,Combined Ages,Combined Gender,113.43673779999
+Cephalosporins,2014,FL,Combined Ages,Combined Gender,87.4764816510841
+Cephalosporins,2014,GA,Combined Ages,Combined Gender,110.086530684361
+Cephalosporins,2014,HI,Combined Ages,Combined Gender,71.9046381240398
+Cephalosporins,2014,IA,Combined Ages,Combined Gender,162.487121539326
+Cephalosporins,2014,ID,Combined Ages,Combined Gender,102.722647913933
+Cephalosporins,2014,IL,Combined Ages,Combined Gender,98.453824284313
+Cephalosporins,2014,IN,Combined Ages,Combined Gender,163.867673307971
+Cephalosporins,2014,KS,Combined Ages,Combined Gender,155.083255251943
+Cephalosporins,2014,KY,Combined Ages,Combined Gender,195.153830659282
+Cephalosporins,2014,LA,Combined Ages,Combined Gender,140.250892750378
+Cephalosporins,2014,MA,Combined Ages,Combined Gender,87.2419711305841
+Cephalosporins,2014,MD,Combined Ages,Combined Gender,91.5926776740624
+Cephalosporins,2014,ME,Combined Ages,Combined Gender,81.7448456456673
+Cephalosporins,2014,MI,Combined Ages,Combined Gender,127.172772174672
+Cephalosporins,2014,MN,Combined Ages,Combined Gender,95.9972626852768
+Cephalosporins,2014,MO,Combined Ages,Combined Gender,128.75870544656
+Cephalosporins,2014,MS,Combined Ages,Combined Gender,177.079121826781
+Cephalosporins,2014,MT,Combined Ages,Combined Gender,75.5971253806498
+Cephalosporins,2014,National,Combined Ages,Combined Gender,111.854251674429
+Cephalosporins,2014,National,Combined Ages,F,127.597071808675
+Cephalosporins,2014,National,Combined Ages,M,94.7475738385613
+Cephalosporins,2014,National,0-19,Combined Gender,137.316851710629
+Cephalosporins,2014,National,0-19,F,Insufficient Data
+Cephalosporins,2014,National,0-19,M,Insufficient Data
+Cephalosporins,2014,National,20+,Combined Gender,100.85609490213
+Cephalosporins,2014,National,20+,F,Insufficient Data
+Cephalosporins,2014,National,20+,M,Insufficient Data
+Cephalosporins,2014,NC,Combined Ages,Combined Gender,118.282443500404
+Cephalosporins,2014,ND,Combined Ages,Combined Gender,133.391779651161
+Cephalosporins,2014,NE,Combined Ages,Combined Gender,174.815782913981
+Cephalosporins,2014,NH,Combined Ages,Combined Gender,84.1026429496843
+Cephalosporins,2014,NJ,Combined Ages,Combined Gender,106.768783336646
+Cephalosporins,2014,NM,Combined Ages,Combined Gender,91.4186803428506
+Cephalosporins,2014,NV,Combined Ages,Combined Gender,89.5503045156223
+Cephalosporins,2014,NY,Combined Ages,Combined Gender,106.933779805125
+Cephalosporins,2014,OH,Combined Ages,Combined Gender,126.868994337936
+Cephalosporins,2014,OK,Combined Ages,Combined Gender,144.716704344528
+Cephalosporins,2014,OR,Combined Ages,Combined Gender,69.2320588256776
+Cephalosporins,2014,PA,Combined Ages,Combined Gender,112.93784124433
+Cephalosporins,2014,RI,Combined Ages,Combined Gender,93.8565429555153
+Cephalosporins,2014,SC,Combined Ages,Combined Gender,124.20590702666
+Cephalosporins,2014,SD,Combined Ages,Combined Gender,155.323503384417
+Cephalosporins,2014,TN,Combined Ages,Combined Gender,172.090211367485
+Cephalosporins,2014,TX,Combined Ages,Combined Gender,129.864208342794
+Cephalosporins,2014,UT,Combined Ages,Combined Gender,121.533659632567
+Cephalosporins,2014,VA,Combined Ages,Combined Gender,117.220574496039
+Cephalosporins,2014,VT,Combined Ages,Combined Gender,83.5237215151892
+Cephalosporins,2014,WA,Combined Ages,Combined Gender,80.6116946327512
+Cephalosporins,2014,WI,Combined Ages,Combined Gender,89.1815427496777
+Cephalosporins,2014,WV,Combined Ages,Combined Gender,210.569845529924
+Cephalosporins,2014,WY,Combined Ages,Combined Gender,111.119175969309
+Fluoroquinolones,2011,AK,Combined Ages,Combined Gender,64.0591387432671
+Fluoroquinolones,2011,AL,Combined Ages,Combined Gender,142.63271823804
+Fluoroquinolones,2011,AR,Combined Ages,Combined Gender,116.463335863029
+Fluoroquinolones,2011,AZ,Combined Ages,Combined Gender,93.2480197723834
+Fluoroquinolones,2011,CA,Combined Ages,Combined Gender,71.4456135779448
+Fluoroquinolones,2011,CO,Combined Ages,Combined Gender,68.3221838320947
+Fluoroquinolones,2011,CT,Combined Ages,Combined Gender,97.7107101249761
+Fluoroquinolones,2011,DC,Combined Ages,Combined Gender,154.715107498545
+Fluoroquinolones,2011,DE,Combined Ages,Combined Gender,126.477067817838
+Fluoroquinolones,2011,FL,Combined Ages,Combined Gender,112.688808293953
+Fluoroquinolones,2011,GA,Combined Ages,Combined Gender,108.791683773724
+Fluoroquinolones,2011,HI,Combined Ages,Combined Gender,86.9686363369225
+Fluoroquinolones,2011,IA,Combined Ages,Combined Gender,92.616215711813
+Fluoroquinolones,2011,ID,Combined Ages,Combined Gender,71.2399701978808
+Fluoroquinolones,2011,IL,Combined Ages,Combined Gender,99.7370244717135
+Fluoroquinolones,2011,IN,Combined Ages,Combined Gender,112.704965503277
+Fluoroquinolones,2011,KS,Combined Ages,Combined Gender,107.256203472864
+Fluoroquinolones,2011,KY,Combined Ages,Combined Gender,156.527963830067
+Fluoroquinolones,2011,LA,Combined Ages,Combined Gender,126.070279713251
+Fluoroquinolones,2011,MA,Combined Ages,Combined Gender,92.036049647097
+Fluoroquinolones,2011,MD,Combined Ages,Combined Gender,103.299449180018
+Fluoroquinolones,2011,ME,Combined Ages,Combined Gender,84.8822603601092
+Fluoroquinolones,2011,MI,Combined Ages,Combined Gender,106.496193296379
+Fluoroquinolones,2011,MN,Combined Ages,Combined Gender,76.0060665261052
+Fluoroquinolones,2011,MO,Combined Ages,Combined Gender,108.766639092901
+Fluoroquinolones,2011,MS,Combined Ages,Combined Gender,137.087169762669
+Fluoroquinolones,2011,MT,Combined Ages,Combined Gender,77.4697617727867
+Fluoroquinolones,2011,National,Combined Ages,Combined Gender,101.287640153238
+Fluoroquinolones,2011,National,Combined Ages,F,128.076494121762
+Fluoroquinolones,2011,National,Combined Ages,M,71.7173664296689
+Fluoroquinolones,2011,National,0-19,Combined Gender,8.87941580705586
+Fluoroquinolones,2011,National,0-19,F,Insufficient Data
+Fluoroquinolones,2011,National,0-19,M,Insufficient Data
+Fluoroquinolones,2011,National,20+,Combined Gender,131.54138588908
+Fluoroquinolones,2011,National,20+,F,Insufficient Data
+Fluoroquinolones,2011,National,20+,M,Insufficient Data
+Fluoroquinolones,2011,NC,Combined Ages,Combined Gender,111.538084952997
+Fluoroquinolones,2011,ND,Combined Ages,Combined Gender,109.500862469026
+Fluoroquinolones,2011,NE,Combined Ages,Combined Gender,104.058001380934
+Fluoroquinolones,2011,NH,Combined Ages,Combined Gender,77.5689339804215
+Fluoroquinolones,2011,NJ,Combined Ages,Combined Gender,124.898124016273
+Fluoroquinolones,2011,NM,Combined Ages,Combined Gender,73.6740927065777
+Fluoroquinolones,2011,NV,Combined Ages,Combined Gender,87.1881853286962
+Fluoroquinolones,2011,NY,Combined Ages,Combined Gender,117.697802629839
+Fluoroquinolones,2011,OH,Combined Ages,Combined Gender,107.660484322025
+Fluoroquinolones,2011,OK,Combined Ages,Combined Gender,105.204684926319
+Fluoroquinolones,2011,OR,Combined Ages,Combined Gender,73.0916780344834
+Fluoroquinolones,2011,PA,Combined Ages,Combined Gender,99.7563479897841
+Fluoroquinolones,2011,RI,Combined Ages,Combined Gender,118.862550141632
+Fluoroquinolones,2011,SC,Combined Ages,Combined Gender,117.065734742205
+Fluoroquinolones,2011,SD,Combined Ages,Combined Gender,92.298370119793
+Fluoroquinolones,2011,TN,Combined Ages,Combined Gender,148.812512024511
+Fluoroquinolones,2011,TX,Combined Ages,Combined Gender,103.047422004899
+Fluoroquinolones,2011,UT,Combined Ages,Combined Gender,71.3600601564858
+Fluoroquinolones,2011,VA,Combined Ages,Combined Gender,96.3540388952789
+Fluoroquinolones,2011,VT,Combined Ages,Combined Gender,70.7182217255966
+Fluoroquinolones,2011,WA,Combined Ages,Combined Gender,66.9121234010825
+Fluoroquinolones,2011,WI,Combined Ages,Combined Gender,76.9926735723985
+Fluoroquinolones,2011,WV,Combined Ages,Combined Gender,164.150185823906
+Fluoroquinolones,2011,WY,Combined Ages,Combined Gender,73.1130082747415
+Fluoroquinolones,2012,AK,Combined Ages,Combined Gender,62.0804808222346
+Fluoroquinolones,2012,AL,Combined Ages,Combined Gender,162.812727556543
+Fluoroquinolones,2012,AR,Combined Ages,Combined Gender,134.320191231818
+Fluoroquinolones,2012,AZ,Combined Ages,Combined Gender,91.3492696114061
+Fluoroquinolones,2012,CA,Combined Ages,Combined Gender,70.6218035046318
+Fluoroquinolones,2012,CO,Combined Ages,Combined Gender,66.9541821392537
+Fluoroquinolones,2012,CT,Combined Ages,Combined Gender,100.399684283331
+Fluoroquinolones,2012,DC,Combined Ages,Combined Gender,151.989906147644
+Fluoroquinolones,2012,DE,Combined Ages,Combined Gender,129.000611856937
+Fluoroquinolones,2012,FL,Combined Ages,Combined Gender,109.986260063612
+Fluoroquinolones,2012,GA,Combined Ages,Combined Gender,113.486642806734
+Fluoroquinolones,2012,HI,Combined Ages,Combined Gender,88.2205409954004
+Fluoroquinolones,2012,IA,Combined Ages,Combined Gender,113.41464952933
+Fluoroquinolones,2012,ID,Combined Ages,Combined Gender,71.5253041194788
+Fluoroquinolones,2012,IL,Combined Ages,Combined Gender,101.846876472716
+Fluoroquinolones,2012,IN,Combined Ages,Combined Gender,113.868080981009
+Fluoroquinolones,2012,KS,Combined Ages,Combined Gender,117.624906183925
+Fluoroquinolones,2012,KY,Combined Ages,Combined Gender,162.958926328831
+Fluoroquinolones,2012,LA,Combined Ages,Combined Gender,134.787842711777
+Fluoroquinolones,2012,MA,Combined Ages,Combined Gender,91.7753040229863
+Fluoroquinolones,2012,MD,Combined Ages,Combined Gender,102.787478705644
+Fluoroquinolones,2012,ME,Combined Ages,Combined Gender,85.2815838120355
+Fluoroquinolones,2012,MI,Combined Ages,Combined Gender,97.077433480824
+Fluoroquinolones,2012,MN,Combined Ages,Combined Gender,76.2283995416887
+Fluoroquinolones,2012,MO,Combined Ages,Combined Gender,116.501771452651
+Fluoroquinolones,2012,MS,Combined Ages,Combined Gender,152.803679134614
+Fluoroquinolones,2012,MT,Combined Ages,Combined Gender,77.6124469364665
+Fluoroquinolones,2012,National,Combined Ages,Combined Gender,104.148236191026
+Fluoroquinolones,2012,National,Combined Ages,F,132.47344003379
+Fluoroquinolones,2012,National,Combined Ages,M,74.0946741286378
+Fluoroquinolones,2012,National,0-19,Combined Gender,8.93850234605051
+Fluoroquinolones,2012,National,0-19,F,Insufficient Data
+Fluoroquinolones,2012,National,0-19,M,Insufficient Data
+Fluoroquinolones,2012,National,20+,Combined Gender,135.666722063193
+Fluoroquinolones,2012,National,20+,F,Insufficient Data
+Fluoroquinolones,2012,National,20+,M,Insufficient Data
+Fluoroquinolones,2012,NC,Combined Ages,Combined Gender,118.121313094209
+Fluoroquinolones,2012,ND,Combined Ages,Combined Gender,110.311911700786
+Fluoroquinolones,2012,NE,Combined Ages,Combined Gender,118.207295443191
+Fluoroquinolones,2012,NH,Combined Ages,Combined Gender,79.1302333994549
+Fluoroquinolones,2012,NJ,Combined Ages,Combined Gender,125.319718341598
+Fluoroquinolones,2012,NM,Combined Ages,Combined Gender,73.9905036664207
+Fluoroquinolones,2012,NV,Combined Ages,Combined Gender,90.0922132151582
+Fluoroquinolones,2012,NY,Combined Ages,Combined Gender,120.304973596354
+Fluoroquinolones,2012,OH,Combined Ages,Combined Gender,104.141472600281
+Fluoroquinolones,2012,OK,Combined Ages,Combined Gender,119.339122083259
+Fluoroquinolones,2012,OR,Combined Ages,Combined Gender,70.6886964934836
+Fluoroquinolones,2012,PA,Combined Ages,Combined Gender,102.095159742222
+Fluoroquinolones,2012,RI,Combined Ages,Combined Gender,125.381047787604
+Fluoroquinolones,2012,SC,Combined Ages,Combined Gender,126.852614258057
+Fluoroquinolones,2012,SD,Combined Ages,Combined Gender,102.315351394362
+Fluoroquinolones,2012,TN,Combined Ages,Combined Gender,158.343280130043
+Fluoroquinolones,2012,TX,Combined Ages,Combined Gender,112.300198870087
+Fluoroquinolones,2012,UT,Combined Ages,Combined Gender,72.0811300387993
+Fluoroquinolones,2012,VA,Combined Ages,Combined Gender,100.345565015452
+Fluoroquinolones,2012,VT,Combined Ages,Combined Gender,70.6787960481555
+Fluoroquinolones,2012,WA,Combined Ages,Combined Gender,65.3883858431851
+Fluoroquinolones,2012,WI,Combined Ages,Combined Gender,80.0593548729694
+Fluoroquinolones,2012,WV,Combined Ages,Combined Gender,169.266152852455
+Fluoroquinolones,2012,WY,Combined Ages,Combined Gender,74.6387978359939
+Fluoroquinolones,2013,AK,Combined Ages,Combined Gender,58.0020454141623
+Fluoroquinolones,2013,AL,Combined Ages,Combined Gender,165.791045338061
+Fluoroquinolones,2013,AR,Combined Ages,Combined Gender,145.07706424809
+Fluoroquinolones,2013,AZ,Combined Ages,Combined Gender,88.8818442570518
+Fluoroquinolones,2013,CA,Combined Ages,Combined Gender,70.7107231319971
+Fluoroquinolones,2013,CO,Combined Ages,Combined Gender,65.592367044089
+Fluoroquinolones,2013,CT,Combined Ages,Combined Gender,97.89959328666
+Fluoroquinolones,2013,DC,Combined Ages,Combined Gender,149.789712391255
+Fluoroquinolones,2013,DE,Combined Ages,Combined Gender,127.55207297566
+Fluoroquinolones,2013,FL,Combined Ages,Combined Gender,111.266049298913
+Fluoroquinolones,2013,GA,Combined Ages,Combined Gender,114.683969868609
+Fluoroquinolones,2013,HI,Combined Ages,Combined Gender,84.6330306809076
+Fluoroquinolones,2013,IA,Combined Ages,Combined Gender,113.105821770627
+Fluoroquinolones,2013,ID,Combined Ages,Combined Gender,69.9093278143001
+Fluoroquinolones,2013,IL,Combined Ages,Combined Gender,100.803106802566
+Fluoroquinolones,2013,IN,Combined Ages,Combined Gender,114.738351834882
+Fluoroquinolones,2013,KS,Combined Ages,Combined Gender,118.082810248356
+Fluoroquinolones,2013,KY,Combined Ages,Combined Gender,163.199914628277
+Fluoroquinolones,2013,LA,Combined Ages,Combined Gender,140.07711127682
+Fluoroquinolones,2013,MA,Combined Ages,Combined Gender,87.0050324391255
+Fluoroquinolones,2013,MD,Combined Ages,Combined Gender,100.438409715737
+Fluoroquinolones,2013,ME,Combined Ages,Combined Gender,81.889400332053
+Fluoroquinolones,2013,MI,Combined Ages,Combined Gender,105.860319151184
+Fluoroquinolones,2013,MN,Combined Ages,Combined Gender,75.9133539650989
+Fluoroquinolones,2013,MO,Combined Ages,Combined Gender,116.59813029691
+Fluoroquinolones,2013,MS,Combined Ages,Combined Gender,158.782640633701
+Fluoroquinolones,2013,MT,Combined Ages,Combined Gender,75.4025169874978
+Fluoroquinolones,2013,National,Combined Ages,Combined Gender,104.817972971789
+Fluoroquinolones,2013,National,Combined Ages,F,133.359151337784
+Fluoroquinolones,2013,National,Combined Ages,M,74.5487361456683
+Fluoroquinolones,2013,National,0-19,Combined Gender,8.93967099033769
+Fluoroquinolones,2013,National,0-19,F,Insufficient Data
+Fluoroquinolones,2013,National,0-19,M,Insufficient Data
+Fluoroquinolones,2013,National,20+,Combined Gender,136.21732507381
+Fluoroquinolones,2013,National,20+,F,Insufficient Data
+Fluoroquinolones,2013,National,20+,M,Insufficient Data
+Fluoroquinolones,2013,NC,Combined Ages,Combined Gender,116.073435282277
+Fluoroquinolones,2013,ND,Combined Ages,Combined Gender,107.178738341965
+Fluoroquinolones,2013,NE,Combined Ages,Combined Gender,122.390515840551
+Fluoroquinolones,2013,NH,Combined Ages,Combined Gender,74.9896644226287
+Fluoroquinolones,2013,NJ,Combined Ages,Combined Gender,123.101730774455
+Fluoroquinolones,2013,NM,Combined Ages,Combined Gender,73.6980873498661
+Fluoroquinolones,2013,NV,Combined Ages,Combined Gender,90.198370478317
+Fluoroquinolones,2013,NY,Combined Ages,Combined Gender,119.398997140491
+Fluoroquinolones,2013,OH,Combined Ages,Combined Gender,115.958591445483
+Fluoroquinolones,2013,OK,Combined Ages,Combined Gender,118.160655863641
+Fluoroquinolones,2013,OR,Combined Ages,Combined Gender,68.8693143805046
+Fluoroquinolones,2013,PA,Combined Ages,Combined Gender,109.087349983918
+Fluoroquinolones,2013,RI,Combined Ages,Combined Gender,118.309115454064
+Fluoroquinolones,2013,SC,Combined Ages,Combined Gender,129.213645047947
+Fluoroquinolones,2013,SD,Combined Ages,Combined Gender,97.2735390474386
+Fluoroquinolones,2013,TN,Combined Ages,Combined Gender,159.815610220235
+Fluoroquinolones,2013,TX,Combined Ages,Combined Gender,111.819655947149
+Fluoroquinolones,2013,UT,Combined Ages,Combined Gender,72.1717921432054
+Fluoroquinolones,2013,VA,Combined Ages,Combined Gender,98.7409835986315
+Fluoroquinolones,2013,VT,Combined Ages,Combined Gender,68.2339296966604
+Fluoroquinolones,2013,WA,Combined Ages,Combined Gender,63.131476616142
+Fluoroquinolones,2013,WI,Combined Ages,Combined Gender,79.3015823044353
+Fluoroquinolones,2013,WV,Combined Ages,Combined Gender,165.484223900042
+Fluoroquinolones,2013,WY,Combined Ages,Combined Gender,73.9389736001494
+Fluoroquinolones,2014,AK,Combined Ages,Combined Gender,58.0350520949272
+Fluoroquinolones,2014,AL,Combined Ages,Combined Gender,160.202708512867
+Fluoroquinolones,2014,AR,Combined Ages,Combined Gender,149.375178880308
+Fluoroquinolones,2014,AZ,Combined Ages,Combined Gender,88.1049914105136
+Fluoroquinolones,2014,CA,Combined Ages,Combined Gender,69.1608246891281
+Fluoroquinolones,2014,CO,Combined Ages,Combined Gender,63.4652622003625
+Fluoroquinolones,2014,CT,Combined Ages,Combined Gender,97.2407947669476
+Fluoroquinolones,2014,DC,Combined Ages,Combined Gender,145.391755565774
+Fluoroquinolones,2014,DE,Combined Ages,Combined Gender,121.310946608324
+Fluoroquinolones,2014,FL,Combined Ages,Combined Gender,109.559315381457
+Fluoroquinolones,2014,GA,Combined Ages,Combined Gender,110.504971456353
+Fluoroquinolones,2014,HI,Combined Ages,Combined Gender,82.5573046878578
+Fluoroquinolones,2014,IA,Combined Ages,Combined Gender,115.874093937613
+Fluoroquinolones,2014,ID,Combined Ages,Combined Gender,70.1105071754407
+Fluoroquinolones,2014,IL,Combined Ages,Combined Gender,99.3546579424259
+Fluoroquinolones,2014,IN,Combined Ages,Combined Gender,109.847377272963
+Fluoroquinolones,2014,KS,Combined Ages,Combined Gender,117.630805700097
+Fluoroquinolones,2014,KY,Combined Ages,Combined Gender,163.97101637107
+Fluoroquinolones,2014,LA,Combined Ages,Combined Gender,137.941604963442
+Fluoroquinolones,2014,MA,Combined Ages,Combined Gender,84.90629328871
+Fluoroquinolones,2014,MD,Combined Ages,Combined Gender,97.1807726615703
+Fluoroquinolones,2014,ME,Combined Ages,Combined Gender,80.9746941745999
+Fluoroquinolones,2014,MI,Combined Ages,Combined Gender,106.247070473228
+Fluoroquinolones,2014,MN,Combined Ages,Combined Gender,74.3679447215627
+Fluoroquinolones,2014,MO,Combined Ages,Combined Gender,115.63187742441
+Fluoroquinolones,2014,MS,Combined Ages,Combined Gender,158.702973435238
+Fluoroquinolones,2014,MT,Combined Ages,Combined Gender,73.66856881589
+Fluoroquinolones,2014,National,Combined Ages,Combined Gender,102.73956681704
+Fluoroquinolones,2014,National,Combined Ages,F,131.17049563975
+Fluoroquinolones,2014,National,Combined Ages,M,72.6515695486189
+Fluoroquinolones,2014,National,0-19,Combined Gender,9.02780599331362
+Fluoroquinolones,2014,National,0-19,F,Insufficient Data
+Fluoroquinolones,2014,National,0-19,M,Insufficient Data
+Fluoroquinolones,2014,National,20+,Combined Gender,133.186791975334
+Fluoroquinolones,2014,National,20+,F,Insufficient Data
+Fluoroquinolones,2014,National,20+,M,Insufficient Data
+Fluoroquinolones,2014,NC,Combined Ages,Combined Gender,112.129165994572
+Fluoroquinolones,2014,ND,Combined Ages,Combined Gender,105.234069253883
+Fluoroquinolones,2014,NE,Combined Ages,Combined Gender,124.106397916984
+Fluoroquinolones,2014,NH,Combined Ages,Combined Gender,73.8688044208181
+Fluoroquinolones,2014,NJ,Combined Ages,Combined Gender,116.875874549337
+Fluoroquinolones,2014,NM,Combined Ages,Combined Gender,76.5604543981217
+Fluoroquinolones,2014,NV,Combined Ages,Combined Gender,89.0526888988372
+Fluoroquinolones,2014,NY,Combined Ages,Combined Gender,116.914475357748
+Fluoroquinolones,2014,OH,Combined Ages,Combined Gender,116.595404946447
+Fluoroquinolones,2014,OK,Combined Ages,Combined Gender,116.474489376236
+Fluoroquinolones,2014,OR,Combined Ages,Combined Gender,67.2975909006994
+Fluoroquinolones,2014,PA,Combined Ages,Combined Gender,106.85612708763
+Fluoroquinolones,2014,RI,Combined Ages,Combined Gender,115.304201301587
+Fluoroquinolones,2014,SC,Combined Ages,Combined Gender,124.622835636015
+Fluoroquinolones,2014,SD,Combined Ages,Combined Gender,93.1223723151756
+Fluoroquinolones,2014,TN,Combined Ages,Combined Gender,156.536683323789
+Fluoroquinolones,2014,TX,Combined Ages,Combined Gender,108.29868451774
+Fluoroquinolones,2014,UT,Combined Ages,Combined Gender,71.6446996875868
+Fluoroquinolones,2014,VA,Combined Ages,Combined Gender,94.3066821245388
+Fluoroquinolones,2014,VT,Combined Ages,Combined Gender,67.259648686004
+Fluoroquinolones,2014,WA,Combined Ages,Combined Gender,61.3952797764804
+Fluoroquinolones,2014,WI,Combined Ages,Combined Gender,78.6807233058995
+Fluoroquinolones,2014,WV,Combined Ages,Combined Gender,166.592114038285
+Fluoroquinolones,2014,WY,Combined Ages,Combined Gender,73.2428832857144
+Macrolides,2011,AK,Combined Ages,Combined Gender,134.32751338275
+Macrolides,2011,AL,Combined Ages,Combined Gender,237.415829201983
+Macrolides,2011,AR,Combined Ages,Combined Gender,215.686894021637
+Macrolides,2011,AZ,Combined Ages,Combined Gender,172.969901899741
+Macrolides,2011,CA,Combined Ages,Combined Gender,135.055071360973
+Macrolides,2011,CO,Combined Ages,Combined Gender,125.104734473637
+Macrolides,2011,CT,Combined Ages,Combined Gender,203.125978091862
+Macrolides,2011,DC,Combined Ages,Combined Gender,196.704882282685
+Macrolides,2011,DE,Combined Ages,Combined Gender,225.199338201357
+Macrolides,2011,FL,Combined Ages,Combined Gender,172.355508454608
+Macrolides,2011,GA,Combined Ages,Combined Gender,169.970759795916
+Macrolides,2011,HI,Combined Ages,Combined Gender,151.504406671934
+Macrolides,2011,IA,Combined Ages,Combined Gender,227.487304659459
+Macrolides,2011,ID,Combined Ages,Combined Gender,141.7142974403
+Macrolides,2011,IL,Combined Ages,Combined Gender,206.119132340087
+Macrolides,2011,IN,Combined Ages,Combined Gender,216.67929858702
+Macrolides,2011,KS,Combined Ages,Combined Gender,205.244854902413
+Macrolides,2011,KY,Combined Ages,Combined Gender,288.076483545477
+Macrolides,2011,LA,Combined Ages,Combined Gender,275.20663587977
+Macrolides,2011,MA,Combined Ages,Combined Gender,175.382272653733
+Macrolides,2011,MD,Combined Ages,Combined Gender,176.860514323398
+Macrolides,2011,ME,Combined Ages,Combined Gender,181.340936645756
+Macrolides,2011,MI,Combined Ages,Combined Gender,209.189883164162
+Macrolides,2011,MN,Combined Ages,Combined Gender,158.795539147459
+Macrolides,2011,MO,Combined Ages,Combined Gender,192.401270167893
+Macrolides,2011,MS,Combined Ages,Combined Gender,262.005409499661
+Macrolides,2011,MT,Combined Ages,Combined Gender,163.029095053329
+Macrolides,2011,National,Combined Ages,Combined Gender,189.793435798502
+Macrolides,2011,National,Combined Ages,F,225.430613382159
+Macrolides,2011,National,Combined Ages,M,148.955137079603
+Macrolides,2011,National,0-19,Combined Gender,192.303120634959
+Macrolides,2011,National,0-19,F,Insufficient Data
+Macrolides,2011,National,0-19,M,Insufficient Data
+Macrolides,2011,National,20+,Combined Gender,182.967756099476
+Macrolides,2011,National,20+,F,Insufficient Data
+Macrolides,2011,National,20+,M,Insufficient Data
+Macrolides,2011,NC,Combined Ages,Combined Gender,181.378141972109
+Macrolides,2011,ND,Combined Ages,Combined Gender,238.564565511162
+Macrolides,2011,NE,Combined Ages,Combined Gender,190.594762223217
+Macrolides,2011,NH,Combined Ages,Combined Gender,159.763615907333
+Macrolides,2011,NJ,Combined Ages,Combined Gender,234.260760449364
+Macrolides,2011,NM,Combined Ages,Combined Gender,164.728395352789
+Macrolides,2011,NV,Combined Ages,Combined Gender,158.735191750421
+Macrolides,2011,NY,Combined Ages,Combined Gender,215.856991267917
+Macrolides,2011,OH,Combined Ages,Combined Gender,235.56611715599
+Macrolides,2011,OK,Combined Ages,Combined Gender,192.337506110481
+Macrolides,2011,OR,Combined Ages,Combined Gender,119.887947287809
+Macrolides,2011,PA,Combined Ages,Combined Gender,208.304334708198
+Macrolides,2011,RI,Combined Ages,Combined Gender,218.152525617383
+Macrolides,2011,SC,Combined Ages,Combined Gender,199.445238595574
+Macrolides,2011,SD,Combined Ages,Combined Gender,213.492928045273
+Macrolides,2011,TN,Combined Ages,Combined Gender,259.006359257001
+Macrolides,2011,TX,Combined Ages,Combined Gender,195.726588783439
+Macrolides,2011,UT,Combined Ages,Combined Gender,160.138286037418
+Macrolides,2011,VA,Combined Ages,Combined Gender,185.544369624997
+Macrolides,2011,VT,Combined Ages,Combined Gender,152.163891771092
+Macrolides,2011,WA,Combined Ages,Combined Gender,136.082710163659
+Macrolides,2011,WI,Combined Ages,Combined Gender,160.866965562731
+Macrolides,2011,WV,Combined Ages,Combined Gender,299.569462129558
+Macrolides,2011,WY,Combined Ages,Combined Gender,181.186263611395
+Macrolides,2012,AK,Combined Ages,Combined Gender,128.808545154367
+Macrolides,2012,AL,Combined Ages,Combined Gender,244.210042005333
+Macrolides,2012,AR,Combined Ages,Combined Gender,222.646658529142
+Macrolides,2012,AZ,Combined Ages,Combined Gender,160.320435383967
+Macrolides,2012,CA,Combined Ages,Combined Gender,116.057345785027
+Macrolides,2012,CO,Combined Ages,Combined Gender,119.890084363365
+Macrolides,2012,CT,Combined Ages,Combined Gender,191.859846058918
+Macrolides,2012,DC,Combined Ages,Combined Gender,193.00922776518
+Macrolides,2012,DE,Combined Ages,Combined Gender,208.558242563648
+Macrolides,2012,FL,Combined Ages,Combined Gender,162.295472491002
+Macrolides,2012,GA,Combined Ages,Combined Gender,173.330855933061
+Macrolides,2012,HI,Combined Ages,Combined Gender,151.649659741837
+Macrolides,2012,IA,Combined Ages,Combined Gender,225.087773311204
+Macrolides,2012,ID,Combined Ages,Combined Gender,133.516241641022
+Macrolides,2012,IL,Combined Ages,Combined Gender,195.215527115091
+Macrolides,2012,IN,Combined Ages,Combined Gender,200.541908752316
+Macrolides,2012,KS,Combined Ages,Combined Gender,203.943452556268
+Macrolides,2012,KY,Combined Ages,Combined Gender,275.614978105251
+Macrolides,2012,LA,Combined Ages,Combined Gender,271.074945751603
+Macrolides,2012,MA,Combined Ages,Combined Gender,159.623136351619
+Macrolides,2012,MD,Combined Ages,Combined Gender,169.658918578463
+Macrolides,2012,ME,Combined Ages,Combined Gender,170.2768795838
+Macrolides,2012,MI,Combined Ages,Combined Gender,191.900681461747
+Macrolides,2012,MN,Combined Ages,Combined Gender,146.363815288777
+Macrolides,2012,MO,Combined Ages,Combined Gender,184.915028859235
+Macrolides,2012,MS,Combined Ages,Combined Gender,268.773616213859
+Macrolides,2012,MT,Combined Ages,Combined Gender,157.060616039388
+Macrolides,2012,National,Combined Ages,Combined Gender,181.881360448666
+Macrolides,2012,National,Combined Ages,F,217.012344602939
+Macrolides,2012,National,Combined Ages,M,144.129168396531
+Macrolides,2012,National,0-19,Combined Gender,184.881407349225
+Macrolides,2012,National,0-19,F,Insufficient Data
+Macrolides,2012,National,0-19,M,Insufficient Data
+Macrolides,2012,National,20+,Combined Gender,176.884484561816
+Macrolides,2012,National,20+,F,Insufficient Data
+Macrolides,2012,National,20+,M,Insufficient Data
+Macrolides,2012,NC,Combined Ages,Combined Gender,189.284194661555
+Macrolides,2012,ND,Combined Ages,Combined Gender,217.515864928994
+Macrolides,2012,NE,Combined Ages,Combined Gender,186.751192544061
+Macrolides,2012,NH,Combined Ages,Combined Gender,153.838130261402
+Macrolides,2012,NJ,Combined Ages,Combined Gender,223.399897476359
+Macrolides,2012,NM,Combined Ages,Combined Gender,156.999415713566
+Macrolides,2012,NV,Combined Ages,Combined Gender,149.007747042461
+Macrolides,2012,NY,Combined Ages,Combined Gender,208.987411728561
+Macrolides,2012,OH,Combined Ages,Combined Gender,214.356250650874
+Macrolides,2012,OK,Combined Ages,Combined Gender,202.271455589238
+Macrolides,2012,OR,Combined Ages,Combined Gender,106.485052392041
+Macrolides,2012,PA,Combined Ages,Combined Gender,196.349201799831
+Macrolides,2012,RI,Combined Ages,Combined Gender,215.200311218396
+Macrolides,2012,SC,Combined Ages,Combined Gender,206.911996537516
+Macrolides,2012,SD,Combined Ages,Combined Gender,208.532541485721
+Macrolides,2012,TN,Combined Ages,Combined Gender,252.705654701658
+Macrolides,2012,TX,Combined Ages,Combined Gender,200.151365682653
+Macrolides,2012,UT,Combined Ages,Combined Gender,151.384501368386
+Macrolides,2012,VA,Combined Ages,Combined Gender,179.750094649123
+Macrolides,2012,VT,Combined Ages,Combined Gender,160.911125023557
+Macrolides,2012,WA,Combined Ages,Combined Gender,129.829545446311
+Macrolides,2012,WI,Combined Ages,Combined Gender,162.427705135897
+Macrolides,2012,WV,Combined Ages,Combined Gender,275.88734227472
+Macrolides,2012,WY,Combined Ages,Combined Gender,180.7602276332
+Macrolides,2013,AK,Combined Ages,Combined Gender,106.479676748604
+Macrolides,2013,AL,Combined Ages,Combined Gender,220.491371941561
+Macrolides,2013,AR,Combined Ages,Combined Gender,212.318876287912
+Macrolides,2013,AZ,Combined Ages,Combined Gender,145.392159182593
+Macrolides,2013,CA,Combined Ages,Combined Gender,114.097523865431
+Macrolides,2013,CO,Combined Ages,Combined Gender,112.905916178159
+Macrolides,2013,CT,Combined Ages,Combined Gender,161.495340397038
+Macrolides,2013,DC,Combined Ages,Combined Gender,176.181777846932
+Macrolides,2013,DE,Combined Ages,Combined Gender,182.715100946781
+Macrolides,2013,FL,Combined Ages,Combined Gender,144.795050956068
+Macrolides,2013,GA,Combined Ages,Combined Gender,156.377398394503
+Macrolides,2013,HI,Combined Ages,Combined Gender,134.351644124466
+Macrolides,2013,IA,Combined Ages,Combined Gender,189.955806943673
+Macrolides,2013,ID,Combined Ages,Combined Gender,122.770337844415
+Macrolides,2013,IL,Combined Ages,Combined Gender,168.831290545188
+Macrolides,2013,IN,Combined Ages,Combined Gender,175.655864135321
+Macrolides,2013,KS,Combined Ages,Combined Gender,190.091491093485
+Macrolides,2013,KY,Combined Ages,Combined Gender,233.36462796589
+Macrolides,2013,LA,Combined Ages,Combined Gender,247.284016275523
+Macrolides,2013,MA,Combined Ages,Combined Gender,129.435191359985
+Macrolides,2013,MD,Combined Ages,Combined Gender,148.751337195105
+Macrolides,2013,ME,Combined Ages,Combined Gender,142.507274016294
+Macrolides,2013,MI,Combined Ages,Combined Gender,173.638898534324
+Macrolides,2013,MN,Combined Ages,Combined Gender,128.827338686778
+Macrolides,2013,MO,Combined Ages,Combined Gender,164.558583682788
+Macrolides,2013,MS,Combined Ages,Combined Gender,240.349344263069
+Macrolides,2013,MT,Combined Ages,Combined Gender,139.542155402103
+Macrolides,2013,National,Combined Ages,Combined Gender,161.179379121277
+Macrolides,2013,National,Combined Ages,F,192.556452283606
+Macrolides,2013,National,Combined Ages,M,127.521442279819
+Macrolides,2013,National,0-19,Combined Gender,155.599641092534
+Macrolides,2013,National,0-19,F,Insufficient Data
+Macrolides,2013,National,0-19,M,Insufficient Data
+Macrolides,2013,National,20+,Combined Gender,159.700881682011
+Macrolides,2013,National,20+,F,Insufficient Data
+Macrolides,2013,National,20+,M,Insufficient Data
+Macrolides,2013,NC,Combined Ages,Combined Gender,158.868132404822
+Macrolides,2013,ND,Combined Ages,Combined Gender,173.871994054074
+Macrolides,2013,NE,Combined Ages,Combined Gender,173.054577149221
+Macrolides,2013,NH,Combined Ages,Combined Gender,127.242933701089
+Macrolides,2013,NJ,Combined Ages,Combined Gender,197.075119323335
+Macrolides,2013,NM,Combined Ages,Combined Gender,147.569542310468
+Macrolides,2013,NV,Combined Ages,Combined Gender,140.328612563741
+Macrolides,2013,NY,Combined Ages,Combined Gender,183.170764350336
+Macrolides,2013,OH,Combined Ages,Combined Gender,180.862441729009
+Macrolides,2013,OK,Combined Ages,Combined Gender,184.154814360735
+Macrolides,2013,OR,Combined Ages,Combined Gender,95.9193909066785
+Macrolides,2013,PA,Combined Ages,Combined Gender,167.820433076569
+Macrolides,2013,RI,Combined Ages,Combined Gender,178.974532778154
+Macrolides,2013,SC,Combined Ages,Combined Gender,184.56377075183
+Macrolides,2013,SD,Combined Ages,Combined Gender,174.718524913957
+Macrolides,2013,TN,Combined Ages,Combined Gender,215.191151851661
+Macrolides,2013,TX,Combined Ages,Combined Gender,179.119846091586
+Macrolides,2013,UT,Combined Ages,Combined Gender,141.708981747545
+Macrolides,2013,VA,Combined Ages,Combined Gender,153.05064178099
+Macrolides,2013,VT,Combined Ages,Combined Gender,121.778034792735
+Macrolides,2013,WA,Combined Ages,Combined Gender,111.42651248068
+Macrolides,2013,WI,Combined Ages,Combined Gender,140.062396470951
+Macrolides,2013,WV,Combined Ages,Combined Gender,228.691823186839
+Macrolides,2013,WY,Combined Ages,Combined Gender,166.38433326532
+Macrolides,2014,AK,Combined Ages,Combined Gender,101.695745535689
+Macrolides,2014,AL,Combined Ages,Combined Gender,205.385607264604
+Macrolides,2014,AR,Combined Ages,Combined Gender,209.130492531443
+Macrolides,2014,AZ,Combined Ages,Combined Gender,136.398339504339
+Macrolides,2014,CA,Combined Ages,Combined Gender,104.342961922539
+Macrolides,2014,CO,Combined Ages,Combined Gender,110.282029087368
+Macrolides,2014,CT,Combined Ages,Combined Gender,160.290868487778
+Macrolides,2014,DC,Combined Ages,Combined Gender,168.143856437995
+Macrolides,2014,DE,Combined Ages,Combined Gender,167.517223983394
+Macrolides,2014,FL,Combined Ages,Combined Gender,142.404557675874
+Macrolides,2014,GA,Combined Ages,Combined Gender,146.512639018012
+Macrolides,2014,HI,Combined Ages,Combined Gender,132.065173669888
+Macrolides,2014,IA,Combined Ages,Combined Gender,195.715973539537
+Macrolides,2014,ID,Combined Ages,Combined Gender,119.054803287193
+Macrolides,2014,IL,Combined Ages,Combined Gender,165.941690513929
+Macrolides,2014,IN,Combined Ages,Combined Gender,165.041829781031
+Macrolides,2014,KS,Combined Ages,Combined Gender,181.98008554346
+Macrolides,2014,KY,Combined Ages,Combined Gender,232.521334183167
+Macrolides,2014,LA,Combined Ages,Combined Gender,239.538180724854
+Macrolides,2014,MA,Combined Ages,Combined Gender,123.883809548664
+Macrolides,2014,MD,Combined Ages,Combined Gender,141.757885632629
+Macrolides,2014,ME,Combined Ages,Combined Gender,133.009858738776
+Macrolides,2014,MI,Combined Ages,Combined Gender,170.753628930018
+Macrolides,2014,MN,Combined Ages,Combined Gender,126.138883630778
+Macrolides,2014,MO,Combined Ages,Combined Gender,166.183011414526
+Macrolides,2014,MS,Combined Ages,Combined Gender,235.327715133774
+Macrolides,2014,MT,Combined Ages,Combined Gender,126.811745844727
+Macrolides,2014,National,Combined Ages,Combined Gender,153.823930620496
+Macrolides,2014,National,Combined Ages,F,184.430260617517
+Macrolides,2014,National,Combined Ages,M,121.096000320135
+Macrolides,2014,National,0-19,Combined Gender,142.343969914503
+Macrolides,2014,National,0-19,F,Insufficient Data
+Macrolides,2014,National,0-19,M,Insufficient Data
+Macrolides,2014,National,20+,Combined Gender,154.789923350175
+Macrolides,2014,National,20+,F,Insufficient Data
+Macrolides,2014,National,20+,M,Insufficient Data
+Macrolides,2014,NC,Combined Ages,Combined Gender,141.645106518896
+Macrolides,2014,ND,Combined Ages,Combined Gender,158.357228438285
+Macrolides,2014,NE,Combined Ages,Combined Gender,176.448971912349
+Macrolides,2014,NH,Combined Ages,Combined Gender,114.514215643048
+Macrolides,2014,NJ,Combined Ages,Combined Gender,188.061025880576
+Macrolides,2014,NM,Combined Ages,Combined Gender,144.753391395743
+Macrolides,2014,NV,Combined Ages,Combined Gender,132.197454192337
+Macrolides,2014,NY,Combined Ages,Combined Gender,177.752301743501
+Macrolides,2014,OH,Combined Ages,Combined Gender,174.265649879188
+Macrolides,2014,OK,Combined Ages,Combined Gender,182.07710522631
+Macrolides,2014,OR,Combined Ages,Combined Gender,89.1592269382302
+Macrolides,2014,PA,Combined Ages,Combined Gender,159.48217550837
+Macrolides,2014,RI,Combined Ages,Combined Gender,171.697342521085
+Macrolides,2014,SC,Combined Ages,Combined Gender,166.345072780409
+Macrolides,2014,SD,Combined Ages,Combined Gender,180.880065637179
+Macrolides,2014,TN,Combined Ages,Combined Gender,202.673608014978
+Macrolides,2014,TX,Combined Ages,Combined Gender,170.313940096638
+Macrolides,2014,UT,Combined Ages,Combined Gender,130.335624495823
+Macrolides,2014,VA,Combined Ages,Combined Gender,140.809115561589
+Macrolides,2014,VT,Combined Ages,Combined Gender,108.325385197315
+Macrolides,2014,WA,Combined Ages,Combined Gender,103.824082033219
+Macrolides,2014,WI,Combined Ages,Combined Gender,132.364668460486
+Macrolides,2014,WV,Combined Ages,Combined Gender,220.799442908983
+Macrolides,2014,WY,Combined Ages,Combined Gender,158.279029637783
+Lincosamides,2011,National,Combined Ages,Combined Gender,26.309386382269
+Lincosamides,2011,National,Combined Ages,F,31.0987878536861
+Lincosamides,2011,National,Combined Ages,M,20.8661069580152
+Lincosamides,2011,National,0-19,Combined Gender,12.727645206137
+Lincosamides,2011,National,0-19,F,Insufficient Data
+Lincosamides,2011,National,0-19,M,Insufficient Data
+Lincosamides,2011,National,20+,Combined Gender,30.4022080796387
+Lincosamides,2011,National,20+,F,Insufficient Data
+Lincosamides,2011,National,20+,M,Insufficient Data
+Lincosamides,2012,National,Combined Ages,Combined Gender,27.5150286643838
+Lincosamides,2012,National,Combined Ages,F,32.5003525270321
+Lincosamides,2012,National,Combined Ages,M,22.1063863056561
+Lincosamides,2012,National,0-19,Combined Gender,12.8013805924535
+Lincosamides,2012,National,0-19,F,Insufficient Data
+Lincosamides,2012,National,0-19,M,Insufficient Data
+Lincosamides,2012,National,20+,Combined Gender,32.0910889508907
+Lincosamides,2012,National,20+,F,Insufficient Data
+Lincosamides,2012,National,20+,M,Insufficient Data
+Lincosamides,2013,National,Combined Ages,Combined Gender,28.3585100384209
+Lincosamides,2013,National,Combined Ages,F,33.5302845589766
+Lincosamides,2013,National,Combined Ages,M,22.7410777591199
+Lincosamides,2013,National,0-19,Combined Gender,13.0053860903912
+Lincosamides,2013,National,0-19,F,Insufficient Data
+Lincosamides,2013,National,0-19,M,Insufficient Data
+Lincosamides,2013,National,20+,Combined Gender,33.0766067314331
+Lincosamides,2013,National,20+,F,Insufficient Data
+Lincosamides,2013,National,20+,M,Insufficient Data
+Lincosamides,2014,National,Combined Ages,Combined Gender,29.8084280750511
+Lincosamides,2014,National,Combined Ages,F,35.1525896626448
+Lincosamides,2014,National,Combined Ages,M,24.0161150669797
+Lincosamides,2014,National,0-19,Combined Gender,13.7443488878319
+Lincosamides,2014,National,0-19,F,Insufficient Data
+Lincosamides,2014,National,0-19,M,Insufficient Data
+Lincosamides,2014,National,20+,Combined Gender,34.7190274524016
+Lincosamides,2014,National,20+,F,Insufficient Data
+Lincosamides,2014,National,20+,M,Insufficient Data
+All classes,2011,AK,Combined Ages,Combined Gender,588.026826392387
+All classes,2011,AL,Combined Ages,Combined Gender,1153.67745556518
+All classes,2011,AR,Combined Ages,Combined Gender,1031.66323512896
+All classes,2011,AZ,Combined Ages,Combined Gender,812.091212441119
+All classes,2011,CA,Combined Ages,Combined Gender,628.611909250919
+All classes,2011,CO,Combined Ages,Combined Gender,662.329591744466
+All classes,2011,CT,Combined Ages,Combined Gender,882.428600512969
+All classes,2011,DC,Combined Ages,Combined Gender,1060.94881428435
+All classes,2011,DE,Combined Ages,Combined Gender,1024.47865181659
+All classes,2011,FL,Combined Ages,Combined Gender,777.736343606561
+All classes,2011,GA,Combined Ages,Combined Gender,873.84392208007
+All classes,2011,HI,Combined Ages,Combined Gender,679.465663366106
+All classes,2011,IA,Combined Ages,Combined Gender,936.44474998238
+All classes,2011,ID,Combined Ages,Combined Gender,739.81273914306
+All classes,2011,IL,Combined Ages,Combined Gender,908.23504818711
+All classes,2011,IN,Combined Ages,Combined Gender,1058.63316381657
+All classes,2011,KS,Combined Ages,Combined Gender,1018.17303695341
+All classes,2011,KY,Combined Ages,Combined Gender,1320.83559685298
+All classes,2011,LA,Combined Ages,Combined Gender,1193.93637242536
+All classes,2011,MA,Combined Ages,Combined Gender,842.15977871445
+All classes,2011,MD,Combined Ages,Combined Gender,859.64426259274
+All classes,2011,ME,Combined Ages,Combined Gender,768.691964184858
+All classes,2011,MI,Combined Ages,Combined Gender,1005.79758916197
+All classes,2011,MN,Combined Ages,Combined Gender,745.827069974855
+All classes,2011,MO,Combined Ages,Combined Gender,975.48053886637
+All classes,2011,MS,Combined Ages,Combined Gender,1185.88395562276
+All classes,2011,MT,Combined Ages,Combined Gender,724.20875427625
+All classes,2011,National,Combined Ages,Combined Gender,876.719320653274
+All classes,2011,National,Combined Ages,F,1036.19804836665
+All classes,2011,National,Combined Ages,M,694.616175901922
+All classes,2011,National,0-19,Combined Gender,908.076917644717
+All classes,2011,National,0-19,F,962.199783949747
+All classes,2011,National,0-19,M,855.281060343632
+All classes,2011,National,20+,Combined Gender,838.232572686037
+All classes,2011,National,20+,F,1042.60276993389
+All classes,2011,National,20+,M,620.063981789618
+All classes,2011,NC,Combined Ages,Combined Gender,908.268286117563
+All classes,2011,ND,Combined Ages,Combined Gender,1001.52884674319
+All classes,2011,NE,Combined Ages,Combined Gender,1008.94869918664
+All classes,2011,NH,Combined Ages,Combined Gender,723.680871612285
+All classes,2011,NJ,Combined Ages,Combined Gender,963.052202663193
+All classes,2011,NM,Combined Ages,Combined Gender,714.811266513251
+All classes,2011,NV,Combined Ages,Combined Gender,724.845140083856
+All classes,2011,NY,Combined Ages,Combined Gender,912.68467137541
+All classes,2011,OH,Combined Ages,Combined Gender,993.460105743199
+All classes,2011,OK,Combined Ages,Combined Gender,912.000030634935
+All classes,2011,OR,Combined Ages,Combined Gender,635.533534110178
+All classes,2011,PA,Combined Ages,Combined Gender,876.102245018114
+All classes,2011,RI,Combined Ages,Combined Gender,935.198256687134
+All classes,2011,SC,Combined Ages,Combined Gender,941.346665371298
+All classes,2011,SD,Combined Ages,Combined Gender,924.314238186008
+All classes,2011,TN,Combined Ages,Combined Gender,1246.52512374601
+All classes,2011,TX,Combined Ages,Combined Gender,931.805026269711
+All classes,2011,UT,Combined Ages,Combined Gender,846.432041214445
+All classes,2011,VA,Combined Ages,Combined Gender,866.144305162897
+All classes,2011,VT,Combined Ages,Combined Gender,696.670875568681
+All classes,2011,WA,Combined Ages,Combined Gender,662.27918714909
+All classes,2011,WI,Combined Ages,Combined Gender,779.171702910529
+All classes,2011,WV,Combined Ages,Combined Gender,1354.58552158459
+All classes,2011,WY,Combined Ages,Combined Gender,774.037499713721
+All classes,2012,AK,Combined Ages,Combined Gender,563.348698707804
+All classes,2012,AL,Combined Ages,Combined Gender,1207.43188975823
+All classes,2012,AR,Combined Ages,Combined Gender,1125.06704641779
+All classes,2012,AZ,Combined Ages,Combined Gender,778.979429660566
+All classes,2012,CA,Combined Ages,Combined Gender,587.776227590294
+All classes,2012,CO,Combined Ages,Combined Gender,642.530579044412
+All classes,2012,CT,Combined Ages,Combined Gender,878.873969845007
+All classes,2012,DC,Combined Ages,Combined Gender,1064.2828010834
+All classes,2012,DE,Combined Ages,Combined Gender,997.644677989837
+All classes,2012,FL,Combined Ages,Combined Gender,749.423541108229
+All classes,2012,GA,Combined Ages,Combined Gender,894.836584333105
+All classes,2012,HI,Combined Ages,Combined Gender,681.039952152766
+All classes,2012,IA,Combined Ages,Combined Gender,1018.28746381182
+All classes,2012,ID,Combined Ages,Combined Gender,728.254338520544
+All classes,2012,IL,Combined Ages,Combined Gender,888.550680946957
+All classes,2012,IN,Combined Ages,Combined Gender,1006.08671151887
+All classes,2012,KS,Combined Ages,Combined Gender,1022.23186621048
+All classes,2012,KY,Combined Ages,Combined Gender,1300.40855806999
+All classes,2012,LA,Combined Ages,Combined Gender,1204.82855941612
+All classes,2012,MA,Combined Ages,Combined Gender,823.514968608744
+All classes,2012,MD,Combined Ages,Combined Gender,841.412285407974
+All classes,2012,ME,Combined Ages,Combined Gender,764.764833748809
+All classes,2012,MI,Combined Ages,Combined Gender,893.542266642048
+All classes,2012,MN,Combined Ages,Combined Gender,710.075537833509
+All classes,2012,MO,Combined Ages,Combined Gender,965.077829565128
+All classes,2012,MS,Combined Ages,Combined Gender,1250.42964204255
+All classes,2012,MT,Combined Ages,Combined Gender,716.770086045742
+All classes,2012,National,Combined Ages,Combined Gender,866.749810078852
+All classes,2012,National,Combined Ages,F,1032.14518480461
+All classes,2012,National,Combined Ages,M,688.959117224104
+All classes,2012,National,0-19,Combined Gender,858.046268934843
+All classes,2012,National,0-19,F,910.561769372984
+All classes,2012,National,0-19,M,806.849913097678
+All classes,2012,National,20+,Combined Gender,850.618156948751
+All classes,2012,National,20+,F,1055.42685817956
+All classes,2012,National,20+,M,632.382090935617
+All classes,2012,NC,Combined Ages,Combined Gender,950.476357589197
+All classes,2012,ND,Combined Ages,Combined Gender,963.572541167585
+All classes,2012,NE,Combined Ages,Combined Gender,1049.44616696318
+All classes,2012,NH,Combined Ages,Combined Gender,740.806192703078
+All classes,2012,NJ,Combined Ages,Combined Gender,944.42257548449
+All classes,2012,NM,Combined Ages,Combined Gender,707.128908554858
+All classes,2012,NV,Combined Ages,Combined Gender,722.91045260948
+All classes,2012,NY,Combined Ages,Combined Gender,913.289995379213
+All classes,2012,OH,Combined Ages,Combined Gender,938.439163317192
+All classes,2012,OK,Combined Ages,Combined Gender,992.374647601727
+All classes,2012,OR,Combined Ages,Combined Gender,600.369463131667
+All classes,2012,PA,Combined Ages,Combined Gender,868.704211880857
+All classes,2012,RI,Combined Ages,Combined Gender,960.170790120429
+All classes,2012,SC,Combined Ages,Combined Gender,992.075980689539
+All classes,2012,SD,Combined Ages,Combined Gender,963.751354097762
+All classes,2012,TN,Combined Ages,Combined Gender,1248.91422342101
+All classes,2012,TX,Combined Ages,Combined Gender,956.941004479782
+All classes,2012,UT,Combined Ages,Combined Gender,838.218149099509
+All classes,2012,VA,Combined Ages,Combined Gender,869.044589672117
+All classes,2012,VT,Combined Ages,Combined Gender,703.410206695649
+All classes,2012,WA,Combined Ages,Combined Gender,633.268771410872
+All classes,2012,WI,Combined Ages,Combined Gender,775.520307122178
+All classes,2012,WV,Combined Ages,Combined Gender,1338.2547447548
+All classes,2012,WY,Combined Ages,Combined Gender,807.355332791348
+All classes,2013,AK,Combined Ages,Combined Gender,508.880271383597
+All classes,2013,AL,Combined Ages,Combined Gender,1166.46097969465
+All classes,2013,AR,Combined Ages,Combined Gender,1148.93068222722
+All classes,2013,AZ,Combined Ages,Combined Gender,759.100408033353
+All classes,2013,CA,Combined Ages,Combined Gender,590.680283954291
+All classes,2013,CO,Combined Ages,Combined Gender,632.135255380906
+All classes,2013,CT,Combined Ages,Combined Gender,845.251314059999
+All classes,2013,DC,Combined Ages,Combined Gender,1044.04955392837
+All classes,2013,DE,Combined Ages,Combined Gender,974.599909212743
+All classes,2013,FL,Combined Ages,Combined Gender,736.353012459847
+All classes,2013,GA,Combined Ages,Combined Gender,871.284655287849
+All classes,2013,HI,Combined Ages,Combined Gender,647.899916748698
+All classes,2013,IA,Combined Ages,Combined Gender,971.123491878809
+All classes,2013,ID,Combined Ages,Combined Gender,704.803995181178
+All classes,2013,IL,Combined Ages,Combined Gender,858.291296602336
+All classes,2013,IN,Combined Ages,Combined Gender,987.771372756725
+All classes,2013,KS,Combined Ages,Combined Gender,995.65055747961
+All classes,2013,KY,Combined Ages,Combined Gender,1239.97317700341
+All classes,2013,LA,Combined Ages,Combined Gender,1191.28750363988
+All classes,2013,MA,Combined Ages,Combined Gender,773.271162940328
+All classes,2013,MD,Combined Ages,Combined Gender,812.932478740869
+All classes,2013,ME,Combined Ages,Combined Gender,725.600458191526
+All classes,2013,MI,Combined Ages,Combined Gender,931.03343812353
+All classes,2013,MN,Combined Ages,Combined Gender,706.725019641994
+All classes,2013,MO,Combined Ages,Combined Gender,941.40630053317
+All classes,2013,MS,Combined Ages,Combined Gender,1224.27170789713
+All classes,2013,MT,Combined Ages,Combined Gender,674.048079348561
+All classes,2013,National,Combined Ages,Combined Gender,848.698448551136
+All classes,2013,National,Combined Ages,F,1012.45363774942
+All classes,2013,National,Combined Ages,M,672.817404043714
+All classes,2013,National,0-19,Combined Gender,812.140828396487
+All classes,2013,National,0-19,F,862.914015601968
+All classes,2013,National,0-19,M,762.176146423975
+All classes,2013,National,20+,Combined Gender,843.341107108164
+All classes,2013,National,20+,F,1045.44186413814
+All classes,2013,National,20+,M,628.028452941044
+All classes,2013,NC,Combined Ages,Combined Gender,900.559144726297
+All classes,2013,ND,Combined Ages,Combined Gender,877.263672244655
+All classes,2013,NE,Combined Ages,Combined Gender,1034.48205400946
+All classes,2013,NH,Combined Ages,Combined Gender,710.306717898466
+All classes,2013,NJ,Combined Ages,Combined Gender,922.696834944353
+All classes,2013,NM,Combined Ages,Combined Gender,696.670527266586
+All classes,2013,NV,Combined Ages,Combined Gender,716.601583238226
+All classes,2013,NY,Combined Ages,Combined Gender,904.712935019232
+All classes,2013,OH,Combined Ages,Combined Gender,966.107969189461
+All classes,2013,OK,Combined Ages,Combined Gender,967.276942984879
+All classes,2013,OR,Combined Ages,Combined Gender,578.625543142336
+All classes,2013,PA,Combined Ages,Combined Gender,896.281202626072
+All classes,2013,RI,Combined Ages,Combined Gender,899.551603734355
+All classes,2013,SC,Combined Ages,Combined Gender,964.741296444273
+All classes,2013,SD,Combined Ages,Combined Gender,893.267649111187
+All classes,2013,TN,Combined Ages,Combined Gender,1189.57049184823
+All classes,2013,TX,Combined Ages,Combined Gender,915.873598133084
+All classes,2013,UT,Combined Ages,Combined Gender,812.501258273522
+All classes,2013,VA,Combined Ages,Combined Gender,833.358232334985
+All classes,2013,VT,Combined Ages,Combined Gender,656.093498496462
+All classes,2013,WA,Combined Ages,Combined Gender,608.405210574195
+All classes,2013,WI,Combined Ages,Combined Gender,747.65132502392
+All classes,2013,WV,Combined Ages,Combined Gender,1274.03191096222
+All classes,2013,WY,Combined Ages,Combined Gender,787.911862186504
+All classes,2014,AK,Combined Ages,Combined Gender,501.402816763762
+All classes,2014,AL,Combined Ages,Combined Gender,1123.18004353962
+All classes,2014,AR,Combined Ages,Combined Gender,1154.92250964058
+All classes,2014,AZ,Combined Ages,Combined Gender,739.907486967223
+All classes,2014,CA,Combined Ages,Combined Gender,569.906110688717
+All classes,2014,CO,Combined Ages,Combined Gender,624.081659249897
+All classes,2014,CT,Combined Ages,Combined Gender,846.959337744265
+All classes,2014,DC,Combined Ages,Combined Gender,1020.73215226144
+All classes,2014,DE,Combined Ages,Combined Gender,937.647127982265
+All classes,2014,FL,Combined Ages,Combined Gender,728.090377376853
+All classes,2014,GA,Combined Ages,Combined Gender,840.25473632025
+All classes,2014,HI,Combined Ages,Combined Gender,643.12988311175
+All classes,2014,IA,Combined Ages,Combined Gender,1000.15016449285
+All classes,2014,ID,Combined Ages,Combined Gender,692.364322493488
+All classes,2014,IL,Combined Ages,Combined Gender,852.339098084088
+All classes,2014,IN,Combined Ages,Combined Gender,950.287248999775
+All classes,2014,KS,Combined Ages,Combined Gender,991.843915729263
+All classes,2014,KY,Combined Ages,Combined Gender,1261.7730704072
+All classes,2014,LA,Combined Ages,Combined Gender,1176.50989230218
+All classes,2014,MA,Combined Ages,Combined Gender,768.474264269876
+All classes,2014,MD,Combined Ages,Combined Gender,795.759120822953
+All classes,2014,ME,Combined Ages,Combined Gender,719.760549857941
+All classes,2014,MI,Combined Ages,Combined Gender,924.667204244839
+All classes,2014,MN,Combined Ages,Combined Gender,709.954458104968
+All classes,2014,MO,Combined Ages,Combined Gender,935.697887835076
+All classes,2014,MS,Combined Ages,Combined Gender,1221.99674090097
+All classes,2014,MT,Combined Ages,Combined Gender,647.917034249432
+All classes,2014,National,Combined Ages,Combined Gender,834.677062752431
+All classes,2014,National,Combined Ages,F,998.882514302381
+All classes,2014,National,Combined Ages,M,658.875129911475
+All classes,2014,National,0-19,Combined Gender,778.369397596819
+All classes,2014,National,0-19,F,829.391390318763
+All classes,2014,National,0-19,M,728.389963839996
+All classes,2014,National,20+,Combined Gender,837.509911754663
+All classes,2014,National,20+,F,1039.37911023245
+All classes,2014,National,20+,M,622.857484830608
+All classes,2014,NC,Combined Ages,Combined Gender,860.674003847987
+All classes,2014,ND,Combined Ages,Combined Gender,852.842922478167
+All classes,2014,NE,Combined Ages,Combined Gender,1044.64736436775
+All classes,2014,NH,Combined Ages,Combined Gender,701.259868572283
+All classes,2014,NJ,Combined Ages,Combined Gender,902.268633138224
+All classes,2014,NM,Combined Ages,Combined Gender,713.819944840076
+All classes,2014,NV,Combined Ages,Combined Gender,708.964851172859
+All classes,2014,NY,Combined Ages,Combined Gender,899.481453342939
+All classes,2014,OH,Combined Ages,Combined Gender,964.385009939936
+All classes,2014,OK,Combined Ages,Combined Gender,965.19011998553
+All classes,2014,OR,Combined Ages,Combined Gender,569.887588631319
+All classes,2014,PA,Combined Ages,Combined Gender,885.0390370565
+All classes,2014,RI,Combined Ages,Combined Gender,892.284525855002
+All classes,2014,SC,Combined Ages,Combined Gender,926.620976549944
+All classes,2014,SD,Combined Ages,Combined Gender,900.609312274738
+All classes,2014,TN,Combined Ages,Combined Gender,1161.77552985399
+All classes,2014,TX,Combined Ages,Combined Gender,898.79234927025
+All classes,2014,UT,Combined Ages,Combined Gender,782.823954042648
+All classes,2014,VA,Combined Ages,Combined Gender,798.968733850156
+All classes,2014,VT,Combined Ages,Combined Gender,638.130560104187
+All classes,2014,WA,Combined Ages,Combined Gender,599.656264294013
+All classes,2014,WI,Combined Ages,Combined Gender,744.379009942413
+All classes,2014,WV,Combined Ages,Combined Gender,1284.88205321658
+All classes,2014,WY,Combined Ages,Combined Gender,777.032455538189
+All classes,2015,AK,Combined Ages,Combined Gender,510.835242784711
+All classes,2015,AL,Combined Ages,Combined Gender,1148.69946546384
+All classes,2015,AR,Combined Ages,Combined Gender,1153.97580219488
+All classes,2015,AZ,Combined Ages,Combined Gender,768.538044087173
+All classes,2015,CA,Combined Ages,Combined Gender,590.208967123022
+All classes,2015,CO,Combined Ages,Combined Gender,624.350022559964
+All classes,2015,CT,Combined Ages,Combined Gender,842.833543030893
+All classes,2015,DC,Combined Ages,Combined Gender,979.238963565932
+All classes,2015,DE,Combined Ages,Combined Gender,915.180604566491
+All classes,2015,FL,Combined Ages,Combined Gender,706.159352506339
+All classes,2015,GA,Combined Ages,Combined Gender,829.607604999016
+All classes,2015,HI,Combined Ages,Combined Gender,639.620292776698
+All classes,2015,IA,Combined Ages,Combined Gender,1018.31270153101
+All classes,2015,ID,Combined Ages,Combined Gender,719.572719087815
+All classes,2015,IL,Combined Ages,Combined Gender,845.451131979458
+All classes,2015,IN,Combined Ages,Combined Gender,963.688501559047
+All classes,2015,KS,Combined Ages,Combined Gender,1015.99242832479
+All classes,2015,KY,Combined Ages,Combined Gender,1255.50583129123
+All classes,2015,LA,Combined Ages,Combined Gender,1173.63691367763
+All classes,2015,MA,Combined Ages,Combined Gender,758.72515130796
+All classes,2015,MD,Combined Ages,Combined Gender,794.373063003973
+All classes,2015,ME,Combined Ages,Combined Gender,731.596520948929
+All classes,2015,MI,Combined Ages,Combined Gender,917.872517177014
+All classes,2015,MN,Combined Ages,Combined Gender,695.814289727083
+All classes,2015,MO,Combined Ages,Combined Gender,943.909129223277
+All classes,2015,MS,Combined Ages,Combined Gender,1253.6058520225
+All classes,2015,MT,Combined Ages,Combined Gender,662.14947688608
+All classes,2015,National,0-19,M,737.187726284081
+All classes,2015,National,20+,F,1053.45929855721
+All classes,2015,National,Combined Ages,Combined Gender,838.015985964867
+All classes,2015,National,20+,M,632.887136056667
+All classes,2015,National,Combined Ages,F,1004.81586284182
+All classes,2015,National,0-19,Combined Gender,788.141429313917
+All classes,2015,National,Combined Ages,M,663.212462796784
+All classes,2015,National,0-19,F,840.059621810835
+All classes,2015,National,20+,Combined Gender,849.511523293512
+All classes,2015,NC,Combined Ages,Combined Gender,872.126752075791
+All classes,2015,ND,Combined Ages,Combined Gender,863.639439470383
+All classes,2015,NE,Combined Ages,Combined Gender,1071.74040576103
+All classes,2015,NH,Combined Ages,Combined Gender,727.51204712432
+All classes,2015,NJ,Combined Ages,Combined Gender,903.326798029903
+All classes,2015,NM,Combined Ages,Combined Gender,723.809421953484
+All classes,2015,NV,Combined Ages,Combined Gender,732.774524403769
+All classes,2015,NY,Combined Ages,Combined Gender,897.853913490984
+All classes,2015,OH,Combined Ages,Combined Gender,964.389455201991
+All classes,2015,OK,Combined Ages,Combined Gender,965.997114031057
+All classes,2015,OR,Combined Ages,Combined Gender,581.933577679897
+All classes,2015,PA,Combined Ages,Combined Gender,895.492291624552
+All classes,2015,RI,Combined Ages,Combined Gender,888.237684820002
+All classes,2015,SC,Combined Ages,Combined Gender,935.557505842355
+All classes,2015,SD,Combined Ages,Combined Gender,893.090967757717
+All classes,2015,TN,Combined Ages,Combined Gender,1165.35365291789
+All classes,2015,TX,Combined Ages,Combined Gender,895.11398110618
+All classes,2015,UT,Combined Ages,Combined Gender,779.297637886742
+All classes,2015,VA,Combined Ages,Combined Gender,804.274897998898
+All classes,2015,VT,Combined Ages,Combined Gender,667.958603416384
+All classes,2015,WA,Combined Ages,Combined Gender,609.818865213168
+All classes,2015,WI,Combined Ages,Combined Gender,745.243015613208
+All classes,2015,WV,Combined Ages,Combined Gender,1319.07311206165
+All classes,2015,WY,Combined Ages,Combined Gender,788.52675364737
+All other,2015,AK,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,AL,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,AR,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,AZ,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,CA,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,CO,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,CT,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,DC,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,DE,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,FL,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,GA,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,HI,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,IA,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,ID,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,IL,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,IN,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,KS,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,KY,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,LA,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,MA,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,MD,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,ME,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,MI,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,MN,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,MO,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,MS,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,MT,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,NC,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,ND,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,NE,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,NH,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,NJ,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,NM,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,NV,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,NY,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,OH,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,OK,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,OR,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,PA,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,RI,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,SC,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,SD,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,TN,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,TX,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,UT,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,VA,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,VT,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,WA,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,WI,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,WV,Combined Ages,Combined Gender,Insufficient Data
+All other,2015,WY,Combined Ages,Combined Gender,Insufficient Data
+B-lactams increased activity,2015,National,0-19,M,Insufficient Data
+B-lactams increased activity,2015,National,20+,F,Insufficient Data
+B-lactams increased activity,2015,National,Combined Ages,M,68.2111116249162
+B-lactams increased activity,2015,National,0-19,F,Insufficient Data
+B-lactams increased activity,2015,National,20+,Combined Gender,77.0851254275372
+B-lactams increased activity,2015,National,Combined Ages,Combined Gender,78.8587502436777
+B-lactams increased activity,2015,National,20+,M,Insufficient Data
+B-lactams increased activity,2015,National,Combined Ages,F,88.9222127942526
+B-lactams increased activity,2015,National,0-19,Combined Gender,82.4346456023644
+Cephalosporins,2015,AK,Combined Ages,Combined Gender,62.3213918140059
+Cephalosporins,2015,AL,Combined Ages,Combined Gender,176.237413250809
+Cephalosporins,2015,AR,Combined Ages,Combined Gender,175.266509614519
+Cephalosporins,2015,AZ,Combined Ages,Combined Gender,109.934445556685
+Cephalosporins,2015,CA,Combined Ages,Combined Gender,73.7846496054706
+Cephalosporins,2015,CO,Combined Ages,Combined Gender,86.4198194691411
+Cephalosporins,2015,CT,Combined Ages,Combined Gender,109.947141179085
+Cephalosporins,2015,DC,Combined Ages,Combined Gender,101.586931814801
+Cephalosporins,2015,DE,Combined Ages,Combined Gender,113.75550514095
+Cephalosporins,2015,FL,Combined Ages,Combined Gender,88.4283132306674
+Cephalosporins,2015,GA,Combined Ages,Combined Gender,112.022573975565
+Cephalosporins,2015,HI,Combined Ages,Combined Gender,75.8981854606339
+Cephalosporins,2015,IA,Combined Ages,Combined Gender,168.66479998233
+Cephalosporins,2015,ID,Combined Ages,Combined Gender,107.606641972771
+Cephalosporins,2015,IL,Combined Ages,Combined Gender,97.7136033101142
+Cephalosporins,2015,IN,Combined Ages,Combined Gender,165.888854144014
+Cephalosporins,2015,KS,Combined Ages,Combined Gender,158.284967137089
+Cephalosporins,2015,KY,Combined Ages,Combined Gender,198.12554405649
+Cephalosporins,2015,LA,Combined Ages,Combined Gender,142.774462802771
+Cephalosporins,2015,MA,Combined Ages,Combined Gender,85.9675922396356
+Cephalosporins,2015,MD,Combined Ages,Combined Gender,92.1858963462499
+Cephalosporins,2015,ME,Combined Ages,Combined Gender,83.2335059518792
+Cephalosporins,2015,MI,Combined Ages,Combined Gender,124.803637684409
+Cephalosporins,2015,MN,Combined Ages,Combined Gender,95.6229622810002
+Cephalosporins,2015,MO,Combined Ages,Combined Gender,132.807694103168
+Cephalosporins,2015,MS,Combined Ages,Combined Gender,179.782614434959
+Cephalosporins,2015,MT,Combined Ages,Combined Gender,79.6386462448774
+Cephalosporins,2015,National,0-19,M,Insufficient Data
+Cephalosporins,2015,National,20+,F,Insufficient Data
+Cephalosporins,2015,National,Combined Ages,M,95.3450965531155
+Cephalosporins,2015,National,0-19,F,Insufficient Data
+Cephalosporins,2015,National,20+,Combined Gender,102.760209622372
+Cephalosporins,2015,National,Combined Ages,Combined Gender,112.843321060012
+Cephalosporins,2015,National,20+,M,Insufficient Data
+Cephalosporins,2015,National,Combined Ages,F,129.437825000528
+Cephalosporins,2015,National,0-19,Combined Gender,140.157555814713
+Cephalosporins,2015,NC,Combined Ages,Combined Gender,119.057087852578
+Cephalosporins,2015,ND,Combined Ages,Combined Gender,133.972853392731
+Cephalosporins,2015,NE,Combined Ages,Combined Gender,181.864707650605
+Cephalosporins,2015,NH,Combined Ages,Combined Gender,87.5136478962996
+Cephalosporins,2015,NJ,Combined Ages,Combined Gender,106.227484822809
+Cephalosporins,2015,NM,Combined Ages,Combined Gender,91.9038621002543
+Cephalosporins,2015,NV,Combined Ages,Combined Gender,91.8305512748003
+Cephalosporins,2015,NY,Combined Ages,Combined Gender,106.849055943256
+Cephalosporins,2015,OH,Combined Ages,Combined Gender,126.878115091485
+Cephalosporins,2015,OK,Combined Ages,Combined Gender,143.891287329298
+Cephalosporins,2015,OR,Combined Ages,Combined Gender,72.2601841608925
+Cephalosporins,2015,PA,Combined Ages,Combined Gender,114.376038029444
+Cephalosporins,2015,RI,Combined Ages,Combined Gender,98.7950370066022
+Cephalosporins,2015,SC,Combined Ages,Combined Gender,126.471557424963
+Cephalosporins,2015,SD,Combined Ages,Combined Gender,154.302648086302
+Cephalosporins,2015,TN,Combined Ages,Combined Gender,174.370580787335
+Cephalosporins,2015,TX,Combined Ages,Combined Gender,128.815939239975
+Cephalosporins,2015,UT,Combined Ages,Combined Gender,121.005237458022
+Cephalosporins,2015,VA,Combined Ages,Combined Gender,118.859544556467
+Cephalosporins,2015,VT,Combined Ages,Combined Gender,86.7403305209553
+Cephalosporins,2015,WA,Combined Ages,Combined Gender,82.0298141611211
+Cephalosporins,2015,WI,Combined Ages,Combined Gender,91.2341628984765
+Cephalosporins,2015,WV,Combined Ages,Combined Gender,217.144254628749
+Cephalosporins,2015,WY,Combined Ages,Combined Gender,114.489675093455
+Fluoroquinolones,2015,AK,Combined Ages,Combined Gender,57.3983250996707
+Fluoroquinolones,2015,AL,Combined Ages,Combined Gender,158.661525394533
+Fluoroquinolones,2015,AR,Combined Ages,Combined Gender,148.431796478684
+Fluoroquinolones,2015,AZ,Combined Ages,Combined Gender,88.9860055520865
+Fluoroquinolones,2015,CA,Combined Ages,Combined Gender,70.1777256953881
+Fluoroquinolones,2015,CO,Combined Ages,Combined Gender,61.808825464478
+Fluoroquinolones,2015,CT,Combined Ages,Combined Gender,94.5019056578244
+Fluoroquinolones,2015,DC,Combined Ages,Combined Gender,133.772172536699
+Fluoroquinolones,2015,DE,Combined Ages,Combined Gender,115.682140614461
+Fluoroquinolones,2015,FL,Combined Ages,Combined Gender,105.715521946527
+Fluoroquinolones,2015,GA,Combined Ages,Combined Gender,103.667019420728
+Fluoroquinolones,2015,HI,Combined Ages,Combined Gender,81.2993476543425
+Fluoroquinolones,2015,IA,Combined Ages,Combined Gender,115.269296478535
+Fluoroquinolones,2015,ID,Combined Ages,Combined Gender,72.2115799459791
+Fluoroquinolones,2015,IL,Combined Ages,Combined Gender,96.2056097222463
+Fluoroquinolones,2015,IN,Combined Ages,Combined Gender,109.9508752689
+Fluoroquinolones,2015,KS,Combined Ages,Combined Gender,117.671522691156
+Fluoroquinolones,2015,KY,Combined Ages,Combined Gender,158.07599480418
+Fluoroquinolones,2015,LA,Combined Ages,Combined Gender,136.008526729477
+Fluoroquinolones,2015,MA,Combined Ages,Combined Gender,81.9298124255471
+Fluoroquinolones,2015,MD,Combined Ages,Combined Gender,95.4716226905289
+Fluoroquinolones,2015,ME,Combined Ages,Combined Gender,80.9556407447972
+Fluoroquinolones,2015,MI,Combined Ages,Combined Gender,103.261283158731
+Fluoroquinolones,2015,MN,Combined Ages,Combined Gender,71.3159260958106
+Fluoroquinolones,2015,MO,Combined Ages,Combined Gender,114.6644625154
+Fluoroquinolones,2015,MS,Combined Ages,Combined Gender,157.349185401492
+Fluoroquinolones,2015,MT,Combined Ages,Combined Gender,73.8227443949315
+Fluoroquinolones,2015,National,0-19,M,Insufficient Data
+Fluoroquinolones,2015,National,20+,F,Insufficient Data
+Fluoroquinolones,2015,National,Combined Ages,M,71.6423987524662
+Fluoroquinolones,2015,National,0-19,F,Insufficient Data
+Fluoroquinolones,2015,National,20+,Combined Gender,131.980108538832
+Fluoroquinolones,2015,National,Combined Ages,Combined Gender,100.998052820917
+Fluoroquinolones,2015,National,20+,M,Insufficient Data
+Fluoroquinolones,2015,National,Combined Ages,F,129.171940468264
+Fluoroquinolones,2015,National,0-19,Combined Gender,8.81096572826377
+Fluoroquinolones,2015,NC,Combined Ages,Combined Gender,110.408559284553
+Fluoroquinolones,2015,ND,Combined Ages,Combined Gender,109.961898571461
+Fluoroquinolones,2015,NE,Combined Ages,Combined Gender,123.269424477505
+Fluoroquinolones,2015,NH,Combined Ages,Combined Gender,75.4627132859559
+Fluoroquinolones,2015,NJ,Combined Ages,Combined Gender,115.647545945738
+Fluoroquinolones,2015,NM,Combined Ages,Combined Gender,73.1959144581885
+Fluoroquinolones,2015,NV,Combined Ages,Combined Gender,90.3244310919472
+Fluoroquinolones,2015,NY,Combined Ages,Combined Gender,115.639313427788
+Fluoroquinolones,2015,OH,Combined Ages,Combined Gender,114.975849067076
+Fluoroquinolones,2015,OK,Combined Ages,Combined Gender,113.914918628868
+Fluoroquinolones,2015,OR,Combined Ages,Combined Gender,65.8095169071447
+Fluoroquinolones,2015,PA,Combined Ages,Combined Gender,106.13809112172
+Fluoroquinolones,2015,RI,Combined Ages,Combined Gender,110.087200770994
+Fluoroquinolones,2015,SC,Combined Ages,Combined Gender,122.423312131623
+Fluoroquinolones,2015,SD,Combined Ages,Combined Gender,87.0034678013995
+Fluoroquinolones,2015,TN,Combined Ages,Combined Gender,152.858258391023
+Fluoroquinolones,2015,TX,Combined Ages,Combined Gender,105.874337264752
+Fluoroquinolones,2015,UT,Combined Ages,Combined Gender,70.1458083479561
+Fluoroquinolones,2015,VA,Combined Ages,Combined Gender,93.5285845998007
+Fluoroquinolones,2015,VT,Combined Ages,Combined Gender,68.3610844000882
+Fluoroquinolones,2015,WA,Combined Ages,Combined Gender,60.4130536984885
+Fluoroquinolones,2015,WI,Combined Ages,Combined Gender,77.0830727784578
+Fluoroquinolones,2015,WV,Combined Ages,Combined Gender,164.244434225825
+Fluoroquinolones,2015,WY,Combined Ages,Combined Gender,72.3556620207572
+Lincosamides,2015,National,0-19,M,Insufficient Data
+Lincosamides,2015,National,20+,F,Insufficient Data
+Lincosamides,2015,National,Combined Ages,Combined Gender,30.7635257636701
+Lincosamides,2015,National,20+,M,Insufficient Data
+Lincosamides,2015,National,Combined Ages,F,36.2379338531367
+Lincosamides,2015,National,0-19,Combined Gender,14.1656793385861
+Lincosamides,2015,National,Combined Ages,M,25.0019523881188
+Lincosamides,2015,National,0-19,F,Insufficient Data
+Lincosamides,2015,National,20+,Combined Gender,36.2568541771271
+Macrolides,2015,AK,Combined Ages,Combined Gender,100.931690392616
+Macrolides,2015,AL,Combined Ages,Combined Gender,214.016405504121
+Macrolides,2015,AR,Combined Ages,Combined Gender,204.617141740457
+Macrolides,2015,AZ,Combined Ages,Combined Gender,145.746836036275
+Macrolides,2015,CA,Combined Ages,Combined Gender,114.396135651956
+Macrolides,2015,CO,Combined Ages,Combined Gender,107.082816067378
+Macrolides,2015,CT,Combined Ages,Combined Gender,156.792816591787
+Macrolides,2015,DC,Combined Ages,Combined Gender,162.927459135888
+Macrolides,2015,DE,Combined Ages,Combined Gender,156.994938336078
+Macrolides,2015,FL,Combined Ages,Combined Gender,132.601114523048
+Macrolides,2015,GA,Combined Ages,Combined Gender,144.394491946057
+Macrolides,2015,HI,Combined Ages,Combined Gender,130.623706432579
+Macrolides,2015,IA,Combined Ages,Combined Gender,191.26914154395
+Macrolides,2015,ID,Combined Ages,Combined Gender,122.468376305946
+Macrolides,2015,IL,Combined Ages,Combined Gender,161.267931286142
+Macrolides,2015,IN,Combined Ages,Combined Gender,165.974299361922
+Macrolides,2015,KS,Combined Ages,Combined Gender,184.450318566062
+Macrolides,2015,KY,Combined Ages,Combined Gender,227.881239531298
+Macrolides,2015,LA,Combined Ages,Combined Gender,230.080811882703
+Macrolides,2015,MA,Combined Ages,Combined Gender,124.594192118187
+Macrolides,2015,MD,Combined Ages,Combined Gender,140.2942061311
+Macrolides,2015,ME,Combined Ages,Combined Gender,139.733399130989
+Macrolides,2015,MI,Combined Ages,Combined Gender,170.725623064024
+Macrolides,2015,MN,Combined Ages,Combined Gender,118.15902050316
+Macrolides,2015,MO,Combined Ages,Combined Gender,163.482033548161
+Macrolides,2015,MS,Combined Ages,Combined Gender,241.945893054019
+Macrolides,2015,MT,Combined Ages,Combined Gender,126.688229525368
+Macrolides,2015,National,0-19,M,Insufficient Data
+Macrolides,2015,National,20+,F,Insufficient Data
+Macrolides,2015,National,Combined Ages,M,121.234260302581
+Macrolides,2015,National,0-19,F,Insufficient Data
+Macrolides,2015,National,20+,Combined Gender,157.365624036099
+Macrolides,2015,National,Combined Ages,Combined Gender,153.66709749603
+Macrolides,2015,National,20+,M,Insufficient Data
+Macrolides,2015,National,Combined Ages,F,184.593003253075
+Macrolides,2015,National,0-19,Combined Gender,139.467894150998
+Macrolides,2015,NC,Combined Ages,Combined Gender,142.132348123569
+Macrolides,2015,ND,Combined Ages,Combined Gender,150.090814569965
+Macrolides,2015,NE,Combined Ages,Combined Gender,179.08683201578
+Macrolides,2015,NH,Combined Ages,Combined Gender,121.824511802124
+Macrolides,2015,NJ,Combined Ages,Combined Gender,187.74592981726
+Macrolides,2015,NM,Combined Ages,Combined Gender,142.295774465509
+Macrolides,2015,NV,Combined Ages,Combined Gender,140.385911385774
+Macrolides,2015,NY,Combined Ages,Combined Gender,176.767752296417
+Macrolides,2015,OH,Combined Ages,Combined Gender,169.78691381518
+Macrolides,2015,OK,Combined Ages,Combined Gender,182.707329307772
+Macrolides,2015,OR,Combined Ages,Combined Gender,93.5622392483279
+Macrolides,2015,PA,Combined Ages,Combined Gender,159.895846929321
+Macrolides,2015,RI,Combined Ages,Combined Gender,175.02906376799
+Macrolides,2015,SC,Combined Ages,Combined Gender,166.384358227882
+Macrolides,2015,SD,Combined Ages,Combined Gender,168.999800808182
+Macrolides,2015,TN,Combined Ages,Combined Gender,200.364986495323
+Macrolides,2015,TX,Combined Ages,Combined Gender,169.482111436128
+Macrolides,2015,UT,Combined Ages,Combined Gender,123.928674306616
+Macrolides,2015,VA,Combined Ages,Combined Gender,139.375273246699
+Macrolides,2015,VT,Combined Ages,Combined Gender,114.957175397178
+Macrolides,2015,WA,Combined Ages,Combined Gender,106.222243513606
+Macrolides,2015,WI,Combined Ages,Combined Gender,127.040198830882
+Macrolides,2015,WV,Combined Ages,Combined Gender,228.79698155443
+Macrolides,2015,WY,Combined Ages,Combined Gender,156.009278169344
+Other,2015,National,Combined Ages,F,1.63083986709118
+Other,2015,National,0-19,Combined Gender,Insufficient Data
+Other,2015,National,Combined Ages,M,1.1578006947727
+Other,2015,National,0-19,F,Insufficient Data
+Other,2015,National,20+,Combined Gender,1.80152785832167
+Other,2015,National,0-19,M,Insufficient Data
+Other,2015,National,20+,F,Insufficient Data
+Other,2015,National,Combined Ages,Combined Gender,1.40019193648956
+Other,2015,National,20+,M,Insufficient Data
+Penicillins,2015,AK,Combined Ages,Combined Gender,108.058236912809
+Penicillins,2015,AL,Combined Ages,Combined Gender,218.950758996901
+Penicillins,2015,AR,Combined Ages,Combined Gender,250.928395099867
+Penicillins,2015,AZ,Combined Ages,Combined Gender,165.668548849495
+Penicillins,2015,CA,Combined Ages,Combined Gender,147.934775172522
+Penicillins,2015,CO,Combined Ages,Combined Gender,159.122676609911
+Penicillins,2015,CT,Combined Ages,Combined Gender,189.804078993321
+Penicillins,2015,DC,Combined Ages,Combined Gender,214.350324592251
+Penicillins,2015,DE,Combined Ages,Combined Gender,211.590068651724
+Penicillins,2015,FL,Combined Ages,Combined Gender,139.517246377033
+Penicillins,2015,GA,Combined Ages,Combined Gender,189.118241463915
+Penicillins,2015,HI,Combined Ages,Combined Gender,140.437970582627
+Penicillins,2015,IA,Combined Ages,Combined Gender,221.165120895395
+Penicillins,2015,ID,Combined Ages,Combined Gender,165.442949248609
+Penicillins,2015,IL,Combined Ages,Combined Gender,209.970673394498
+Penicillins,2015,IN,Combined Ages,Combined Gender,217.980443163437
+Penicillins,2015,KS,Combined Ages,Combined Gender,213.509137974084
+Penicillins,2015,KY,Combined Ages,Combined Gender,281.189724417045
+Penicillins,2015,LA,Combined Ages,Combined Gender,248.548726064739
+Penicillins,2015,MA,Combined Ages,Combined Gender,188.053348761684
+Penicillins,2015,MD,Combined Ages,Combined Gender,192.258185892025
+Penicillins,2015,ME,Combined Ages,Combined Gender,160.074187860333
+Penicillins,2015,MI,Combined Ages,Combined Gender,229.231799282769
+Penicillins,2015,MN,Combined Ages,Combined Gender,175.621871125627
+Penicillins,2015,MO,Combined Ages,Combined Gender,219.345170153818
+Penicillins,2015,MS,Combined Ages,Combined Gender,242.923177333543
+Penicillins,2015,MT,Combined Ages,Combined Gender,145.438913247411
+Penicillins,2015,National,0-19,M,Insufficient Data
+Penicillins,2015,National,20+,F,Insufficient Data
+Penicillins,2015,National,Combined Ages,Combined Gender,191.638987536561
+Penicillins,2015,National,20+,M,Insufficient Data
+Penicillins,2015,National,Combined Ages,F,209.85523886851
+Penicillins,2015,National,0-19,Combined Gender,303.08220862433
+Penicillins,2015,National,Combined Ages,M,172.182825914931
+Penicillins,2015,National,0-19,F,Insufficient Data
+Penicillins,2015,National,20+,Combined Gender,152.155802425248
+Penicillins,2015,NC,Combined Ages,Combined Gender,189.702537200281
+Penicillins,2015,ND,Combined Ages,Combined Gender,178.462625854276
+Penicillins,2015,NE,Combined Ages,Combined Gender,236.145792352033
+Penicillins,2015,NH,Combined Ages,Combined Gender,172.576318495003
+Penicillins,2015,NJ,Combined Ages,Combined Gender,209.147873529551
+Penicillins,2015,NM,Combined Ages,Combined Gender,174.361949423271
+Penicillins,2015,NV,Combined Ages,Combined Gender,167.312446706762
+Penicillins,2015,NY,Combined Ages,Combined Gender,207.826770347282
+Penicillins,2015,OH,Combined Ages,Combined Gender,222.501780913315
+Penicillins,2015,OK,Combined Ages,Combined Gender,209.469312035932
+Penicillins,2015,OR,Combined Ages,Combined Gender,133.514467816524
+Penicillins,2015,PA,Combined Ages,Combined Gender,215.838534855235
+Penicillins,2015,RI,Combined Ages,Combined Gender,197.482178324677
+Penicillins,2015,SC,Combined Ages,Combined Gender,199.584103496916
+Penicillins,2015,SD,Combined Ages,Combined Gender,201.756196205105
+Penicillins,2015,TN,Combined Ages,Combined Gender,229.786035450832
+Penicillins,2015,TX,Combined Ages,Combined Gender,207.806186613798
+Penicillins,2015,UT,Combined Ages,Combined Gender,212.960580709963
+Penicillins,2015,VA,Combined Ages,Combined Gender,184.599409781227
+Penicillins,2015,VT,Combined Ages,Combined Gender,159.398618623032
+Penicillins,2015,WA,Combined Ages,Combined Gender,133.325227732929
+Penicillins,2015,WI,Combined Ages,Combined Gender,176.969774941238
+Penicillins,2015,WV,Combined Ages,Combined Gender,265.548454337231
+Penicillins,2015,WY,Combined Ages,Combined Gender,178.572223160617
+Tetracycline,2015,National,0-19,M,Insufficient Data
+Tetracycline,2015,National,20+,F,Insufficient Data
+Tetracycline,2015,National,Combined Ages,M,53.9861559265936
+Tetracycline,2015,National,0-19,F,Insufficient Data
+Tetracycline,2015,National,20+,Combined Gender,71.0086719580781
+Tetracycline,2015,National,Combined Ages,Combined Gender,64.3777646249593
+Tetracycline,2015,National,20+,M,Insufficient Data
+Tetracycline,2015,National,Combined Ages,F,74.2687185254832
+Tetracycline,2015,National,0-19,Combined Gender,43.7372893914245
+Trimethoprim-sulfamethoxazole,2015,National,Combined Ages,M,46.7305730366696
+Trimethoprim-sulfamethoxazole,2015,National,0-19,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2015,National,20+,Combined Gender,68.696231688714
+Trimethoprim-sulfamethoxazole,2015,National,Combined Ages,F,79.0667267285171
+Trimethoprim-sulfamethoxazole,2015,National,0-19,Combined Gender,46.2640760765588
+Trimethoprim-sulfamethoxazole,2015,National,0-19,M,Insufficient Data
+Trimethoprim-sulfamethoxazole,2015,National,20+,F,Insufficient Data
+Trimethoprim-sulfamethoxazole,2015,National,Combined Ages,Combined Gender,63.2446235102146
+Trimethoprim-sulfamethoxazole,2015,National,20+,M,Insufficient Data
+Urinary anti-infectives,2015,National,Combined Ages,F,71.6314234829638
+Urinary anti-infectives,2015,National,0-19,Combined Gender,9.81335060929254
+Urinary anti-infectives,2015,National,Combined Ages,Combined Gender,40.2236709723351
+Urinary anti-infectives,2015,National,20+,M,Insufficient Data
+Urinary anti-infectives,2015,National,Combined Ages,M,7.72028760261978
+Urinary anti-infectives,2015,National,0-19,F,Insufficient Data
+Urinary anti-infectives,2015,National,20+,Combined Gender,50.4013675611838
+Urinary anti-infectives,2015,National,0-19,M,Insufficient Data
+Urinary anti-infectives,2015,National,20+,F,Insufficient Data

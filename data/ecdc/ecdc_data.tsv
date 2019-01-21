@@ -1,0 +1,83 @@
+country	antibiotic	did	pathogen	n_resistant	n_isolates
+Austria	beta_lactam	8.283999999999999	S. pneumoniae	79	1886
+Austria	macrolide	5.0632	S. pneumoniae	223	1952
+Austria	quinolone	2.6698	E. coli	4426	20501
+Belgium	beta_lactam	18.092	S. pneumoniae	88	7494
+Belgium	macrolide	6.1216	S. pneumoniae	1711	7534
+Belgium	quinolone	5.3126	E. coli	4003	16341
+Bulgaria	beta_lactam	11.241999999999999	S. pneumoniae	35	149
+Bulgaria	macrolide	5.598	S. pneumoniae	28	140
+Bulgaria	quinolone	5.1499999999999995	E. coli	373	1008
+Croatia	beta_lactam	14.108	S. pneumoniae	133	593
+Croatia	macrolide	5.2902	S. pneumoniae	145	578
+Croatia	quinolone	2.9098	E. coli	1037	4980
+Czech Republic	beta_lactam	9.676	S. pneumoniae	52	1481
+Czech Republic	macrolide	6.9206	S. pneumoniae	101	1481
+Czech Republic	quinolone	1.9536	E. coli	3384	14585
+Denmark	beta_lactam	10.634	S. pneumoniae	214	4008
+Denmark	macrolide	4.0716	S. pneumoniae	222	4008
+Denmark	quinolone	1.0522	E. coli	3095	20528
+Estonia	beta_lactam	5.686	S. pneumoniae	7	326
+Estonia	macrolide	4.5932	S. pneumoniae	13	264
+Estonia	quinolone	1.7664	E. coli	206	1617
+Finland	beta_lactam	8.658	S. pneumoniae	422	3074
+Finland	macrolide	2.2626	S. pneumoniae	609	3282
+Finland	quinolone	1.6908	E. coli	2204	18191
+France	beta_lactam	20.094	S. pneumoniae	1127	4880
+France	macrolide	4.7942	S. pneumoniae	1292	4880
+France	quinolone	3.5606	E. coli	10119	49538
+Germany	beta_lactam	7.436	S. pneumoniae	124	2392
+Germany	macrolide	3.8024	S. pneumoniae	202	2410
+Germany	quinolone	2.8054	E. coli	6113	28302
+Greece	quinolone	4.9281999999999995	E. coli	1917	6341
+Hungary	beta_lactam	8.728	S. pneumoniae	69	762
+Hungary	macrolide	4.8284	S. pneumoniae	105	708
+Hungary	quinolone	4.4644	E. coli	2298	7673
+Iceland	beta_lactam	11.06	S. pneumoniae	15	127
+Iceland	macrolide	3.0045	S. pneumoniae	18	126
+Iceland	quinolone	1.8105	E. coli	70	674
+Ireland	beta_lactam	14.52	S. pneumoniae	298	1584
+Ireland	macrolide	8.348	S. pneumoniae	254	1535
+Ireland	quinolone	1.7784	E. coli	3032	12345
+Italy	beta_lactam	18.072	S. pneumoniae	144	1155
+Italy	macrolide	9.416400000000001	S. pneumoniae	430	1583
+Italy	quinolone	6.9088	E. coli	7932	17984
+Latvia	beta_lactam	6.798	S. pneumoniae	24	278
+Latvia	macrolide	2.991	S. pneumoniae	10	283
+Latvia	quinolone	2.0724	E. coli	166	792
+Lithuania	beta_lactam	10.665	S. pneumoniae	54	298
+Lithuania	macrolide	3.97025	S. pneumoniae	57	266
+Lithuania	quinolone	1.89	E. coli	412	2445
+Luxembourg	beta_lactam	17.074	S. pneumoniae	15	184
+Luxembourg	macrolide	6.795	S. pneumoniae	32	203
+Luxembourg	quinolone	5.3294	E. coli	432	1697
+Malta	beta_lactam	14.49	S. pneumoniae	25	62
+Malta	macrolide	7.3062	S. pneumoniae	24	62
+Malta	quinolone	5.025	E. coli	391	1176
+Netherlands	beta_lactam	4.44	S. pneumoniae	84	5464
+Netherlands	macrolide	2.5158	S. pneumoniae	260	5963
+Netherlands	quinolone	1.5864	E. coli	3819	25677
+Norway	beta_lactam	6.722	S. pneumoniae	123	2707
+Norway	macrolide	2.8742	S. pneumoniae	154	2497
+Norway	quinolone	1.0422	E. coli	1721	15036
+Poland	beta_lactam	12.466	S. pneumoniae	203	800
+Poland	macrolide	6.441	S. pneumoniae	211	714
+Poland	quinolone	2.4874	E. coli	1742	5837
+Portugal	beta_lactam	13.446	S. pneumoniae	258	2620
+Portugal	macrolide	6	S. pneumoniae	466	2701
+Portugal	quinolone	4.6036	E. coli	5360	17158
+Slovakia	beta_lactam	12.745	S. pneumoniae	18	130
+Slovakia	macrolide	10.42925	S. pneumoniae	38	139
+Slovakia	quinolone	3.6055	E. coli	1739	4023
+Slovenia	beta_lactam	9.944	S. pneumoniae	136	1406
+Slovenia	macrolide	3.25	S. pneumoniae	263	1404
+Slovenia	quinolone	2.2118	E. coli	1338	5935
+Spain	beta_lactam	14.904	S. pneumoniae	866	3125
+Spain	macrolide	3.8824	S. pneumoniae	739	3060
+Spain	quinolone	4.8218	E. coli	10135	29479
+Sweden	beta_lactam	7.0675	S. pneumoniae	228	3825
+Sweden	macrolide	0.59	S. pneumoniae	287	4798
+Sweden	quinolone	1.4625	E. coli	3556	28661
+United Kingdom	beta_lactam	9.408	S. pneumoniae	339	6067
+United Kingdom	macrolide	6.0866	S. pneumoniae	388	5649
+United Kingdom	quinolone	0.9122	E. coli	5351	31536
