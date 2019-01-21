@@ -10,6 +10,15 @@ website](https://atlas.ecdc.europa.eu/public/index.aspx) as a single csv file.
 The R script `raw/clean_data.R` cleans the downloaded data to create
 `ecdc_data.tsv`.
 
+## Data dictionary
+
+- `unit`: Country name
+- `antibiotic`
+- `did`: Defined Daily Doses (DDD) per 1,000 inhabitants per day
+- `pathogen`
+- `n_resistant`: Number of non-susceptible isolates
+- `n_isolates`: Total number of isolates
+
 ## Attribution and disclaimer
 
 Data from The European Surveillance System -- TESSy released by ECDC.
