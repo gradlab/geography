@@ -44,4 +44,4 @@ combined_data = inner_join(use_data, resistance_data, by = 'unit')
 stopifnot(nrow(use_data) == nrow(combined_data))
 
 # Save the combined data
-write_tsv(combined_data, '../use_resistance_data.tsv')
+write_tsv(combined_data, '../xponent_nhsn_data.tsv')
