@@ -1,5 +1,5 @@
 dataset	pathogen	antibiotic	inter	inter_ciu	inter_cil
 Xponent/NHSN	E. coli	quinolone	-0.01	0.06	-0.09
-ECDC	S. pneumoniae	beta_lactam	-0.02	0.07	-0.08
+ECDC	S. pneumoniae	beta_lactam	-0.02	0.08	-0.07
 ECDC	S. pneumoniae	macrolide	0.02	0.09	-0.04
-ECDC	E. coli	quinolone	0.04	0.14	-0.03
+ECDC	E. coli	quinolone	0.04	0.13	-0.03
