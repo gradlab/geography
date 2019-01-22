@@ -2,6 +2,7 @@
 
 library(MASS) # for "rlm" and other robust regression functions
 library(dplyr) # for manipulating data frames
+select = dplyr::select
 library(purrr) # for "map" and similar functions
 library(readr) # for "read_tsv"
 library(tidyr) # for "unnest"
