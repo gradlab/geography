@@ -436,7 +436,7 @@ bind_rows(
 ) %>%
   filter(
     delta_tau %in% c(0.05, 0.10),
-    epsilon %in% c(0, 1e-4, 1e-3, 1e-2, 0.0175, 0.025)
+    epsilon %in% c(0, 1e-4, 1e-3, 1e-2, 1e-1)
   ) %>%
   group_by(model, delta_tau) %>%
   mutate(
