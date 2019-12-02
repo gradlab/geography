@@ -25,9 +25,5 @@ The manuscript also includes an analysis of the MarketScan/ResistanceOpen
 dataset, which is not publicly available. We do not have license to post that
 data.
 
-The R script `analyze_observational.R` reproduces Supplemental Figures 3, 4,
-and 5 as well as most lines of Supplemental Table 2 in the folder `fig/`.
-
-The confidence intervals reported in the empirical results may differ slightly
-from those shown in the manuscript because the bootstrapping process is
-inherently random.
+The R script `analyze_observational.R` reproduces (parts of) Figures 2-4 and
+Supplemental Tables 2-5 in the folder `fig/`.
