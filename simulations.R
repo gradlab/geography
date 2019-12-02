@@ -1,6 +1,7 @@
 #!/usr/bin/env Rscript --vanilla
 
 library(tidyverse)
+library(scales) # for percent
 
 # Within-host neutral (WHN) model --------------------------------------
 
@@ -130,7 +131,7 @@ ggsave('fig/davies_figure_2g_k1.pdf', plot = whn_repro_plot)
 
 ## WHN two-population model --------------------------------------------
 
-whn_epsilon_values <- c(0, 1e-4, 0.01, 0.025, 0.050, 0.075, 0.1, 0.2, 0.3, 0.4, 0.5)
+whn_epsilon_values <- c(0, 1e-4, 1e-3, 0.005, 0.01, 0.0175, 0.025, 0.050, 0.075, 0.1, 0.2, 0.3, 0.4, 0.5)
 
 whn2 <- tibble(
   delta_tau = round(seq(0.0, 0.15, length.out = 7), 3),
@@ -183,7 +184,10 @@ ggsave('fig/figure_1d.pdf', plot = figure_1d)
 # Figure 1e
 
 figure_1e <- whn2 %>%
-  filter(delta_tau %in% c(0.05, 0.1)) %>%
+  filter(
+    delta_tau %in% c(0.05, 0.1),
+    epsilon %in% c(0, 1e-4, 0.01, 0.025, 0.050, 0.075, 0.1, 0.2, 0.3, 0.4, 0.5)
+  ) %>%
   ggplot(aes(epsilon, drho_dtau, group = factor(delta_tau))) +
   geom_point() +
   geom_line()
@@ -365,16 +369,16 @@ dtypes_repro_plot <- dtypes_repro %>%
 ggsave('fig/lehtinen_figure_3.pdf', plot = dtypes_repro_plot)
 
 
-## D-types two-population ------------------------------------------------------
+# D-types two-population ------------------------------------------------------
 
 dtypes_epsilon_values <- c(0, 1e-4, 0.001, 0.005, 0.01, 0.0175, 0.025, 0.05, 0.075, 0.1)
-dtypes2 <- tibble(
+
+dtypes2_raw <- tibble(
   delta_tau = c(0.05, 0.10),
   taui = map(delta_tau, ~ 0.125 + c(-0.5, 0.5) * .)
 ) %>%
   crossing(epsilon = dtypes_epsilon_values) %>%
   mutate(results = map2(taui, epsilon, dtypes_sim))
-
 
 dtypes_simplify_results <- function(df) {
   df %>%
@@ -388,16 +392,18 @@ dtypes_simplify_results <- function(df) {
     mutate(rho = R / (R + S))
 }
 
-dtypes2_plot <- dtypes2 %>%
+dtypes2 <- dtypes2_raw %>%
   mutate(
     results = map(results, dtypes_simplify_results),
     delta_rho = map_dbl(results, ~ max(.$rho) - min(.$rho)),
-    dr_du = delta_rho / delta_tau
-  ) %>%
-  ggplot(aes(epsilon, dr_du, group = factor(delta_tau))) +
+    drho_dtau = delta_rho / delta_tau
+  )
+
+dtypes2_plot <- dtypes2 %>%
+  ggplot(aes(epsilon, drho_dtau, group = factor(delta_tau))) +
   geom_point(aes(shape = factor(delta_tau))) +
   geom_line() +
-  geom_blank(data = tibble(epsilon = 0, dr_du = 0, delta_tau = 0.01)) +
+  geom_blank(data = tibble(epsilon = 0, drho_dtau = 0, delta_tau = 0.01)) +
   scale_shape_manual(
     values = c(1, 16),
     labels = c(
@@ -418,4 +424,27 @@ dtypes2_plot <- dtypes2 %>%
   ) +
   theme(legend.position = c(0.5, 0.75))
 
-ggsave('fig/supp_figure_2.pdf', plot = dtypes2_plot)
+ggsave('fig/supplemental_figure_2.pdf', plot = dtypes2_plot)
+
+
+# Table of theoretical spillover effects ------------------------------
+
+bind_rows(
+  'WHN' = whn2,
+  'D-types' = dtypes2,
+  .id = 'model'
+) %>%
+  filter(
+    delta_tau %in% c(0.05, 0.10),
+    epsilon %in% c(0, 1e-4, 1e-3, 1e-2, 0.0175, 0.025)
+  ) %>%
+  group_by(model, delta_tau) %>%
+  mutate(
+    fraction = drho_dtau / drho_dtau[epsilon == 0],
+    percent_reduction = percent(1 - fraction, 0.1),
+    key = str_c(model, ' ', delta_tau)
+  ) %>%
+  ungroup() %>%
+  select(epsilon, key, percent_reduction) %>%
+  spread(key, percent_reduction) %>%
+  write_tsv('fig/supplemental_table_1.tsv')

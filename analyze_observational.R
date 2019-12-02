@@ -389,7 +389,6 @@ boxplot_f <- function(cross_data, f_to_keep) {
       labels = c(`TRUE` = 'Adjacent', `FALSE` = 'Not adj.')
     ) +
     ylab(expression(paste('Use-resistance association ', (Delta * rho / Delta * tau)))) +
-    theme_cowplot() +
     theme(strip.background = element_blank())
 
   plot
@@ -413,8 +412,6 @@ commute_plot <- cross_data %>%
   facet_wrap(~ dataset, scales = 'free') +
   geom_point(aes(y = dr_du), shape = 1, size = 0.5) +
   xlab('Commuting fraction (log10)') +
-  ylab(expression(paste('Use-resistance association ', (Delta * rho / Delta * tau)))) +
-  theme_cowplot() +
-  theme(strip.background = element_blank())
+  ylab(expression(paste('Use-resistance association ', (Delta * rho / Delta * tau))))
 
 ggsave('fig/figure_4.pdf', plot = commute_plot)
