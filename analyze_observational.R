@@ -63,11 +63,7 @@ eu_adjacency <- read_tsv('db/europe/adjacency.tsv') %>%
   replace_na(list(adjacent = FALSE)) %>%
   rename(unit1 = country1, unit2 = country2)
 
-adjacency_db <- bind_rows(
-  'US' = us_adjacency,
-  'Europe' = eu_adjacency,
-  .id = 'dataset'
-)
+adjacency_db <- bind_rows(us_adjacency, eu_adjacency)
 
 # Load data about commuting
 us_commuting <- read_tsv('db/us/commuting.tsv') %>%
@@ -77,11 +73,7 @@ eu_commuting <- read_tsv('db/europe/commuting.tsv') %>%
   rename_all(~ str_replace(., '^country', 'unit')) %>%
   filter(unit1 %in% eu_units, unit2 %in% eu_units)
 
-commuting_db <- bind_rows(
-  'US' = us_commuting,
-  'Europe' = eu_commuting,
-  .id = 'dataset'
-)
+commuting_db <- bind_rows(us_commuting, eu_commuting)
 
 
 # Combine use/resistance and other state characteristics --------------
@@ -90,13 +82,19 @@ us_data <- xponent_nhsn_data %>%
   left_join(us_temp, by = 'state') %>%
   left_join(us_income, by = 'state') %>%
   left_join(us_density, by = 'state') %>%
-  rename(unit = state)
+  select(
+    unit = state, pathogen, antibiotic, use, f_resistant,
+    density, income, temperature
+  )
 
 eu_data <- ecdc_data %>%
   left_join(eu_temp, by = 'country') %>%
   left_join(eu_income, by = 'country') %>%
   left_join(eu_density, by = 'country') %>%
-  rename(unit = country)
+  select(
+    unit = country, pathogen, antibiotic, use, f_resistant,
+    density, income, temperature
+  )
 
 data <- bind_rows(
   'Xponent/NHSN' = us_data,
@@ -114,290 +112,309 @@ data <- bind_rows(
     label = str_c(dataset, ' ', bug_drug)
   )
 
-# Regional analysis ------------------------------------------------------------
 
-# Aggregate the units (US state or European country) into regions. Aggregate use
-# data by population-weighted means. Aggregate resistance data by adding up the
-# numbers of susceptible and resistant isolates.
+# Plot the use/resistance data ----------------------------------------
 
-aggregate_at = function(unit_data, group_chr) {
-  stopifnot(class(group_chr) == 'character')
-  group = as.symbol(group_chr)
+round_up <- function(x, digits) ceiling(x * 10 ** digits) / 10 ** digits
+round_down <- function(x, digits) floor(x * 10 ** digits) / 10 ** digits
 
-  group_by_at(unit_data, group_chr, .add = TRUE) %>%
-    summarize(
-      use = weighted.mean(use, w = population),
-      n_resistant = sum(n_resistant),
-      n_isolates = sum(n_isolates)
-    ) %>%
-    ungroup() %>%
-    rename(group := !!group) %>%
-    mutate(
-      group_type = group_chr,
-      n_susceptible = n_isolates - n_resistant
-    )
+breaker <- function(digits) {
+  function(x) {
+    lower <- round_up(x[1], digits)
+    upper <- round_down(x[2], digits)
+    round(seq(lower, upper, length.out = 3), digits)
+  }
 }
 
-# Function to run logistic regressions predicting resistance from use rates
-model_f = function(df) glm(
-  cbind(n_resistant, n_susceptible) ~ use,
-  family = 'binomial', data = df
-)
-
-# Bootstrap the data, making new aggregate data and models with each resampling
-aggregate_boot_f = function(unit_data, group_chr) {
-  # For each bootstrapped dataset, run the logistic regression, and use the
-  # regression to make predictions over the range of data. The 2.5% and 97.5%
-  # percentiles of these predictions will be the 95% confidence intervals.
-  pred_use = seq(min(unit_data$use), max(unit_data$use), length.out = pred_n)
-  newdata = data_frame(use = pred_use)
-
-  # Run the model on the base (unbootstrapped) data
-  model = unit_data %>%
-    aggregate_at(group_chr) %>%
-    model_f()
-
-  # Get the predictions from that model, which are the solid line in the plot
-  model_pred = data_frame(
-    use = pred_use,
-    f_resistant = predict(model, newdata = newdata, type = 'response')
-  )
-
-  results = data_frame(i = 1:n_trials) %>%
-    mutate(
-      # Get bootstrapped data sets
-      boot_unit_data = map(i, ~ sample_n(unit_data, size = nrow(unit_data), replace = TRUE)),
-      boot_aggregate_data = map(boot_unit_data, ~ aggregate_at(., group_chr)),
-      # Run the model and predict the outcomes
-      model = map(boot_aggregate_data, model_f),
-      slope = map_dbl(model, ~ coef(.)['use']),
-      pred_res = map(model, ~ predict(., newdata = newdata, type = 'response')), # predicted resistance
-      pred_df = map(pred_res, ~ data_frame(use = pred_use, f_resistant = .)) # data frame of those predictions
-    )
-
-  # At each point of the pred_n points pred_use, get the 95% CIs for the predictions
-  pred_data = results %>%
-    select(i, pred_df) %>% unnest() %>%
-    group_by(use) %>%
-    summarize(
-      ymin = quantile(f_resistant, alpha / 2),
-      ymax = quantile(f_resistant, 1 - alpha / 2)
-    ) %>%
-    left_join(model_pred, by = 'use')
-
-  list(
-    slope_cil = quantile(results$slope, alpha / 2),
-    slope_ciu = quantile(results$slope, 1 - alpha / 2),
-    pred_data = pred_data
-  )
-}
-
-data_region_combinations = data_frame(
-  dataset = c(rep('Xponent/NHSN', 3), rep('ECDC', 2)),
-  level = c('unit', 'us_division', 'us_region', 'unit', 'eu_region')
-)
-
-regional_results = left_join(data_region_combinations, data, by = 'dataset') %>%
-  mutate(
-    # Make a nice display for level across US and Europe
-    display_level = factor(
-      recode(level, unit = 'Unit', us_division = 'Division', us_region = 'Region', eu_region = 'Region'),
-      levels = c('Unit', 'Division', 'Region')
-    ),
-    aggregated_data = map2(unit_data, level, aggregate_at),
-    # Fit models to each aggregate type
-    model = map(aggregated_data, model_f),
-    # Extract the use/resistance regression coefficient ("slope") from the base model
-    slope = map_dbl(model, ~ coef(.)['use']),
-    # Bootstrap the 95% CIs for that regression coefficient
-    boot_results = map2(unit_data, level, aggregate_boot_f),
-    slope_cil = map_dbl(boot_results, ~ .$slope_cil),
-    slope_ciu = map_dbl(boot_results, ~ .$slope_ciu),
-    pred_data = map(boot_results, ~ .$pred_data)
-  )
-
-
-# Show regional plots ----------------------------------------------------------
-
-my_palette = c('black', '#1b9e77', '#d95f02')
-
-# Pull out the data and the predictions separately
-aggregate_plot_data = regional_results %>%
-  select(label, display_level, aggregated_data) %>%
+figure2 <- data %>%
   unnest() %>%
-  mutate(f_resistant = n_resistant / n_isolates)
-
-aggregate_pred_data = regional_results %>%
-  select(label, display_level, pred_data) %>%
-  unnest()
-
-supp_figure_3 = ggplot(
-    data = NULL,
-    aes(use, f_resistant, color = display_level, fill = display_level)
+  ggplot(aes(use, f_resistant * 100)) +
+  facet_wrap(~ dataset + bug_drug, scales = 'free') +
+  geom_smooth(method = 'lm', color = 'gray50') +
+  geom_point() +
+  scale_x_continuous(
+    'Treatments per person per year',
+    breaks = breaker(2)
   ) +
-  facet_wrap(~ label, scales = 'free') +
-  geom_ribbon(
-    data = aggregate_pred_data,
-    aes(ymin = ymin, ymax = ymax, color = NULL),
-    alpha = 0.25
-  ) +
-  geom_line(data = aggregate_pred_data, size = 1) +
-  geom_point(data = aggregate_plot_data) +
-  xlab('antibiotic use (annual treatments per capita)') +
-  scale_color_manual(values = my_palette) +
-  scale_fill_manual(values = my_palette) +
   scale_y_continuous(
-    'antibiotic resistance (% of isolates)',
-    labels = scales::percent_format(accuracy = 1, suffix = '')
+    name = 'Resistance (% isolates nonsusceptible)'
   )
 
-ggsave('fig/supp_figure_3.pdf', plot = supp_figure_3)
+ggsave('fig/figure_2.pdf', plot = figure2)
 
-supp_figure_4 = regional_results %>%
-  ggplot(aes(display_level, slope, ymin = slope_cil, ymax = slope_ciu, color = display_level)) +
-  facet_wrap(~ label, scales = 'free') +
-  geom_point() +
-  geom_errorbar() +
-  scale_color_manual(values = my_palette) +
-  guides(color = 'none') +
-  xlab('') +
-  ylab('Regression coefficient')
+# Set up "crossed" data -----------------------------------------------
 
-ggsave('fig/supp_figure_4.pdf', plot = supp_figure_4)
+odds <- function(p) p / (1 - p)
+log_odds_ratio <- function(p, q) log(odds(p)) - log(odds(q))
 
-
-# Distance analysis -------------------------------------------------------------
-
-odds = function(p) p / (1 - p)
-log_odds_ratio = function(p, q) log(odds(p)) - log(odds(q))
-
-# Function to get information about pairs of states, to be used multiple times
-# when bootstrapping lists of states.
-cross_units = function(unit_data, adjacency_data) {
-  unit_data %$%
-    crossing(unit1 = unit, unit2 = unit) %>%
-    left_join(rename_all(unit_data, ~ str_c(., '1')), by = 'unit1') %>%
-    left_join(rename_all(unit_data, ~ str_c(., '2')), by = 'unit2') %>%
-    filter(use1 > use2) %>%
+cross_units <- function(df) {
+  df %>%
+    with(crossing(unit1 = unit, unit2 = unit)) %>%
+    filter(unit1 < unit2) %>%
+    left_join(rename_all(df, ~ str_c(., '1')), by = 'unit1') %>%
+    left_join(rename_all(df, ~ str_c(., '2')), by = 'unit2') %>%
     mutate(
       d_resistant = f_resistant1 - f_resistant2,
-      d_use = log_odds_ratio(use1, use2),
+      d_use = use1 - use2,
       d_income = income1 - income2,
       d_density = density1 - density2,
-      d_temperature = temperature1 - temperature2
+      d_temperature = temperature1 - temperature2,
+      dr_du = d_resistant / d_use,
+      lor_resistant = log_odds_ratio(f_resistant1, f_resistant2),
+      lorr_du = lor_resistant / d_use
     ) %>%
-    select(unit1, unit2, starts_with('d_')) %>%
-    left_join(adjacency_data, by = c('unit1', 'unit2')) %>%
-    # pairs of states not in the adjacency list are not adjacent
-    replace_na(list(adjacent = 0))
+    select(unit1, unit2, starts_with('d_'), dr_du, starts_with('lor')) %>%
+    left_join(adjacency_db, by = c('unit1', 'unit2')) %>%
+    left_join(commuting_db, by = c('unit1', 'unit2'))
 }
 
-# Function to do Tukey's bisquare regression
-bisquare = partial(MASS::rlm, psi = MASS::psi.bisquare)
+leave_one_out_from_cross <- function(df) {
+  units <- unique(c(df$unit1, df$unit2))
+  map(units, ~ filter(df, unit1 != ., unit2 != .))
+}
 
-# Function to predict difference in resistant from difference in use (and other
-# factors) as per equation in Methods, "Use-resistance relationships by
-# adjacency"
-distance_model_f = function(df) bisquare(d_resistant ~ d_use + d_use:adjacent + d_income + d_density + d_temperature, data = df)
-
-distance_boot_f = function(unit_data, adjacency_data) {
-  pair_data = cross_units(unit_data, adjacency_data)
-  base_distance_model = distance_model_f(pair_data)
-
-  # Bootstrap lists of states and run the distance model on those bootstrapped data sets
-  base_d_use = pair_data$d_use
-  pred_d_use = seq(min(base_d_use), max(base_d_use), length.out = pred_n)
-  newdata = crossing(
-    d_use = pred_d_use,
-    adjacent = c(0, 1),
-    d_income = mean(pair_data$d_income),
-    d_density = mean(pair_data$d_density),
-    d_temperature = mean(pair_data$d_temperature)
+cross_data <- data %>%
+  mutate(
+    cross_data = map(unit_data, cross_units),
+    l1o_cross_data = map(cross_data, leave_one_out_from_cross)
   )
 
-  results = data_frame(i = 1:n_trials) %>%
+# Show the commuting histogram ----------------------------------------
+
+commuting_histogram <- cross_data %>%
+  select(dataset, cross_data) %>%
+  unnest() %>%
+  select(dataset, unit1, unit2, adjacent, f_commuting) %>%
+  filter(
+    unit1 < unit2,
+    !is.na(f_commuting)
+  ) %>%
+  ggplot(aes(log10(f_commuting), fill = adjacent)) +
+  facet_wrap(~ dataset, scales = 'free') +
+  geom_histogram(color = 'black') +
+  scale_fill_manual(
+    limits = c('TRUE', 'FALSE'),
+    labels = c('adjacent', 'not adj.'),
+    values = c('black', 'white')
+  ) +
+  xlab('Commuting fraction (log 10)') +
+  ylab('Number of states or countries') +
+  theme(
+    legend.position = c(0.85, 0.75),
+    legend.title = element_blank()
+  )
+
+ggsave('fig/supplemental_figure_1.pdf', plot = commuting_histogram)
+
+
+# Do the pairwise analyses --------------------------------------------
+
+jackknife.sd <- function(x) {
+  n <- length(x)
+  sqrt((n - 1) / n * sum((x - mean(x)) ** 2))
+}
+
+analysis_f <- function(model_f, coef_f, ratio_f) {
+  base_results <- cross_data %>%
     mutate(
-      # Get bootstrapped data sets
-      boot_unit_data = map(i, ~ sample_n(unit_data, size = nrow(unit_data), replace = TRUE)),
-      boot_pair_data = map(boot_unit_data, ~ cross_units(., adjacency_data)),
-      # Run the model and predict the outcomes
-      model = map(boot_pair_data, distance_model_f),
-      inter = map_dbl(model, ~ coef(.)['d_use:adjacent']), # interaction term
-      pred_y = map(model, ~ predict(., newdata = newdata, type = 'response')),
-      pred_df = map(pred_y, ~ mutate(newdata, d_resistant = .)) # data frame of predictions
+      model = map(cross_data, model_f),
+      coef = map_dbl(model, coef_f),
+      ratio = map_dbl(model, ratio_f)
+    ) %>%
+    select(dataset, coef, ratio)
+
+  l1o_results <- cross_data %>%
+    select(dataset, l1o_cross_data) %>%
+    unnest() %>%
+    mutate(
+      model = map(l1o_cross_data, model_f),
+      coef = map_dbl(model, coef_f),
+      ratio = map_dbl(model, ratio_f)
+    ) %>%
+    group_by(dataset) %>%
+    summarize(
+      coef_se = jackknife.sd(coef),
+      ratio_se = jackknife.sd(ratio)
     )
 
-  # Get the base (non-bootstrapped) model predictions
-  base_pred_df = newdata %>%
-    mutate(d_resistant = predict(base_distance_model, newdata = newdata, type = 'response')) %>%
-    select(d_use, adjacent, d_resistant)
-
-  # At each point pred_use, get the CIs for the predictions
-  pred_data = results %>%
-    select(i, pred_df) %>% unnest() %>%
-    group_by(d_use, adjacent) %>%
-    summarize(
-      ymin = quantile(d_resistant, alpha / 2),
-      ymax = quantile(d_resistant, 1 - alpha / 2)
-    ) %>%
-    ungroup() %>%
-    # Merge in the base model predictions to use as the solid line
-    left_join(base_pred_df, by = c('d_use', 'adjacent'))
-
-  list(
-    inter_cil = quantile(results$inter, alpha / 2),
-    inter_ciu = quantile(results$inter, 1 - alpha / 2),
-    pred_data = pred_data
-  )
+  base_results %>%
+    left_join(l1o_results, by = 'dataset')
 }
 
-cat('Note: Some robust regressions may fail during the bootstrapped runs. This is not abnormal.\n')
+rlm <- MASS::rlm
 
-distance_results = data %>%
-  mutate(
-    pair_data = map2(unit_data, adjacency_data, cross_units),
-    model = map(pair_data, distance_model_f),
-    # interaction term
-    inter = map_dbl(model, ~ coef(.)['d_use:adjacent']),
-    # bootstrap
-    boot_results = map2(unit_data, adjacency_data, distance_boot_f),
-    inter_cil = map_dbl(boot_results, ~ .$inter_cil),
-    inter_ciu = map_dbl(boot_results, ~ .$inter_ciu),
-    pred_data = map(boot_results, ~.$pred_data)
-  )
+# First, for simple adjacency
+adjacency_results <- analysis_f(
+  function(df) with(df, {
+    list(
+      adj_med = median(df$dr_du[df$adjacent]),
+      nonadj_med = median(df$dr_du[!df$adjacent])
+    )
+  }),
+  function(model) with(model, { adj_med - nonadj_med }),
+  function(model) with(model, { (adj_med - nonadj_med) / nonadj_med })
+)
+
+# Adjacency, replacing dr/du with LOR(r)/du
+adjacency_lorru_results <- analysis_f(
+  function(df) with(df, {
+    list(
+      adj_med = median(df$lorr_du[df$adjacent]),
+      nonadj_med = median(df$lorr_du[!df$adjacent])
+    )
+  }),
+  function(model) with(model, { adj_med - nonadj_med }),
+  function(model) with(model, { (adj_med - nonadj_med) / nonadj_med })
+)
+
+# Adjancency, using a robust regression
+adjacency_rlm_results <- analysis_f(
+  function(df) rlm(dr_du ~ adjacent, data = df),
+  function(model) coef(model)['adjacentTRUE'],
+  function(model) coef(model) %>% { .['adjacentTRUE'] / .['(Intercept)'] }
+)
+
+# Using a robust regression with covariates
+adjacency_covariates_results <- analysis_f(
+  function(df) rlm(dr_du ~ adjacent + d_income + d_temperature + d_density, data = df),
+  function(model) coef(model)['adjacentTRUE'],
+  function(model) coef(model) %>% { .['adjacentTRUE'] / .['(Intercept)'] }
+)
+
+# Analysis of commuting
+commuting_results <- analysis_f(
+  function(df) rlm(dr_du ~ f_commuting, data = df),
+  function(model) coef(model)['f_commuting'] * 1e-4,
+  function(model) coef(model) %>% { .['f_commuting'] / .['(Intercept)'] * 1e-4 }
+)
+
+# Print out the tables ------------------------------------------------
+
+sigfig <- function(x, n = 2) {
+  formatC(signif(x, digits = n), digits = n, format = "fg", flag = "#")
+}
+
+save_results <- function(df, fn) {
+  df %>%
+    mutate(
+      coef_hci = 1.96 * coef_se * 0.5,
+      coef_cil = coef - coef_hci,
+      coef_ciu = coef + coef_hci,
+      coef_star = coef_cil > 0 | coef_ciu < 0,
+      ratio_hci = 1.96 * ratio_se * 0.5,
+      ratio_cil = ratio - ratio_hci,
+      ratio_ciu = ratio + ratio_hci,
+      ratio_star = ratio_cil > 0 | ratio_ciu < 0
+    ) %>%
+    mutate_if(is.numeric, sigfig) %>%
+    mutate_at(vars(ends_with('star')), ~ recode(as.numeric(.), `1` = '*', `0` = '')) %>%
+    mutate(
+      coef_display = str_glue('{coef} ({coef_cil} to {coef_ciu}){coef_star}'),
+      ratio_display = str_glue('{ratio} ({ratio_cil} to {ratio_ciu}){ratio_star}')
+    ) %>%
+    select(dataset, coef_display, ratio_display) %>%
+    write_tsv(fn)
+}
+
+save_results(
+  adjacency_results,
+  'fig/supplemental_table_2.tsv'
+)
+
+save_results(
+  adjacency_lorru_results,
+  'fig/supplemental_table_3.tsv'
+)
+
+save_results(
+  adjacency_rlm_results,
+  'fig/supplemental_table_4.tsv'
+)
+
+show_results(
+  commuting_results,
+  'fig/supplemental_table_5.tsv'
+)
+
+# Plots ---------------------------------------------------------------
+
+boxplot_data_f <- function(df, ymin, ymax) {
+  df %>%
+    nest(-adjacent) %>%
+    mutate(
+      y = map(data, ~ .$dr_du),
+      box = map(y, ~ boxplot.stats(.)$stats),
+      boxplot_data = map(box, ~ tibble(
+        ymin = max(.[1], ymin),
+        lower = .[2],
+        middle = .[3],
+        upper = .[4],
+        ymax = min(.[5], ymax)
+      ))
+    ) %>%
+    select(adjacent, boxplot_data) %>%
+    unnest()
+}
+
+boxplot_f <- function(cross_data, f_to_keep) {
+  half_drop <- (1 - f_to_keep) / 2
+
+  plot_data <- cross_data %>%
+    mutate(
+      y = map(cross_data, ~ .$dr_du),
+      ymin = map_dbl(y, ~ quantile(., half_drop)),
+      ymax = map_dbl(y, ~ quantile(., 1 - half_drop)),
+      boxplot_data = pmap(list(cross_data, ymin, ymax), boxplot_data_f),
+      point_data = pmap(list(cross_data, ymin, ymax), ~ filter(..1, between(dr_du, ..2, ..3)))
+    )
+
+  point_data <- plot_data %>%
+    select(dataset, point_data) %>%
+    unnest()
+
+  boxplot_data <- plot_data %>%
+    select(dataset, boxplot_data) %>%
+    unnest()
+
+  plot <- ggplot(data = NULL, aes(x = factor(adjacent))) +
+    facet_wrap(~ dataset, scales = 'free_y') +
+    geom_boxplot(
+      data = boxplot_data,
+      aes(lower = lower, upper = upper, middle = middle, ymin = ymin, ymax = ymax),
+      stat = 'identity'
+    ) +
+    geom_jitter(data = point_data, aes(y = dr_du), size = 0.1, width = 0.2) +
+    scale_x_discrete(
+      '',
+      labels = c(`TRUE` = 'Adjacent', `FALSE` = 'Not adj.')
+    ) +
+    ylab(expression(paste('Use-resistance association ', (Delta * rho / Delta * tau)))) +
+    theme_cowplot() +
+    theme(strip.background = element_blank())
+
+  plot
+}
+
+adjacency_plot <- boxplot_f(cross_data, 0.90)
+ggsave('fig/figure_3.pdf', plot = adjacency_plot)
 
 
-## Plot distance results -------------------------------------------------------
+commute_plot <- cross_data %>%
+  select(dataset, cross_data) %>%
+  unnest() %>%
+  group_by(dataset) %>%
+  mutate(x = case_when(
+    f_commuting == 0 ~ -6,
+    TRUE ~ log10(f_commuting)
+  )) %>%
+  filter(between(ecdf(dr_du)(dr_du), 0.025, 0.975)) %>%
+  ungroup() %>%
+  ggplot(aes(x)) +
+  facet_wrap(~ dataset, scales = 'free') +
+  geom_point(aes(y = dr_du), shape = 1, size = 0.5) +
+  xlab('Commuting fraction (log10)') +
+  ylab(expression(paste('Use-resistance association ', (Delta * rho / Delta * tau)))) +
+  theme_cowplot() +
+  theme(strip.background = element_blank())
 
-distance_plot_data = distance_results %>%
-  select(label, pair_data) %>%
-  unnest()
-
-distance_pred_data = distance_results %>%
-  select(label, pred_data) %>%
-  unnest()
-
-supp_figure_5 = ggplot(
-    data = NULL,
-    aes(d_use, d_resistant, color = as.logical(adjacent), fill = as.logical(adjacent))
-  ) +
-  facet_wrap(~ label, scales = 'free') +
-  geom_ribbon(
-    data = distance_pred_data,
-    aes(ymin = ymin, ymax = ymax, color = NULL),
-    alpha = 0.25
-  ) +
-  geom_point(data = distance_plot_data, shape = 1) +
-  geom_line(data = distance_pred_data) +
-  scale_color_manual(values = c('black', 'red')) +
-  scale_fill_manual(values = c('black', 'red')) +
-  xlab('Difference in antibiotic use (annual treatments per capita)') +
-  ylab('Difference in resistance (log odds ratio)')
-
-ggsave('fig/supp_figure_5.pdf', plot = supp_figure_5)
-
-
-distance_results %>%
-  select(dataset, pathogen, antibiotic, inter, inter_ciu, inter_cil) %>%
-  mutate_if(is.numeric, ~ round(., 2)) %>%
-  write_tsv('fig/supp_table_2.tsv')
+ggsave('fig/figure_4.pdf', plot = commute_plot)
