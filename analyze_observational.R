@@ -12,59 +12,10 @@ did_tpy_map = data_frame(
   tpy_per_did = 365 / (1e3 * ddd_per_tx)
 )
 
-
-# Load data --------------------------------------------------------------------
-
-# Load data about US states' temperature, income, density
-us_temp <- read_tsv('../db/us/temperature.tsv')
-us_income <- read_tsv('../db/us/income.tsv')
-us_density <- read_tsv('../db/us/density.tsv')
-
-# Load data about European countries' temperature, income density
-eu_temp <- read_tsv('../db/europe/temperature.tsv')
-eu_income <- read_tsv('../db/europe/income.tsv')
-eu_density <- read_tsv('../db/europe/density.tsv')
-
-
-state_adjacency <- read_tsv('../db/us/adjacency.tsv') %>%
-  mutate(adjacent = TRUE) %>%
-  complete(state1, state2) %>%
-  replace_na(list(adjacent = FALSE)) %>%
-  rename(unit1 = state1, unit2 = state2)
-
-eu_adjacency <- read_tsv('../db/europe_adjacency.tsv') %>%
-  mutate(adjacent = TRUE) %>%
-  right_join(crossing(unit1 = eu_units, unit2 = eu_units)) %>%
-  replace_na(list(adjacent = FALSE))
-
-adjacency_db <- bind_rows(state_adjacency, eu_adjacency)
-
-state_commuting <- read_tsv('../db/us/commuting.tsv') %>%
-  rename_all(~ str_replace(., '^state', 'unit')) %>%
-  mutate(dataset = 'US')
-
-eu_commuting <- read_tsv('../db/europe/commuting.tsv') %>%
-  rename_all(~ str_replace(., '^country', 'unit')) %>%
-  filter(unit1 %in% eu_units, unit2 %in% eu_units) %>%
-  mutate(dataset = 'Europe')
-
-commuting_db <- bind_rows(state_commuting, eu_commuting) %>%
-  mutate_at('dataset', fct_inorder)
-
-# Load data about the adjacency of states/countries
-us_adjacency = read_tsv('data/unit_characteristics/state_adjacency.tsv') %>%
-  mutate(adjacent = 1)
-
-eu_adjacency = read_tsv('data/unit_characteristics/europe_adjacency.tsv') %>%
-  mutate(adjacent = 1)
-
-adjacency_data = data_frame(
-  dataset = c('Xponent/NHSN', 'ECDC'),
-  adjacency_data = list(us_adjacency, eu_adjacency)
-)
+# Load use/resistance data ---------------------------------------------
 
 # Load Xponent/NHSN use/resistance data
-xponent_nhsn_data = read_tsv('data/xponent_nhsn/xponent_nhsn_data.tsv') %>%
+xponent_nhsn_data <- read_tsv('data/xponent_nhsn/xponent_nhsn_data.tsv') %>%
   rename(use = rx_person_year) %>%
   mutate(
     pathogen = 'E. coli',
@@ -74,7 +25,7 @@ xponent_nhsn_data = read_tsv('data/xponent_nhsn/xponent_nhsn_data.tsv') %>%
   )
 
 # Load ECDC use/resistance data
-ecdc_data = read_tsv('data/ecdc/ecdc_data.tsv') %>%
+ecdc_data <- read_tsv('data/ecdc/ecdc_data.tsv') %>%
   mutate(
     n_susceptible = n_isolates - n_resistant,
     f_resistant = n_resistant / n_isolates # proportion resistant
@@ -82,16 +33,77 @@ ecdc_data = read_tsv('data/ecdc/ecdc_data.tsv') %>%
   left_join(did_tpy_map, by = 'antibiotic') %>%
   mutate(use = did * tpy_per_did) # treatments per person per day
 
+eu_units <- ecdc_data %>% pull(country) %>% unique()
 
-# Combine use/resistance and other state characteristics
-us_data = left_join(xponent_nhsn_data, us_characteristics, by = 'unit') %>%
-  mutate(dataset = 'Xponent/NHSN')
-eu_data = left_join(ecdc_data, eu_characteristics, by = 'unit') %>%
-  mutate(dataset = 'ECDC')
+# Load state/country metadata ------------------------------------------
 
-data = bind_rows(us_data, eu_data) %>%
+# Load data about US states' temperature, income, density
+us_temp <- read_tsv('db/us/temperature.tsv')
+us_income <- read_tsv('db/us/income.tsv')
+us_density <- read_tsv('db/us/density.tsv')
+
+# Load data about European countries' temperature, income density
+eu_temp <- read_tsv('db/europe/temperature.tsv')
+eu_income <- read_tsv('db/europe/income.tsv')
+eu_density <- read_tsv('db/europe/density.tsv')
+
+# Load data about the adjacency of states/countries
+us_adjacency <- read_tsv('db/us/adjacency.tsv') %>%
+  mutate(adjacent = TRUE) %>%
+  complete(state1, state2) %>%
+  replace_na(list(adjacent = FALSE)) %>%
+  rename(unit1 = state1, unit2 = state2)
+
+eu_adjacency <- read_tsv('db/europe/adjacency.tsv') %>%
+  mutate(adjacent = TRUE) %>%
+  right_join(
+    crossing(country1 = eu_units, country2 = eu_units),
+    by = c('country1', 'country2')
+  ) %>%
+  replace_na(list(adjacent = FALSE)) %>%
+  rename(unit1 = country1, unit2 = country2)
+
+adjacency_db <- bind_rows(
+  'US' = us_adjacency,
+  'Europe' = eu_adjacency,
+  .id = 'dataset'
+)
+
+# Load data about commuting
+us_commuting <- read_tsv('db/us/commuting.tsv') %>%
+  rename_all(~ str_replace(., '^state', 'unit'))
+
+eu_commuting <- read_tsv('db/europe/commuting.tsv') %>%
+  rename_all(~ str_replace(., '^country', 'unit')) %>%
+  filter(unit1 %in% eu_units, unit2 %in% eu_units)
+
+commuting_db <- bind_rows(
+  'US' = us_commuting,
+  'Europe' = eu_commuting,
+  .id = 'dataset'
+)
+
+
+# Combine use/resistance and other state characteristics --------------
+
+us_data <- xponent_nhsn_data %>%
+  left_join(us_temp, by = 'state') %>%
+  left_join(us_income, by = 'state') %>%
+  left_join(us_density, by = 'state') %>%
+  rename(unit = state)
+
+eu_data <- ecdc_data %>%
+  left_join(eu_temp, by = 'country') %>%
+  left_join(eu_income, by = 'country') %>%
+  left_join(eu_density, by = 'country') %>%
+  rename(unit = country)
+
+data <- bind_rows(
+  'Xponent/NHSN' = us_data,
+  'ECDC' = eu_data,
+  .id = 'dataset'
+) %>%
   nest(-dataset, -pathogen, -antibiotic, .key = 'unit_data') %>%
-  left_join(adjacency_data, by = 'dataset') %>%
   # Make dataset/pathogen/antibiotic labels like "ECDC Ec/q"
   mutate(
     bug_drug = case_when(
@@ -101,7 +113,6 @@ data = bind_rows(us_data, eu_data) %>%
     ),
     label = str_c(dataset, ' ', bug_drug)
   )
-
 
 # Regional analysis ------------------------------------------------------------
 
