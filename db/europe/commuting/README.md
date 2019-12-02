@@ -1,0 +1,14 @@
+I copied Table 64 from the 2017 Annual Report on intra-EU Labour Mobility:
+
+## Caption
+
+Table 64, EU-28 and EFTA citizens of working age (20-64) who work in a different EU Member State/EFTA country than their country of residence (cross-border workers), by
+country of residence (columns) and country of work (rows), in thousands, 2016
+
+## Footer
+
+FIGURES FOR EL, FI AND NO AS COUNTRY OF RESIDENCE AND FOR BG, CY, EE, EL, HR, IS, LT, LV, MT, PL, RO AND SL AS COUNTRIES OF WORK ARE NOT DISPLAYED BECAUSE THEY ARE BELOW RELIABILITY LIMITS.
+\* FIGURES ARE BASED ON AGGREGATES (EU-28 AND EU-28+EFTA AS COUNTRIES OF WORK); THEY SLIGHTLY DEVIATE FROM THE ROW SUMS, BECAUSE OF SUPPRESSED FIGURES IN THE CALCULATIONS BY
+COUNTRY OF WORK
+\*\* AGGREGATE FIGURES FOR CH AND TOTAL EFTA NOT AVAILABLE, THEREFORE ROW SUMS ARE USED HERE.
+SOURCE : EU-LFS 2015, MILIEU CALCULATIONS

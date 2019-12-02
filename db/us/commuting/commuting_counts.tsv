@@ -1,0 +1,2296 @@
+from_state	to_state	n_workers
+Alabama	Alabama	1885374
+Alabama	Alaska	98
+Alabama	Arizona	86
+Alabama	Arkansas	347
+Alabama	California	510
+Alabama	Colorado	48
+Alabama	Connecticut	14
+Alabama	Delaware	28
+Alabama	Florida	8425
+Alabama	Georgia	43654
+Alabama	Hawaii	71
+Alabama	Idaho	13
+Alabama	Illinois	349
+Alabama	Indiana	201
+Alabama	Iowa	165
+Alabama	Kansas	122
+Alabama	Kentucky	388
+Alabama	Louisiana	2889
+Alabama	Maine	73
+Alabama	Maryland	249
+Alabama	Massachusetts	182
+Alabama	Michigan	247
+Alabama	Minnesota	178
+Alabama	Mississippi	13913
+Alabama	Missouri	346
+Alabama	Nebraska	41
+Alabama	Nevada	86
+Alabama	New Hampshire	22
+Alabama	New Jersey	212
+Alabama	New Mexico	80
+Alabama	New York	261
+Alabama	North Carolina	677
+Alabama	North Dakota	3
+Alabama	Ohio	553
+Alabama	Oklahoma	176
+Alabama	Oregon	80
+Alabama	Pennsylvania	419
+Alabama	South Carolina	432
+Alabama	Tennessee	8046
+Alabama	Texas	1714
+Alabama	Utah	82
+Alabama	Vermont	23
+Alabama	Virginia	745
+Alabama	Washington	268
+Alabama	West Virginia	144
+Alabama	Wisconsin	125
+Alabama	Wyoming	23
+Alaska	Alabama	71
+Alaska	Alaska	347094
+Alaska	Arizona	8
+Alaska	California	108
+Alaska	Colorado	66
+Alaska	Connecticut	1
+Alaska	Delaware	21
+Alaska	Florida	3
+Alaska	Georgia	29
+Alaska	Hawaii	33
+Alaska	Idaho	19
+Alaska	Illinois	14
+Alaska	Indiana	7
+Alaska	Iowa	8
+Alaska	Kentucky	13
+Alaska	Louisiana	42
+Alaska	Maryland	4
+Alaska	Michigan	57
+Alaska	Minnesota	3
+Alaska	Mississippi	16
+Alaska	Montana	2
+Alaska	Nebraska	9
+Alaska	Nevada	50
+Alaska	New Jersey	45
+Alaska	New York	20
+Alaska	North Dakota	35
+Alaska	Oregon	12
+Alaska	Pennsylvania	20
+Alaska	South Dakota	38
+Alaska	Tennessee	7
+Alaska	Texas	52
+Alaska	Utah	4
+Alaska	Virginia	31
+Alaska	Washington	213
+Arizona	Alabama	123
+Arizona	Alaska	400
+Arizona	Arizona	2637844
+Arizona	Arkansas	118
+Arizona	California	10953
+Arizona	Colorado	1337
+Arizona	Connecticut	106
+Arizona	Delaware	44
+Arizona	Florida	557
+Arizona	Georgia	335
+Arizona	Hawaii	125
+Arizona	Idaho	221
+Arizona	Illinois	891
+Arizona	Indiana	264
+Arizona	Iowa	396
+Arizona	Kansas	229
+Arizona	Kentucky	90
+Arizona	Louisiana	252
+Arizona	Maine	61
+Arizona	Maryland	304
+Arizona	Massachusetts	272
+Arizona	Michigan	505
+Arizona	Minnesota	678
+Arizona	Mississippi	96
+Arizona	Missouri	549
+Arizona	Montana	106
+Arizona	Nebraska	437
+Arizona	Nevada	9779
+Arizona	New Hampshire	61
+Arizona	New Jersey	476
+Arizona	New Mexico	3210
+Arizona	New York	668
+Arizona	North Carolina	303
+Arizona	North Dakota	623
+Arizona	Ohio	385
+Arizona	Oklahoma	374
+Arizona	Oregon	435
+Arizona	Pennsylvania	501
+Arizona	Rhode Island	40
+Arizona	South Carolina	73
+Arizona	South Dakota	155
+Arizona	Tennessee	187
+Arizona	Texas	2278
+Arizona	Utah	2339
+Arizona	Virginia	296
+Arizona	Washington	815
+Arizona	West Virginia	49
+Arizona	Wisconsin	392
+Arizona	Wyoming	238
+Arkansas	Alabama	232
+Arkansas	Alaska	132
+Arkansas	Arizona	223
+Arkansas	Arkansas	1180969
+Arkansas	California	430
+Arkansas	Colorado	105
+Arkansas	Florida	342
+Arkansas	Georgia	216
+Arkansas	Hawaii	8
+Arkansas	Illinois	505
+Arkansas	Indiana	181
+Arkansas	Iowa	126
+Arkansas	Kansas	330
+Arkansas	Kentucky	230
+Arkansas	Louisiana	2757
+Arkansas	Maine	11
+Arkansas	Maryland	10
+Arkansas	Massachusetts	26
+Arkansas	Michigan	133
+Arkansas	Minnesota	112
+Arkansas	Mississippi	2356
+Arkansas	Missouri	6082
+Arkansas	Montana	42
+Arkansas	Nebraska	233
+Arkansas	Nevada	66
+Arkansas	New Jersey	167
+Arkansas	New Mexico	15
+Arkansas	New York	233
+Arkansas	North Carolina	44
+Arkansas	North Dakota	63
+Arkansas	Ohio	323
+Arkansas	Oklahoma	5307
+Arkansas	Oregon	65
+Arkansas	Pennsylvania	406
+Arkansas	Rhode Island	29
+Arkansas	South Carolina	31
+Arkansas	South Dakota	48
+Arkansas	Tennessee	8936
+Arkansas	Texas	13152
+Arkansas	Utah	26
+Arkansas	Virginia	262
+Arkansas	Washington	95
+Arkansas	West Virginia	66
+Arkansas	Wisconsin	109
+Arkansas	Wyoming	44
+California	Alabama	246
+California	Alaska	831
+California	Arizona	6662
+California	Arkansas	556
+California	California	16209962
+California	Colorado	1640
+California	Connecticut	518
+California	Delaware	31
+California	Florida	1652
+California	Georgia	1665
+California	Hawaii	1409
+California	Idaho	151
+California	Illinois	2902
+California	Indiana	470
+California	Iowa	389
+California	Kansas	450
+California	Kentucky	256
+California	Louisiana	732
+California	Maine	189
+California	Maryland	726
+California	Massachusetts	1029
+California	Michigan	747
+California	Minnesota	772
+California	Mississippi	274
+California	Missouri	837
+California	Montana	407
+California	Nebraska	417
+California	Nevada	12297
+California	New Hampshire	101
+California	New Jersey	1401
+California	New Mexico	739
+California	New York	4531
+California	North Carolina	567
+California	North Dakota	223
+California	Ohio	984
+California	Oklahoma	484
+California	Oregon	3021
+California	Pennsylvania	1834
+California	Rhode Island	169
+California	South Carolina	279
+California	South Dakota	111
+California	Tennessee	754
+California	Texas	5450
+California	Utah	1244
+California	Vermont	98
+California	Virginia	1222
+California	Washington	4036
+California	West Virginia	134
+California	Wisconsin	706
+California	Wyoming	182
+Colorado	Alabama	161
+Colorado	Alaska	330
+Colorado	Arizona	1336
+Colorado	Arkansas	114
+Colorado	California	3098
+Colorado	Colorado	2461402
+Colorado	Connecticut	84
+Colorado	Florida	725
+Colorado	Georgia	560
+Colorado	Hawaii	178
+Colorado	Idaho	45
+Colorado	Illinois	955
+Colorado	Indiana	221
+Colorado	Iowa	215
+Colorado	Kansas	851
+Colorado	Kentucky	145
+Colorado	Louisiana	276
+Colorado	Maine	37
+Colorado	Maryland	306
+Colorado	Massachusetts	199
+Colorado	Michigan	376
+Colorado	Minnesota	366
+Colorado	Mississippi	74
+Colorado	Missouri	740
+Colorado	Montana	225
+Colorado	Nebraska	1081
+Colorado	Nevada	397
+Colorado	New Jersey	507
+Colorado	New Mexico	2441
+Colorado	New York	715
+Colorado	North Carolina	350
+Colorado	North Dakota	1265
+Colorado	Ohio	697
+Colorado	Oklahoma	552
+Colorado	Oregon	136
+Colorado	Pennsylvania	531
+Colorado	Rhode Island	41
+Colorado	South Carolina	57
+Colorado	South Dakota	349
+Colorado	Tennessee	304
+Colorado	Texas	2649
+Colorado	Utah	1319
+Colorado	Vermont	18
+Colorado	Virginia	585
+Colorado	Washington	583
+Colorado	West Virginia	9
+Colorado	Wisconsin	255
+Colorado	Wyoming	4450
+Connecticut	Alabama	44
+Connecticut	Alaska	62
+Connecticut	Arizona	59
+Connecticut	California	645
+Connecticut	Colorado	76
+Connecticut	Connecticut	1618775
+Connecticut	Delaware	60
+Connecticut	Florida	436
+Connecticut	Georgia	219
+Connecticut	Hawaii	36
+Connecticut	Illinois	399
+Connecticut	Indiana	43
+Connecticut	Kansas	15
+Connecticut	Kentucky	100
+Connecticut	Louisiana	42
+Connecticut	Maine	317
+Connecticut	Maryland	358
+Connecticut	Massachusetts	20614
+Connecticut	Michigan	170
+Connecticut	Minnesota	52
+Connecticut	Mississippi	14
+Connecticut	Missouri	142
+Connecticut	Montana	17
+Connecticut	Nebraska	13
+Connecticut	Nevada	126
+Connecticut	New Hampshire	508
+Connecticut	New Jersey	3185
+Connecticut	New York	69508
+Connecticut	North Carolina	159
+Connecticut	North Dakota	7
+Connecticut	Ohio	165
+Connecticut	Oklahoma	68
+Connecticut	Oregon	36
+Connecticut	Pennsylvania	828
+Connecticut	Rhode Island	7475
+Connecticut	South Carolina	137
+Connecticut	Tennessee	94
+Connecticut	Texas	277
+Connecticut	Utah	68
+Connecticut	Vermont	308
+Connecticut	Virginia	485
+Connecticut	Washington	57
+Connecticut	West Virginia	9
+Connecticut	Wisconsin	84
+Connecticut	Wyoming	27
+Delaware	Arizona	27
+Delaware	Arkansas	17
+Delaware	California	20
+Delaware	Colorado	17
+Delaware	Connecticut	124
+Delaware	Delaware	356140
+Delaware	Florida	95
+Delaware	Georgia	31
+Delaware	Idaho	10
+Delaware	Illinois	88
+Delaware	Indiana	39
+Delaware	Kentucky	57
+Delaware	Louisiana	6
+Delaware	Maryland	20087
+Delaware	Massachusetts	98
+Delaware	Michigan	29
+Delaware	Minnesota	39
+Delaware	Mississippi	18
+Delaware	Missouri	5
+Delaware	Nebraska	11
+Delaware	Nevada	14
+Delaware	New Jersey	6257
+Delaware	New York	1445
+Delaware	North Carolina	43
+Delaware	North Dakota	11
+Delaware	Ohio	92
+Delaware	Oklahoma	18
+Delaware	Pennsylvania	29210
+Delaware	Rhode Island	16
+Delaware	South Carolina	39
+Delaware	Tennessee	4
+Delaware	Texas	77
+Delaware	Utah	3
+Delaware	Virginia	898
+Delaware	Washington	41
+Delaware	Wyoming	13
+Florida	Alabama	9337
+Florida	Alaska	203
+Florida	Arizona	662
+Florida	Arkansas	299
+Florida	California	2402
+Florida	Colorado	661
+Florida	Connecticut	1181
+Florida	Delaware	319
+Florida	Florida	7993452
+Florida	Georgia	13805
+Florida	Hawaii	266
+Florida	Idaho	19
+Florida	Illinois	3408
+Florida	Indiana	1514
+Florida	Iowa	483
+Florida	Kansas	358
+Florida	Kentucky	997
+Florida	Louisiana	3195
+Florida	Maine	291
+Florida	Maryland	2410
+Florida	Massachusetts	2440
+Florida	Michigan	2853
+Florida	Minnesota	1191
+Florida	Mississippi	940
+Florida	Missouri	1499
+Florida	Montana	9
+Florida	Nebraska	539
+Florida	Nevada	516
+Florida	New Hampshire	373
+Florida	New Jersey	3929
+Florida	New Mexico	172
+Florida	New York	8266
+Florida	North Carolina	2938
+Florida	North Dakota	407
+Florida	Ohio	2988
+Florida	Oklahoma	407
+Florida	Oregon	138
+Florida	Pennsylvania	2970
+Florida	Rhode Island	591
+Florida	South Carolina	1783
+Florida	South Dakota	80
+Florida	Tennessee	1849
+Florida	Texas	5447
+Florida	Utah	259
+Florida	Vermont	111
+Florida	Virginia	3879
+Florida	Washington	628
+Florida	West Virginia	324
+Florida	Wisconsin	869
+Florida	Wyoming	178
+Georgia	Alabama	12263
+Georgia	Alaska	79
+Georgia	Arizona	266
+Georgia	Arkansas	462
+Georgia	California	1714
+Georgia	Colorado	434
+Georgia	Connecticut	388
+Georgia	Delaware	51
+Georgia	Florida	15066
+Georgia	Georgia	4091461
+Georgia	Hawaii	68
+Georgia	Idaho	16
+Georgia	Illinois	1377
+Georgia	Indiana	607
+Georgia	Iowa	410
+Georgia	Kansas	436
+Georgia	Kentucky	965
+Georgia	Louisiana	889
+Georgia	Maine	29
+Georgia	Maryland	966
+Georgia	Massachusetts	656
+Georgia	Michigan	881
+Georgia	Minnesota	705
+Georgia	Mississippi	643
+Georgia	Missouri	373
+Georgia	Montana	23
+Georgia	Nebraska	206
+Georgia	Nevada	199
+Georgia	New Hampshire	25
+Georgia	New Jersey	775
+Georgia	New Mexico	85
+Georgia	New York	2408
+Georgia	North Carolina	6057
+Georgia	North Dakota	119
+Georgia	Ohio	1040
+Georgia	Oklahoma	227
+Georgia	Oregon	97
+Georgia	Pennsylvania	1110
+Georgia	Rhode Island	14
+Georgia	South Carolina	20318
+Georgia	South Dakota	52
+Georgia	Tennessee	36215
+Georgia	Texas	2944
+Georgia	Utah	137
+Georgia	Vermont	9
+Georgia	Virginia	2147
+Georgia	Washington	242
+Georgia	West Virginia	127
+Georgia	Wisconsin	402
+Georgia	Wyoming	59
+Hawaii	Alaska	104
+Hawaii	Arizona	61
+Hawaii	California	844
+Hawaii	Colorado	52
+Hawaii	Connecticut	12
+Hawaii	Delaware	6
+Hawaii	Florida	51
+Hawaii	Georgia	8
+Hawaii	Hawaii	660206
+Hawaii	Idaho	15
+Hawaii	Illinois	27
+Hawaii	Indiana	5
+Hawaii	Kansas	5
+Hawaii	Kentucky	23
+Hawaii	Maryland	85
+Hawaii	Massachusetts	110
+Hawaii	Minnesota	22
+Hawaii	Missouri	52
+Hawaii	Nevada	88
+Hawaii	New Jersey	48
+Hawaii	New Mexico	14
+Hawaii	New York	35
+Hawaii	North Carolina	63
+Hawaii	North Dakota	16
+Hawaii	Ohio	32
+Hawaii	Oregon	137
+Hawaii	Pennsylvania	17
+Hawaii	Rhode Island	13
+Hawaii	South Carolina	21
+Hawaii	Tennessee	18
+Hawaii	Texas	118
+Hawaii	Utah	30
+Hawaii	Virginia	66
+Hawaii	Washington	234
+Idaho	Alaska	424
+Idaho	Arizona	226
+Idaho	Arkansas	22
+Idaho	California	720
+Idaho	Colorado	299
+Idaho	Florida	64
+Idaho	Georgia	40
+Idaho	Hawaii	53
+Idaho	Idaho	647401
+Idaho	Illinois	192
+Idaho	Indiana	7
+Idaho	Iowa	162
+Idaho	Kansas	26
+Idaho	Louisiana	108
+Idaho	Massachusetts	52
+Idaho	Michigan	2
+Idaho	Minnesota	38
+Idaho	Missouri	91
+Idaho	Montana	849
+Idaho	Nebraska	96
+Idaho	Nevada	1010
+Idaho	New Hampshire	3
+Idaho	New Jersey	70
+Idaho	New Mexico	50
+Idaho	New York	70
+Idaho	North Carolina	50
+Idaho	North Dakota	960
+Idaho	Ohio	53
+Idaho	Oklahoma	32
+Idaho	Oregon	5773
+Idaho	Pennsylvania	126
+Idaho	South Carolina	53
+Idaho	South Dakota	44
+Idaho	Tennessee	131
+Idaho	Texas	217
+Idaho	Utah	3466
+Idaho	Virginia	50
+Idaho	Washington	18013
+Idaho	West Virginia	15
+Idaho	Wisconsin	40
+Idaho	Wyoming	2746
+Illinois	Alabama	228
+Illinois	Alaska	48
+Illinois	Arizona	382
+Illinois	Arkansas	375
+Illinois	California	2338
+Illinois	Colorado	532
+Illinois	Connecticut	349
+Illinois	Delaware	82
+Illinois	Florida	1645
+Illinois	Georgia	1125
+Illinois	Hawaii	67
+Illinois	Idaho	79
+Illinois	Illinois	5692014
+Illinois	Indiana	32161
+Illinois	Iowa	32038
+Illinois	Kansas	407
+Illinois	Kentucky	4105
+Illinois	Louisiana	408
+Illinois	Maine	30
+Illinois	Maryland	311
+Illinois	Massachusetts	601
+Illinois	Michigan	2195
+Illinois	Minnesota	1353
+Illinois	Mississippi	184
+Illinois	Missouri	81760
+Illinois	Montana	98
+Illinois	Nebraska	639
+Illinois	Nevada	368
+Illinois	New Hampshire	99
+Illinois	New Jersey	878
+Illinois	New Mexico	102
+Illinois	New York	1629
+Illinois	North Carolina	728
+Illinois	North Dakota	79
+Illinois	Ohio	1934
+Illinois	Oklahoma	226
+Illinois	Oregon	182
+Illinois	Pennsylvania	1040
+Illinois	Rhode Island	141
+Illinois	South Carolina	188
+Illinois	South Dakota	68
+Illinois	Tennessee	992
+Illinois	Texas	2035
+Illinois	Utah	111
+Illinois	Vermont	121
+Illinois	Virginia	914
+Illinois	Washington	299
+Illinois	West Virginia	75
+Illinois	Wisconsin	22521
+Illinois	Wyoming	100
+Indiana	Alabama	378
+Indiana	Alaska	141
+Indiana	Arizona	253
+Indiana	Arkansas	235
+Indiana	California	666
+Indiana	Colorado	222
+Indiana	Connecticut	43
+Indiana	Delaware	20
+Indiana	Florida	781
+Indiana	Georgia	359
+Indiana	Hawaii	31
+Indiana	Idaho	52
+Indiana	Illinois	67289
+Indiana	Indiana	2745526
+Indiana	Iowa	485
+Indiana	Kansas	175
+Indiana	Kentucky	51916
+Indiana	Louisiana	319
+Indiana	Maine	90
+Indiana	Maryland	304
+Indiana	Massachusetts	162
+Indiana	Michigan	9622
+Indiana	Minnesota	342
+Indiana	Mississippi	126
+Indiana	Missouri	696
+Indiana	Montana	12
+Indiana	Nebraska	159
+Indiana	Nevada	26
+Indiana	New Jersey	486
+Indiana	New Mexico	47
+Indiana	New York	490
+Indiana	North Carolina	461
+Indiana	North Dakota	58
+Indiana	Ohio	24177
+Indiana	Oklahoma	127
+Indiana	Oregon	45
+Indiana	Pennsylvania	849
+Indiana	Rhode Island	8
+Indiana	South Carolina	264
+Indiana	South Dakota	44
+Indiana	Tennessee	865
+Indiana	Texas	836
+Indiana	Utah	88
+Indiana	Vermont	39
+Indiana	Virginia	363
+Indiana	Washington	106
+Indiana	West Virginia	179
+Indiana	Wisconsin	696
+Indiana	Wyoming	12
+Iowa	Alabama	90
+Iowa	Alaska	20
+Iowa	Arizona	182
+Iowa	Arkansas	67
+Iowa	California	304
+Iowa	Colorado	186
+Iowa	Connecticut	13
+Iowa	Florida	154
+Iowa	Georgia	129
+Iowa	Hawaii	13
+Iowa	Idaho	19
+Iowa	Illinois	21149
+Iowa	Indiana	213
+Iowa	Iowa	1454584
+Iowa	Kansas	279
+Iowa	Kentucky	51
+Iowa	Louisiana	129
+Iowa	Maine	2
+Iowa	Maryland	11
+Iowa	Massachusetts	96
+Iowa	Michigan	165
+Iowa	Minnesota	5182
+Iowa	Mississippi	26
+Iowa	Missouri	1519
+Iowa	Montana	31
+Iowa	Nebraska	30636
+Iowa	Nevada	30
+Iowa	New Hampshire	16
+Iowa	New Jersey	119
+Iowa	New Mexico	20
+Iowa	New York	130
+Iowa	North Carolina	142
+Iowa	North Dakota	218
+Iowa	Ohio	169
+Iowa	Oklahoma	134
+Iowa	Oregon	37
+Iowa	Pennsylvania	69
+Iowa	Rhode Island	11
+Iowa	South Carolina	51
+Iowa	South Dakota	5427
+Iowa	Tennessee	88
+Iowa	Texas	382
+Iowa	Utah	45
+Iowa	Virginia	111
+Iowa	Washington	56
+Iowa	West Virginia	5
+Iowa	Wisconsin	3160
+Iowa	Wyoming	48
+Kansas	Alabama	35
+Kansas	Alaska	48
+Kansas	Arizona	106
+Kansas	Arkansas	294
+Kansas	California	639
+Kansas	Colorado	554
+Kansas	Delaware	33
+Kansas	Florida	166
+Kansas	Georgia	166
+Kansas	Hawaii	16
+Kansas	Idaho	6
+Kansas	Illinois	556
+Kansas	Indiana	171
+Kansas	Iowa	481
+Kansas	Kansas	1274984
+Kansas	Kentucky	74
+Kansas	Louisiana	130
+Kansas	Maryland	181
+Kansas	Massachusetts	18
+Kansas	Michigan	103
+Kansas	Minnesota	152
+Kansas	Mississippi	52
+Kansas	Missouri	88376
+Kansas	Montana	26
+Kansas	Nebraska	1648
+Kansas	Nevada	54
+Kansas	New Jersey	66
+Kansas	New Mexico	91
+Kansas	New York	122
+Kansas	North Carolina	80
+Kansas	North Dakota	97
+Kansas	Ohio	133
+Kansas	Oklahoma	5163
+Kansas	Oregon	42
+Kansas	Pennsylvania	96
+Kansas	Rhode Island	21
+Kansas	South Carolina	12
+Kansas	South Dakota	106
+Kansas	Tennessee	179
+Kansas	Texas	1414
+Kansas	Utah	20
+Kansas	Virginia	186
+Kansas	Washington	88
+Kansas	West Virginia	12
+Kansas	Wisconsin	220
+Kansas	Wyoming	48
+Kentucky	Alabama	505
+Kentucky	Alaska	72
+Kentucky	Arizona	56
+Kentucky	Arkansas	349
+Kentucky	California	297
+Kentucky	Colorado	87
+Kentucky	Connecticut	35
+Kentucky	Florida	635
+Kentucky	Georgia	964
+Kentucky	Hawaii	8
+Kentucky	Idaho	21
+Kentucky	Illinois	3002
+Kentucky	Indiana	26028
+Kentucky	Iowa	79
+Kentucky	Kansas	43
+Kentucky	Kentucky	1713124
+Kentucky	Louisiana	239
+Kentucky	Maryland	240
+Kentucky	Massachusetts	99
+Kentucky	Michigan	448
+Kentucky	Minnesota	208
+Kentucky	Mississippi	199
+Kentucky	Missouri	564
+Kentucky	Montana	16
+Kentucky	Nebraska	102
+Kentucky	Nevada	62
+Kentucky	New Hampshire	60
+Kentucky	New Jersey	228
+Kentucky	New Mexico	36
+Kentucky	New York	277
+Kentucky	North Carolina	366
+Kentucky	North Dakota	47
+Kentucky	Ohio	59784
+Kentucky	Oklahoma	230
+Kentucky	Oregon	28
+Kentucky	Pennsylvania	404
+Kentucky	South Carolina	185
+Kentucky	South Dakota	22
+Kentucky	Tennessee	12915
+Kentucky	Texas	663
+Kentucky	Utah	43
+Kentucky	Vermont	25
+Kentucky	Virginia	2027
+Kentucky	Washington	109
+Kentucky	West Virginia	6572
+Kentucky	Wisconsin	192
+Kentucky	Wyoming	9
+Louisiana	Alabama	722
+Louisiana	Alaska	248
+Louisiana	Arizona	89
+Louisiana	Arkansas	2866
+Louisiana	California	704
+Louisiana	Colorado	170
+Louisiana	Connecticut	46
+Louisiana	Florida	742
+Louisiana	Georgia	752
+Louisiana	Hawaii	91
+Louisiana	Idaho	121
+Louisiana	Illinois	412
+Louisiana	Indiana	133
+Louisiana	Iowa	92
+Louisiana	Kansas	181
+Louisiana	Kentucky	139
+Louisiana	Louisiana	1920156
+Louisiana	Maryland	54
+Louisiana	Massachusetts	129
+Louisiana	Michigan	220
+Louisiana	Minnesota	71
+Louisiana	Mississippi	9868
+Louisiana	Missouri	210
+Louisiana	Montana	125
+Louisiana	Nebraska	33
+Louisiana	Nevada	159
+Louisiana	New Jersey	238
+Louisiana	New Mexico	70
+Louisiana	New York	469
+Louisiana	North Carolina	309
+Louisiana	North Dakota	294
+Louisiana	Ohio	195
+Louisiana	Oklahoma	763
+Louisiana	Oregon	27
+Louisiana	Pennsylvania	618
+Louisiana	Rhode Island	50
+Louisiana	South Carolina	159
+Louisiana	South Dakota	7
+Louisiana	Tennessee	491
+Louisiana	Texas	17676
+Louisiana	Utah	87
+Louisiana	Virginia	255
+Louisiana	Washington	42
+Louisiana	West Virginia	46
+Louisiana	Wisconsin	188
+Louisiana	Wyoming	65
+Maine	Alabama	26
+Maine	Alaska	9
+Maine	Arizona	99
+Maine	Arkansas	18
+Maine	California	125
+Maine	Colorado	33
+Maine	Connecticut	323
+Maine	Delaware	7
+Maine	Florida	241
+Maine	Georgia	63
+Maine	Hawaii	35
+Maine	Illinois	62
+Maine	Indiana	5
+Maine	Iowa	19
+Maine	Kansas	12
+Maine	Louisiana	164
+Maine	Maine	607252
+Maine	Maryland	148
+Maine	Massachusetts	5099
+Maine	Michigan	97
+Maine	Minnesota	67
+Maine	Mississippi	9
+Maine	Missouri	60
+Maine	Montana	3
+Maine	Nebraska	22
+Maine	New Hampshire	16404
+Maine	New Jersey	181
+Maine	New Mexico	4
+Maine	New York	707
+Maine	North Carolina	87
+Maine	North Dakota	21
+Maine	Ohio	51
+Maine	Oklahoma	11
+Maine	Oregon	3
+Maine	Pennsylvania	161
+Maine	Rhode Island	157
+Maine	South Carolina	112
+Maine	South Dakota	11
+Maine	Tennessee	63
+Maine	Texas	161
+Maine	Utah	12
+Maine	Vermont	238
+Maine	Virginia	115
+Maine	Washington	37
+Maine	West Virginia	10
+Maine	Wisconsin	70
+Maryland	Alabama	96
+Maryland	Alaska	41
+Maryland	Arizona	97
+Maryland	Arkansas	6
+Maryland	California	529
+Maryland	Colorado	187
+Maryland	Connecticut	178
+Maryland	Delaware	19505
+Maryland	Florida	949
+Maryland	Georgia	516
+Maryland	Hawaii	79
+Maryland	Idaho	15
+Maryland	Illinois	460
+Maryland	Indiana	87
+Maryland	Iowa	46
+Maryland	Kansas	75
+Maryland	Kentucky	141
+Maryland	Louisiana	169
+Maryland	Maine	87
+Maryland	Maryland	2390255
+Maryland	Massachusetts	698
+Maryland	Michigan	327
+Maryland	Minnesota	249
+Maryland	Mississippi	74
+Maryland	Missouri	381
+Maryland	Nebraska	23
+Maryland	Nevada	100
+Maryland	New Hampshire	36
+Maryland	New Jersey	1899
+Maryland	New Mexico	39
+Maryland	New York	2713
+Maryland	North Carolina	947
+Maryland	North Dakota	26
+Maryland	Ohio	414
+Maryland	Oklahoma	21
+Maryland	Oregon	89
+Maryland	Pennsylvania	14770
+Maryland	Rhode Island	119
+Maryland	South Carolina	91
+Maryland	Tennessee	219
+Maryland	Texas	750
+Maryland	Utah	28
+Maryland	Vermont	8
+Maryland	Virginia	122688
+Maryland	Washington	284
+Maryland	West Virginia	5981
+Maryland	Wisconsin	158
+Maryland	Wyoming	18
+Massachusetts	Alabama	76
+Massachusetts	Alaska	12
+Massachusetts	Arizona	254
+Massachusetts	Arkansas	40
+Massachusetts	California	1022
+Massachusetts	Colorado	142
+Massachusetts	Connecticut	29341
+Massachusetts	Delaware	50
+Massachusetts	Florida	979
+Massachusetts	Georgia	310
+Massachusetts	Hawaii	74
+Massachusetts	Idaho	33
+Massachusetts	Illinois	685
+Massachusetts	Indiana	251
+Massachusetts	Iowa	102
+Massachusetts	Kansas	56
+Massachusetts	Kentucky	109
+Massachusetts	Louisiana	137
+Massachusetts	Maine	1785
+Massachusetts	Maryland	744
+Massachusetts	Massachusetts	3111588
+Massachusetts	Michigan	331
+Massachusetts	Minnesota	225
+Massachusetts	Mississippi	45
+Massachusetts	Missouri	215
+Massachusetts	Montana	4
+Massachusetts	Nebraska	41
+Massachusetts	Nevada	72
+Massachusetts	New Hampshire	31425
+Massachusetts	New Jersey	1504
+Massachusetts	New Mexico	41
+Massachusetts	New York	6825
+Massachusetts	North Carolina	289
+Massachusetts	North Dakota	8
+Massachusetts	Ohio	219
+Massachusetts	Oklahoma	54
+Massachusetts	Oregon	14
+Massachusetts	Pennsylvania	1141
+Massachusetts	Rhode Island	42583
+Massachusetts	South Carolina	100
+Massachusetts	Tennessee	140
+Massachusetts	Texas	715
+Massachusetts	Utah	130
+Massachusetts	Vermont	2308
+Massachusetts	Virginia	788
+Massachusetts	Washington	206
+Massachusetts	West Virginia	23
+Massachusetts	Wisconsin	156
+Massachusetts	Wyoming	8
+Michigan	Alabama	333
+Michigan	Alaska	101
+Michigan	Arizona	346
+Michigan	Arkansas	158
+Michigan	California	1289
+Michigan	Colorado	249
+Michigan	Connecticut	352
+Michigan	Delaware	17
+Michigan	Florida	1330
+Michigan	Georgia	795
+Michigan	Hawaii	53
+Michigan	Idaho	65
+Michigan	Illinois	5385
+Michigan	Indiana	25123
+Michigan	Iowa	448
+Michigan	Kansas	331
+Michigan	Kentucky	614
+Michigan	Louisiana	147
+Michigan	Maine	65
+Michigan	Maryland	450
+Michigan	Massachusetts	336
+Michigan	Michigan	4065510
+Michigan	Minnesota	925
+Michigan	Mississippi	191
+Michigan	Missouri	541
+Michigan	Montana	61
+Michigan	Nebraska	275
+Michigan	Nevada	158
+Michigan	New Hampshire	40
+Michigan	New Jersey	568
+Michigan	New Mexico	71
+Michigan	New York	1211
+Michigan	North Carolina	428
+Michigan	North Dakota	204
+Michigan	Ohio	23564
+Michigan	Oklahoma	168
+Michigan	Oregon	82
+Michigan	Pennsylvania	1242
+Michigan	Rhode Island	43
+Michigan	South Carolina	288
+Michigan	South Dakota	39
+Michigan	Tennessee	858
+Michigan	Texas	1287
+Michigan	Utah	133
+Michigan	Vermont	45
+Michigan	Virginia	442
+Michigan	Washington	362
+Michigan	West Virginia	91
+Michigan	Wisconsin	7526
+Michigan	Wyoming	80
+Minnesota	Alabama	36
+Minnesota	Alaska	151
+Minnesota	Arizona	250
+Minnesota	Arkansas	65
+Minnesota	California	934
+Minnesota	Colorado	295
+Minnesota	Connecticut	57
+Minnesota	Delaware	3
+Minnesota	Florida	536
+Minnesota	Georgia	513
+Minnesota	Hawaii	66
+Minnesota	Idaho	30
+Minnesota	Illinois	1332
+Minnesota	Indiana	313
+Minnesota	Iowa	4597
+Minnesota	Kansas	206
+Minnesota	Kentucky	74
+Minnesota	Louisiana	43
+Minnesota	Maine	50
+Minnesota	Maryland	122
+Minnesota	Massachusetts	233
+Minnesota	Michigan	403
+Minnesota	Minnesota	2631579
+Minnesota	Mississippi	19
+Minnesota	Missouri	442
+Minnesota	Montana	146
+Minnesota	Nebraska	282
+Minnesota	Nevada	122
+Minnesota	New Hampshire	41
+Minnesota	New Jersey	271
+Minnesota	New Mexico	49
+Minnesota	New York	538
+Minnesota	North Carolina	167
+Minnesota	North Dakota	29090
+Minnesota	Ohio	229
+Minnesota	Oklahoma	104
+Minnesota	Oregon	101
+Minnesota	Pennsylvania	306
+Minnesota	Rhode Island	18
+Minnesota	South Carolina	48
+Minnesota	South Dakota	3628
+Minnesota	Tennessee	216
+Minnesota	Texas	823
+Minnesota	Utah	141
+Minnesota	Virginia	163
+Minnesota	Washington	235
+Minnesota	West Virginia	19
+Minnesota	Wisconsin	19612
+Minnesota	Wyoming	68
+Mississippi	Alabama	7674
+Mississippi	Alaska	82
+Mississippi	Arizona	53
+Mississippi	Arkansas	1893
+Mississippi	California	342
+Mississippi	Colorado	85
+Mississippi	Connecticut	17
+Mississippi	Delaware	38
+Mississippi	Florida	632
+Mississippi	Georgia	883
+Mississippi	Illinois	334
+Mississippi	Indiana	157
+Mississippi	Iowa	49
+Mississippi	Kansas	174
+Mississippi	Kentucky	222
+Mississippi	Louisiana	21596
+Mississippi	Maryland	123
+Mississippi	Massachusetts	21
+Mississippi	Michigan	124
+Mississippi	Minnesota	226
+Mississippi	Mississippi	1083836
+Mississippi	Missouri	256
+Mississippi	Montana	20
+Mississippi	Nebraska	106
+Mississippi	Nevada	60
+Mississippi	New Hampshire	19
+Mississippi	New Jersey	66
+Mississippi	New Mexico	52
+Mississippi	New York	205
+Mississippi	North Carolina	240
+Mississippi	North Dakota	220
+Mississippi	Ohio	193
+Mississippi	Oklahoma	135
+Mississippi	Oregon	4
+Mississippi	Pennsylvania	168
+Mississippi	South Carolina	425
+Mississippi	Tennessee	52758
+Mississippi	Texas	4274
+Mississippi	Utah	47
+Mississippi	Vermont	27
+Mississippi	Virginia	223
+Mississippi	Washington	65
+Mississippi	West Virginia	52
+Mississippi	Wisconsin	67
+Mississippi	Wyoming	72
+Missouri	Alabama	145
+Missouri	Alaska	61
+Missouri	Arizona	304
+Missouri	Arkansas	9259
+Missouri	California	666
+Missouri	Colorado	389
+Missouri	Connecticut	141
+Missouri	Delaware	15
+Missouri	Florida	562
+Missouri	Georgia	609
+Missouri	Hawaii	25
+Missouri	Idaho	70
+Missouri	Illinois	24923
+Missouri	Indiana	1127
+Missouri	Iowa	4640
+Missouri	Kansas	97835
+Missouri	Kentucky	550
+Missouri	Louisiana	494
+Missouri	Maine	9
+Missouri	Maryland	259
+Missouri	Massachusetts	153
+Missouri	Michigan	314
+Missouri	Minnesota	742
+Missouri	Mississippi	266
+Missouri	Missouri	2581920
+Missouri	Montana	111
+Missouri	Nebraska	1481
+Missouri	Nevada	114
+Missouri	New Hampshire	33
+Missouri	New Jersey	406
+Missouri	New Mexico	131
+Missouri	New York	554
+Missouri	North Carolina	241
+Missouri	North Dakota	247
+Missouri	Ohio	697
+Missouri	Oklahoma	2653
+Missouri	Oregon	81
+Missouri	Pennsylvania	617
+Missouri	Rhode Island	16
+Missouri	South Carolina	187
+Missouri	South Dakota	62
+Missouri	Tennessee	973
+Missouri	Texas	1957
+Missouri	Utah	64
+Missouri	Vermont	23
+Missouri	Virginia	474
+Missouri	Washington	192
+Missouri	West Virginia	80
+Missouri	Wisconsin	554
+Missouri	Wyoming	43
+Montana	Alaska	397
+Montana	Arizona	154
+Montana	Arkansas	24
+Montana	California	421
+Montana	Colorado	316
+Montana	Connecticut	4
+Montana	Florida	52
+Montana	Georgia	41
+Montana	Idaho	506
+Montana	Illinois	6
+Montana	Indiana	16
+Montana	Iowa	4
+Montana	Kansas	56
+Montana	Kentucky	7
+Montana	Louisiana	25
+Montana	Maine	11
+Montana	Maryland	5
+Montana	Massachusetts	41
+Montana	Michigan	43
+Montana	Minnesota	154
+Montana	Mississippi	6
+Montana	Missouri	16
+Montana	Montana	461298
+Montana	Nebraska	32
+Montana	Nevada	127
+Montana	New Jersey	8
+Montana	New Mexico	51
+Montana	New York	101
+Montana	North Carolina	30
+Montana	North Dakota	2572
+Montana	Ohio	133
+Montana	Oklahoma	9
+Montana	Oregon	151
+Montana	Pennsylvania	47
+Montana	South Carolina	21
+Montana	South Dakota	208
+Montana	Tennessee	4
+Montana	Texas	302
+Montana	Utah	242
+Montana	Virginia	14
+Montana	Washington	395
+Montana	West Virginia	17
+Montana	Wisconsin	156
+Montana	Wyoming	787
+Nebraska	Alabama	9
+Nebraska	Alaska	42
+Nebraska	Arizona	93
+Nebraska	Arkansas	60
+Nebraska	California	212
+Nebraska	Colorado	695
+Nebraska	Connecticut	7
+Nebraska	Delaware	17
+Nebraska	Florida	94
+Nebraska	Georgia	59
+Nebraska	Idaho	11
+Nebraska	Illinois	274
+Nebraska	Indiana	94
+Nebraska	Iowa	17445
+Nebraska	Kansas	2096
+Nebraska	Kentucky	8
+Nebraska	Louisiana	25
+Nebraska	Maryland	62
+Nebraska	Massachusetts	25
+Nebraska	Michigan	61
+Nebraska	Minnesota	195
+Nebraska	Mississippi	7
+Nebraska	Missouri	648
+Nebraska	Montana	60
+Nebraska	Nebraska	909750
+Nebraska	Nevada	41
+Nebraska	New Jersey	82
+Nebraska	New Mexico	14
+Nebraska	New York	115
+Nebraska	North Carolina	85
+Nebraska	North Dakota	90
+Nebraska	Ohio	44
+Nebraska	Oklahoma	144
+Nebraska	Oregon	8
+Nebraska	Pennsylvania	32
+Nebraska	South Carolina	15
+Nebraska	South Dakota	2765
+Nebraska	Tennessee	110
+Nebraska	Texas	277
+Nebraska	Utah	22
+Nebraska	Virginia	41
+Nebraska	Washington	39
+Nebraska	Wisconsin	41
+Nebraska	Wyoming	676
+Nevada	Alabama	27
+Nevada	Alaska	137
+Nevada	Arizona	1609
+Nevada	Arkansas	18
+Nevada	California	13666
+Nevada	Colorado	453
+Nevada	Connecticut	28
+Nevada	Delaware	10
+Nevada	Florida	331
+Nevada	Georgia	136
+Nevada	Hawaii	166
+Nevada	Idaho	288
+Nevada	Illinois	457
+Nevada	Indiana	208
+Nevada	Iowa	73
+Nevada	Kansas	7
+Nevada	Kentucky	61
+Nevada	Louisiana	70
+Nevada	Maryland	85
+Nevada	Massachusetts	131
+Nevada	Michigan	184
+Nevada	Minnesota	223
+Nevada	Mississippi	35
+Nevada	Missouri	97
+Nevada	Montana	153
+Nevada	Nebraska	315
+Nevada	Nevada	1191239
+Nevada	New Hampshire	34
+Nevada	New Jersey	53
+Nevada	New Mexico	109
+Nevada	New York	475
+Nevada	North Carolina	183
+Nevada	North Dakota	274
+Nevada	Ohio	90
+Nevada	Oklahoma	38
+Nevada	Oregon	164
+Nevada	Pennsylvania	239
+Nevada	South Carolina	58
+Nevada	South Dakota	8
+Nevada	Tennessee	154
+Nevada	Texas	590
+Nevada	Utah	1212
+Nevada	Virginia	151
+Nevada	Washington	248
+Nevada	West Virginia	7
+Nevada	Wisconsin	74
+Nevada	Wyoming	104
+New Hampshire	Alabama	39
+New Hampshire	Alaska	23
+New Hampshire	Arizona	38
+New Hampshire	California	211
+New Hampshire	Colorado	41
+New Hampshire	Connecticut	754
+New Hampshire	Delaware	26
+New Hampshire	Florida	307
+New Hampshire	Georgia	95
+New Hampshire	Hawaii	8
+New Hampshire	Illinois	196
+New Hampshire	Indiana	46
+New Hampshire	Iowa	26
+New Hampshire	Kentucky	21
+New Hampshire	Louisiana	20
+New Hampshire	Maine	6965
+New Hampshire	Maryland	123
+New Hampshire	Massachusetts	82281
+New Hampshire	Michigan	52
+New Hampshire	Minnesota	69
+New Hampshire	Mississippi	17
+New Hampshire	Missouri	45
+New Hampshire	Nebraska	16
+New Hampshire	Nevada	47
+New Hampshire	New Hampshire	570188
+New Hampshire	New Jersey	360
+New Hampshire	New Mexico	3
+New Hampshire	New York	1251
+New Hampshire	North Carolina	71
+New Hampshire	North Dakota	32
+New Hampshire	Ohio	264
+New Hampshire	Oklahoma	45
+New Hampshire	Oregon	26
+New Hampshire	Pennsylvania	297
+New Hampshire	Rhode Island	379
+New Hampshire	South Carolina	34
+New Hampshire	South Dakota	4
+New Hampshire	Tennessee	20
+New Hampshire	Texas	201
+New Hampshire	Utah	16
+New Hampshire	Vermont	9393
+New Hampshire	Virginia	200
+New Hampshire	Washington	39
+New Hampshire	West Virginia	33
+New Hampshire	Wisconsin	24
+New Hampshire	Wyoming	10
+New Jersey	Alabama	57
+New Jersey	Alaska	21
+New Jersey	Arizona	210
+New Jersey	Arkansas	21
+New Jersey	California	1339
+New Jersey	Colorado	221
+New Jersey	Connecticut	3398
+New Jersey	Delaware	8209
+New Jersey	Florida	1094
+New Jersey	Georgia	481
+New Jersey	Idaho	5
+New Jersey	Illinois	735
+New Jersey	Indiana	169
+New Jersey	Iowa	12
+New Jersey	Kansas	118
+New Jersey	Kentucky	87
+New Jersey	Louisiana	88
+New Jersey	Maine	95
+New Jersey	Maryland	2443
+New Jersey	Massachusetts	1666
+New Jersey	Michigan	391
+New Jersey	Minnesota	211
+New Jersey	Mississippi	28
+New Jersey	Missouri	215
+New Jersey	Montana	32
+New Jersey	Nebraska	45
+New Jersey	Nevada	241
+New Jersey	New Hampshire	97
+New Jersey	New Jersey	3553150
+New Jersey	New Mexico	2
+New Jersey	New York	399961
+New Jersey	North Carolina	672
+New Jersey	North Dakota	102
+New Jersey	Ohio	1010
+New Jersey	Oklahoma	128
+New Jersey	Oregon	98
+New Jersey	Pennsylvania	124426
+New Jersey	Rhode Island	177
+New Jersey	South Carolina	199
+New Jersey	Tennessee	178
+New Jersey	Texas	1019
+New Jersey	Utah	136
+New Jersey	Vermont	120
+New Jersey	Virginia	1308
+New Jersey	Washington	144
+New Jersey	West Virginia	99
+New Jersey	Wisconsin	257
+New Jersey	Wyoming	8
+New Mexico	Alabama	12
+New Mexico	Alaska	35
+New Mexico	Arizona	2903
+New Mexico	Arkansas	13
+New Mexico	California	627
+New Mexico	Colorado	1831
+New Mexico	Connecticut	43
+New Mexico	Florida	158
+New Mexico	Georgia	71
+New Mexico	Hawaii	7
+New Mexico	Idaho	18
+New Mexico	Illinois	98
+New Mexico	Indiana	27
+New Mexico	Iowa	79
+New Mexico	Kansas	115
+New Mexico	Kentucky	17
+New Mexico	Louisiana	211
+New Mexico	Maryland	48
+New Mexico	Massachusetts	117
+New Mexico	Michigan	22
+New Mexico	Minnesota	65
+New Mexico	Mississippi	19
+New Mexico	Missouri	67
+New Mexico	Montana	110
+New Mexico	Nebraska	59
+New Mexico	Nevada	176
+New Mexico	New Hampshire	22
+New Mexico	New Jersey	44
+New Mexico	New Mexico	842525
+New Mexico	New York	138
+New Mexico	North Carolina	62
+New Mexico	North Dakota	57
+New Mexico	Ohio	146
+New Mexico	Oklahoma	139
+New Mexico	Oregon	91
+New Mexico	Pennsylvania	90
+New Mexico	South Carolina	33
+New Mexico	Tennessee	76
+New Mexico	Texas	17222
+New Mexico	Utah	296
+New Mexico	Virginia	113
+New Mexico	Washington	101
+New Mexico	West Virginia	5
+New Mexico	Wisconsin	65
+New Mexico	Wyoming	64
+New York	Alabama	196
+New York	Alaska	58
+New York	Arizona	233
+New York	Arkansas	56
+New York	California	2716
+New York	Colorado	209
+New York	Connecticut	44070
+New York	Delaware	288
+New York	Florida	2018
+New York	Georgia	976
+New York	Hawaii	105
+New York	Idaho	5
+New York	Illinois	1231
+New York	Indiana	495
+New York	Iowa	234
+New York	Kansas	176
+New York	Kentucky	363
+New York	Louisiana	481
+New York	Maine	412
+New York	Maryland	1531
+New York	Massachusetts	6036
+New York	Michigan	794
+New York	Minnesota	466
+New York	Mississippi	82
+New York	Missouri	328
+New York	Montana	64
+New York	Nebraska	145
+New York	Nevada	242
+New York	New Hampshire	352
+New York	New Jersey	128583
+New York	New Mexico	28
+New York	New York	8639313
+New York	North Carolina	871
+New York	North Dakota	88
+New York	Ohio	1374
+New York	Oklahoma	189
+New York	Oregon	135
+New York	Pennsylvania	17598
+New York	Rhode Island	679
+New York	South Carolina	319
+New York	South Dakota	49
+New York	Tennessee	441
+New York	Texas	1443
+New York	Utah	98
+New York	Vermont	5392
+New York	Virginia	1601
+New York	Washington	391
+New York	West Virginia	231
+New York	Wisconsin	484
+New York	Wyoming	101
+North Carolina	Alabama	691
+North Carolina	Alaska	120
+North Carolina	Arizona	672
+North Carolina	Arkansas	242
+North Carolina	California	1235
+North Carolina	Colorado	198
+North Carolina	Connecticut	372
+North Carolina	Delaware	160
+North Carolina	Florida	3005
+North Carolina	Georgia	5730
+North Carolina	Hawaii	84
+North Carolina	Illinois	868
+North Carolina	Indiana	523
+North Carolina	Iowa	279
+North Carolina	Kansas	136
+North Carolina	Kentucky	597
+North Carolina	Louisiana	704
+North Carolina	Maine	181
+North Carolina	Maryland	1872
+North Carolina	Massachusetts	646
+North Carolina	Michigan	458
+North Carolina	Minnesota	250
+North Carolina	Mississippi	150
+North Carolina	Missouri	532
+North Carolina	Montana	68
+North Carolina	Nebraska	212
+North Carolina	Nevada	140
+North Carolina	New Hampshire	154
+North Carolina	New Jersey	1522
+North Carolina	New Mexico	223
+North Carolina	New York	2379
+North Carolina	North Carolina	4121984
+North Carolina	North Dakota	172
+North Carolina	Ohio	1095
+North Carolina	Oklahoma	158
+North Carolina	Oregon	96
+North Carolina	Pennsylvania	1866
+North Carolina	Rhode Island	15
+North Carolina	South Carolina	38081
+North Carolina	Tennessee	3091
+North Carolina	Texas	1974
+North Carolina	Utah	142
+North Carolina	Vermont	49
+North Carolina	Virginia	29487
+North Carolina	Washington	189
+North Carolina	West Virginia	638
+North Carolina	Wisconsin	616
+North Carolina	Wyoming	14
+North Dakota	Alaska	18
+North Dakota	Arizona	23
+North Dakota	Arkansas	25
+North Dakota	California	15
+North Dakota	Colorado	42
+North Dakota	Connecticut	16
+North Dakota	Florida	17
+North Dakota	Georgia	13
+North Dakota	Idaho	1
+North Dakota	Illinois	42
+North Dakota	Indiana	20
+North Dakota	Iowa	48
+North Dakota	Kansas	35
+North Dakota	Maryland	37
+North Dakota	Michigan	15
+North Dakota	Minnesota	11215
+North Dakota	Mississippi	4
+North Dakota	Missouri	16
+North Dakota	Montana	463
+North Dakota	Nebraska	45
+North Dakota	Nevada	7
+North Dakota	New Mexico	1
+North Dakota	North Carolina	43
+North Dakota	North Dakota	356096
+North Dakota	Oklahoma	8
+North Dakota	Oregon	17
+North Dakota	Pennsylvania	78
+North Dakota	South Carolina	23
+North Dakota	South Dakota	788
+North Dakota	Tennessee	34
+North Dakota	Texas	122
+North Dakota	Utah	26
+North Dakota	Virginia	28
+North Dakota	Washington	25
+North Dakota	West Virginia	4
+North Dakota	Wisconsin	41
+North Dakota	Wyoming	39
+Ohio	Alabama	410
+Ohio	Alaska	100
+Ohio	Arizona	468
+Ohio	Arkansas	214
+Ohio	California	1042
+Ohio	Colorado	267
+Ohio	Connecticut	248
+Ohio	Delaware	57
+Ohio	Florida	1233
+Ohio	Georgia	957
+Ohio	Hawaii	49
+Ohio	Idaho	10
+Ohio	Illinois	2273
+Ohio	Indiana	14951
+Ohio	Iowa	387
+Ohio	Kansas	140
+Ohio	Kentucky	38129
+Ohio	Louisiana	204
+Ohio	Maine	106
+Ohio	Maryland	782
+Ohio	Massachusetts	480
+Ohio	Michigan	12629
+Ohio	Minnesota	610
+Ohio	Mississippi	189
+Ohio	Missouri	622
+Ohio	Montana	61
+Ohio	Nebraska	356
+Ohio	Nevada	124
+Ohio	New Hampshire	20
+Ohio	New Jersey	1087
+Ohio	New Mexico	74
+Ohio	New York	1587
+Ohio	North Carolina	736
+Ohio	North Dakota	102
+Ohio	Ohio	5017895
+Ohio	Oklahoma	244
+Ohio	Oregon	76
+Ohio	Pennsylvania	21119
+Ohio	Rhode Island	96
+Ohio	South Carolina	320
+Ohio	South Dakota	24
+Ohio	Tennessee	914
+Ohio	Texas	1962
+Ohio	Utah	65
+Ohio	Vermont	42
+Ohio	Virginia	1222
+Ohio	Washington	194
+Ohio	West Virginia	36317
+Ohio	Wisconsin	802
+Ohio	Wyoming	44
+Oklahoma	Alabama	99
+Oklahoma	Alaska	180
+Oklahoma	Arizona	182
+Oklahoma	Arkansas	14814
+Oklahoma	California	600
+Oklahoma	Colorado	475
+Oklahoma	Delaware	17
+Oklahoma	Florida	209
+Oklahoma	Georgia	170
+Oklahoma	Hawaii	24
+Oklahoma	Idaho	50
+Oklahoma	Illinois	306
+Oklahoma	Indiana	224
+Oklahoma	Iowa	328
+Oklahoma	Kansas	6054
+Oklahoma	Kentucky	109
+Oklahoma	Louisiana	422
+Oklahoma	Maine	6
+Oklahoma	Maryland	39
+Oklahoma	Massachusetts	50
+Oklahoma	Michigan	75
+Oklahoma	Minnesota	176
+Oklahoma	Mississippi	207
+Oklahoma	Missouri	3163
+Oklahoma	Montana	34
+Oklahoma	Nebraska	237
+Oklahoma	Nevada	58
+Oklahoma	New Hampshire	14
+Oklahoma	New Jersey	191
+Oklahoma	New Mexico	149
+Oklahoma	New York	188
+Oklahoma	North Carolina	62
+Oklahoma	North Dakota	420
+Oklahoma	Ohio	165
+Oklahoma	Oklahoma	1628847
+Oklahoma	Oregon	38
+Oklahoma	Pennsylvania	357
+Oklahoma	Rhode Island	4
+Oklahoma	South Carolina	12
+Oklahoma	South Dakota	43
+Oklahoma	Tennessee	304
+Oklahoma	Texas	12499
+Oklahoma	Utah	77
+Oklahoma	Vermont	4
+Oklahoma	Virginia	174
+Oklahoma	Washington	104
+Oklahoma	West Virginia	109
+Oklahoma	Wisconsin	225
+Oklahoma	Wyoming	134
+Oregon	Alabama	34
+Oregon	Alaska	673
+Oregon	Arizona	512
+Oregon	Arkansas	53
+Oregon	California	4800
+Oregon	Colorado	249
+Oregon	Connecticut	28
+Oregon	Delaware	6
+Oregon	Florida	137
+Oregon	Georgia	73
+Oregon	Hawaii	97
+Oregon	Idaho	2099
+Oregon	Illinois	169
+Oregon	Indiana	47
+Oregon	Iowa	94
+Oregon	Kansas	53
+Oregon	Kentucky	20
+Oregon	Louisiana	110
+Oregon	Maine	28
+Oregon	Maryland	64
+Oregon	Massachusetts	103
+Oregon	Michigan	88
+Oregon	Minnesota	141
+Oregon	Mississippi	20
+Oregon	Missouri	83
+Oregon	Montana	109
+Oregon	Nebraska	117
+Oregon	Nevada	437
+Oregon	New Hampshire	15
+Oregon	New Jersey	122
+Oregon	New Mexico	85
+Oregon	New York	191
+Oregon	North Carolina	102
+Oregon	North Dakota	249
+Oregon	Ohio	100
+Oregon	Oklahoma	154
+Oregon	Oregon	1661942
+Oregon	Pennsylvania	126
+Oregon	Rhode Island	16
+Oregon	South Carolina	56
+Oregon	South Dakota	8
+Oregon	Tennessee	72
+Oregon	Texas	418
+Oregon	Utah	244
+Oregon	Virginia	64
+Oregon	Washington	24895
+Oregon	West Virginia	10
+Oregon	Wisconsin	40
+Oregon	Wyoming	68
+Pennsylvania	Alabama	202
+Pennsylvania	Alaska	51
+Pennsylvania	Arizona	335
+Pennsylvania	Arkansas	229
+Pennsylvania	California	1310
+Pennsylvania	Colorado	391
+Pennsylvania	Connecticut	1321
+Pennsylvania	Delaware	30698
+Pennsylvania	Florida	1530
+Pennsylvania	Georgia	921
+Pennsylvania	Hawaii	99
+Pennsylvania	Idaho	40
+Pennsylvania	Illinois	1183
+Pennsylvania	Indiana	495
+Pennsylvania	Iowa	231
+Pennsylvania	Kansas	129
+Pennsylvania	Kentucky	440
+Pennsylvania	Louisiana	189
+Pennsylvania	Maine	136
+Pennsylvania	Maryland	59078
+Pennsylvania	Massachusetts	1520
+Pennsylvania	Michigan	898
+Pennsylvania	Minnesota	484
+Pennsylvania	Mississippi	56
+Pennsylvania	Missouri	530
+Pennsylvania	Montana	72
+Pennsylvania	Nebraska	83
+Pennsylvania	Nevada	190
+Pennsylvania	New Hampshire	166
+Pennsylvania	New Jersey	125403
+Pennsylvania	New Mexico	90
+Pennsylvania	New York	42438
+Pennsylvania	North Carolina	1199
+Pennsylvania	North Dakota	29
+Pennsylvania	Ohio	11261
+Pennsylvania	Oklahoma	280
+Pennsylvania	Oregon	110
+Pennsylvania	Pennsylvania	5489012
+Pennsylvania	Rhode Island	136
+Pennsylvania	South Carolina	645
+Pennsylvania	South Dakota	30
+Pennsylvania	Tennessee	612
+Pennsylvania	Texas	1829
+Pennsylvania	Utah	164
+Pennsylvania	Vermont	99
+Pennsylvania	Virginia	4195
+Pennsylvania	Washington	257
+Pennsylvania	West Virginia	9305
+Pennsylvania	Wisconsin	527
+Pennsylvania	Wyoming	45
+Rhode Island	Arizona	57
+Rhode Island	California	117
+Rhode Island	Connecticut	10366
+Rhode Island	Delaware	17
+Rhode Island	Florida	127
+Rhode Island	Georgia	30
+Rhode Island	Illinois	90
+Rhode Island	Indiana	27
+Rhode Island	Kansas	12
+Rhode Island	Kentucky	13
+Rhode Island	Louisiana	10
+Rhode Island	Maine	137
+Rhode Island	Maryland	80
+Rhode Island	Massachusetts	59388
+Rhode Island	Michigan	23
+Rhode Island	Minnesota	48
+Rhode Island	Missouri	24
+Rhode Island	Nebraska	97
+Rhode Island	Nevada	49
+Rhode Island	New Hampshire	348
+Rhode Island	New Jersey	279
+Rhode Island	New York	1082
+Rhode Island	North Carolina	86
+Rhode Island	Ohio	27
+Rhode Island	Oklahoma	19
+Rhode Island	Pennsylvania	244
+Rhode Island	Rhode Island	426106
+Rhode Island	South Carolina	4
+Rhode Island	South Dakota	12
+Rhode Island	Tennessee	49
+Rhode Island	Texas	138
+Rhode Island	Utah	10
+Rhode Island	Vermont	87
+Rhode Island	Virginia	89
+Rhode Island	Washington	77
+South Carolina	Alabama	552
+South Carolina	Alaska	84
+South Carolina	Arizona	114
+South Carolina	Arkansas	88
+South Carolina	California	501
+South Carolina	Colorado	74
+South Carolina	Connecticut	107
+South Carolina	Delaware	17
+South Carolina	Florida	1709
+South Carolina	Georgia	23513
+South Carolina	Illinois	429
+South Carolina	Indiana	390
+South Carolina	Iowa	147
+South Carolina	Kansas	89
+South Carolina	Kentucky	311
+South Carolina	Louisiana	196
+South Carolina	Maine	90
+South Carolina	Maryland	630
+South Carolina	Massachusetts	188
+South Carolina	Michigan	214
+South Carolina	Minnesota	67
+South Carolina	Mississippi	110
+South Carolina	Missouri	282
+South Carolina	Montana	8
+South Carolina	Nebraska	110
+South Carolina	Nevada	112
+South Carolina	New Hampshire	43
+South Carolina	New Jersey	522
+South Carolina	New Mexico	20
+South Carolina	New York	814
+South Carolina	North Carolina	64872
+South Carolina	North Dakota	18
+South Carolina	Ohio	687
+South Carolina	Oklahoma	108
+South Carolina	Oregon	49
+South Carolina	Pennsylvania	675
+South Carolina	Rhode Island	37
+South Carolina	South Carolina	1890853
+South Carolina	South Dakota	42
+South Carolina	Tennessee	638
+South Carolina	Texas	971
+South Carolina	Utah	51
+South Carolina	Vermont	40
+South Carolina	Virginia	1620
+South Carolina	Washington	44
+South Carolina	West Virginia	170
+South Carolina	Wisconsin	170
+South Carolina	Wyoming	24
+South Dakota	Alabama	22
+South Dakota	Alaska	37
+South Dakota	Arizona	110
+South Dakota	Arkansas	17
+South Dakota	California	87
+South Dakota	Colorado	125
+South Dakota	Florida	12
+South Dakota	Georgia	57
+South Dakota	Hawaii	13
+South Dakota	Idaho	2
+South Dakota	Illinois	38
+South Dakota	Indiana	6
+South Dakota	Iowa	3561
+South Dakota	Kansas	78
+South Dakota	Kentucky	17
+South Dakota	Louisiana	10
+South Dakota	Maryland	17
+South Dakota	Michigan	16
+South Dakota	Minnesota	2258
+South Dakota	Mississippi	7
+South Dakota	Missouri	37
+South Dakota	Montana	149
+South Dakota	Nebraska	1393
+South Dakota	Nevada	7
+South Dakota	New Jersey	19
+South Dakota	New Mexico	19
+South Dakota	New York	36
+South Dakota	North Carolina	6
+South Dakota	North Dakota	1582
+South Dakota	Ohio	26
+South Dakota	Oklahoma	23
+South Dakota	Oregon	10
+South Dakota	Pennsylvania	38
+South Dakota	South Carolina	3
+South Dakota	South Dakota	402400
+South Dakota	Tennessee	7
+South Dakota	Texas	221
+South Dakota	Utah	47
+South Dakota	Virginia	40
+South Dakota	Washington	33
+South Dakota	Wisconsin	44
+South Dakota	Wyoming	1388
+Tennessee	Alabama	10347
+Tennessee	Alaska	135
+Tennessee	Arizona	230
+Tennessee	Arkansas	3633
+Tennessee	California	625
+Tennessee	Colorado	355
+Tennessee	Connecticut	72
+Tennessee	Delaware	65
+Tennessee	Florida	1562
+Tennessee	Georgia	11389
+Tennessee	Hawaii	74
+Tennessee	Illinois	1407
+Tennessee	Indiana	886
+Tennessee	Iowa	180
+Tennessee	Kansas	284
+Tennessee	Kentucky	31818
+Tennessee	Louisiana	695
+Tennessee	Maine	111
+Tennessee	Maryland	413
+Tennessee	Massachusetts	206
+Tennessee	Michigan	856
+Tennessee	Minnesota	309
+Tennessee	Mississippi	17338
+Tennessee	Missouri	888
+Tennessee	Montana	7
+Tennessee	Nebraska	269
+Tennessee	Nevada	59
+Tennessee	New Hampshire	15
+Tennessee	New Jersey	391
+Tennessee	New Mexico	71
+Tennessee	New York	722
+Tennessee	North Carolina	4169
+Tennessee	North Dakota	116
+Tennessee	Ohio	974
+Tennessee	Oklahoma	328
+Tennessee	Oregon	57
+Tennessee	Pennsylvania	501
+Tennessee	South Carolina	681
+Tennessee	South Dakota	51
+Tennessee	Tennessee	2648079
+Tennessee	Texas	2350
+Tennessee	Utah	91
+Tennessee	Vermont	46
+Tennessee	Virginia	11539
+Tennessee	Washington	204
+Tennessee	West Virginia	302
+Tennessee	Wisconsin	469
+Tennessee	Wyoming	30
+Texas	Alabama	1058
+Texas	Alaska	803
+Texas	Arizona	1563
+Texas	Arkansas	7708
+Texas	California	5962
+Texas	Colorado	2182
+Texas	Connecticut	392
+Texas	Delaware	32
+Texas	Florida	3103
+Texas	Georgia	2942
+Texas	Hawaii	213
+Texas	Idaho	141
+Texas	Illinois	3216
+Texas	Indiana	1518
+Texas	Iowa	645
+Texas	Kansas	1505
+Texas	Kentucky	633
+Texas	Louisiana	18003
+Texas	Maine	88
+Texas	Maryland	1368
+Texas	Massachusetts	617
+Texas	Michigan	1124
+Texas	Minnesota	1231
+Texas	Mississippi	1112
+Texas	Missouri	1989
+Texas	Montana	151
+Texas	Nebraska	945
+Texas	Nevada	503
+Texas	New Hampshire	24
+Texas	New Jersey	1442
+Texas	New Mexico	13953
+Texas	New York	2333
+Texas	North Carolina	1395
+Texas	North Dakota	609
+Texas	Ohio	1504
+Texas	Oklahoma	12732
+Texas	Oregon	404
+Texas	Pennsylvania	2185
+Texas	Rhode Island	39
+Texas	South Carolina	560
+Texas	South Dakota	103
+Texas	Tennessee	2479
+Texas	Texas	11319672
+Texas	Utah	633
+Texas	Vermont	111
+Texas	Virginia	1647
+Texas	Washington	930
+Texas	West Virginia	268
+Texas	Wisconsin	1014
+Texas	Wyoming	310
+Utah	Alabama	40
+Utah	Alaska	244
+Utah	Arizona	1403
+Utah	Arkansas	14
+Utah	California	1954
+Utah	Colorado	997
+Utah	Connecticut	31
+Utah	Florida	134
+Utah	Georgia	251
+Utah	Hawaii	48
+Utah	Idaho	1146
+Utah	Illinois	292
+Utah	Indiana	74
+Utah	Iowa	58
+Utah	Kansas	49
+Utah	Kentucky	31
+Utah	Louisiana	131
+Utah	Maine	2
+Utah	Maryland	82
+Utah	Massachusetts	180
+Utah	Michigan	60
+Utah	Minnesota	155
+Utah	Mississippi	77
+Utah	Missouri	78
+Utah	Montana	243
+Utah	Nebraska	75
+Utah	Nevada	2416
+Utah	New Jersey	104
+Utah	New Mexico	214
+Utah	New York	89
+Utah	North Carolina	73
+Utah	North Dakota	444
+Utah	Ohio	136
+Utah	Oklahoma	146
+Utah	Oregon	112
+Utah	Pennsylvania	165
+Utah	South Carolina	30
+Utah	South Dakota	54
+Utah	Tennessee	86
+Utah	Texas	709
+Utah	Utah	1243686
+Utah	Vermont	45
+Utah	Virginia	115
+Utah	Washington	317
+Utah	West Virginia	43
+Utah	Wisconsin	31
+Utah	Wyoming	1643
+Vermont	Alabama	3
+Vermont	Alaska	30
+Vermont	Arizona	30
+Vermont	California	34
+Vermont	Colorado	3
+Vermont	Connecticut	367
+Vermont	Delaware	6
+Vermont	Florida	61
+Vermont	Georgia	56
+Vermont	Illinois	58
+Vermont	Iowa	5
+Vermont	Kentucky	3
+Vermont	Louisiana	3
+Vermont	Maine	134
+Vermont	Maryland	48
+Vermont	Massachusetts	2752
+Vermont	Michigan	33
+Vermont	Minnesota	10
+Vermont	Mississippi	1
+Vermont	Nevada	6
+Vermont	New Hampshire	14049
+Vermont	New Jersey	148
+Vermont	New Mexico	11
+Vermont	New York	2325
+Vermont	North Carolina	18
+Vermont	Ohio	86
+Vermont	Oregon	3
+Vermont	Pennsylvania	168
+Vermont	Rhode Island	52
+Vermont	South Carolina	6
+Vermont	Tennessee	17
+Vermont	Texas	19
+Vermont	Utah	37
+Vermont	Vermont	295123
+Vermont	Virginia	44
+Vermont	Washington	10
+Vermont	Wisconsin	23
+Virginia	Alabama	268
+Virginia	Alaska	43
+Virginia	Arizona	291
+Virginia	Arkansas	142
+Virginia	California	1395
+Virginia	Colorado	247
+Virginia	Connecticut	345
+Virginia	Delaware	367
+Virginia	Florida	1368
+Virginia	Georgia	1175
+Virginia	Hawaii	102
+Virginia	Idaho	9
+Virginia	Illinois	730
+Virginia	Indiana	310
+Virginia	Iowa	167
+Virginia	Kansas	135
+Virginia	Kentucky	1877
+Virginia	Louisiana	183
+Virginia	Maine	124
+Virginia	Maryland	68542
+Virginia	Massachusetts	765
+Virginia	Michigan	411
+Virginia	Minnesota	164
+Virginia	Mississippi	150
+Virginia	Missouri	424
+Virginia	Montana	8
+Virginia	Nebraska	109
+Virginia	Nevada	130
+Virginia	New Hampshire	72
+Virginia	New Jersey	1481
+Virginia	New Mexico	56
+Virginia	New York	2180
+Virginia	North Carolina	16869
+Virginia	North Dakota	70
+Virginia	Ohio	908
+Virginia	Oklahoma	128
+Virginia	Oregon	85
+Virginia	Pennsylvania	2116
+Virginia	Rhode Island	215
+Virginia	South Carolina	577
+Virginia	Tennessee	11082
+Virginia	Texas	947
+Virginia	Utah	100
+Virginia	Vermont	67
+Virginia	Virginia	3567788
+Virginia	Washington	484
+Virginia	West Virginia	7902
+Virginia	Wisconsin	246
+Virginia	Wyoming	29
+Washington	Alabama	100
+Washington	Alaska	2378
+Washington	Arizona	421
+Washington	Arkansas	46
+Washington	California	4969
+Washington	Colorado	227
+Washington	Connecticut	59
+Washington	Florida	389
+Washington	Georgia	319
+Washington	Hawaii	419
+Washington	Idaho	11091
+Washington	Illinois	458
+Washington	Indiana	279
+Washington	Iowa	115
+Washington	Kansas	113
+Washington	Kentucky	95
+Washington	Louisiana	136
+Washington	Maine	154
+Washington	Maryland	346
+Washington	Massachusetts	425
+Washington	Michigan	380
+Washington	Minnesota	261
+Washington	Mississippi	135
+Washington	Missouri	259
+Washington	Montana	439
+Washington	Nebraska	115
+Washington	Nevada	510
+Washington	New Hampshire	15
+Washington	New Jersey	339
+Washington	New Mexico	147
+Washington	New York	598
+Washington	North Carolina	212
+Washington	North Dakota	305
+Washington	Ohio	252
+Washington	Oklahoma	88
+Washington	Oregon	70280
+Washington	Pennsylvania	195
+Washington	Rhode Island	50
+Washington	South Carolina	33
+Washington	South Dakota	36
+Washington	Tennessee	172
+Washington	Texas	1126
+Washington	Utah	577
+Washington	Virginia	419
+Washington	Washington	3022607
+Washington	West Virginia	33
+Washington	Wisconsin	210
+Washington	Wyoming	3
+West Virginia	Alabama	37
+West Virginia	Arizona	100
+West Virginia	Arkansas	10
+West Virginia	California	170
+West Virginia	Colorado	28
+West Virginia	Connecticut	74
+West Virginia	Delaware	24
+West Virginia	Florida	145
+West Virginia	Georgia	108
+West Virginia	Illinois	128
+West Virginia	Indiana	87
+West Virginia	Iowa	51
+West Virginia	Kansas	20
+West Virginia	Kentucky	4654
+West Virginia	Louisiana	119
+West Virginia	Maine	14
+West Virginia	Maryland	21002
+West Virginia	Massachusetts	110
+West Virginia	Michigan	87
+West Virginia	Minnesota	49
+West Virginia	Mississippi	15
+West Virginia	Missouri	32
+West Virginia	Montana	18
+West Virginia	Nebraska	19
+West Virginia	Nevada	10
+West Virginia	New Hampshire	19
+West Virginia	New Jersey	270
+West Virginia	New Mexico	27
+West Virginia	New York	192
+West Virginia	North Carolina	465
+West Virginia	North Dakota	15
+West Virginia	Ohio	15125
+West Virginia	Oklahoma	52
+West Virginia	Oregon	6
+West Virginia	Pennsylvania	12299
+West Virginia	South Carolina	38
+West Virginia	South Dakota	18
+West Virginia	Tennessee	264
+West Virginia	Texas	240
+West Virginia	Utah	19
+West Virginia	Vermont	15
+West Virginia	Virginia	28902
+West Virginia	Washington	20
+West Virginia	West Virginia	651470
+West Virginia	Wisconsin	17
+West Virginia	Wyoming	5
+Wisconsin	Alabama	64
+Wisconsin	Alaska	25
+Wisconsin	Arizona	210
+Wisconsin	Arkansas	37
+Wisconsin	California	606
+Wisconsin	Colorado	270
+Wisconsin	Connecticut	130
+Wisconsin	Delaware	25
+Wisconsin	Florida	434
+Wisconsin	Georgia	303
+Wisconsin	Hawaii	41
+Wisconsin	Idaho	31
+Wisconsin	Illinois	43434
+Wisconsin	Indiana	658
+Wisconsin	Iowa	4842
+Wisconsin	Kansas	205
+Wisconsin	Kentucky	171
+Wisconsin	Louisiana	109
+Wisconsin	Maine	16
+Wisconsin	Maryland	103
+Wisconsin	Massachusetts	94
+Wisconsin	Michigan	5117
+Wisconsin	Minnesota	50596
+Wisconsin	Mississippi	123
+Wisconsin	Missouri	369
+Wisconsin	Montana	79
+Wisconsin	Nebraska	138
+Wisconsin	Nevada	85
+Wisconsin	New Hampshire	30
+Wisconsin	New Jersey	172
+Wisconsin	New Mexico	38
+Wisconsin	New York	395
+Wisconsin	North Carolina	266
+Wisconsin	North Dakota	378
+Wisconsin	Ohio	609
+Wisconsin	Oklahoma	100
+Wisconsin	Oregon	16
+Wisconsin	Pennsylvania	297
+Wisconsin	Rhode Island	16
+Wisconsin	South Carolina	162
+Wisconsin	South Dakota	130
+Wisconsin	Tennessee	226
+Wisconsin	Texas	494
+Wisconsin	Utah	66
+Wisconsin	Vermont	22
+Wisconsin	Virginia	168
+Wisconsin	Washington	210
+Wisconsin	West Virginia	53
+Wisconsin	Wisconsin	2678992
+Wisconsin	Wyoming	55
+Wyoming	Alabama	16
+Wyoming	Alaska	133
+Wyoming	Arizona	39
+Wyoming	California	173
+Wyoming	Colorado	1638
+Wyoming	Connecticut	42
+Wyoming	Idaho	252
+Wyoming	Illinois	52
+Wyoming	Iowa	8
+Wyoming	Kansas	58
+Wyoming	Kentucky	47
+Wyoming	Louisiana	23
+Wyoming	Maine	11
+Wyoming	Massachusetts	23
+Wyoming	Michigan	3
+Wyoming	Minnesota	15
+Wyoming	Missouri	29
+Wyoming	Montana	987
+Wyoming	Nebraska	824
+Wyoming	Nevada	32
+Wyoming	New Jersey	17
+Wyoming	New Mexico	44
+Wyoming	New York	83
+Wyoming	North Carolina	4
+Wyoming	North Dakota	946
+Wyoming	Ohio	20
+Wyoming	Oklahoma	146
+Wyoming	Pennsylvania	56
+Wyoming	South Carolina	8
+Wyoming	South Dakota	402
+Wyoming	Tennessee	14
+Wyoming	Texas	55
+Wyoming	Utah	458
+Wyoming	Washington	124
+Wyoming	West Virginia	37
+Wyoming	Wyoming	279763

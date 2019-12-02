@@ -1,0 +1,2451 @@
+state1	state2	f_commuting
+Alabama	Alaska	7.569524288991001e-5
+Alabama	Arizona	4.620390690509651e-5
+Alabama	Arkansas	1.8878862912066234e-4
+Alabama	California	4.177697593491457e-5
+Alabama	Colorado	4.8079300940766994e-5
+Alabama	Connecticut	1.6551533628007706e-5
+Alabama	Delaware	1.2491401008769855e-5
+Alabama	Florida	0.0017947599718205912
+Alabama	Georgia	0.009268904141923951
+Alabama	Hawaii	2.789070457812167e-5
+Alabama	Idaho	5.132683825097087e-6
+Alabama	Illinois	7.614181379829545e-5
+Alabama	Indiana	1.2501406138298372e-4
+Alabama	Iowa	7.634243684459643e-5
+Alabama	Kansas	4.967544846330424e-5
+Alabama	Kentucky	2.480975253869335e-4
+Alabama	Louisiana	9.479827604176375e-4
+Alabama	Maine	3.971557231543792e-5
+Alabama	Maryland	8.068337178850947e-5
+Alabama	Massachusetts	5.162870556029152e-5
+Alabama	Michigan	9.745501274980408e-5
+Alabama	Minnesota	4.7374825858773875e-5
+Alabama	Mississippi	0.007217808497199911
+Alabama	Missouri	1.0989785766324924e-4
+Alabama	Montana	0
+Alabama	Nebraska	1.7887974058144503e-5
+Alabama	Nevada	3.672735238692038e-5
+Alabama	New Hampshire	2.484094667626097e-5
+Alabama	New Jersey	4.945950323904587e-5
+Alabama	New Mexico	3.3724451436973216e-5
+Alabama	New York	4.341983349586476e-5
+Alabama	North Carolina	2.2766889353916287e-4
+Alabama	North Dakota	1.3384055931077466e-6
+Alabama	Ohio	1.394796698604566e-4
+Alabama	Oklahoma	7.824735040244747e-5
+Alabama	Oregon	3.2135940666905334e-5
+Alabama	Pennsylvania	8.42033099087228e-5
+Alabama	Rhode Island	0
+Alabama	South Carolina	2.6050967234819553e-4
+Alabama	South Dakota	9.616242007591586e-6
+Alabama	Tennessee	0.004040778180984155
+Alabama	Texas	2.0987569634893516e-4
+Alabama	Utah	3.8987824933161445e-5
+Alabama	Vermont	1.192374489973277e-5
+Alabama	Virginia	1.8572928078031966e-4
+Alabama	Washington	7.497429380021673e-5
+Alabama	West Virginia	7.134340418403445e-5
+Alabama	Wisconsin	4.140600781456243e-5
+Alabama	Wyoming	1.801239252605793e-5
+Alaska	Alabama	7.569524288991001e-5
+Alaska	Arizona	1.366675755507067e-4
+Alaska	Arkansas	8.637641138729023e-5
+Alaska	California	5.6709764678634095e-5
+Alaska	Colorado	1.4098085650854502e-4
+Alaska	Connecticut	3.204586933830875e-5
+Alaska	Delaware	2.9861145672622305e-5
+Alaska	Florida	2.4698012841048384e-5
+Alaska	Georgia	2.4331651220198516e-5
+Alaska	Hawaii	1.359886523921595e-4
+Alaska	Idaho	4.4525387511583635e-4
+Alaska	Illinois	1.0266311430213093e-5
+Alaska	Indiana	4.785357323924717e-5
+Alaska	Iowa	1.5540826305734675e-5
+Alaska	Kansas	2.959079627599829e-5
+Alaska	Kentucky	4.125606767548268e-5
+Alaska	Louisiana	1.2789190047364103e-4
+Alaska	Maine	9.430453028485207e-6
+Alaska	Maryland	1.643899270620159e-5
+Alaska	Massachusetts	3.46951768499902e-6
+Alaska	Michigan	3.5805239439607214e-5
+Alaska	Minnesota	5.1698202010388654e-5
+Alaska	Mississippi	6.848223794363214e-5
+Alaska	Missouri	2.082568729035617e-5
+Alaska	Montana	4.933289317017623e-4
+Alaska	Nebraska	4.057618178129438e-5
+Alaska	Nevada	1.2154538127551153e-4
+Alaska	New Hampshire	2.5073448852889713e-5
+Alaska	New Jersey	1.6921731862339147e-5
+Alaska	New Mexico	2.942031884900988e-5
+Alaska	New York	8.679700683860264e-6
+Alaska	North Carolina	2.6850455048086928e-5
+Alaska	North Dakota	7.536512983421094e-5
+Alaska	Ohio	1.8639019781405303e-5
+Alaska	Oklahoma	9.108753968000948e-5
+Alaska	Oregon	3.4084333098972447e-4
+Alaska	Pennsylvania	1.2165498064914755e-5
+Alaska	Rhode Island	0
+Alaska	South Carolina	3.753299217034974e-5
+Alaska	South Dakota	1.0005749970983325e-4
+Alaska	Tennessee	4.7407367839442596e-5
+Alaska	Texas	7.327972000461791e-5
+Alaska	Utah	1.5587406381283045e-4
+Alaska	Vermont	4.6711000596343776e-5
+Alaska	Virginia	1.8901872715810853e-5
+Alaska	Washington	7.683201810519374e-4
+Alaska	West Virginia	0
+Alaska	Wisconsin	8.261428612499673e-6
+Alaska	Wyoming	2.121245952886011e-4
+Arizona	Alabama	4.620390690509651e-5
+Arizona	Alaska	1.366675755507067e-4
+Arizona	Arkansas	8.928678969216742e-5
+Arizona	California	9.337188923586704e-4
+Arizona	Colorado	5.239205091260759e-4
+Arizona	Connecticut	3.8761656687301966e-5
+Arizona	Delaware	2.3713659234716798e-5
+Arizona	Florida	1.1464832168118267e-4
+Arizona	Georgia	8.930288179359415e-5
+Arizona	Hawaii	5.6393781403150044e-5
+Arizona	Idaho	1.3604440099680676e-4
+Arizona	Illinois	1.5280038208497743e-4
+Arizona	Indiana	9.602727546101916e-5
+Arizona	Iowa	1.4121650444685397e-4
+Arizona	Kansas	8.560849624715352e-5
+Arizona	Kentucky	3.355462532123957e-5
+Arizona	Louisiana	7.480791805615245e-5
+Arizona	Maine	4.930273605533739e-5
+Arizona	Maryland	7.97454509297007e-5
+Arizona	Massachusetts	9.147892906348185e-5
+Arizona	Michigan	1.2693525928875982e-4
+Arizona	Minnesota	1.7607935410753476e-4
+Arizona	Mississippi	4.003408001818461e-5
+Arizona	Missouri	1.6339064903631123e-4
+Arizona	Montana	8.388714984374405e-5
+Arizona	Nebraska	1.493747118195418e-4
+Arizona	Nevada	0.0029652612921696325
+Arizona	New Hampshire	3.085908898358577e-5
+Arizona	New Jersey	1.1079383947490827e-4
+Arizona	New Mexico	0.0017533433415115867
+Arizona	New York	7.988964057464504e-5
+Arizona	North Carolina	1.4421363852784943e-4
+Arizona	North Dakota	2.1572264079241672e-4
+Arizona	Ohio	1.1140726840348813e-4
+Arizona	Oklahoma	1.3029477787435318e-4
+Arizona	Oregon	2.2019502256940852e-4
+Arizona	Pennsylvania	1.0285822838759146e-4
+Arizona	Rhode Island	3.16574778389496e-5
+Arizona	South Carolina	4.12905254362885e-5
+Arizona	South Dakota	8.715645965856375e-5
+Arizona	Tennessee	7.88825539030785e-5
+Arizona	Texas	2.7511652341530985e-4
+Arizona	Utah	9.631243320930941e-4
+Arizona	Vermont	1.0228445511536494e-5
+Arizona	Virginia	9.45825469581399e-5
+Arizona	Washington	2.183094897333604e-4
+Arizona	West Virginia	4.529614712188585e-5
+Arizona	Wisconsin	1.1321241545270486e-4
+Arizona	Wyoming	9.493180674762945e-5
+Arkansas	Alabama	1.8878862912066234e-4
+Arkansas	Alaska	8.637641138729023e-5
+Arkansas	Arizona	8.928678969216742e-5
+Arkansas	California	5.66930028472422e-5
+Arkansas	Colorado	6.0122056009597566e-5
+Arkansas	Connecticut	0
+Arkansas	Delaware	1.105960083948876e-5
+Arkansas	Florida	6.986328811729011e-5
+Arkansas	Georgia	1.2857692275599134e-4
+Arkansas	Hawaii	4.345032514421434e-6
+Arkansas	Idaho	1.2032430682260698e-5
+Arkansas	Illinois	1.2802117237425303e-4
+Arkansas	Indiana	1.0593568328897702e-4
+Arkansas	Iowa	7.322405117943839e-5
+Arkansas	Kansas	2.5401198496932925e-4
+Arkansas	Kentucky	2.0002266232581792e-4
+Arkansas	Louisiana	0.0018099311563087833
+Arkansas	Maine	1.621697189990214e-5
+Arkansas	Maryland	4.480236556490183e-6
+Arkansas	Massachusetts	1.5375214641490763e-5
+Arkansas	Michigan	5.546269419090221e-5
+Arkansas	Minnesota	4.642348976125999e-5
+Arkansas	Mississippi	0.0018725865492844153
+Arkansas	Missouri	0.004060366891375062
+Arkansas	Montana	4.01867343589881e-5
+Arkansas	Nebraska	1.4012353826759483e-4
+Arkansas	Nevada	3.5408794532882124e-5
+Arkansas	New Hampshire	0
+Arkansas	New Jersey	3.971014131529704e-5
+Arkansas	New Mexico	1.3837259985312736e-5
+Arkansas	New York	2.9428024093507395e-5
+Arkansas	North Carolina	5.3929306222103133e-5
+Arkansas	North Dakota	5.724869287572545e-5
+Arkansas	Ohio	8.662127195837147e-5
+Arkansas	Oklahoma	0.007110052273248486
+Arkansas	Oregon	4.150502861560681e-5
+Arkansas	Pennsylvania	9.519360730703132e-5
+Arkansas	Rhode Island	1.804488072956075e-5
+Arkansas	South Carolina	3.8737723152886075e-5
+Arkansas	South Dakota	4.105002166178066e-5
+Arkansas	Tennessee	0.0032717993490761835
+Arkansas	Texas	0.0016659344594549808
+Arkansas	Utah	1.6496920231204337e-5
+Arkansas	Vermont	0
+Arkansas	Virginia	8.506765721355836e-5
+Arkansas	Washington	3.35417441278754e-5
+Arkansas	West Virginia	4.1473057519310896e-5
+Arkansas	Wisconsin	3.782278574143152e-5
+Arkansas	Wyoming	3.0120976795894786e-5
+California	Alabama	4.177697593491457e-5
+California	Alaska	5.6709764678634095e-5
+California	Arizona	9.337188923586704e-4
+California	Arkansas	5.66930028472422e-5
+California	Colorado	2.536931957214626e-4
+California	Connecticut	6.522751109092031e-5
+California	Delaware	3.078566279087245e-6
+California	Florida	1.6746898105989442e-4
+California	Georgia	1.6641383649050113e-4
+California	Hawaii	1.3353151868365543e-4
+California	Idaho	5.16661472370119e-5
+California	Illinois	2.3919059363818754e-4
+California	Indiana	5.9926282232532546e-5
+California	Iowa	3.922958528893948e-5
+California	Kansas	6.227826948762255e-5
+California	Kentucky	3.0853109683809186e-5
+California	Louisiana	7.919894786734772e-5
+California	Maine	1.867099611785989e-5
+California	Maryland	6.746777889405742e-5
+California	Massachusetts	1.0613963722393151e-4
+California	Michigan	1.004068152753287e-4
+California	Minnesota	9.053641338990037e-5
+California	Mississippi	3.561843725956832e-5
+California	Missouri	7.997494863219159e-5
+California	Montana	4.966384534438638e-5
+California	Nebraska	3.673992241159215e-5
+California	Nevada	0.0014898006353758994
+California	New Hampshire	1.8593051848036128e-5
+California	New Jersey	1.3862291390221882e-4
+California	New Mexico	8.009920104272037e-5
+California	New York	2.91553259140599e-4
+California	North Carolina	8.862114352946638e-5
+California	North Dakota	1.4366518623112855e-5
+California	Ohio	9.543151980630321e-5
+California	Oklahoma	6.076269627850347e-5
+California	Oregon	4.3742283508275433e-4
+California	Pennsylvania	1.448706527169376e-4
+California	Rhode Island	1.719126678838404e-5
+California	South Carolina	4.309012548341735e-5
+California	South Dakota	1.1918692844450223e-5
+California	Tennessee	7.311995808990944e-5
+California	Texas	4.143633469839889e-4
+California	Utah	1.8319460456946233e-4
+California	Vermont	7.99747134496929e-6
+California	Virginia	1.3230290418777367e-4
+California	Washington	4.6799705678963685e-4
+California	West Virginia	1.8028985864800634e-5
+California	Wisconsin	6.945375994176048e-5
+California	Wyoming	2.152809446649137e-5
+Colorado	Alabama	4.8079300940766994e-5
+Colorado	Alaska	1.4098085650854502e-4
+Colorado	Arizona	5.239205091260759e-4
+Colorado	Arkansas	6.0122056009597566e-5
+Colorado	California	2.536931957214626e-4
+Colorado	Connecticut	3.9212447403241445e-5
+Colorado	Delaware	6.033591488235029e-6
+Colorado	Florida	1.325524280238403e-4
+Colorado	Georgia	1.5166641566942947e-4
+Colorado	Hawaii	7.367454685348823e-5
+Colorado	Idaho	1.1064127878160795e-4
+Colorado	Illinois	1.823442902999582e-4
+Colorado	Indiana	8.507171853128959e-5
+Colorado	Iowa	1.0239028982580118e-4
+Colorado	Kansas	3.758904657858077e-4
+Colorado	Kentucky	5.557208345968796e-5
+Colorado	Louisiana	1.0177991622098018e-4
+Colorado	Maine	2.2810783895847265e-5
+Colorado	Maryland	1.0160444339107406e-4
+Colorado	Massachusetts	6.118423614172566e-5
+Colorado	Michigan	9.574821253406913e-5
+Colorado	Minnesota	1.2976962260009635e-4
+Colorado	Mississippi	4.484688174554218e-5
+Colorado	Missouri	2.2381028183245311e-4
+Colorado	Montana	1.8506855917798087e-4
+Colorado	Nebraska	5.265454821448901e-4
+Colorado	Nevada	2.326541929349217e-4
+Colorado	New Hampshire	1.3524073345337873e-5
+Colorado	New Jersey	1.2102512268755569e-4
+Colorado	New Mexico	0.0012913370689006313
+Colorado	New York	8.323095355559661e-5
+Colorado	North Carolina	8.32329121160692e-5
+Colorado	North Dakota	4.636716622824211e-4
+Colorado	Ohio	1.2887250859294882e-4
+Colorado	Oklahoma	2.510219305664052e-4
+Colorado	Oregon	9.3362100176806e-5
+Colorado	Pennsylvania	1.1595535643318305e-4
+Colorado	Rhode Island	1.4198893248218472e-5
+Colorado	South Carolina	3.0098433365055398e-5
+Colorado	South Dakota	1.6548684554142128e-4
+Colorado	Tennessee	1.2895928487282148e-4
+Colorado	Texas	3.5043038523767573e-4
+Colorado	Utah	6.246958788413672e-4
+Colorado	Vermont	7.618229479936123e-6
+Colorado	Virginia	1.3797627935685806e-4
+Colorado	Washington	1.4768035189493035e-4
+Colorado	West Virginia	1.1885988315109758e-5
+Colorado	Wisconsin	1.0212181907553883e-4
+Colorado	Wyoming	0.002216031796125075
+Connecticut	Alabama	1.6551533628007706e-5
+Connecticut	Alaska	3.204586933830875e-5
+Connecticut	Arizona	3.8761656687301966e-5
+Connecticut	Arkansas	0
+Connecticut	California	6.522751109092031e-5
+Connecticut	Colorado	3.9212447403241445e-5
+Connecticut	Delaware	9.315988717527577e-5
+Connecticut	Florida	1.6819494886748733e-4
+Connecticut	Georgia	1.0628903648725766e-4
+Connecticut	Hawaii	2.106160123456086e-5
+Connecticut	Idaho	0
+Connecticut	Illinois	1.0230407094978798e-4
+Connecticut	Indiana	1.9704943672502004e-5
+Connecticut	Iowa	4.229881706477446e-6
+Connecticut	Kansas	5.183542322240783e-6
+Connecticut	Kentucky	4.0515793056133283e-5
+Connecticut	Louisiana	2.4865647796748196e-5
+Connecticut	Maine	2.8742510667288825e-4
+Connecticut	Maryland	1.336803035540505e-4
+Connecticut	Massachusetts	0.010450141601458313
+Connecticut	Michigan	9.182369779660066e-5
+Connecticut	Minnesota	2.564426510711892e-5
+Connecticut	Mississippi	1.147025762198619e-5
+Connecticut	Missouri	6.736526589760765e-5
+Connecticut	Montana	1.0095697598281616e-5
+Connecticut	Nebraska	7.909687191645788e-6
+Connecticut	Nevada	5.4800994104267075e-5
+Connecticut	New Hampshire	5.761965094910341e-4
+Connecticut	New Jersey	0.001271215570198984
+Connecticut	New Mexico	1.7470137238085063e-5
+Connecticut	New York	0.010950796140176515
+Connecticut	North Carolina	9.248792518754495e-5
+Connecticut	North Dakota	1.1646194681841152e-5
+Connecticut	Ohio	6.222613157014911e-5
+Connecticut	Oklahoma	2.0937958980075067e-5
+Connecticut	Oregon	1.950755018393486e-5
+Connecticut	Pennsylvania	3.0225307232020093e-4
+Connecticut	Rhode Island	0.008649250844272762
+Connecticut	South Carolina	6.951820465247736e-5
+Connecticut	South Dakota	0
+Connecticut	Tennessee	3.890302834296535e-5
+Connecticut	Texas	5.17036867124462e-5
+Connecticut	Utah	3.458442792465486e-5
+Connecticut	Vermont	3.5255903013361203e-4
+Connecticut	Virginia	1.600033003090377e-4
+Connecticut	Washington	2.499193148418894e-5
+Connecticut	West Virginia	3.655859417670046e-5
+Connecticut	Wisconsin	4.9790820387526144e-5
+Connecticut	Wyoming	3.6342434216243804e-5
+Delaware	Alabama	1.2491401008769855e-5
+Delaware	Alaska	2.9861145672622305e-5
+Delaware	Arizona	2.3713659234716798e-5
+Delaware	Arkansas	1.105960083948876e-5
+Delaware	California	3.078566279087245e-6
+Delaware	Colorado	6.033591488235029e-6
+Delaware	Connecticut	9.315988717527577e-5
+Delaware	Florida	4.95808026964292e-5
+Delaware	Georgia	1.8436565735462713e-5
+Delaware	Hawaii	5.903466515537924e-6
+Delaware	Idaho	9.964615649827462e-6
+Delaware	Illinois	2.810695987847212e-5
+Delaware	Indiana	1.9021673423659416e-5
+Delaware	Iowa	0
+Delaware	Kansas	2.023103845920411e-5
+Delaware	Kentucky	2.7545267263996258e-5
+Delaware	Louisiana	2.6358541177752337e-6
+Delaware	Maine	7.265940695392044e-6
+Delaware	Maryland	0.014211121588148114
+Delaware	Massachusetts	4.267741983854094e-5
+Delaware	Michigan	1.0403247984483781e-5
+Delaware	Minnesota	1.4057349299358282e-5
+Delaware	Mississippi	3.888802471056199e-5
+Delaware	Missouri	6.807166584980667e-6
+Delaware	Montana	0
+Delaware	Nebraska	2.2118336258746617e-5
+Delaware	Nevada	1.5509857483797045e-5
+Delaware	New Hampshire	2.8067024053439613e-5
+Delaware	New Jersey	0.0036867735914261745
+Delaware	New Mexico	0
+Delaware	New York	1.9261578008946352e-4
+Delaware	North Carolina	4.532942770815977e-5
+Delaware	North Dakota	1.5444080494547537e-5
+Delaware	Ohio	2.7725139295565615e-5
+Delaware	Oklahoma	1.7632046395455565e-5
+Delaware	Oregon	2.9731111824657797e-6
+Delaware	Pennsylvania	0.01014519750857739
+Delaware	Rhode Island	4.2184438032978e-5
+Delaware	South Carolina	2.4921574918927e-5
+Delaware	South Dakota	0
+Delaware	Tennessee	2.2967172255123345e-5
+Delaware	Texas	9.335451995607027e-6
+Delaware	Utah	1.8752004120440371e-06
+Delaware	Vermont	9.212783043565716e-6
+Delaware	Virginia	3.222771466269302e-4
+Delaware	Washington	1.2134528712662648e-5
+Delaware	West Virginia	2.381817207438415e-5
+Delaware	Wisconsin	8.236806201458442e-6
+Delaware	Wyoming	2.0442951584800508e-5
+Florida	Alabama	0.0017947599718205912
+Florida	Alaska	2.4698012841048384e-5
+Florida	Arizona	1.1464832168118267e-4
+Florida	Arkansas	6.986328811729011e-5
+Florida	California	1.6746898105989442e-4
+Florida	Colorado	1.325524280238403e-4
+Florida	Connecticut	1.6819494886748733e-4
+Florida	Delaware	4.95808026964292e-5
+Florida	Georgia	0.002383318044964315
+Florida	Hawaii	3.663056572268813e-5
+Florida	Idaho	9.605440892051509e-6
+Florida	Illinois	3.690875415314788e-4
+Florida	Indiana	2.1366182574449044e-4
+Florida	Iowa	6.741687430605334e-5
+Florida	Kansas	5.6532771745697465e-5
+Florida	Kentucky	1.6810517450800396e-4
+Florida	Louisiana	3.9697324287411856e-4
+Florida	Maine	6.18515757502759e-5
+Florida	Maryland	3.233829456749384e-4
+Florida	Massachusetts	3.0778346483522153e-4
+Florida	Michigan	3.4675866036593274e-4
+Florida	Minnesota	1.625142870478466e-4
+Florida	Mississippi	1.7314949233714365e-4
+Florida	Missouri	1.9484878798097798e-4
+Florida	Montana	7.214827155805139e-6
+Florida	Nebraska	7.109296162833206e-5
+Florida	Nevada	9.22101677658946e-5
+Florida	New Hampshire	7.939918172137427e-5
+Florida	New Jersey	4.3483059742676895e-4
+Florida	New Mexico	3.734591837970319e-5
+Florida	New York	6.17915623513456e-4
+Florida	North Carolina	4.902907499221004e-4
+Florida	North Dakota	5.0778613389362266e-5
+Florida	Ohio	3.24303941249433e-4
+Florida	Oklahoma	6.40138668999986e-5
+Florida	Oregon	2.84806780348415e-5
+Florida	Pennsylvania	3.336555209904913e-4
+Florida	Rhode Island	8.527036405932537e-5
+Florida	South Carolina	3.5316259021094383e-4
+Florida	South Dakota	1.0957671942547497e-5
+Florida	Tennessee	3.204338736650702e-4
+Florida	Texas	4.425082422982605e-4
+Florida	Utah	4.2543835576844074e-5
+Florida	Vermont	2.075102545656177e-5
+Florida	Virginia	4.5363817034506674e-4
+Florida	Washington	9.23112448348364e-5
+Florida	West Virginia	5.424855856721807e-5
+Florida	Wisconsin	1.2207521875869833e-4
+Florida	Wyoming	2.151475216999845e-5
+Georgia	Alabama	0.009268904141923951
+Georgia	Alaska	2.4331651220198516e-5
+Georgia	Arizona	8.930288179359415e-5
+Georgia	Arkansas	1.2857692275599134e-4
+Georgia	California	1.6641383649050113e-4
+Georgia	Colorado	1.5166641566942947e-4
+Georgia	Connecticut	1.0628903648725766e-4
+Georgia	Delaware	1.8436565735462713e-5
+Georgia	Florida	0.002383318044964315
+Georgia	Hawaii	1.599413099572094e-5
+Georgia	Idaho	1.1817043468572362e-5
+Georgia	Illinois	2.5567196816424155e-4
+Georgia	Indiana	1.4127034801204397e-4
+Georgia	Iowa	9.717692907923147e-5
+Georgia	Kansas	1.1216596389038516e-4
+Georgia	Kentucky	3.322130972214999e-4
+Georgia	Louisiana	2.728969886208109e-4
+Georgia	Maine	1.957944626346486e-5
+Georgia	Maryland	2.2859088986639003e-4
+Georgia	Massachusetts	1.34091891813107e-4
+Georgia	Michigan	2.0542621834233052e-4
+Georgia	Minnesota	1.811352271135343e-4
+Georgia	Mississippi	2.9477538637113923e-4
+Georgia	Missouri	1.4713014560340814e-4
+Georgia	Montana	1.4057212415242147e-5
+Georgia	Nebraska	5.2984359017218115e-5
+Georgia	Nevada	6.341052065716013e-5
+Georgia	New Hampshire	2.574130120990551e-5
+Georgia	New Jersey	1.6427175623117692e-4
+Georgia	New Mexico	3.161643908910607e-5
+Georgia	New York	2.6574195168616564e-4
+Georgia	North Carolina	0.0014330294878004658
+Georgia	North Dakota	2.9678334074167506e-5
+Georgia	Ohio	0.00021917710794434151
+Georgia	Oklahoma	6.939704109895546e-5
+Georgia	Oregon	2.9546857231150103e-5
+Georgia	Pennsylvania	2.119487766454363e-4
+Georgia	Rhode Island	9.739661073076013e-6
+Georgia	South Carolina	0.0072734725102034554
+Georgia	South Dakota	2.425472355178161e-5
+Georgia	Tennessee	0.00701384853481818
+Georgia	Texas	3.817858692397019e-4
+Georgia	Utah	7.271998028313936e-5
+Georgia	Vermont	1.481768885543384e-5
+Georgia	Virginia	4.335359502704771e-4
+Georgia	Washington	7.885161685872868e-5
+Georgia	West Virginia	4.954496637899665e-5
+Georgia	Wisconsin	1.0411808438084002e-4
+Georgia	Wyoming	1.3497181491109132e-5
+Hawaii	Alabama	2.789070457812167e-5
+Hawaii	Alaska	1.359886523921595e-4
+Hawaii	Arizona	5.6393781403150044e-5
+Hawaii	Arkansas	4.345032514421434e-6
+Hawaii	California	1.3353151868365543e-4
+Hawaii	Colorado	7.367454685348823e-5
+Hawaii	Connecticut	2.106160123456086e-5
+Hawaii	Delaware	5.903466515537924e-6
+Hawaii	Florida	3.663056572268813e-5
+Hawaii	Georgia	1.599413099572094e-5
+Hawaii	Idaho	5.200068824440324e-5
+Hawaii	Illinois	1.4797757163767408e-5
+Hawaii	Indiana	1.0570303085823814e-5
+Hawaii	Iowa	6.1471446749413535e-6
+Hawaii	Kansas	1.0851529884854934e-5
+Hawaii	Kentucky	1.3061645489244999e-5
+Hawaii	Louisiana	3.526512592943952e-5
+Hawaii	Maine	2.761356472974604e-5
+Hawaii	Maryland	5.375947551731203e-5
+Hawaii	Massachusetts	4.878077231627544e-5
+Hawaii	Michigan	1.12151059436041e-5
+Hawaii	Minnesota	2.673250152724604e-5
+Hawaii	Mississippi	0
+Hawaii	Missouri	2.374928405161552e-5
+Hawaii	Montana	0
+Hawaii	Nebraska	0
+Hawaii	Nevada	1.3717132212092786e-4
+Hawaii	New Hampshire	6.501940016352379e-6
+Hawaii	New Jersey	1.1392213991347613e-5
+Hawaii	New Mexico	1.3974361704393007e-5
+Hawaii	New York	1.5054315432426071e-5
+Hawaii	North Carolina	3.0738109840439935e-5
+Hawaii	North Dakota	1.5743104028463532e-5
+Hawaii	Ohio	1.4265129226220646e-5
+Hawaii	Oklahoma	1.0484575223987659e-5
+Hawaii	Oregon	1.0075861766066048e-4
+Hawaii	Pennsylvania	1.8863831432802315e-5
+Hawaii	Rhode Island	1.1966952799576554e-5
+Hawaii	South Carolina	8.231807704972012e-6
+Hawaii	South Dakota	1.2233923918168224e-5
+Hawaii	Tennessee	2.7808197191553443e-5
+Hawaii	Texas	2.7628900297148407e-5
+Hawaii	Utah	4.096703204357212e-5
+Hawaii	Vermont	0
+Hawaii	Virginia	3.9733576906466684e-5
+Hawaii	Washington	1.772786826320645e-4
+Hawaii	West Virginia	0
+Hawaii	Wisconsin	1.227824663044484e-5
+Hawaii	Wyoming	0
+Idaho	Alabama	5.132683825097087e-6
+Idaho	Alaska	4.4525387511583635e-4
+Idaho	Arizona	1.3604440099680676e-4
+Idaho	Arkansas	1.2032430682260698e-5
+Idaho	California	5.16661472370119e-5
+Idaho	Colorado	1.1064127878160795e-4
+Idaho	Connecticut	0
+Idaho	Delaware	9.964615649827462e-6
+Idaho	Florida	9.605440892051509e-6
+Idaho	Georgia	1.1817043468572362e-5
+Idaho	Hawaii	5.200068824440324e-5
+Idaho	Illinois	4.2746596598001856e-5
+Idaho	Indiana	1.738881327538634e-5
+Idaho	Iowa	8.610166846956901e-5
+Idaho	Kansas	1.664571214257885e-5
+Idaho	Kentucky	8.896246885254513e-6
+Idaho	Louisiana	8.918188665254815e-5
+Idaho	Maine	0
+Idaho	Maryland	4.937993614186658e-6
+Idaho	Massachusetts	2.2611951773229258e-5
+Idaho	Michigan	1.4216064662300566e-5
+Idaho	Minnesota	2.0737726315686748e-5
+Idaho	Mississippi	0
+Idaho	Missouri	4.9853196271104775e-5
+Idaho	Montana	0.0012206613371962085
+Idaho	Nebraska	6.87105155343559e-5
+Idaho	Nevada	7.054585534947373e-4
+Idaho	New Hampshire	2.4638795261466895e-6
+Idaho	New Jersey	1.7854481689157757e-5
+Idaho	New Mexico	4.56377676688631e-5
+Idaho	New York	8.075988374453216e-6
+Idaho	North Carolina	1.0483422040556167e-5
+Idaho	North Dakota	9.567348759231347e-4
+Idaho	Ohio	1.1120213211554644e-5
+Idaho	Oklahoma	3.602289650446113e-5
+Idaho	Oregon	0.0033971815304147434
+Idaho	Pennsylvania	2.7050902465363846e-5
+Idaho	Rhode Island	0
+Idaho	South Carolina	2.088005903147255e-5
+Idaho	South Dakota	4.381590841332118e-5
+Idaho	Tennessee	3.97498369801533e-5
+Idaho	Texas	2.9914523843922726e-5
+Idaho	Utah	0.0024328756833231434
+Idaho	Vermont	0
+Idaho	Virginia	1.3996803984012328e-5
+Idaho	Washington	0.007867834226160225
+Idaho	West Virginia	1.1548357592583183e-5
+Idaho	Wisconsin	2.1343985685701092e-5
+Idaho	Wyoming	0.0032230944717156797
+Illinois	Alabama	7.614181379829545e-5
+Illinois	Alaska	1.0266311430213093e-5
+Illinois	Arizona	1.5280038208497743e-4
+Illinois	Arkansas	1.2802117237425303e-4
+Illinois	California	2.3919059363818754e-4
+Illinois	Colorado	1.823442902999582e-4
+Illinois	Connecticut	1.0230407094978798e-4
+Illinois	Delaware	2.810695987847212e-5
+Illinois	Florida	3.690875415314788e-4
+Illinois	Georgia	2.5567196816424155e-4
+Illinois	Hawaii	1.4797757163767408e-5
+Illinois	Idaho	4.2746596598001856e-5
+Illinois	Indiana	0.011649304965801764
+Illinois	Iowa	0.0073873039264366926
+Illinois	Kansas	1.3820398822553685e-4
+Illinois	Kentucky	9.588188193995206e-4
+Illinois	Louisiana	1.0771063668808182e-4
+Illinois	Maine	1.460466288786889e-5
+Illinois	Maryland	9.53849046893248e-5
+Illinois	Massachusetts	1.4605523659131156e-4
+Illinois	Michigan	7.762334123630429e-4
+Illinois	Minnesota	3.2247301855643063e-4
+Illinois	Mississippi	7.644212947112672e-5
+Illinois	Missouri	0.012729730997133027
+Illinois	Montana	1.6901181392579342e-5
+Illinois	Nebraska	1.3827724724380731e-4
+Illinois	Nevada	1.1984175658672084e-4
+Illinois	New Hampshire	4.710581098881165e-5
+Illinois	New Jersey	1.7443915863873434e-4
+Illinois	New Mexico	3.060565999652014e-5
+Illinois	New York	1.995230005022259e-4
+Illinois	North Carolina	1.6259841228151857e-4
+Illinois	North Dakota	2.0005849644300953e-5
+Illinois	Ohio	3.926595530606538e-4
+Illinois	Oklahoma	7.266376767372001e-5
+Illinois	Oregon	4.772713458929577e-5
+Illinois	Pennsylvania	1.9877944236062348e-4
+Illinois	Rhode Island	3.775527098723169e-5
+Illinois	South Carolina	8.136102087114576e-5
+Illinois	South Dakota	1.739267407441439e-5
+Illinois	Tennessee	2.8756395571011636e-4
+Illinois	Texas	3.085749215619709e-4
+Illinois	Utah	5.810179001090382e-5
+Illinois	Vermont	2.9896534607493575e-5
+Illinois	Virginia	1.7751007779994615e-4
+Illinois	Washington	8.685796531142998e-5
+Illinois	West Virginia	3.2000317796259494e-5
+Illinois	Wisconsin	0.007817388275233227
+Illinois	Wyoming	2.5452412444957066e-5
+Indiana	Alabama	1.2501406138298372e-4
+Indiana	Alaska	4.785357323924717e-5
+Indiana	Arizona	9.602727546101916e-5
+Indiana	Arkansas	1.0593568328897702e-4
+Indiana	California	5.9926282232532546e-5
+Indiana	Colorado	8.507171853128959e-5
+Indiana	Connecticut	1.9704943672502004e-5
+Indiana	Delaware	1.9021673423659416e-5
+Indiana	Florida	2.1366182574449044e-4
+Indiana	Georgia	1.4127034801204397e-4
+Indiana	Hawaii	1.0570303085823814e-5
+Indiana	Idaho	1.738881327538634e-5
+Indiana	Illinois	0.011649304965801764
+Indiana	Iowa	1.6615851045798807e-4
+Indiana	Kansas	8.60513283738587e-5
+Indiana	Kentucky	0.01718117160142609
+Indiana	Louisiana	9.68681996702195e-5
+Indiana	Maine	2.8333909456158943e-5
+Indiana	Maryland	7.612673407354739e-5
+Indiana	Massachusetts	7.05075708571211e-5
+Indiana	Michigan	0.005075388768644513
+Indiana	Minnesota	1.2179792329892e-4
+Indiana	Mississippi	7.389718890393235e-5
+Indiana	Missouri	3.4207318114360525e-4
+Indiana	Montana	8.731304095106353e-6
+Indiana	Nebraska	6.921022921716666e-5
+Indiana	Nevada	5.9436133969045965e-5
+Indiana	New Hampshire	1.3873139189808672e-5
+Indiana	New Jersey	1.0397929557916547e-4
+Indiana	New Mexico	2.0623584741334264e-5
+Indiana	New York	8.651108606632247e-5
+Indiana	North Carolina	1.4326284626586266e-4
+Indiana	North Dakota	2.5147499758197118e-5
+Indiana	Ohio	0.0050147714548156
+Indiana	Oklahoma	8.023363302462053e-5
+Indiana	Oregon	2.0873226910127144e-5
+Indiana	Pennsylvania	1.6318835068302337e-4
+Indiana	Rhode Island	1.1035206407230014e-5
+Indiana	South Carolina	1.410384614472228e-4
+Indiana	South Dakota	1.5883221473098904e-5
+Indiana	Tennessee	3.2453836225079493e-4
+Indiana	Texas	1.673354397410438e-4
+Indiana	Utah	4.060787481945789e-5
+Indiana	Vermont	1.2826044632004336e-5
+Indiana	Virginia	1.065887528751643e-4
+Indiana	Washington	6.674157903295093e-5
+Indiana	West Virginia	7.829834731616225e-5
+Indiana	Wisconsin	2.4954514223704506e-4
+Indiana	Wyoming	3.96654746089728e-6
+Iowa	Alabama	7.634243684459643e-5
+Iowa	Alaska	1.5540826305734675e-5
+Iowa	Arizona	1.4121650444685397e-4
+Iowa	Arkansas	7.322405117943839e-5
+Iowa	California	3.922958528893948e-5
+Iowa	Colorado	1.0239028982580118e-4
+Iowa	Connecticut	4.229881706477446e-6
+Iowa	Delaware	0
+Iowa	Florida	6.741687430605334e-5
+Iowa	Georgia	9.717692907923147e-5
+Iowa	Hawaii	6.1471446749413535e-6
+Iowa	Idaho	8.610166846956901e-5
+Iowa	Illinois	0.0073873039264366926
+Iowa	Indiana	1.6615851045798807e-4
+Iowa	Kansas	2.7835483502348436e-4
+Iowa	Kentucky	4.103745204142384e-5
+Iowa	Louisiana	6.54822381651225e-5
+Iowa	Maine	1.0184993430679237e-5
+Iowa	Maryland	1.4824848318394047e-5
+Iowa	Massachusetts	4.336048108234768e-5
+Iowa	Michigan	1.1103650311454674e-4
+Iowa	Minnesota	0.0023874849790353476
+Iowa	Mississippi	2.9545065087778387e-5
+Iowa	Missouri	0.0015235007221724888
+Iowa	Montana	1.8268014741765953e-5
+Iowa	Nebraska	0.01993065040633556
+Iowa	Nevada	3.892777046674775e-5
+Iowa	New Hampshire	2.074264599118734e-5
+Iowa	New Jersey	2.615885212560642e-5
+Iowa	New Mexico	4.309579280587566e-5
+Iowa	New York	3.6060093948432676e-5
+Iowa	North Carolina	7.548876284317577e-5
+Iowa	North Dakota	1.468845564693812e-4
+Iowa	Ohio	8.589479278267459e-5
+Iowa	Oklahoma	1.4981064518126925e-4
+Iowa	Oregon	4.203221592879807e-5
+Iowa	Pennsylvania	4.320341203266869e-5
+Iowa	Rhode Island	5.84888294311536e-6
+Iowa	South Carolina	5.9181590340847104e-5
+Iowa	South Dakota	0.004816792534936215
+Iowa	Tennessee	6.531915842601302e-5
+Iowa	Texas	8.038960859027546e-5
+Iowa	Utah	3.8171149800268535e-5
+Iowa	Vermont	2.8576131386193844e-6
+Iowa	Virginia	5.534926781678994e-5
+Iowa	Washington	3.819213188480181e-5
+Iowa	West Virginia	2.6589304452284068e-5
+Iowa	Wisconsin	0.001932113798170649
+Iowa	Wyoming	3.2287767029923264e-5
+Kansas	Alabama	4.967544846330424e-5
+Kansas	Alaska	2.959079627599829e-5
+Kansas	Arizona	8.560849624715352e-5
+Kansas	Arkansas	2.5401198496932925e-4
+Kansas	California	6.227826948762255e-5
+Kansas	Colorado	3.758904657858077e-4
+Kansas	Connecticut	5.183542322240783e-6
+Kansas	Delaware	2.023103845920411e-5
+Kansas	Florida	5.6532771745697465e-5
+Kansas	Georgia	1.1216596389038516e-4
+Kansas	Hawaii	1.0851529884854934e-5
+Kansas	Idaho	1.664571214257885e-5
+Kansas	Illinois	1.3820398822553685e-4
+Kansas	Indiana	8.60513283738587e-5
+Kansas	Iowa	2.7835483502348436e-4
+Kansas	Kentucky	3.915367818688352e-5
+Kansas	Louisiana	9.732585478544343e-5
+Kansas	Maine	6.375355426065003e-6
+Kansas	Maryland	6.984049903219074e-5
+Kansas	Massachusetts	1.686938038765836e-5
+Kansas	Michigan	8.12592867756315e-5
+Kansas	Minnesota	9.163225977694455e-5
+Kansas	Mississippi	9.580143837805621e-5
+Kansas	Missouri	0.04605632043609939
+Kansas	Montana	4.722512099997466e-5
+Kansas	Nebraska	0.0017107779927419877
+Kansas	Nevada	2.4733566774953737e-5
+Kansas	New Hampshire	0
+Kansas	New Jersey	3.8108509008727266e-5
+Kansas	New Mexico	9.727465688253614e-5
+Kansas	New York	3.0056699239858006e-5
+Kansas	North Carolina	4.0020870142652166e-5
+Kansas	North Dakota	8.092142529603754e-5
+Kansas	Ohio	4.338048723437794e-5
+Kansas	Oklahoma	0.003847964081552002
+Kansas	Oregon	3.234569994562518e-5
+Kansas	Pennsylvania	3.326325381740189e-5
+Kansas	Rhode Island	1.939894998774339e-5
+Kansas	South Carolina	3.190207767808466e-5
+Kansas	South Dakota	1.0968258812757516e-4
+Kansas	Tennessee	1.1800609961549892e-4
+Kansas	Texas	2.3171126188968908e-4
+Kansas	Utah	2.7394660582140508e-5
+Kansas	Vermont	0
+Kansas	Virginia	6.627995786989844e-5
+Kansas	Washington	4.6768200973895434e-5
+Kansas	West Virginia	1.6610554138467655e-5
+Kansas	Wisconsin	1.0747519030062961e-4
+Kansas	Wyoming	6.81736472836982e-5
+Kentucky	Alabama	2.480975253869335e-4
+Kentucky	Alaska	4.125606767548268e-5
+Kentucky	Arizona	3.355462532123957e-5
+Kentucky	Arkansas	2.0002266232581792e-4
+Kentucky	California	3.0853109683809186e-5
+Kentucky	Colorado	5.557208345968796e-5
+Kentucky	Connecticut	4.0515793056133283e-5
+Kentucky	Delaware	2.7545267263996258e-5
+Kentucky	Florida	1.6810517450800396e-4
+Kentucky	Georgia	3.322130972214999e-4
+Kentucky	Hawaii	1.3061645489244999e-5
+Kentucky	Idaho	8.896246885254513e-6
+Kentucky	Illinois	9.588188193995206e-4
+Kentucky	Indiana	0.01718117160142609
+Kentucky	Iowa	4.103745204142384e-5
+Kentucky	Kansas	3.915367818688352e-5
+Kentucky	Louisiana	1.0402740158815166e-4
+Kentucky	Maine	0
+Kentucky	Maryland	9.284168664834201e-5
+Kentucky	Massachusetts	4.310952305944969e-5
+Kentucky	Michigan	1.8374668840714115e-4
+Kentucky	Minnesota	6.490241048012824e-5
+Kentucky	Mississippi	1.5049791215426144e-4
+Kentucky	Missouri	2.5930145027254584e-4
+Kentucky	Montana	1.057741170735521e-5
+Kentucky	Nebraska	4.193696949733586e-5
+Kentucky	Nevada	4.234828468789314e-5
+Kentucky	New Hampshire	3.54735255823242e-5
+Kentucky	New Jersey	5.981100860538007e-5
+Kentucky	New Mexico	2.0737942060537575e-5
+Kentucky	New York	6.181737081642491e-5
+Kentucky	North Carolina	1.6500827354567826e-4
+Kentucky	North Dakota	2.271335695200281e-5
+Kentucky	Ohio	0.014337966756734434
+Kentucky	Oklahoma	1.0142685747282568e-4
+Kentucky	Oregon	1.4221741843386623e-5
+Kentucky	Pennsylvania	1.1717372531924287e-4
+Kentucky	Rhode Island	6.076915993180765e-6
+Kentucky	South Carolina	1.376068013271288e-4
+Kentucky	South Dakota	1.843480907919074e-5
+Kentucky	Tennessee	0.010152893732455487
+Kentucky	Texas	9.943155227076808e-5
+Kentucky	Utah	2.5026345301337488e-5
+Kentucky	Vermont	1.3942313677160748e-5
+Kentucky	Virginia	7.387201370870812e-4
+Kentucky	Washington	4.30749155129874e-5
+Kentucky	West Virginia	0.004725105437280602
+Kentucky	Wisconsin	8.2641260208643e-5
+Kentucky	Wyoming	2.8099147843164607e-5
+Louisiana	Alabama	9.479827604176375e-4
+Louisiana	Alaska	1.2789190047364103e-4
+Louisiana	Arizona	7.480791805615245e-5
+Louisiana	Arkansas	0.0018099311563087833
+Louisiana	California	7.919894786734772e-5
+Louisiana	Colorado	1.0177991622098018e-4
+Louisiana	Connecticut	2.4865647796748196e-5
+Louisiana	Delaware	2.6358541177752337e-6
+Louisiana	Florida	3.9697324287411856e-4
+Louisiana	Georgia	2.728969886208109e-4
+Louisiana	Hawaii	3.526512592943952e-5
+Louisiana	Idaho	8.918188665254815e-5
+Louisiana	Illinois	1.0771063668808182e-4
+Louisiana	Indiana	9.68681996702195e-5
+Louisiana	Iowa	6.54822381651225e-5
+Louisiana	Kansas	9.732585478544343e-5
+Louisiana	Kentucky	1.0402740158815166e-4
+Louisiana	Maine	6.488440289732597e-5
+Louisiana	Maryland	5.173252936806976e-5
+Louisiana	Massachusetts	5.2861580163791406e-5
+Louisiana	Michigan	6.13093846960082e-5
+Louisiana	Minnesota	2.5044767521945477e-5
+Louisiana	Mississippi	0.010365493685298025
+Louisiana	Missouri	0.00015634785621327269
+Louisiana	Montana	6.298276287745569e-5
+Louisiana	Nebraska	2.0494960359919773e-5
+Louisiana	Nevada	7.359501019403373e-5
+Louisiana	New Hampshire	8.030954511067458e-6
+Louisiana	New Jersey	5.9558260401868445e-5
+Louisiana	New Mexico	1.0170244831452622e-4
+Louisiana	New York	8.995855183397552e-5
+Louisiana	North Carolina	1.6762772678434587e-4
+Louisiana	North Dakota	1.2914300875097626e-4
+Louisiana	Ohio	5.75056388674704e-5
+Louisiana	Oklahoma	3.337851403925651e-4
+Louisiana	Oregon	3.824428045619564e-5
+Louisiana	Pennsylvania	1.0890725002446028e-4
+Louisiana	Rhode Island	2.5571937696530998e-5
+Louisiana	South Carolina	9.314250751174645e-5
+Louisiana	South Dakota	7.319468537695048e-6
+Louisiana	Tennessee	2.595514836562444e-4
+Louisiana	Texas	0.002687580971483801
+Louisiana	Utah	6.88988198706725e-5
+Louisiana	Vermont	1.3542293938198388e-6
+Louisiana	Virginia	7.980494069108164e-5
+Louisiana	Washington	3.601094975643043e-5
+Louisiana	West Virginia	6.415762400599427e-5
+Louisiana	Wisconsin	6.457300826512764e-5
+Louisiana	Wyoming	3.9999872727677683e-5
+Maine	Alabama	3.971557231543792e-5
+Maine	Alaska	9.430453028485207e-6
+Maine	Arizona	4.930273605533739e-5
+Maine	Arkansas	1.621697189990214e-5
+Maine	California	1.867099611785989e-5
+Maine	Colorado	2.2810783895847265e-5
+Maine	Connecticut	2.8742510667288825e-4
+Maine	Delaware	7.265940695392044e-6
+Maine	Florida	6.18515757502759e-5
+Maine	Georgia	1.957944626346486e-5
+Maine	Hawaii	2.761356472974604e-5
+Maine	Idaho	0
+Maine	Illinois	1.460466288786889e-5
+Maine	Indiana	2.8333909456158943e-5
+Maine	Iowa	1.0184993430679237e-5
+Maine	Kansas	6.375355426065003e-6
+Maine	Kentucky	0
+Maine	Louisiana	6.488440289732597e-5
+Maine	Maryland	7.839233663203838e-5
+Maine	Massachusetts	0.001847694568894529
+Maine	Michigan	3.466780114549263e-5
+Maine	Minnesota	3.612283988504909e-5
+Maine	Mississippi	5.321989217649845e-6
+Maine	Missouri	2.163524173933547e-5
+Maine	Montana	1.3101695359379503e-5
+Maine	Nebraska	1.4502077752230684e-5
+Maine	Nevada	0
+Maine	New Hampshire	0.01946104667769812
+Maine	New Jersey	6.633534246101237e-5
+Maine	New Mexico	2.7590373994417086e-6
+Maine	New York	1.2100326957538774e-4
+Maine	North Carolina	5.6665561547257384e-5
+Maine	North Dakota	2.1798500885953357e-5
+Maine	Ohio	2.7909602752135706e-5
+Maine	Oklahoma	7.602467850505072e-6
+Maine	Oregon	1.3661051680639865e-5
+Maine	Pennsylvania	4.8715989227369334e-5
+Maine	Rhode Island	2.8442841497912255e-4
+Maine	South Carolina	8.085475483997763e-5
+Maine	South Dakota	1.0894724279289228e-5
+Maine	Tennessee	5.344792896954543e-5
+Maine	Texas	2.0876698946179452e-5
+Maine	Utah	7.563675341121758e-6
+Maine	Vermont	4.120755870692453e-4
+Maine	Virginia	5.724168372939868e-5
+Maine	Washington	5.2616355146623324e-5
+Maine	West Virginia	1.90665948491594e-5
+Maine	Wisconsin	2.6169009198711023e-5
+Maine	Wyoming	1.240098937347947e-5
+Maryland	Alabama	8.068337178850947e-5
+Maryland	Alaska	1.643899270620159e-5
+Maryland	Arizona	7.97454509297007e-5
+Maryland	Arkansas	4.480236556490183e-6
+Maryland	California	6.746777889405742e-5
+Maryland	Colorado	1.0160444339107406e-4
+Maryland	Connecticut	1.336803035540505e-4
+Maryland	Delaware	0.014211121588148114
+Maryland	Florida	3.233829456749384e-4
+Maryland	Georgia	2.2859088986639003e-4
+Maryland	Hawaii	5.375947551731203e-5
+Maryland	Idaho	4.937993614186658e-6
+Maryland	Illinois	9.53849046893248e-5
+Maryland	Indiana	7.612673407354739e-5
+Maryland	Iowa	1.4824848318394047e-5
+Maryland	Kansas	6.984049903219074e-5
+Maryland	Kentucky	9.284168664834201e-5
+Maryland	Louisiana	5.173252936806976e-5
+Maryland	Maine	7.839233663203838e-5
+Maryland	Massachusetts	2.6202531760575727e-4
+Maryland	Michigan	1.2034305670124968e-4
+Maryland	Minnesota	7.38719347378293e-5
+Maryland	Mississippi	5.670226532745702e-5
+Maryland	Missouri	1.286997404890389e-4
+Maryland	Montana	1.7534274245868399e-6
+Maryland	Nebraska	2.5756873297394918e-5
+Maryland	Nevada	5.165175326990498e-5
+Maryland	New Hampshire	5.370529372066897e-5
+Maryland	New Jersey	7.300243268585567e-4
+Maryland	New Mexico	2.6911097796476006e-5
+Maryland	New York	3.846358810536195e-4
+Maryland	North Carolina	4.3268993154013365e-4
+Maryland	North Dakota	2.2939003369484716e-5
+Maryland	Ohio	1.6141775535924492e-4
+Maryland	Oklahoma	1.4928485092165979e-5
+Maryland	Oregon	3.7755870050711314e-5
+Maryland	Pennsylvania	0.009285418354946458
+Maryland	Rhode Island	7.065356321186128e-5
+Maryland	South Carolina	1.6838598645578794e-4
+Maryland	South Dakota	6.087360062334567e-6
+Maryland	Tennessee	1.254225569293383e-4
+Maryland	Texas	1.5446273695863747e-4
+Maryland	Utah	3.02692504865782e-5
+Maryland	Vermont	2.085324010941993e-5
+Maryland	Virginia	0.031097985078886562
+Maryland	Washington	1.163758993270887e-4
+Maryland	West Virginia	0.00879295130067768
+Maryland	Wisconsin	5.1484286049060385e-5
+Maryland	Wyoming	6.741482137319497e-6
+Massachusetts	Alabama	5.162870556029152e-5
+Massachusetts	Alaska	3.46951768499902e-6
+Massachusetts	Arizona	9.147892906348185e-5
+Massachusetts	Arkansas	1.5375214641490763e-5
+Massachusetts	California	1.0613963722393151e-4
+Massachusetts	Colorado	6.118423614172566e-5
+Massachusetts	Connecticut	0.010450141601458313
+Massachusetts	Delaware	4.267741983854094e-5
+Massachusetts	Florida	3.0778346483522153e-4
+Massachusetts	Georgia	1.34091891813107e-4
+Massachusetts	Hawaii	4.878077231627544e-5
+Massachusetts	Idaho	2.2611951773229258e-5
+Massachusetts	Illinois	1.4605523659131156e-4
+Massachusetts	Indiana	7.05075708571211e-5
+Massachusetts	Iowa	4.336048108234768e-5
+Massachusetts	Kansas	1.686938038765836e-5
+Massachusetts	Kentucky	4.310952305944969e-5
+Massachusetts	Louisiana	5.2861580163791406e-5
+Massachusetts	Maine	0.001847694568894529
+Massachusetts	Maryland	2.6202531760575727e-4
+Massachusetts	Michigan	9.29258620197234e-5
+Massachusetts	Minnesota	7.974058194955276e-5
+Massachusetts	Mississippi	1.573117800304613e-5
+Massachusetts	Missouri	6.463084197829387e-5
+Massachusetts	Montana	1.259470166090529e-5
+Massachusetts	Nebraska	1.6412178433203927e-5
+Massachusetts	Nevada	4.717605966028589e-5
+Massachusetts	New Hampshire	0.02995825036187762
+Massachusetts	New Jersey	4.7541147838272516e-4
+Massachusetts	New Mexico	3.995679608200854e-5
+Massachusetts	New York	0.0010932727132697856
+Massachusetts	North Carolina	1.2924170230258953e-4
+Massachusetts	North Dakota	2.3070099651295445e-6
+Massachusetts	Ohio	8.597593510206783e-5
+Massachusetts	Oklahoma	2.1938433583185373e-5
+Massachusetts	Oregon	2.4509562604859556e-5
+Massachusetts	Pennsylvania	3.093013219057285e-4
+Massachusetts	Rhode Island	0.028016589438863194
+Massachusetts	South Carolina	5.756857906954384e-5
+Massachusetts	South Dakota	0
+Massachusetts	Tennessee	6.006930887135151e-5
+Massachusetts	Texas	9.229111444430771e-5
+Massachusetts	Utah	7.117300458445985e-5
+Massachusetts	Vermont	0.001483100712210755
+Massachusetts	Virginia	2.324527023113103e-4
+Massachusetts	Washington	1.0285540290792274e-4
+Massachusetts	West Virginia	3.5342346428868476e-5
+Massachusetts	Wisconsin	4.317170422892746e-5
+Massachusetts	Wyoming	9.140816339769451e-6
+Michigan	Alabama	9.745501274980408e-5
+Michigan	Alaska	3.5805239439607214e-5
+Michigan	Arizona	1.2693525928875982e-4
+Michigan	Arkansas	5.546269419090221e-5
+Michigan	California	1.004068152753287e-4
+Michigan	Colorado	9.574821253406913e-5
+Michigan	Connecticut	9.182369779660066e-5
+Michigan	Delaware	1.0403247984483781e-5
+Michigan	Florida	3.4675866036593274e-4
+Michigan	Georgia	2.0542621834233052e-4
+Michigan	Hawaii	1.12151059436041e-5
+Michigan	Idaho	1.4216064662300566e-5
+Michigan	Illinois	7.762334123630429e-4
+Michigan	Indiana	0.005075388768644513
+Michigan	Iowa	1.1103650311454674e-4
+Michigan	Kansas	8.12592867756315e-5
+Michigan	Kentucky	1.8374668840714115e-4
+Michigan	Louisiana	6.13093846960082e-5
+Michigan	Maine	3.466780114549263e-5
+Michigan	Maryland	1.2034305670124968e-4
+Michigan	Massachusetts	9.29258620197234e-5
+Michigan	Minnesota	1.982557968546897e-4
+Michigan	Mississippi	6.116907501289891e-5
+Michigan	Missouri	1.2860459501961785e-4
+Michigan	Montana	2.2973718066531886e-5
+Michigan	Nebraska	6.7529598464184e-5
+Michigan	Nevada	6.505498953698918e-5
+Michigan	New Hampshire	1.9845592660582124e-5
+Michigan	New Jersey	1.2585931133827033e-4
+Michigan	New Mexico	1.8948161091153287e-5
+Michigan	New York	1.5778918231993067e-4
+Michigan	North Carolina	1.0820211079603048e-4
+Michigan	North Dakota	4.952706179009798e-5
+Michigan	Ohio	0.0039687056381213295
+Michigan	Oklahoma	4.2672005057422824e-5
+Michigan	Oregon	2.9680729629154997e-5
+Michigan	Pennsylvania	2.2392755964373333e-4
+Michigan	Rhode Island	1.4693827390273844e-5
+Michigan	South Carolina	8.427251582837617e-5
+Michigan	South Dakota	1.2309854710142089e-5
+Michigan	Tennessee	2.5523792448382446e-4
+Michigan	Texas	1.5668467446468073e-4
+Michigan	Utah	3.635069873388445e-5
+Michigan	Vermont	1.7886991364481617e-5
+Michigan	Virginia	1.1173475609796034e-4
+Michigan	Washington	1.0467128772063318e-4
+Michigan	West Virginia	3.773458510399694e-5
+Michigan	Wisconsin	0.0018710564890941366
+Michigan	Wyoming	1.910085157579724e-5
+Minnesota	Alabama	4.7374825858773875e-5
+Minnesota	Alaska	5.1698202010388654e-5
+Minnesota	Arizona	1.7607935410753476e-4
+Minnesota	Arkansas	4.642348976125999e-5
+Minnesota	California	9.053641338990037e-5
+Minnesota	Colorado	1.2976962260009635e-4
+Minnesota	Connecticut	2.564426510711892e-5
+Minnesota	Delaware	1.4057349299358282e-5
+Minnesota	Florida	1.625142870478466e-4
+Minnesota	Georgia	1.811352271135343e-4
+Minnesota	Hawaii	2.673250152724604e-5
+Minnesota	Idaho	2.0737726315686748e-5
+Minnesota	Illinois	3.2247301855643063e-4
+Minnesota	Indiana	1.2179792329892e-4
+Minnesota	Iowa	0.0023874849790353476
+Minnesota	Kansas	9.163225977694455e-5
+Minnesota	Kentucky	6.490241048012824e-5
+Minnesota	Louisiana	2.5044767521945477e-5
+Minnesota	Maine	3.612283988504909e-5
+Minnesota	Maryland	7.38719347378293e-5
+Minnesota	Massachusetts	7.974058194955276e-5
+Minnesota	Michigan	1.982557968546897e-4
+Minnesota	Mississippi	6.59371417191024e-5
+Minnesota	Missouri	2.2705119371589798e-4
+Minnesota	Montana	9.698766025998513e-5
+Minnesota	Nebraska	1.346770545874054e-4
+Minnesota	Nevada	9.023941694350986e-5
+Minnesota	New Hampshire	3.435484873403944e-5
+Minnesota	New Jersey	7.792781846892531e-5
+Minnesota	New Mexico	3.2813139532407004e-5
+Minnesota	New York	8.90710844031918e-5
+Minnesota	North Carolina	6.174137323474455e-5
+Minnesota	North Dakota	0.013310854100753639
+Minnesota	Ohio	1.0966871551529984e-4
+Minnesota	Oklahoma	6.571680843503401e-5
+Minnesota	Oregon	5.636081916957224e-5
+Minnesota	Pennsylvania	9.727409660992385e-5
+Minnesota	Rhode Island	2.1584491346744716e-5
+Minnesota	South Carolina	2.5428149226530978e-5
+Minnesota	South Dakota	0.0019362701962093712
+Minnesota	Tennessee	9.942837208483115e-5
+Minnesota	Texas	1.4720526785589507e-4
+Minnesota	Utah	7.637603949466928e-5
+Minnesota	Vermont	3.416803566596235e-6
+Minnesota	Virginia	5.2744538682070435e-5
+Minnesota	Washington	8.77149236685635e-5
+Minnesota	West Virginia	2.0712024579081403e-5
+Minnesota	Wisconsin	0.01304792484508284
+Minnesota	Wyoming	2.8508376482306775e-5
+Mississippi	Alabama	0.007217808497199911
+Mississippi	Alaska	6.848223794363214e-5
+Mississippi	Arizona	4.003408001818461e-5
+Mississippi	Arkansas	0.0018725865492844153
+Mississippi	California	3.561843725956832e-5
+Mississippi	Colorado	4.484688174554218e-5
+Mississippi	Connecticut	1.147025762198619e-5
+Mississippi	Delaware	3.888802471056199e-5
+Mississippi	Florida	1.7314949233714365e-4
+Mississippi	Georgia	2.9477538637113923e-4
+Mississippi	Hawaii	0
+Mississippi	Idaho	0
+Mississippi	Illinois	7.644212947112672e-5
+Mississippi	Indiana	7.389718890393235e-5
+Mississippi	Iowa	2.9545065087778387e-5
+Mississippi	Kansas	9.580143837805621e-5
+Mississippi	Kentucky	1.5049791215426144e-4
+Mississippi	Louisiana	0.010365493685298025
+Mississippi	Maine	5.321989217649845e-6
+Mississippi	Maryland	5.670226532745702e-5
+Mississippi	Massachusetts	1.573117800304613e-5
+Mississippi	Michigan	6.116907501289891e-5
+Mississippi	Minnesota	6.59371417191024e-5
+Mississippi	Missouri	1.423787285088583e-4
+Mississippi	Montana	1.682673638975899e-5
+Mississippi	Nebraska	5.667856582162102e-5
+Mississippi	Nevada	4.175512159530936e-5
+Mississippi	New Hampshire	2.1764627643495398e-5
+Mississippi	New Jersey	2.0271377677331425e-5
+Mississippi	New Mexico	3.685570007142738e-5
+Mississippi	New York	2.9516315014568924e-5
+Mississippi	North Carolina	7.491053952875509e-5
+Mississippi	North Dakota	1.5553870552912323e-4
+Mississippi	Ohio	6.260126615157733e-5
+Mississippi	Oklahoma	1.2605855087955326e-4
+Mississippi	Oregon	8.740615674400412e-6
+Mississippi	Pennsylvania	3.407843394990957e-5
+Mississippi	Rhode Island	0
+Mississippi	South Carolina	1.7981839350583351e-4
+Mississippi	South Dakota	4.7098623845494986e-6
+Mississippi	Tennessee	0.018436558968398565
+Mississippi	Texas	4.340435174964022e-4
+Mississippi	Utah	5.3272705557460195e-5
+Mississippi	Vermont	2.030475994334972e-5
+Mississippi	Virginia	8.018061920504247e-5
+Mississippi	Washington	4.870157936786811e-5
+Mississippi	West Virginia	3.860841444461796e-5
+Mississippi	Wisconsin	5.0491387498013564e-5
+Mississippi	Wyoming	5.279865891406358e-5
+Missouri	Alabama	1.0989785766324924e-4
+Missouri	Alaska	2.082568729035617e-5
+Missouri	Arizona	1.6339064903631123e-4
+Missouri	Arkansas	0.004060366891375062
+Missouri	California	7.997494863219159e-5
+Missouri	Colorado	2.2381028183245311e-4
+Missouri	Connecticut	6.736526589760765e-5
+Missouri	Delaware	6.807166584980667e-6
+Missouri	Florida	1.9484878798097798e-4
+Missouri	Georgia	1.4713014560340814e-4
+Missouri	Hawaii	2.374928405161552e-5
+Missouri	Idaho	4.9853196271104775e-5
+Missouri	Illinois	0.012729730997133027
+Missouri	Indiana	3.4207318114360525e-4
+Missouri	Iowa	0.0015235007221724888
+Missouri	Kansas	0.04605632043609939
+Missouri	Kentucky	2.5930145027254584e-4
+Missouri	Louisiana	0.00015634785621327269
+Missouri	Maine	2.163524173933547e-5
+Missouri	Maryland	1.286997404890389e-4
+Missouri	Massachusetts	6.463084197829387e-5
+Missouri	Michigan	1.2860459501961785e-4
+Missouri	Minnesota	2.2705119371589798e-4
+Missouri	Mississippi	1.423787285088583e-4
+Missouri	Montana	4.17303986238826e-5
+Missouri	Nebraska	6.093653355559378e-4
+Missouri	Nevada	5.591818454060959e-5
+Missouri	New Hampshire	2.474473270295598e-5
+Missouri	New Jersey	1.0121109423535181e-4
+Missouri	New Mexico	5.781624537214536e-5
+Missouri	New York	7.85948103365542e-5
+Missouri	North Carolina	1.1529265317329977e-4
+Missouri	North Dakota	8.95081780865602e-5
+Missouri	Ohio	1.7352673956280734e-4
+Missouri	Oklahoma	0.0013793159057938619
+Missouri	Oregon	3.86425530852073e-5
+Missouri	Pennsylvania	1.4209474411734573e-4
+Missouri	Rhode Island	1.3297580571702882e-5
+Missouri	South Carolina	1.0484565780255126e-4
+Missouri	South Dakota	3.3172285794990585e-5
+Missouri	Tennessee	3.557052367609225e-4
+Missouri	Texas	2.8377183248860994e-4
+Missouri	Utah	3.711692458572807e-5
+Missouri	Vermont	7.994255258655867e-6
+Missouri	Virginia	1.4600187363651647e-4
+Missouri	Washington	8.046418737058379e-5
+Missouri	West Virginia	3.4637368401194744e-5
+Missouri	Wisconsin	1.7541409033160484e-4
+Missouri	Wyoming	2.515938646040629e-5
+Montana	Alabama	0
+Montana	Alaska	4.933289317017623e-4
+Montana	Arizona	8.388714984374405e-5
+Montana	Arkansas	4.01867343589881e-5
+Montana	California	4.966384534438638e-5
+Montana	Colorado	1.8506855917798087e-4
+Montana	Connecticut	1.0095697598281616e-5
+Montana	Delaware	0
+Montana	Florida	7.214827155805139e-6
+Montana	Georgia	1.4057212415242147e-5
+Montana	Hawaii	0
+Montana	Idaho	0.0012206613371962085
+Montana	Illinois	1.6901181392579342e-5
+Montana	Indiana	8.731304095106353e-6
+Montana	Iowa	1.8268014741765953e-5
+Montana	Kansas	4.722512099997466e-5
+Montana	Kentucky	1.057741170735521e-5
+Montana	Louisiana	6.298276287745569e-5
+Montana	Maine	1.3101695359379503e-5
+Montana	Maryland	1.7534274245868399e-6
+Montana	Massachusetts	1.259470166090529e-5
+Montana	Michigan	2.2973718066531886e-5
+Montana	Minnesota	9.698766025998513e-5
+Montana	Mississippi	1.682673638975899e-5
+Montana	Missouri	4.17303986238826e-5
+Montana	Nebraska	6.709745175547355e-5
+Montana	Nevada	1.6940774447503866e-4
+Montana	New Hampshire	0
+Montana	New Jersey	9.963910715388862e-6
+Montana	New Mexico	1.2346777261070687e-4
+Montana	New York	1.813032207363416e-5
+Montana	North Carolina	2.1381600478249675e-5
+Montana	North Dakota	0.003699284154996959
+Montana	Ohio	3.5405420350853115e-5
+Montana	Oklahoma	2.0572312155652986e-5
+Montana	Oregon	1.2243936896632918e-4
+Montana	Pennsylvania	1.9998558087156404e-5
+Montana	Rhode Island	0
+Montana	South Carolina	1.2328988427756379e-5
+Montana	South Dakota	4.13168143231623e-4
+Montana	Tennessee	3.537673651535286e-6
+Montana	Texas	3.8450363763358634e-5
+Montana	Utah	2.843792528624091e-4
+Montana	Vermont	0
+Montana	Virginia	5.460265646887599e-6
+Montana	Washington	2.3932925823139122e-4
+Montana	West Virginia	3.145210787533822e-5
+Montana	Wisconsin	7.482825323791405e-5
+Montana	Wyoming	0.0023881481082609194
+Nebraska	Alabama	1.7887974058144503e-5
+Nebraska	Alaska	4.057618178129438e-5
+Nebraska	Arizona	1.493747118195418e-4
+Nebraska	Arkansas	1.4012353826759483e-4
+Nebraska	California	3.673992241159215e-5
+Nebraska	Colorado	5.265454821448901e-4
+Nebraska	Connecticut	7.909687191645788e-6
+Nebraska	Delaware	2.2118336258746617e-5
+Nebraska	Florida	7.109296162833206e-5
+Nebraska	Georgia	5.2984359017218115e-5
+Nebraska	Hawaii	0
+Nebraska	Idaho	6.87105155343559e-5
+Nebraska	Illinois	1.3827724724380731e-4
+Nebraska	Indiana	6.921022921716666e-5
+Nebraska	Iowa	0.01993065040633556
+Nebraska	Kansas	0.0017107779927419877
+Nebraska	Kentucky	4.193696949733586e-5
+Nebraska	Louisiana	2.0494960359919773e-5
+Nebraska	Maine	1.4502077752230684e-5
+Nebraska	Maryland	2.5756873297394918e-5
+Nebraska	Massachusetts	1.6412178433203927e-5
+Nebraska	Michigan	6.7529598464184e-5
+Nebraska	Minnesota	1.346770545874054e-4
+Nebraska	Mississippi	5.667856582162102e-5
+Nebraska	Missouri	6.093653355559378e-4
+Nebraska	Montana	6.709745175547355e-5
+Nebraska	Nevada	1.6941530305589992e-4
+Nebraska	New Hampshire	1.0811146832942105e-5
+Nebraska	New Jersey	2.8456023232662494e-5
+Nebraska	New Mexico	4.1658392054546244e-5
+Nebraska	New York	2.722706101783341e-5
+Nebraska	North Carolina	5.902189394302221e-5
+Nebraska	North Dakota	1.0663667148243141e-4
+Nebraska	Ohio	6.747587105023663e-5
+Nebraska	Oklahoma	1.5006037862478526e-4
+Nebraska	Oregon	4.8603769241746204e-5
+Nebraska	Pennsylvania	1.7971903507443572e-5
+Nebraska	Rhode Island	7.260734471946244e-5
+Nebraska	South Carolina	4.463125301707271e-5
+Nebraska	South Dakota	0.003158835166237689
+Nebraska	Tennessee	1.065142903394068e-4
+Nebraska	Texas	9.991297269383362e-5
+Nebraska	Utah	4.504226310903989e-5
+Nebraska	Vermont	0
+Nebraska	Virginia	3.349943095633282e-5
+Nebraska	Washington	3.916072962033673e-5
+Nebraska	West Virginia	1.2169821532769806e-5
+Nebraska	Wisconsin	4.9875714734317086e-5
+Nebraska	Wyoming	0.0012594320968788754
+Nevada	Alabama	3.672735238692038e-5
+Nevada	Alaska	1.2154538127551153e-4
+Nevada	Arizona	0.0029652612921696325
+Nevada	Arkansas	3.5408794532882124e-5
+Nevada	California	0.0014898006353758994
+Nevada	Colorado	2.326541929349217e-4
+Nevada	Connecticut	5.4800994104267075e-5
+Nevada	Delaware	1.5509857483797045e-5
+Nevada	Florida	9.22101677658946e-5
+Nevada	Georgia	6.341052065716013e-5
+Nevada	Hawaii	1.3717132212092786e-4
+Nevada	Idaho	7.054585534947373e-4
+Nevada	Illinois	1.1984175658672084e-4
+Nevada	Indiana	5.9436133969045965e-5
+Nevada	Iowa	3.892777046674775e-5
+Nevada	Kansas	2.4733566774953737e-5
+Nevada	Kentucky	4.234828468789314e-5
+Nevada	Louisiana	7.359501019403373e-5
+Nevada	Maine	0
+Nevada	Maryland	5.165175326990498e-5
+Nevada	Massachusetts	4.717605966028589e-5
+Nevada	Michigan	6.505498953698918e-5
+Nevada	Minnesota	9.023941694350986e-5
+Nevada	Mississippi	4.175512159530936e-5
+Nevada	Missouri	5.591818454060959e-5
+Nevada	Montana	1.6940774447503866e-4
+Nevada	Nebraska	1.6941530305589992e-4
+Nevada	New Hampshire	4.598332792130379e-5
+Nevada	New Jersey	6.19640974960814e-5
+Nevada	New Mexico	1.4011461867437805e-4
+Nevada	New York	7.293056471143248e-5
+Nevada	North Carolina	6.078803119423451e-5
+Nevada	North Dakota	1.8156958832165086e-4
+Nevada	Ohio	3.446416596396272e-5
+Nevada	Oklahoma	3.404035626069523e-5
+Nevada	Oregon	2.1059772610521757e-4
+Nevada	Pennsylvania	6.421502002790136e-5
+Nevada	Rhode Island	3.0295648431983798e-5
+Nevada	South Carolina	5.5154299018058816e-5
+Nevada	South Dakota	9.412331660448253e-6
+Nevada	Tennessee	5.547552552642497e-5
+Nevada	Texas	8.735611018027168e-5
+Nevada	Utah	0.0014877675408326166
+Nevada	Vermont	4.0366853968869085e-6
+Nevada	Virginia	5.9042196890808495e-5
+Nevada	Washington	1.7985082347001048e-4
+Nevada	West Virginia	9.225462711222396e-6
+Nevada	Wisconsin	4.108113135885531e-5
+Nevada	Wyoming	9.244544019663689e-5
+New Hampshire	Alabama	2.484094667626097e-5
+New Hampshire	Alaska	2.5073448852889713e-5
+New Hampshire	Arizona	3.085908898358577e-5
+New Hampshire	Arkansas	0
+New Hampshire	California	1.8593051848036128e-5
+New Hampshire	Colorado	1.3524073345337873e-5
+New Hampshire	Connecticut	5.761965094910341e-4
+New Hampshire	Delaware	2.8067024053439613e-5
+New Hampshire	Florida	7.939918172137427e-5
+New Hampshire	Georgia	2.574130120990551e-5
+New Hampshire	Hawaii	6.501940016352379e-6
+New Hampshire	Idaho	2.4638795261466895e-6
+New Hampshire	Illinois	4.710581098881165e-5
+New Hampshire	Indiana	1.3873139189808672e-5
+New Hampshire	Iowa	2.074264599118734e-5
+New Hampshire	Kansas	0
+New Hampshire	Kentucky	3.54735255823242e-5
+New Hampshire	Louisiana	8.030954511067458e-6
+New Hampshire	Maine	0.01946104667769812
+New Hampshire	Maryland	5.370529372066897e-5
+New Hampshire	Massachusetts	0.02995825036187762
+New Hampshire	Michigan	1.9845592660582124e-5
+New Hampshire	Minnesota	3.435484873403944e-5
+New Hampshire	Mississippi	2.1764627643495398e-5
+New Hampshire	Missouri	2.474473270295598e-5
+New Hampshire	Montana	0
+New Hampshire	Nebraska	1.0811146832942105e-5
+New Hampshire	Nevada	4.598332792130379e-5
+New Hampshire	New Jersey	1.1082025173414294e-4
+New Hampshire	New Mexico	1.7696133324084155e-5
+New Hampshire	New York	1.7402908489579533e-4
+New Hampshire	North Carolina	4.794990705176907e-5
+New Hampshire	North Dakota	3.454544669421666e-5
+New Hampshire	Ohio	5.0819854887841116e-5
+New Hampshire	Oklahoma	2.6829230583140147e-5
+New Hampshire	Oregon	1.836776841917577e-5
+New Hampshire	Pennsylvania	7.640688929400859e-5
+New Hampshire	Rhode Island	7.291722039957032e-4
+New Hampshire	South Carolina	3.128659414136177e-5
+New Hampshire	South Dakota	4.112721470051162e-6
+New Hampshire	Tennessee	1.087530008060151e-5
+New Hampshire	Texas	1.8923329816397444e-5
+New Hampshire	Utah	8.820821549267045e-6
+New Hampshire	Vermont	0.02637628227415266
+New Hampshire	Virginia	6.572829854566473e-5
+New Hampshire	Washington	1.5029855137246236e-5
+New Hampshire	West Virginia	4.256329243437477e-5
+New Hampshire	Wisconsin	1.6619301656944376e-5
+New Hampshire	Wyoming	1.1765245699508567e-5
+New Jersey	Alabama	4.945950323904587e-5
+New Jersey	Alaska	1.6921731862339147e-5
+New Jersey	Arizona	1.1079383947490827e-4
+New Jersey	Arkansas	3.971014131529704e-5
+New Jersey	California	1.3862291390221882e-4
+New Jersey	Colorado	1.2102512268755569e-4
+New Jersey	Connecticut	0.001271215570198984
+New Jersey	Delaware	0.0036867735914261745
+New Jersey	Florida	4.3483059742676895e-4
+New Jersey	Georgia	1.6427175623117692e-4
+New Jersey	Hawaii	1.1392213991347613e-5
+New Jersey	Idaho	1.7854481689157757e-5
+New Jersey	Illinois	1.7443915863873434e-4
+New Jersey	Indiana	1.0397929557916547e-4
+New Jersey	Iowa	2.615885212560642e-5
+New Jersey	Kansas	3.8108509008727266e-5
+New Jersey	Kentucky	5.981100860538007e-5
+New Jersey	Louisiana	5.9558260401868445e-5
+New Jersey	Maine	6.633534246101237e-5
+New Jersey	Maryland	7.300243268585567e-4
+New Jersey	Massachusetts	4.7541147838272516e-4
+New Jersey	Michigan	1.2585931133827033e-4
+New Jersey	Minnesota	7.792781846892531e-5
+New Jersey	Mississippi	2.0271377677331425e-5
+New Jersey	Missouri	1.0121109423535181e-4
+New Jersey	Montana	9.963910715388862e-6
+New Jersey	Nebraska	2.8456023232662494e-5
+New Jersey	Nevada	6.19640974960814e-5
+New Jersey	New Hampshire	1.1082025173414294e-4
+New Jersey	New Mexico	1.0464722397076611e-5
+New Jersey	New York	0.041548911968997425
+New Jersey	North Carolina	2.8577650974401513e-4
+New Jersey	North Dakota	2.6091307297278215e-5
+New Jersey	Ohio	2.4460110423926256e-4
+New Jersey	Oklahoma	6.155548986206167e-5
+New Jersey	Oregon	4.218347818884086e-5
+New Jersey	Pennsylvania	0.026886487513817007
+New Jersey	Rhode Island	1.145811556213113e-4
+New Jersey	South Carolina	1.3242177197595324e-4
+New Jersey	South Dakota	4.803354460508715e-6
+New Jersey	Tennessee	9.174758674823011e-5
+New Jersey	Texas	1.65442230578067e-4
+New Jersey	Utah	5.0030476898844214e-5
+New Jersey	Vermont	6.963677923659902e-5
+New Jersey	Virginia	3.915085460181166e-4
+New Jersey	Washington	7.344622459034342e-5
+New Jersey	West Virginia	8.77529049422008e-5
+New Jersey	Wisconsin	6.883194752213814e-5
+New Jersey	Wyoming	6.522411789598475e-6
+New Mexico	Alabama	3.3724451436973216e-5
+New Mexico	Alaska	2.942031884900988e-5
+New Mexico	Arizona	0.0017533433415115867
+New Mexico	Arkansas	1.3837259985312736e-5
+New Mexico	California	8.009920104272037e-5
+New Mexico	Colorado	0.0012913370689006313
+New Mexico	Connecticut	1.7470137238085063e-5
+New Mexico	Delaware	0
+New Mexico	Florida	3.734591837970319e-5
+New Mexico	Georgia	3.161643908910607e-5
+New Mexico	Hawaii	1.3974361704393007e-5
+New Mexico	Idaho	4.56377676688631e-5
+New Mexico	Illinois	3.060565999652014e-5
+New Mexico	Indiana	2.0623584741334264e-5
+New Mexico	Iowa	4.309579280587566e-5
+New Mexico	Kansas	9.727465688253614e-5
+New Mexico	Kentucky	2.0737942060537575e-5
+New Mexico	Louisiana	1.0170244831452622e-4
+New Mexico	Maine	2.7590373994417086e-6
+New Mexico	Maryland	2.6911097796476006e-5
+New Mexico	Massachusetts	3.995679608200854e-5
+New Mexico	Michigan	1.8948161091153287e-5
+New Mexico	Minnesota	3.2813139532407004e-5
+New Mexico	Mississippi	3.685570007142738e-5
+New Mexico	Missouri	5.781624537214536e-5
+New Mexico	Montana	1.2346777261070687e-4
+New Mexico	Nebraska	4.1658392054546244e-5
+New Mexico	Nevada	1.4011461867437805e-4
+New Mexico	New Hampshire	1.7696133324084155e-5
+New Mexico	New Jersey	1.0464722397076611e-5
+New Mexico	New York	1.750684770856456e-5
+New Mexico	North Carolina	5.7404194413705784e-5
+New Mexico	North Dakota	4.838659891430483e-5
+New Mexico	Ohio	3.753856234131426e-5
+New Mexico	Oklahoma	1.1652088070365665e-4
+New Mexico	Oregon	7.026949549297045e-5
+New Mexico	Pennsylvania	2.842830783498378e-5
+New Mexico	Rhode Island	0
+New Mexico	South Carolina	1.93895510806748e-5
+New Mexico	South Dakota	1.5261730648125537e-5
+New Mexico	Tennessee	4.211128207082086e-5
+New Mexico	Texas	0.002556716878645218
+New Mexico	Utah	2.4440258184970585e-4
+New Mexico	Vermont	9.668978138440429e-6
+New Mexico	Virginia	3.8317807441454246e-5
+New Mexico	Washington	6.415928058819572e-5
+New Mexico	West Virginia	2.141862228728129e-5
+New Mexico	Wisconsin	2.9247902953754237e-5
+New Mexico	Wyoming	9.622272353073247e-5
+New York	Alabama	4.341983349586476e-5
+New York	Alaska	8.679700683860264e-6
+New York	Arizona	7.988964057464504e-5
+New York	Arkansas	2.9428024093507395e-5
+New York	California	2.91553259140599e-4
+New York	Colorado	8.323095355559661e-5
+New York	Connecticut	0.010950796140176515
+New York	Delaware	1.9261578008946352e-4
+New York	Florida	6.17915623513456e-4
+New York	Georgia	2.6574195168616564e-4
+New York	Hawaii	1.5054315432426071e-5
+New York	Idaho	8.075988374453216e-6
+New York	Illinois	1.995230005022259e-4
+New York	Indiana	8.651108606632247e-5
+New York	Iowa	3.6060093948432676e-5
+New York	Kansas	3.0056699239858006e-5
+New York	Kentucky	6.181737081642491e-5
+New York	Louisiana	8.995855183397552e-5
+New York	Maine	1.2100326957538774e-4
+New York	Maryland	3.846358810536195e-4
+New York	Massachusetts	0.0010932727132697856
+New York	Michigan	1.5778918231993067e-4
+New York	Minnesota	8.90710844031918e-5
+New York	Mississippi	2.9516315014568924e-5
+New York	Missouri	7.85948103365542e-5
+New York	Montana	1.813032207363416e-5
+New York	Nebraska	2.722706101783341e-5
+New York	Nevada	7.293056471143248e-5
+New York	New Hampshire	1.7402908489579533e-4
+New York	New Jersey	0.041548911968997425
+New York	New Mexico	1.750684770856456e-5
+New York	North Carolina	2.546114640809423e-4
+New York	North Dakota	9.782672374855997e-6
+New York	Ohio	2.1676159350590758e-4
+New York	Oklahoma	3.671409081936404e-5
+New York	Oregon	3.164562798661681e-5
+New York	Pennsylvania	0.00423135554557711
+New York	Rhode Island	1.9421694507002176e-4
+New York	South Carolina	1.0758406916373754e-4
+New York	South Dakota	9.400785109333343e-6
+New York	Tennessee	1.0302470068135381e-4
+New York	Texas	1.8915219192375244e-4
+New York	Utah	1.892102405034166e-5
+New York	Vermont	8.629912729070952e-4
+New York	Virginia	3.0964184241564206e-4
+New York	Washington	8.47987410345052e-5
+New York	West Virginia	4.5526920832451676e-5
+New York	Wisconsin	7.76557744798565e-5
+New York	Wyoming	2.062951410767261e-5
+North Carolina	Alabama	2.2766889353916287e-4
+North Carolina	Alaska	2.6850455048086928e-5
+North Carolina	Arizona	1.4421363852784943e-4
+North Carolina	Arkansas	5.3929306222103133e-5
+North Carolina	California	8.862114352946638e-5
+North Carolina	Colorado	8.32329121160692e-5
+North Carolina	Connecticut	9.248792518754495e-5
+North Carolina	Delaware	4.532942770815977e-5
+North Carolina	Florida	4.902907499221004e-4
+North Carolina	Georgia	0.0014330294878004658
+North Carolina	Hawaii	3.0738109840439935e-5
+North Carolina	Idaho	1.0483422040556167e-5
+North Carolina	Illinois	1.6259841228151857e-4
+North Carolina	Indiana	1.4326284626586266e-4
+North Carolina	Iowa	7.548876284317577e-5
+North Carolina	Kansas	4.0020870142652166e-5
+North Carolina	Kentucky	1.6500827354567826e-4
+North Carolina	Louisiana	1.6762772678434587e-4
+North Carolina	Maine	5.6665561547257384e-5
+North Carolina	Maryland	4.3268993154013365e-4
+North Carolina	Massachusetts	1.2924170230258953e-4
+North Carolina	Michigan	1.0820211079603048e-4
+North Carolina	Minnesota	6.174137323474455e-5
+North Carolina	Mississippi	7.491053952875509e-5
+North Carolina	Missouri	1.1529265317329977e-4
+North Carolina	Montana	2.1381600478249675e-5
+North Carolina	Nebraska	5.902189394302221e-5
+North Carolina	Nevada	6.078803119423451e-5
+North Carolina	New Hampshire	4.794990705176907e-5
+North Carolina	New Jersey	2.8577650974401513e-4
+North Carolina	New Mexico	5.7404194413705784e-5
+North Carolina	New York	2.546114640809423e-4
+North Carolina	North Dakota	4.800934284141621e-5
+North Carolina	Ohio	2.0029075523069536e-4
+North Carolina	Oklahoma	3.825387742170953e-5
+North Carolina	Oregon	3.4231631272081996e-5
+North Carolina	Pennsylvania	3.188038852676304e-4
+North Carolina	Rhode Island	2.2206631163906706e-5
+North Carolina	South Carolina	0.016833965849056297
+North Carolina	South Dakota	1.326145624050977e-6
+North Carolina	Tennessee	0.0010712194180504603
+North Carolina	Texas	2.1812849121319002e-4
+North Carolina	Utah	4.0067947784941344e-5
+North Carolina	Vermont	1.5168068996150027e-5
+North Carolina	Virginia	0.0059921449076333795
+North Carolina	Washington	5.6123225890245925e-5
+North Carolina	West Virginia	2.31016196895335e-4
+North Carolina	Wisconsin	1.2967045180890281e-4
+North Carolina	Wyoming	4.089268736518192e-6
+North Dakota	Alabama	1.3384055931077466e-6
+North Dakota	Alaska	7.536512983421094e-5
+North Dakota	Arizona	2.1572264079241672e-4
+North Dakota	Arkansas	5.724869287572545e-5
+North Dakota	California	1.4366518623112855e-5
+North Dakota	Colorado	4.636716622824211e-4
+North Dakota	Connecticut	1.1646194681841152e-5
+North Dakota	Delaware	1.5444080494547537e-5
+North Dakota	Florida	5.0778613389362266e-5
+North Dakota	Georgia	2.9678334074167506e-5
+North Dakota	Hawaii	1.5743104028463532e-5
+North Dakota	Idaho	9.567348759231347e-4
+North Dakota	Illinois	2.0005849644300953e-5
+North Dakota	Indiana	2.5147499758197118e-5
+North Dakota	Iowa	1.468845564693812e-4
+North Dakota	Kansas	8.092142529603754e-5
+North Dakota	Kentucky	2.271335695200281e-5
+North Dakota	Louisiana	1.2914300875097626e-4
+North Dakota	Maine	2.1798500885953357e-5
+North Dakota	Maryland	2.2939003369484716e-5
+North Dakota	Massachusetts	2.3070099651295445e-6
+North Dakota	Michigan	4.952706179009798e-5
+North Dakota	Minnesota	0.013310854100753639
+North Dakota	Mississippi	1.5553870552912323e-4
+North Dakota	Missouri	8.95081780865602e-5
+North Dakota	Montana	0.003699284154996959
+North Dakota	Nebraska	1.0663667148243141e-4
+North Dakota	Nevada	1.8156958832165086e-4
+North Dakota	New Hampshire	3.454544669421666e-5
+North Dakota	New Jersey	2.6091307297278215e-5
+North Dakota	New Mexico	4.838659891430483e-5
+North Dakota	New York	9.782672374855997e-6
+North Dakota	North Carolina	4.800934284141621e-5
+North Dakota	Ohio	1.89799469417444e-5
+North Dakota	Oklahoma	2.1557683677257298e-4
+North Dakota	Oregon	1.3179382293252156e-4
+North Dakota	Pennsylvania	1.8305571309181954e-5
+North Dakota	Rhode Island	0
+North Dakota	South Carolina	1.8246632161246823e-5
+North Dakota	South Dakota	0.003114871738256145
+North Dakota	Tennessee	4.992802043720303e-5
+North Dakota	Texas	6.26043816729655e-5
+North Dakota	Utah	2.9370374166068846e-4
+North Dakota	Vermont	0
+North Dakota	Virginia	2.497463036272847e-5
+North Dakota	Washington	9.766107640854647e-5
+North Dakota	West Virginia	1.8856969883434152e-5
+North Dakota	Wisconsin	1.3803295462669004e-4
+North Dakota	Wyoming	0.00154668961315487
+Ohio	Alabama	1.394796698604566e-4
+Ohio	Alaska	1.8639019781405303e-5
+Ohio	Arizona	1.1140726840348813e-4
+Ohio	Arkansas	8.662127195837147e-5
+Ohio	California	9.543151980630321e-5
+Ohio	Colorado	1.2887250859294882e-4
+Ohio	Connecticut	6.222613157014911e-5
+Ohio	Delaware	2.7725139295565615e-5
+Ohio	Florida	3.24303941249433e-4
+Ohio	Georgia	0.00021917710794434151
+Ohio	Hawaii	1.4265129226220646e-5
+Ohio	Idaho	1.1120213211554644e-5
+Ohio	Illinois	3.926595530606538e-4
+Ohio	Indiana	0.0050147714548156
+Ohio	Iowa	8.589479278267459e-5
+Ohio	Kansas	4.338048723437794e-5
+Ohio	Kentucky	0.014337966756734434
+Ohio	Louisiana	5.75056388674704e-5
+Ohio	Maine	2.7909602752135706e-5
+Ohio	Maryland	1.6141775535924492e-4
+Ohio	Massachusetts	8.597593510206783e-5
+Ohio	Michigan	0.0039687056381213295
+Ohio	Minnesota	1.0966871551529984e-4
+Ohio	Mississippi	6.260126615157733e-5
+Ohio	Missouri	1.7352673956280734e-4
+Ohio	Montana	3.5405420350853115e-5
+Ohio	Nebraska	6.747587105023663e-5
+Ohio	Nevada	3.446416596396272e-5
+Ohio	New Hampshire	5.0819854887841116e-5
+Ohio	New Jersey	2.4460110423926256e-4
+Ohio	New Mexico	3.753856234131426e-5
+Ohio	New York	2.1676159350590758e-4
+Ohio	North Carolina	2.0029075523069536e-4
+Ohio	North Dakota	1.89799469417444e-5
+Ohio	Oklahoma	6.153012019735974e-5
+Ohio	Oregon	2.6347254114625227e-5
+Ohio	Pennsylvania	0.0030723140948718825
+Ohio	Rhode Island	2.2593166503922394e-5
+Ohio	South Carolina	1.457359920865501e-4
+Ohio	South Dakota	9.224505082241075e-6
+Ohio	Tennessee	2.462224802689459e-4
+Ohio	Texas	2.1210409403126472e-4
+Ohio	Utah	3.2099488612027695e-5
+Ohio	Vermont	2.409118815857874e-5
+Ohio	Virginia	2.480258943691485e-4
+Ohio	Washington	5.546609678361308e-5
+Ohio	West Virginia	0.008992088004367215
+Ohio	Wisconsin	1.832872668737947e-4
+Ohio	Wyoming	1.2080664104307473e-5
+Oklahoma	Alabama	7.824735040244747e-5
+Oklahoma	Alaska	9.108753968000948e-5
+Oklahoma	Arizona	1.3029477787435318e-4
+Oklahoma	Arkansas	0.007110052273248486
+Oklahoma	California	6.076269627850347e-5
+Oklahoma	Colorado	2.510219305664052e-4
+Oklahoma	Connecticut	2.0937958980075067e-5
+Oklahoma	Delaware	1.7632046395455565e-5
+Oklahoma	Florida	6.40138668999986e-5
+Oklahoma	Georgia	6.939704109895546e-5
+Oklahoma	Hawaii	1.0484575223987659e-5
+Oklahoma	Idaho	3.602289650446113e-5
+Oklahoma	Illinois	7.266376767372001e-5
+Oklahoma	Indiana	8.023363302462053e-5
+Oklahoma	Iowa	1.4981064518126925e-4
+Oklahoma	Kansas	0.003847964081552002
+Oklahoma	Kentucky	1.0142685747282568e-4
+Oklahoma	Louisiana	3.337851403925651e-4
+Oklahoma	Maine	7.602467850505072e-6
+Oklahoma	Maryland	1.4928485092165979e-5
+Oklahoma	Massachusetts	2.1938433583185373e-5
+Oklahoma	Michigan	4.2672005057422824e-5
+Oklahoma	Minnesota	6.571680843503401e-5
+Oklahoma	Mississippi	1.2605855087955326e-4
+Oklahoma	Missouri	0.0013793159057938619
+Oklahoma	Montana	2.0572312155652986e-5
+Oklahoma	Nebraska	1.5006037862478526e-4
+Oklahoma	Nevada	3.404035626069523e-5
+Oklahoma	New Hampshire	2.6829230583140147e-5
+Oklahoma	New Jersey	6.155548986206167e-5
+Oklahoma	New Mexico	1.1652088070365665e-4
+Oklahoma	New York	3.671409081936404e-5
+Oklahoma	North Carolina	3.825387742170953e-5
+Oklahoma	North Dakota	2.1557683677257298e-4
+Oklahoma	Ohio	6.153012019735974e-5
+Oklahoma	Oregon	5.834126663143908e-5
+Oklahoma	Pennsylvania	8.948519462538154e-5
+Oklahoma	Rhode Island	1.119234482543835e-5
+Oklahoma	South Carolina	3.409265246518288e-5
+Oklahoma	South Dakota	3.2491299962142715e-5
+Oklahoma	Tennessee	1.4774785052593093e-4
+Oklahoma	Texas	0.0019447730995278928
+Oklahoma	Utah	7.76258060204208e-5
+Oklahoma	Vermont	2.0790301740044303e-6
+Oklahoma	Virginia	5.8111152780955394e-5
+Oklahoma	Washington	4.127571186629421e-5
+Oklahoma	West Virginia	7.059923402023611e-5
+Oklahoma	Wisconsin	7.54381680920225e-5
+Oklahoma	Wyoming	1.466821032118142e-4
+Oregon	Alabama	3.2135940666905334e-5
+Oregon	Alaska	3.4084333098972447e-4
+Oregon	Arizona	2.2019502256940852e-4
+Oregon	Arkansas	4.150502861560681e-5
+Oregon	California	4.3742283508275433e-4
+Oregon	Colorado	9.3362100176806e-5
+Oregon	Connecticut	1.950755018393486e-5
+Oregon	Delaware	2.9731111824657797e-6
+Oregon	Florida	2.84806780348415e-5
+Oregon	Georgia	2.9546857231150103e-5
+Oregon	Hawaii	1.0075861766066048e-4
+Oregon	Idaho	0.0033971815304147434
+Oregon	Illinois	4.772713458929577e-5
+Oregon	Indiana	2.0873226910127144e-5
+Oregon	Iowa	4.203221592879807e-5
+Oregon	Kansas	3.234569994562518e-5
+Oregon	Kentucky	1.4221741843386623e-5
+Oregon	Louisiana	3.824428045619564e-5
+Oregon	Maine	1.3661051680639865e-5
+Oregon	Maryland	3.7755870050711314e-5
+Oregon	Massachusetts	2.4509562604859556e-5
+Oregon	Michigan	2.9680729629154997e-5
+Oregon	Minnesota	5.636081916957224e-5
+Oregon	Mississippi	8.740615674400412e-6
+Oregon	Missouri	3.86425530852073e-5
+Oregon	Montana	1.2243936896632918e-4
+Oregon	Nebraska	4.8603769241746204e-5
+Oregon	Nevada	2.1059772610521757e-4
+Oregon	New Hampshire	1.836776841917577e-5
+Oregon	New Jersey	4.218347818884086e-5
+Oregon	New Mexico	7.026949549297045e-5
+Oregon	New York	3.164562798661681e-5
+Oregon	North Carolina	3.4231631272081996e-5
+Oregon	North Dakota	1.3179382293252156e-4
+Oregon	Ohio	2.6347254114625227e-5
+Oregon	Oklahoma	5.834126663143908e-5
+Oregon	Pennsylvania	3.300150044957552e-5
+Oregon	Rhode Island	7.66260038006498e-6
+Oregon	South Carolina	2.955332263784514e-5
+Oregon	South Dakota	8.719409405336278e-6
+Oregon	Tennessee	2.9929352806746865e-5
+Oregon	Texas	6.331631444206619e-5
+Oregon	Utah	1.2250583623309695e-4
+Oregon	Vermont	1.5329053461606852e-6
+Oregon	Virginia	2.8490142888583083e-5
+Oregon	Washington	0.01991223761037248
+Oregon	West Virginia	6.916143489228971e-6
+Oregon	Wisconsin	1.2900283115141938e-5
+Oregon	Wyoming	3.501954141910512e-5
+Pennsylvania	Alabama	8.42033099087228e-5
+Pennsylvania	Alaska	1.2165498064914755e-5
+Pennsylvania	Arizona	1.0285822838759146e-4
+Pennsylvania	Arkansas	9.519360730703132e-5
+Pennsylvania	California	1.448706527169376e-4
+Pennsylvania	Colorado	1.1595535643318305e-4
+Pennsylvania	Connecticut	3.0225307232020093e-4
+Pennsylvania	Delaware	0.01014519750857739
+Pennsylvania	Florida	3.336555209904913e-4
+Pennsylvania	Georgia	2.119487766454363e-4
+Pennsylvania	Hawaii	1.8863831432802315e-5
+Pennsylvania	Idaho	2.7050902465363846e-5
+Pennsylvania	Illinois	1.9877944236062348e-4
+Pennsylvania	Indiana	1.6318835068302337e-4
+Pennsylvania	Iowa	4.320341203266869e-5
+Pennsylvania	Kansas	3.326325381740189e-5
+Pennsylvania	Kentucky	1.1717372531924287e-4
+Pennsylvania	Louisiana	1.0890725002446028e-4
+Pennsylvania	Maine	4.8715989227369334e-5
+Pennsylvania	Maryland	0.009285418354946458
+Pennsylvania	Massachusetts	3.093013219057285e-4
+Pennsylvania	Michigan	2.2392755964373333e-4
+Pennsylvania	Minnesota	9.727409660992385e-5
+Pennsylvania	Mississippi	3.407843394990957e-5
+Pennsylvania	Missouri	1.4209474411734573e-4
+Pennsylvania	Montana	1.9998558087156404e-5
+Pennsylvania	Nebraska	1.7971903507443572e-5
+Pennsylvania	Nevada	6.421502002790136e-5
+Pennsylvania	New Hampshire	7.640688929400859e-5
+Pennsylvania	New Jersey	0.026886487513817007
+Pennsylvania	New Mexico	2.842830783498378e-5
+Pennsylvania	New York	0.00423135554557711
+Pennsylvania	North Carolina	3.188038852676304e-4
+Pennsylvania	North Dakota	1.8305571309181954e-5
+Pennsylvania	Ohio	0.0030723140948718825
+Pennsylvania	Oklahoma	8.948519462538154e-5
+Pennsylvania	Oregon	3.300150044957552e-5
+Pennsylvania	Rhode Island	6.423804048281311e-5
+Pennsylvania	South Carolina	1.7883307355119808e-4
+Pennsylvania	South Dakota	1.1542091291152647e-5
+Pennsylvania	Tennessee	1.3676236181840612e-4
+Pennsylvania	Texas	2.3874811764298628e-4
+Pennsylvania	Utah	4.886360919093299e-5
+Pennsylvania	Vermont	4.615861760645266e-5
+Pennsylvania	Virginia	6.963392592234609e-4
+Pennsylvania	Washington	5.310106083466644e-5
+Pennsylvania	West Virginia	0.0035059556130829722
+Pennsylvania	Wisconsin	1.0087126329505285e-4
+Pennsylvania	Wyoming	1.7507743276159862e-5
+Rhode Island	Alabama	0
+Rhode Island	Alaska	0
+Rhode Island	Arizona	3.16574778389496e-5
+Rhode Island	Arkansas	1.804488072956075e-5
+Rhode Island	California	1.719126678838404e-5
+Rhode Island	Colorado	1.4198893248218472e-5
+Rhode Island	Connecticut	0.008649250844272762
+Rhode Island	Delaware	4.2184438032978e-5
+Rhode Island	Florida	8.527036405932537e-5
+Rhode Island	Georgia	9.739661073076013e-6
+Rhode Island	Hawaii	1.1966952799576554e-5
+Rhode Island	Idaho	0
+Rhode Island	Illinois	3.775527098723169e-5
+Rhode Island	Indiana	1.1035206407230014e-5
+Rhode Island	Iowa	5.84888294311536e-6
+Rhode Island	Kansas	1.939894998774339e-5
+Rhode Island	Kentucky	6.076915993180765e-6
+Rhode Island	Louisiana	2.5571937696530998e-5
+Rhode Island	Maine	2.8442841497912255e-4
+Rhode Island	Maryland	7.065356321186128e-5
+Rhode Island	Massachusetts	0.028016589438863194
+Rhode Island	Michigan	1.4693827390273844e-5
+Rhode Island	Minnesota	2.1584491346744716e-5
+Rhode Island	Mississippi	0
+Rhode Island	Missouri	1.3297580571702882e-5
+Rhode Island	Montana	0
+Rhode Island	Nebraska	7.260734471946244e-5
+Rhode Island	Nevada	3.0295648431983798e-5
+Rhode Island	New Hampshire	7.291722039957032e-4
+Rhode Island	New Jersey	1.145811556213113e-4
+Rhode Island	New Mexico	0
+Rhode Island	New York	1.9421694507002176e-4
+Rhode Island	North Carolina	2.2206631163906706e-5
+Rhode Island	North Dakota	0
+Rhode Island	Ohio	2.2593166503922394e-5
+Rhode Island	Oklahoma	1.119234482543835e-5
+Rhode Island	Oregon	7.66260038006498e-6
+Rhode Island	Pennsylvania	6.423804048281311e-5
+Rhode Island	South Carolina	1.7695295640914977e-5
+Rhode Island	South Dakota	1.4483692569141527e-5
+Rhode Island	Tennessee	1.5938929827722937e-5
+Rhode Island	Texas	1.5069017376620292e-5
+Rhode Island	Utah	5.988733993611219e-6
+Rhode Island	Vermont	1.9268944560889864e-4
+Rhode Island	Virginia	7.611039813249118e-5
+Rhode Island	Washington	3.682397559759223e-5
+Rhode Island	West Virginia	0
+Rhode Island	Wisconsin	5.152789881466509e-6
+Rhode Island	Wyoming	0
+South Carolina	Alabama	2.6050967234819553e-4
+South Carolina	Alaska	3.753299217034974e-5
+South Carolina	Arizona	4.12905254362885e-5
+South Carolina	Arkansas	3.8737723152886075e-5
+South Carolina	California	4.309012548341735e-5
+South Carolina	Colorado	3.0098433365055398e-5
+South Carolina	Connecticut	6.951820465247736e-5
+South Carolina	Delaware	2.4921574918927e-5
+South Carolina	Florida	3.5316259021094383e-4
+South Carolina	Georgia	0.0072734725102034554
+South Carolina	Hawaii	8.231807704972012e-6
+South Carolina	Idaho	2.088005903147255e-5
+South Carolina	Illinois	8.136102087114576e-5
+South Carolina	Indiana	1.410384614472228e-4
+South Carolina	Iowa	5.9181590340847104e-5
+South Carolina	Kansas	3.190207767808466e-5
+South Carolina	Kentucky	1.376068013271288e-4
+South Carolina	Louisiana	9.314250751174645e-5
+South Carolina	Maine	8.085475483997763e-5
+South Carolina	Maryland	1.6838598645578794e-4
+South Carolina	Massachusetts	5.756857906954384e-5
+South Carolina	Michigan	8.427251582837617e-5
+South Carolina	Minnesota	2.5428149226530978e-5
+South Carolina	Mississippi	1.7981839350583351e-4
+South Carolina	Missouri	1.0484565780255126e-4
+South Carolina	Montana	1.2328988427756379e-5
+South Carolina	Nebraska	4.463125301707271e-5
+South Carolina	Nevada	5.5154299018058816e-5
+South Carolina	New Hampshire	3.128659414136177e-5
+South Carolina	New Jersey	1.3242177197595324e-4
+South Carolina	New Mexico	1.93895510806748e-5
+South Carolina	New York	1.0758406916373754e-4
+South Carolina	North Carolina	0.016833965849056297
+South Carolina	North Dakota	1.8246632161246823e-5
+South Carolina	Ohio	1.457359920865501e-4
+South Carolina	Oklahoma	3.409265246518288e-5
+South Carolina	Oregon	2.955332263784514e-5
+South Carolina	Pennsylvania	1.7883307355119808e-4
+South Carolina	Rhode Island	1.7695295640914977e-5
+South Carolina	South Dakota	1.962239534504456e-5
+South Carolina	Tennessee	2.9051257298329984e-4
+South Carolina	Texas	1.1587901232026264e-4
+South Carolina	Utah	2.584045275025362e-5
+South Carolina	Vermont	2.1042789139359073e-5
+South Carolina	Virginia	4.023192044883954e-4
+South Carolina	Washington	1.5670992199712752e-05
+South Carolina	West Virginia	8.180824540585739e-5
+South Carolina	Wisconsin	7.264488880846409e-5
+South Carolina	Wyoming	1.4742141517187494e-5
+South Dakota	Alabama	9.616242007591586e-6
+South Dakota	Alaska	1.0005749970983325e-4
+South Dakota	Arizona	8.715645965856375e-5
+South Dakota	Arkansas	4.105002166178066e-5
+South Dakota	California	1.1918692844450223e-5
+South Dakota	Colorado	1.6548684554142128e-4
+South Dakota	Connecticut	0
+South Dakota	Delaware	0
+South Dakota	Florida	1.0957671942547497e-5
+South Dakota	Georgia	2.425472355178161e-5
+South Dakota	Hawaii	1.2233923918168224e-5
+South Dakota	Idaho	4.381590841332118e-5
+South Dakota	Illinois	1.739267407441439e-5
+South Dakota	Indiana	1.5883221473098904e-5
+South Dakota	Iowa	0.004816792534936215
+South Dakota	Kansas	1.0968258812757516e-4
+South Dakota	Kentucky	1.843480907919074e-5
+South Dakota	Louisiana	7.319468537695048e-6
+South Dakota	Maine	1.0894724279289228e-5
+South Dakota	Maryland	6.087360062334567e-6
+South Dakota	Massachusetts	0
+South Dakota	Michigan	1.2309854710142089e-5
+South Dakota	Minnesota	0.0019362701962093712
+South Dakota	Mississippi	4.7098623845494986e-6
+South Dakota	Missouri	3.3172285794990585e-5
+South Dakota	Montana	4.13168143231623e-4
+South Dakota	Nebraska	0.003158835166237689
+South Dakota	Nevada	9.412331660448253e-6
+South Dakota	New Hampshire	4.112721470051162e-6
+South Dakota	New Jersey	4.803354460508715e-6
+South Dakota	New Mexico	1.5261730648125537e-5
+South Dakota	New York	9.400785109333343e-6
+South Dakota	North Carolina	1.326145624050977e-6
+South Dakota	North Dakota	0.003114871738256145
+South Dakota	Ohio	9.224505082241075e-6
+South Dakota	Oklahoma	3.2491299962142715e-5
+South Dakota	Oregon	8.719409405336278e-6
+South Dakota	Pennsylvania	1.1542091291152647e-5
+South Dakota	Rhode Island	1.4483692569141527e-5
+South Dakota	South Carolina	1.962239534504456e-5
+South Dakota	Tennessee	1.901304589978748e-5
+South Dakota	Texas	2.76394006822496e-5
+South Dakota	Utah	6.135390450781108e-5
+South Dakota	Vermont	0
+South Dakota	Virginia	1.007498813670147e-5
+South Dakota	Washington	2.0145538376374715e-5
+South Dakota	West Virginia	1.7079613773000547e-5
+South Dakota	Wisconsin	5.646479744389703e-5
+South Dakota	Wyoming	0.0026171388969709907
+Tennessee	Alabama	0.004040778180984155
+Tennessee	Alaska	4.7407367839442596e-5
+Tennessee	Arizona	7.88825539030785e-5
+Tennessee	Arkansas	0.0032717993490761835
+Tennessee	California	7.311995808990944e-5
+Tennessee	Colorado	1.2895928487282148e-4
+Tennessee	Connecticut	3.890302834296535e-5
+Tennessee	Delaware	2.2967172255123345e-5
+Tennessee	Florida	3.204338736650702e-4
+Tennessee	Georgia	0.00701384853481818
+Tennessee	Hawaii	2.7808197191553443e-5
+Tennessee	Idaho	3.97498369801533e-5
+Tennessee	Illinois	2.8756395571011636e-4
+Tennessee	Indiana	3.2453836225079493e-4
+Tennessee	Iowa	6.531915842601302e-5
+Tennessee	Kansas	1.1800609961549892e-4
+Tennessee	Kentucky	0.010152893732455487
+Tennessee	Louisiana	2.595514836562444e-4
+Tennessee	Maine	5.344792896954543e-5
+Tennessee	Maryland	1.254225569293383e-4
+Tennessee	Massachusetts	6.006930887135151e-5
+Tennessee	Michigan	2.5523792448382446e-4
+Tennessee	Minnesota	9.942837208483115e-5
+Tennessee	Mississippi	0.018436558968398565
+Tennessee	Missouri	3.557052367609225e-4
+Tennessee	Montana	3.537673651535286e-6
+Tennessee	Nebraska	1.065142903394068e-4
+Tennessee	Nevada	5.547552552642497e-5
+Tennessee	New Hampshire	1.087530008060151e-5
+Tennessee	New Jersey	9.174758674823011e-5
+Tennessee	New Mexico	4.211128207082086e-5
+Tennessee	New York	1.0302470068135381e-4
+Tennessee	North Carolina	0.0010712194180504603
+Tennessee	North Dakota	4.992802043720303e-5
+Tennessee	Ohio	2.462224802689459e-4
+Tennessee	Oklahoma	1.4774785052593093e-4
+Tennessee	Oregon	2.9929352806746865e-5
+Tennessee	Pennsylvania	1.3676236181840612e-4
+Tennessee	Rhode Island	1.5938929827722937e-5
+Tennessee	South Carolina	2.9051257298329984e-4
+Tennessee	South Dakota	1.901304589978748e-5
+Tennessee	Texas	3.456054644167362e-4
+Tennessee	Utah	4.547858112993462e-5
+Tennessee	Vermont	2.1404800451199603e-5
+Tennessee	Virginia	0.0036260388735219174
+Tennessee	Washington	6.630151460167425e-5
+Tennessee	West Virginia	1.715091746802763e-4
+Tennessee	Wisconsin	1.3044867210759633e-4
+Tennessee	Wyoming	1.5027907507327812e-5
+Texas	Alabama	2.0987569634893516e-4
+Texas	Alaska	7.327972000461791e-5
+Texas	Arizona	2.7511652341530985e-4
+Texas	Arkansas	0.0016659344594549808
+Texas	California	4.143633469839889e-4
+Texas	Colorado	3.5043038523767573e-4
+Texas	Connecticut	5.17036867124462e-5
+Texas	Delaware	9.335451995607027e-6
+Texas	Florida	4.425082422982605e-4
+Texas	Georgia	3.817858692397019e-4
+Texas	Hawaii	2.7628900297148407e-5
+Texas	Idaho	2.9914523843922726e-5
+Texas	Illinois	3.085749215619709e-4
+Texas	Indiana	1.673354397410438e-4
+Texas	Iowa	8.038960859027546e-5
+Texas	Kansas	2.3171126188968908e-4
+Texas	Kentucky	9.943155227076808e-5
+Texas	Louisiana	0.002687580971483801
+Texas	Maine	2.0876698946179452e-5
+Texas	Maryland	1.5446273695863747e-4
+Texas	Massachusetts	9.229111444430771e-5
+Texas	Michigan	1.5668467446468073e-4
+Texas	Minnesota	1.4720526785589507e-4
+Texas	Mississippi	4.340435174964022e-4
+Texas	Missouri	2.8377183248860994e-4
+Texas	Montana	3.8450363763358634e-5
+Texas	Nebraska	9.991297269383362e-5
+Texas	Nevada	8.735611018027168e-5
+Texas	New Hampshire	1.8923329816397444e-5
+Texas	New Jersey	1.65442230578067e-4
+Texas	New Mexico	0.002556716878645218
+Texas	New York	1.8915219192375244e-4
+Texas	North Carolina	2.1812849121319002e-4
+Texas	North Dakota	6.26043816729655e-5
+Texas	Ohio	2.1210409403126472e-4
+Texas	Oklahoma	0.0019447730995278928
+Texas	Oregon	6.331631444206619e-5
+Texas	Pennsylvania	2.3874811764298628e-4
+Texas	Rhode Island	1.5069017376620292e-5
+Texas	South Carolina	1.1587901232026264e-4
+Texas	South Dakota	2.76394006822496e-5
+Texas	Tennessee	3.456054644167362e-4
+Texas	Utah	1.0680716610822384e-4
+Texas	Vermont	1.1192495862005135e-5
+Texas	Virginia	1.7421024799507107e-4
+Texas	Washington	1.4333184494087737e-4
+Texas	West Virginia	4.243358267239687e-5
+Texas	Wisconsin	1.07712962383605e-4
+Texas	Wyoming	3.146605975965103e-5
+Utah	Alabama	3.8987824933161445e-5
+Utah	Alaska	1.5587406381283045e-4
+Utah	Arizona	9.631243320930941e-4
+Utah	Arkansas	1.6496920231204337e-5
+Utah	California	1.8319460456946233e-4
+Utah	Colorado	6.246958788413672e-4
+Utah	Connecticut	3.458442792465486e-5
+Utah	Delaware	1.8752004120440371e-06
+Utah	Florida	4.2543835576844074e-5
+Utah	Georgia	7.271998028313936e-5
+Utah	Hawaii	4.096703204357212e-5
+Utah	Idaho	0.0024328756833231434
+Utah	Illinois	5.810179001090382e-5
+Utah	Indiana	4.060787481945789e-5
+Utah	Iowa	3.8171149800268535e-5
+Utah	Kansas	2.7394660582140508e-5
+Utah	Kentucky	2.5026345301337488e-5
+Utah	Louisiana	6.88988198706725e-5
+Utah	Maine	7.563675341121758e-6
+Utah	Maryland	3.02692504865782e-5
+Utah	Massachusetts	7.117300458445985e-5
+Utah	Michigan	3.635069873388445e-5
+Utah	Minnesota	7.637603949466928e-5
+Utah	Mississippi	5.3272705557460195e-5
+Utah	Missouri	3.711692458572807e-5
+Utah	Montana	2.843792528624091e-4
+Utah	Nebraska	4.504226310903989e-5
+Utah	Nevada	0.0014877675408326166
+Utah	New Hampshire	8.820821549267045e-6
+Utah	New Jersey	5.0030476898844214e-5
+Utah	New Mexico	2.4440258184970585e-4
+Utah	New York	1.892102405034166e-5
+Utah	North Carolina	4.0067947784941344e-5
+Utah	North Dakota	2.9370374166068846e-4
+Utah	Ohio	3.2099488612027695e-5
+Utah	Oklahoma	7.76258060204208e-5
+Utah	Oregon	1.2250583623309695e-4
+Utah	Pennsylvania	4.886360919093299e-5
+Utah	Rhode Island	5.988733993611219e-6
+Utah	South Carolina	2.584045275025362e-5
+Utah	South Dakota	6.135390450781108e-5
+Utah	Tennessee	4.547858112993462e-5
+Utah	Texas	1.0680716610822384e-4
+Utah	Vermont	5.328512545722861e-5
+Utah	Virginia	4.4682854606771137e-5
+Utah	Washington	2.0950570012516443e-4
+Utah	West Virginia	3.271391470532678e-5
+Utah	Wisconsin	2.4727393235655883e-5
+Utah	Wyoming	0.0013772082199862345
+Vermont	Alabama	1.192374489973277e-5
+Vermont	Alaska	4.6711000596343776e-5
+Vermont	Arizona	1.0228445511536494e-5
+Vermont	Arkansas	0
+Vermont	California	7.99747134496929e-6
+Vermont	Colorado	7.618229479936123e-6
+Vermont	Connecticut	3.5255903013361203e-4
+Vermont	Delaware	9.212783043565716e-6
+Vermont	Florida	2.075102545656177e-5
+Vermont	Georgia	1.481768885543384e-5
+Vermont	Hawaii	0
+Vermont	Idaho	0
+Vermont	Illinois	2.9896534607493575e-5
+Vermont	Indiana	1.2826044632004336e-5
+Vermont	Iowa	2.8576131386193844e-6
+Vermont	Kansas	0
+Vermont	Kentucky	1.3942313677160748e-5
+Vermont	Louisiana	1.3542293938198388e-6
+Vermont	Maine	4.120755870692453e-4
+Vermont	Maryland	2.085324010941993e-5
+Vermont	Massachusetts	0.001483100712210755
+Vermont	Michigan	1.7886991364481617e-5
+Vermont	Minnesota	3.416803566596235e-6
+Vermont	Mississippi	2.030475994334972e-5
+Vermont	Missouri	7.994255258655867e-6
+Vermont	Montana	0
+Vermont	Nebraska	0
+Vermont	Nevada	4.0366853968869085e-6
+Vermont	New Hampshire	0.02637628227415266
+Vermont	New Jersey	6.963677923659902e-5
+Vermont	New Mexico	9.668978138440429e-6
+Vermont	New York	8.629912729070952e-4
+Vermont	North Carolina	1.5168068996150027e-5
+Vermont	North Dakota	0
+Vermont	Ohio	2.409118815857874e-5
+Vermont	Oklahoma	2.0790301740044303e-6
+Vermont	Oregon	1.5329053461606852e-6
+Vermont	Pennsylvania	4.615861760645266e-5
+Vermont	Rhode Island	1.9268944560889864e-4
+Vermont	South Carolina	2.1042789139359073e-5
+Vermont	South Dakota	0
+Vermont	Tennessee	2.1404800451199603e-5
+Vermont	Texas	1.1192495862005135e-5
+Vermont	Utah	5.328512545722861e-5
+Vermont	Virginia	2.873398080570082e-5
+Vermont	Washington	3.0140999596110606e-6
+Vermont	West Virginia	1.5846052431418284e-5
+Vermont	Wisconsin	1.5130322511230062e-5
+Vermont	Wyoming	0
+Virginia	Alabama	1.8572928078031966e-4
+Virginia	Alaska	1.8901872715810853e-5
+Virginia	Arizona	9.45825469581399e-5
+Virginia	Arkansas	8.506765721355836e-5
+Virginia	California	1.3230290418777367e-4
+Virginia	Colorado	1.3797627935685806e-4
+Virginia	Connecticut	1.600033003090377e-4
+Virginia	Delaware	3.222771466269302e-4
+Virginia	Florida	4.5363817034506674e-4
+Virginia	Georgia	4.335359502704771e-4
+Virginia	Hawaii	3.9733576906466684e-5
+Virginia	Idaho	1.3996803984012328e-5
+Virginia	Illinois	1.7751007779994615e-4
+Virginia	Indiana	1.065887528751643e-4
+Virginia	Iowa	5.534926781678994e-5
+Virginia	Kansas	6.627995786989844e-5
+Virginia	Kentucky	7.387201370870812e-4
+Virginia	Louisiana	7.980494069108164e-5
+Virginia	Maine	5.724168372939868e-5
+Virginia	Maryland	0.031097985078886562
+Virginia	Massachusetts	2.324527023113103e-4
+Virginia	Michigan	1.1173475609796034e-4
+Virginia	Minnesota	5.2744538682070435e-5
+Virginia	Mississippi	8.018061920504247e-5
+Virginia	Missouri	1.4600187363651647e-4
+Virginia	Montana	5.460265646887599e-6
+Virginia	Nebraska	3.349943095633282e-5
+Virginia	Nevada	5.9042196890808495e-5
+Virginia	New Hampshire	6.572829854566473e-5
+Virginia	New Jersey	3.915085460181166e-4
+Virginia	New Mexico	3.8317807441454246e-5
+Virginia	New York	3.0964184241564206e-4
+Virginia	North Carolina	0.0059921449076333795
+Virginia	North Dakota	2.497463036272847e-5
+Virginia	Ohio	2.480258943691485e-4
+Virginia	Oklahoma	5.8111152780955394e-5
+Virginia	Oregon	2.8490142888583083e-5
+Virginia	Pennsylvania	6.963392592234609e-4
+Virginia	Rhode Island	7.611039813249118e-5
+Virginia	South Carolina	4.023192044883954e-4
+Virginia	South Dakota	1.007498813670147e-5
+Virginia	Tennessee	0.0036260388735219174
+Virginia	Texas	1.7421024799507107e-4
+Virginia	Utah	4.4682854606771137e-5
+Virginia	Vermont	2.873398080570082e-5
+Virginia	Washington	1.369988126769568e-4
+Virginia	West Virginia	0.008647430418071917
+Virginia	Wisconsin	6.626975246806806e-5
+Virginia	Wyoming	7.537205204310242e-6
+Washington	Alabama	7.497429380021673e-5
+Washington	Alaska	7.683201810519374e-4
+Washington	Arizona	2.183094897333604e-4
+Washington	Arkansas	3.35417441278754e-5
+Washington	California	4.6799705678963685e-4
+Washington	Colorado	1.4768035189493035e-4
+Washington	Connecticut	2.499193148418894e-5
+Washington	Delaware	1.2134528712662648e-5
+Washington	Florida	9.23112448348364e-5
+Washington	Georgia	7.885161685872868e-5
+Washington	Hawaii	1.772786826320645e-4
+Washington	Idaho	0.007867834226160225
+Washington	Illinois	8.685796531142998e-5
+Washington	Indiana	6.674157903295093e-5
+Washington	Iowa	3.819213188480181e-5
+Washington	Kansas	4.6768200973895434e-5
+Washington	Kentucky	4.30749155129874e-5
+Washington	Louisiana	3.601094975643043e-5
+Washington	Maine	5.2616355146623324e-5
+Washington	Maryland	1.163758993270887e-4
+Washington	Massachusetts	1.0285540290792274e-4
+Washington	Michigan	1.0467128772063318e-4
+Washington	Minnesota	8.77149236685635e-5
+Washington	Mississippi	4.870157936786811e-5
+Washington	Missouri	8.046418737058379e-5
+Washington	Montana	2.3932925823139122e-4
+Washington	Nebraska	3.916072962033673e-5
+Washington	Nevada	1.7985082347001048e-4
+Washington	New Hampshire	1.5029855137246236e-5
+Washington	New Jersey	7.344622459034342e-5
+Washington	New Mexico	6.415928058819572e-5
+Washington	New York	8.47987410345052e-5
+Washington	North Carolina	5.6123225890245925e-5
+Washington	North Dakota	9.766107640854647e-5
+Washington	Ohio	5.546609678361308e-5
+Washington	Oklahoma	4.127571186629421e-5
+Washington	Oregon	0.01991223761037248
+Washington	Pennsylvania	5.310106083466644e-5
+Washington	Rhode Island	3.682397559759223e-5
+Washington	South Carolina	1.5670992199712752e-05
+Washington	South Dakota	2.0145538376374715e-5
+Washington	Tennessee	6.630151460167425e-5
+Washington	Texas	1.4333184494087737e-4
+Washington	Utah	2.0950570012516443e-4
+Washington	Vermont	3.0140999596110606e-6
+Washington	Virginia	1.369988126769568e-4
+Washington	West Virginia	1.4425183648918247e-5
+Washington	Wisconsin	7.365812004484728e-5
+Washington	Wyoming	3.8455750300454474e-5
+West Virginia	Alabama	7.134340418403445e-5
+West Virginia	Alaska	0
+West Virginia	Arizona	4.529614712188585e-5
+West Virginia	Arkansas	4.1473057519310896e-5
+West Virginia	California	1.8028985864800634e-5
+West Virginia	Colorado	1.1885988315109758e-5
+West Virginia	Connecticut	3.655859417670046e-5
+West Virginia	Delaware	2.381817207438415e-5
+West Virginia	Florida	5.424855856721807e-5
+West Virginia	Georgia	4.954496637899665e-5
+West Virginia	Hawaii	0
+West Virginia	Idaho	1.1548357592583183e-5
+West Virginia	Illinois	3.2000317796259494e-5
+West Virginia	Indiana	7.829834731616225e-5
+West Virginia	Iowa	2.6589304452284068e-5
+West Virginia	Kansas	1.6610554138467655e-5
+West Virginia	Kentucky	0.004725105437280602
+West Virginia	Louisiana	6.415762400599427e-5
+West Virginia	Maine	1.90665948491594e-5
+West Virginia	Maryland	0.00879295130067768
+West Virginia	Massachusetts	3.5342346428868476e-5
+West Virginia	Michigan	3.773458510399694e-5
+West Virginia	Minnesota	2.0712024579081403e-5
+West Virginia	Mississippi	3.860841444461796e-5
+West Virginia	Missouri	3.4637368401194744e-5
+West Virginia	Montana	3.145210787533822e-5
+West Virginia	Nebraska	1.2169821532769806e-5
+West Virginia	Nevada	9.225462711222396e-6
+West Virginia	New Hampshire	4.256329243437477e-5
+West Virginia	New Jersey	8.77529049422008e-5
+West Virginia	New Mexico	2.141862228728129e-5
+West Virginia	New York	4.5526920832451676e-5
+West Virginia	North Carolina	2.31016196895335e-4
+West Virginia	North Dakota	1.8856969883434152e-5
+West Virginia	Ohio	0.008992088004367215
+West Virginia	Oklahoma	7.059923402023611e-5
+West Virginia	Oregon	6.916143489228971e-6
+West Virginia	Pennsylvania	0.0035059556130829722
+West Virginia	Rhode Island	0
+West Virginia	South Carolina	8.180824540585739e-5
+West Virginia	South Dakota	1.7079613773000547e-5
+West Virginia	Tennessee	1.715091746802763e-4
+West Virginia	Texas	4.243358267239687e-5
+West Virginia	Utah	3.271391470532678e-5
+West Virginia	Vermont	1.5846052431418284e-5
+West Virginia	Virginia	0.008647430418071917
+West Virginia	Washington	1.4425183648918247e-5
+West Virginia	Wisconsin	2.1017663244190416e-5
+West Virginia	Wyoming	4.509946041717001e-5
+Wisconsin	Alabama	4.140600781456243e-5
+Wisconsin	Alaska	8.261428612499673e-6
+Wisconsin	Arizona	1.1321241545270486e-4
+Wisconsin	Arkansas	3.782278574143152e-5
+Wisconsin	California	6.945375994176048e-5
+Wisconsin	Colorado	1.0212181907553883e-4
+Wisconsin	Connecticut	4.9790820387526144e-5
+Wisconsin	Delaware	8.236806201458442e-6
+Wisconsin	Florida	1.2207521875869833e-4
+Wisconsin	Georgia	1.0411808438084002e-4
+Wisconsin	Hawaii	1.227824663044484e-5
+Wisconsin	Idaho	2.1343985685701092e-5
+Wisconsin	Illinois	0.007817388275233227
+Wisconsin	Indiana	2.4954514223704506e-4
+Wisconsin	Iowa	0.001932113798170649
+Wisconsin	Kansas	1.0747519030062961e-4
+Wisconsin	Kentucky	8.2641260208643e-5
+Wisconsin	Louisiana	6.457300826512764e-5
+Wisconsin	Maine	2.6169009198711023e-5
+Wisconsin	Maryland	5.1484286049060385e-5
+Wisconsin	Massachusetts	4.317170422892746e-5
+Wisconsin	Michigan	0.0018710564890941366
+Wisconsin	Minnesota	0.01304792484508284
+Wisconsin	Mississippi	5.0491387498013564e-5
+Wisconsin	Missouri	1.7541409033160484e-4
+Wisconsin	Montana	7.482825323791405e-5
+Wisconsin	Nebraska	4.9875714734317086e-5
+Wisconsin	Nevada	4.108113135885531e-5
+Wisconsin	New Hampshire	1.6619301656944376e-5
+Wisconsin	New Jersey	6.883194752213814e-5
+Wisconsin	New Mexico	2.9247902953754237e-5
+Wisconsin	New York	7.76557744798565e-5
+Wisconsin	North Carolina	1.2967045180890281e-4
+Wisconsin	North Dakota	1.3803295462669004e-4
+Wisconsin	Ohio	1.832872668737947e-4
+Wisconsin	Oklahoma	7.54381680920225e-5
+Wisconsin	Oregon	1.2900283115141938e-5
+Wisconsin	Pennsylvania	1.0087126329505285e-4
+Wisconsin	Rhode Island	5.152789881466509e-6
+Wisconsin	South Carolina	7.264488880846409e-5
+Wisconsin	South Dakota	5.646479744389703e-5
+Wisconsin	Tennessee	1.3044867210759633e-4
+Wisconsin	Texas	1.07712962383605e-4
+Wisconsin	Utah	2.4727393235655883e-5
+Wisconsin	Vermont	1.5130322511230062e-5
+Wisconsin	Virginia	6.626975246806806e-5
+Wisconsin	Washington	7.365812004484728e-5
+Wisconsin	West Virginia	2.1017663244190416e-5
+Wisconsin	Wyoming	1.8588554182255704e-5
+Wyoming	Alabama	1.801239252605793e-5
+Wyoming	Alaska	2.121245952886011e-4
+Wyoming	Arizona	9.493180674762945e-5
+Wyoming	Arkansas	3.0120976795894786e-5
+Wyoming	California	2.152809446649137e-5
+Wyoming	Colorado	0.002216031796125075
+Wyoming	Connecticut	3.6342434216243804e-5
+Wyoming	Delaware	2.0442951584800508e-5
+Wyoming	Florida	2.151475216999845e-5
+Wyoming	Georgia	1.3497181491109132e-5
+Wyoming	Hawaii	0
+Wyoming	Idaho	0.0032230944717156797
+Wyoming	Illinois	2.5452412444957066e-5
+Wyoming	Indiana	3.96654746089728e-6
+Wyoming	Iowa	3.2287767029923264e-5
+Wyoming	Kansas	6.81736472836982e-5
+Wyoming	Kentucky	2.8099147843164607e-5
+Wyoming	Louisiana	3.9999872727677683e-5
+Wyoming	Maine	1.240098937347947e-5
+Wyoming	Maryland	6.741482137319497e-6
+Wyoming	Massachusetts	9.140816339769451e-6
+Wyoming	Michigan	1.910085157579724e-5
+Wyoming	Minnesota	2.8508376482306775e-5
+Wyoming	Mississippi	5.279865891406358e-5
+Wyoming	Missouri	2.515938646040629e-5
+Wyoming	Montana	0.0023881481082609194
+Wyoming	Nebraska	0.0012594320968788754
+Wyoming	Nevada	9.244544019663689e-5
+Wyoming	New Hampshire	1.1765245699508567e-5
+Wyoming	New Jersey	6.522411789598475e-6
+Wyoming	New Mexico	9.622272353073247e-5
+Wyoming	New York	2.062951410767261e-5
+Wyoming	North Carolina	4.089268736518192e-6
+Wyoming	North Dakota	0.00154668961315487
+Wyoming	Ohio	1.2080664104307473e-5
+Wyoming	Oklahoma	1.466821032118142e-4
+Wyoming	Oregon	3.501954141910512e-5
+Wyoming	Pennsylvania	1.7507743276159862e-5
+Wyoming	Rhode Island	0
+Wyoming	South Carolina	1.4742141517187494e-5
+Wyoming	South Dakota	0.0026171388969709907
+Wyoming	Tennessee	1.5027907507327812e-5
+Wyoming	Texas	3.146605975965103e-5
+Wyoming	Utah	0.0013772082199862345
+Wyoming	Vermont	0
+Wyoming	Virginia	7.537205204310242e-6
+Wyoming	Washington	3.8455750300454474e-5
+Wyoming	West Virginia	4.509946041717001e-5
+Wyoming	Wisconsin	1.8588554182255704e-5
