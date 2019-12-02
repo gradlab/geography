@@ -1,21 +1,6 @@
-#!/usr/bin/env Rscript
+#!/usr/bin/env Rscript --vanilla
 
-library(MASS) # for "rlm" and other robust regression functions
-library(dplyr) # for manipulating data frames
-select = dplyr::select
-library(purrr) # for "map" and similar functions
-library(readr) # for "read_tsv"
-library(tidyr) # for "unnest"
-library(ggplot2) # for plots
-library(stringr) # for "str_c"
-library(magrittr) # for "%$%"
-
-
-# Global parameters ------------------------------------------------------------
-
-n_trials = 1e3 # number of bootstraps
-alpha = 0.05 # width of confidence intervals for plots
-pred_n = 1e4 # number of points to use in visualizations of confidence regions
+library(tidyverse)
 
 # Mapping from DID to TPY
 #  DID = DDD per 1,000 Inhabitants per Day
@@ -30,12 +15,41 @@ did_tpy_map = data_frame(
 
 # Load data --------------------------------------------------------------------
 
-# Load data about state/country population, area, etc.
-us_characteristics = read_tsv('data/unit_characteristics/state_characteristics.tsv') %>%
-  mutate(density = population / area)
+# Load data about US states' temperature, income, density
+us_temp <- read_tsv('../db/us/temperature.tsv')
+us_income <- read_tsv('../db/us/income.tsv')
+us_density <- read_tsv('../db/us/density.tsv')
 
-eu_characteristics = read_tsv('data/unit_characteristics/europe_characteristics.tsv') %>%
-  mutate(density = population / area)
+# Load data about European countries' temperature, income density
+eu_temp <- read_tsv('../db/europe/temperature.tsv')
+eu_income <- read_tsv('../db/europe/income.tsv')
+eu_density <- read_tsv('../db/europe/density.tsv')
+
+
+state_adjacency <- read_tsv('../db/us/adjacency.tsv') %>%
+  mutate(adjacent = TRUE) %>%
+  complete(state1, state2) %>%
+  replace_na(list(adjacent = FALSE)) %>%
+  rename(unit1 = state1, unit2 = state2)
+
+eu_adjacency <- read_tsv('../db/europe_adjacency.tsv') %>%
+  mutate(adjacent = TRUE) %>%
+  right_join(crossing(unit1 = eu_units, unit2 = eu_units)) %>%
+  replace_na(list(adjacent = FALSE))
+
+adjacency_db <- bind_rows(state_adjacency, eu_adjacency)
+
+state_commuting <- read_tsv('../db/us/commuting.tsv') %>%
+  rename_all(~ str_replace(., '^state', 'unit')) %>%
+  mutate(dataset = 'US')
+
+eu_commuting <- read_tsv('../db/europe/commuting.tsv') %>%
+  rename_all(~ str_replace(., '^country', 'unit')) %>%
+  filter(unit1 %in% eu_units, unit2 %in% eu_units) %>%
+  mutate(dataset = 'Europe')
+
+commuting_db <- bind_rows(state_commuting, eu_commuting) %>%
+  mutate_at('dataset', fct_inorder)
 
 # Load data about the adjacency of states/countries
 us_adjacency = read_tsv('data/unit_characteristics/state_adjacency.tsv') %>%

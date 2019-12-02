@@ -1,6 +1,5 @@
 #!/usr/bin/env Rscript --vanilla
 
-library(ggplot2) # for plots
 library(tidyverse)
 
 # Within-host neutral (WHN) model --------------------------------------
