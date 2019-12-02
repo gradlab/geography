@@ -1,17 +1,18 @@
-# Outpatient antibiotic stewardship interventions: geographic scale and associations between use and resistance
+# The potential for "spillover" in outpatient antibiotic stewardship interventions among US states
 
 *author*: Scott Olesen <olesen@hsph.harvard.edu>
 
-This repository contains code to reproduce the simulations and a subset of the empirical analyses in the manuscript.
+This repository contains code to reproduce the simulations and a subset of the
+empirical analyses in the manuscript.
 
 ## Simulations
 
 The simulations are self-contained in the R script `simulations.R`, which
 produces figures in the folder `fig/`. The script reproduces:
 
-- Figures 1bc and 2 from this manuscript
-- Supplemental Figures 1 and 2 from this manuscript
-- Figure 2g with *k = 1* from [Davies *et al*](https://dx.doi.org/10.1101/217232).
+- Figures 1b-e from this manuscript
+- Supplemental Figure 2 from this manuscript
+- Figure 2g with *k = 1* from [Davies *et al*](https://dx.doi.org/10.1038/s41559-018-0786-x).
 - Figure 3 from [Lehtinen *et al*.](https://dx.doi.org/10.1073/pnas.1617849114)
 
 ## Empirical analyses
